@@ -5,7 +5,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 NOTES = ROOT / "notes"
 BATCHES = ["europe", "asia", "hawaii", "na", "new-us", "new-europe", "new-other", "new-malaysia", "new-china"]
 # trips the family dropped (kept in the notes, left off the page)
-EXCLUDE = {"croatia", "puerto-rico", "japan", "singapore", "singapore-bangkok", "usvi", "rome"}
+EXCLUDE = {"croatia", "puerto-rico", "japan", "singapore", "singapore-bangkok", "usvi", "rome",
+           "arizona-parks", "california-coast", "california-desert"}
 
 
 def commons(photo):
@@ -55,11 +56,10 @@ def load():
             fix.pop("alt", None)
             d["costPP"].update(fix)
     for d in dests:
-        for ph in d.get("heroPhotos", []):
+        place = d["name"].split(",")[-1].strip()  # country or state, to keep photo searches on target
+        for ph in d.get("heroPhotos", []) + [x["photo"] for x in d.get("itinerary", []) if x.get("photo")]:
             commons(ph)
-        for day in d.get("itinerary", []):
-            if day.get("photo"):
-                commons(day["photo"])
+            ph["q"] = f'{ph.get("caption", "")} {place}'.strip()
         c = d["costPP"]
         c["trip"] = c["flights"] + c["lodging"]
     fly = json.loads((NOTES / "display.json").read_text())

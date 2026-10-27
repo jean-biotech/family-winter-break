@@ -1,387 +1,387 @@
 [
-  {
-    "id": "iceland",
-    "name": "Reykjavik + South Iceland",
-    "region": "Europe",
-    "passport": true,
-    "warm": false,
-    "tagline": "Waterfalls, lagoons, northern lights, cozy Reykjavik",
-    "whyParents": "Short nonstop to another world: geysers, black sand beaches, warm lagoons, and a shot at the aurora.",
-    "fly": "6h nonstop (overnight out)",
-    "costPP": {
-      "flights": 600,
-      "flightsBasis": "Icelandair NYC-KEF nonstop: icelandair.com lists Dec 5 to 17 2026 round trips from $446 (Economy Light, no checked bag). Economy Standard for Dec 12 to 18 estimated ~$600. No PHL nonstop; PLAY ceased flying Sept 2025.",
-      "flightsVerified": false,
-      "lodging": 415,
-      "lodgingBasis": "Downtown Reykjavik 2BR apartment ~$330/night all-in (cleaning, fees, VAT, lodging tax) x 5 nights (land Dec 13 AM) = ~$1,650 / 4. Estimate; no December 2BR data found.",
-      "lodgingVerified": false,
-      "foodFun": 0,
-      "foodFunBasis": "Removed from site"
-    },
-    "flight": {
-      "from": "JFK",
-      "airline": "Icelandair",
-      "routing": "JFK-KEF nonstop (Icelandair; EWR-KEF also listed year-round). Out Sat Dec 12 evening, lands Sun ~6:30am; home Fri Dec 18 afternoon.",
-      "aaMetal": false,
-      "hours": "5h 40m out, 6h 15m back",
-      "notes": "Book Economy Standard (bag + seat). Icelandair partners with Alaska Mileage Plan. United/Delta KEF routes are summer only. Bookable on Capital One Travel."
-    },
-    "weather": {
-      "highF": 37,
-      "lowF": 29,
-      "daylight": "~4h 15m (sunrise ~11:15am, sunset ~3:30pm)",
-      "precip": "Rain, sleet or snow most days; strong wind common"
-    },
-    "stay": "Downtown Reykjavik near Laugavegur: walkable, tour pickups at the door",
-    "getAround": "No car: Flybus from KEF, guided minibus tours for Golden Circle, South Coast and aurora. Self-drive (4x4 SUV) means icy roads, 2.5h each way to Vik.",
-    "entry": "US passport valid 3+ months past departure. Schengen; EES biometric check on arrival. ETIAS not yet required.",
-    "events": [
-      "Yule Lads: first arrives the night of Dec 11 to 12, one more each night to Dec 24",
-      "Hjartatorg Christmas market weekends in December (2026 dates not yet posted)",
-      "Hafnarfjordur Christmas Village expected Dec 1 to 23 2026 (based on prior years)"
-    ],
-    "pros": [
-      "Under 6h nonstop from JFK or EWR",
-      "Warm geothermal lagoons in snowy darkness",
-      "Real chance of northern lights"
-    ],
-    "cons": [
-      "Only about 4 hours of daylight",
-      "Storms can cancel tours and close roads",
-      "Expensive food and drink"
-    ],
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Overnight flight",
-        "plan": "Sat evening JFK to Keflavik; sleep on board, land about 6:30am Sunday.",
-        "eat": "Dinner at JFK before boarding",
-        "photo": {
-          "file": "Icelandair_Boeing_757-200_at_KEF.jpg",
-          "author": "Wissembourg",
-          "license": "CC BY-SA 4.0",
-          "caption": "Icelandair jet at Keflavik"
-        }
-      },
-      {
-        "day": 2,
-        "title": "Reykjavik + Christmas lights",
-        "plan": "Flybus to town, nap, stroll Laugavegur and the Old Harbour under Christmas lights.",
-        "eat": "Lamb soup at Icelandic Street Food",
-        "photo": {
-          "file": "Laugavegur,_Reykjavik.jpg",
-          "author": "Marek Ślusarczyk",
-          "license": "CC BY 3.0",
-          "caption": "Laugavegur shopping street"
-        }
-      },
-      {
-        "day": 3,
-        "title": "Golden Circle",
-        "plan": "Guided tour: Thingvellir rift, Strokkur geyser, Gullfoss. Aurora tour after dark if skies clear.",
-        "eat": "Tomato soup at Fridheimar greenhouse",
-        "photo": {
-          "file": "Strokkur_Eruption.JPG",
-          "author": "ConTheJedi",
-          "license": "CC0",
-          "caption": "Strokkur geyser erupting"
-        }
-      },
-      {
-        "day": 4,
-        "title": "South Coast to Vik",
-        "plan": "Long guided day: Seljalandsfoss, Skogafoss, Reynisfjara black sand beach. Stay back from waves.",
-        "eat": "Fish and chips at Smidjan Brugghus, Vik",
-        "photo": {
-          "file": "Skogafoss_winter.jpg",
-          "author": "The blanz",
-          "license": "CC BY-SA 3.0",
-          "caption": "Skogafoss in winter"
-        }
-      },
-      {
-        "day": 5,
-        "title": "Hallgrimskirkja + Sky Lagoon",
-        "plan": "Church tower view at sunrise (11am), Harpa, then sunset soak at Sky Lagoon.",
-        "eat": "Hot dog at Baejarins Beztu Pylsur",
-        "photo": {
-          "file": "Hallgrimskirkja-church-during-winter-lights-festival.jpg",
-          "author": "Hákon Ágústsson",
-          "license": "CC BY-SA 4.0",
-          "caption": "Hallgrimskirkja lit in winter"
-        }
-      },
-      {
-        "day": 6,
-        "title": "Perlan + aurora night two",
-        "plan": "Perlan ice cave and glacier exhibit, Christmas market, backup northern lights tour.",
-        "eat": "Seafood at Messinn",
-        "photo": {
-          "file": "Iceland_Aurora_1.jpg",
-          "author": "Carl Young",
-          "license": "CC BY-SA 4.0",
-          "caption": "Aurora over Thingvellir"
-        }
-      },
-      {
-        "day": 7,
-        "title": "Blue Lagoon, fly home",
-        "plan": "Transfer with bags to Blue Lagoon (near airport), soak, then afternoon flight to JFK.",
-        "eat": "Lava Restaurant at Blue Lagoon",
-        "photo": {
-          "file": "Iceland_Blue_Lagoon.jpg",
-          "author": "Sarah1990",
-          "license": "CC BY-SA 3.0",
-          "caption": "Blue Lagoon steam"
-        }
-      }
-    ],
-    "heroPhotos": [
-      {
-        "file": "Gullfoss,_Iceland,_20230501_0940_3780.jpg",
-        "author": "Jakub Hałun",
-        "license": "CC BY-SA 4.0",
-        "caption": "Gullfoss waterfall"
-      },
-      {
-        "file": "Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg",
-        "author": "Francisco Diez",
-        "license": "CC BY 2.0",
-        "caption": "Northern lights in Iceland"
-      },
-      {
-        "file": "Reynisfjara-66-Basalt-2018-gje.jpg",
-        "author": "Gerd Eichmann",
-        "license": "CC BY-SA 4.0",
-        "caption": "Reynisfjara basalt columns"
-      }
-    ],
-    "sources": [
-      {
-        "label": "Icelandair NYC fares (Dec 2026 from $446)",
-        "url": "https://www.icelandair.com/en-us/flights/flights-from-new-york-to-iceland"
-      },
-      {
-        "label": "Icelandair 2026-27 schedule (Newark year-round)",
-        "url": "https://www.icelandair.com/flights/campaign/destinations-schedule/"
-      },
-      {
-        "label": "Reykjavik December sunrise/sunset",
-        "url": "https://www.timeanddate.com/sun/iceland/reykjavik?month=12"
-      },
-      {
-        "label": "Hjartatorg Christmas market",
-        "url": "https://visitreykjavik.is/christmas-market-hjartartorg"
-      },
-      {
-        "label": "Iceland car rental winter costs",
-        "url": "https://carsiceland.com/4x4-rental-iceland-car-faqs"
-      },
-      {
-        "label": "Navan: ETIAS status Oct 2026",
-        "url": "https://navan.com/blog/when-does-etias-go-into-effect"
-      }
-    ],
-    "unverified": [
-      "Icelandair JFK (vs EWR) frequency in December 2026 and exact flight times",
-      "Economy Standard fare for Dec 12 to 18 (only Economy Light 'from' fare seen)",
-      "Reykjavik 2BR December all-in rate",
-      "Blue Lagoon status: closed repeatedly during Reykjanes eruptions; check before booking, Sky Lagoon is the backup",
-      "2026 Christmas market dates in Reykjavik and Hafnarfjordur"
-    ]
+ {
+  "id": "iceland",
+  "name": "Reykjavik, Golden Circle + Blue Lagoon, Iceland",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Classic Iceland: geysers, waterfalls, lagoons, northern lights",
+  "whyParents": "Short nonstop to another world: geysers, black sand beaches, warm lagoons, and a shot at the aurora.",
+  "fly": "6h nonstop (overnight out)",
+  "costPP": {
+   "flights": 600,
+   "flightsBasis": "Icelandair NYC-KEF nonstop: icelandair.com lists Dec 5 to 17 2026 round trips from $446 (Economy Light, no checked bag). Economy Standard for Dec 12 to 18 estimated ~$600. No PHL nonstop; PLAY ceased flying Sept 2025.",
+   "flightsVerified": false,
+   "lodging": 415,
+   "lodgingBasis": "Downtown Reykjavik 2BR apartment ~$330/night all-in (cleaning, fees, VAT, lodging tax) x 5 nights (land Dec 13 AM) = ~$1,650 / 4. Estimate; no December 2BR data found.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed from site"
   },
-  {
-    "id": "costa-rica",
-    "name": "Arenal + Manuel Antonio, Costa Rica",
-    "region": "Latin America",
-    "passport": true,
-    "warm": true,
-    "tagline": "Volcano, hot springs, sloths, Pacific beaches",
-    "whyParents": "Rainforest bridges, volcano hot springs and monkeys on the beach, about 5.5 hours nonstop.",
-    "fly": "5.5h nonstop",
-    "costPP": {
-      "flights": 600,
-      "flightsBasis": "United EWR-SJO nonstop: united.com lists Dec 2026 round trips from $587; Kayak/Cheapflights show United nonstops ~$465 to $468 late Nov/Dec (likely basic). Main Cabin Dec 12 to 18 ~$600.",
-      "flightsVerified": false,
-      "lodging": 400,
-      "lodgingBasis": "La Fortuna 2BR house ~$200/night all-in x 3 + Manuel Antonio 2BR condo ~$330/night all-in x 3 = ~$1,590 / 4. Listing 'from' rates $145 to $435; no December data.",
-      "lodgingVerified": false,
-      "foodFun": 0,
-      "foodFunBasis": "Removed from site"
-    },
-    "flight": {
-      "from": "EWR",
-      "airline": "United",
-      "routing": "EWR-SJO nonstop (United). Alt: JetBlue JFK-SJO nonstop (Dec 2026 one-ways from $202).",
-      "aaMetal": false,
-      "hours": "5h 25m",
-      "notes": "AA PHL-LIR nonstop is Saturday-only, so no Friday return. Delta JFK-LIR starts Dec 19, too late. AA via MIA is the 1-stop option."
-    },
-    "weather": {
-      "highF": 86,
-      "lowF": 70,
-      "daylight": "11h 35m",
-      "precip": "Dry season starting on Pacific coast; Arenal still has frequent showers"
-    },
-    "stay": "La Fortuna town (volcano views), then Manuel Antonio hillside near park",
-    "getAround": "Rent full-size 4x4 SUV (Toyota Fortuner class) at SJO. Drives: SJO to La Fortuna ~3h, La Fortuna to Manuel Antonio ~4h, back to SJO ~3h.",
-    "entry": "US passport valid for the stay; no visa for tourism. Proof of onward ticket may be asked.",
-    "events": [
-      "Festival de la Luz parade in San Jose Sat Dec 12 2026 (new route, Plaza de la Democracia to Paseo Colon); itinerary heads to Arenal instead",
-      "Manuel Antonio National Park closed Tuesdays; timed tickets online only via SINAC, book ahead"
-    ],
-    "pros": [
-      "Warm, green, short nonstop",
-      "Sloths, monkeys, toucans almost guaranteed",
-      "Volcano hot springs and easy beaches"
-    ],
-    "cons": [
-      "Long drives on winding roads",
-      "Arenal clouds often hide the volcano",
-      "Pricey park entries and tours add up"
-    ],
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Land SJO, drive to Arenal",
-        "plan": "Pick up SUV, 3 hour scenic drive to La Fortuna, sunset volcano view.",
-        "eat": "Casado at Soda La Hormiga, La Fortuna",
-        "photo": {
-          "file": "Arenal_Volcano_seen_from_La_Fortuna,_Costa_Rica.jpg",
-          "author": "CIA World Factbook",
-          "license": "Public domain",
-          "caption": "Arenal above La Fortuna"
-        }
-      },
-      {
-        "day": 2,
-        "title": "Hanging bridges + volcano trails",
-        "plan": "Morning bird walk on Mistico Hanging Bridges, afternoon Arenal Volcano National Park lava trails.",
-        "eat": "Lunch at Mistico's Restaurante Puente Colgante",
-        "photo": {
-          "file": "Mystic_Hanging_Bridges_(70665).jpg",
-          "author": "unverified",
-          "license": "unverified",
-          "caption": "Mistico hanging bridges"
-        }
-      },
-      {
-        "day": 3,
-        "title": "Waterfall + hot springs",
-        "plan": "Hike 500 steps to La Fortuna Waterfall and swim, then evening at Tabacon hot springs.",
-        "eat": "Tabacon buffet dinner",
-        "photo": {
-          "file": "La_Fortuna_Waterfall,_La_Fortuna_de_San_Carlos,_Costa_Rica_(Unsplash).jpg",
-          "author": "Isabella Jusková",
-          "license": "CC0",
-          "caption": "La Fortuna Waterfall"
-        }
-      },
-      {
-        "day": 4,
-        "title": "Drive to Manuel Antonio",
-        "plan": "About 4 hours to the Pacific coast (park closed today, Tuesday). Sunset on Playa Espadilla.",
-        "eat": "Sunset drinks at El Avion",
-        "photo": {
-          "file": "Quepos_Pano.jpg",
-          "author": "unverified",
-          "license": "CC BY-SA 4.0",
-          "caption": "Sunset on Playa Espadilla"
-        }
-      },
-      {
-        "day": 5,
-        "title": "Manuel Antonio National Park",
-        "plan": "7am guided walk for sloths and monkeys, then swim at Playa Manuel Antonio.",
-        "eat": "Ceviche at Emilio's Cafe",
-        "photo": {
-          "file": "CostaRica_ManuelAntonioNationalPark_EspadillaSur_Pano_(pixinn.net).jpg",
-          "author": "Christophe Meneboeuf",
-          "license": "CC BY-SA",
-          "caption": "Espadilla Sur beach in park"
-        }
-      },
-      {
-        "day": 6,
-        "title": "Wildlife + beach day",
-        "plan": "Sloth tour or catamaran snorkel cruise, lazy afternoon at the beach.",
-        "eat": "Seafood at Ronny's Place, Quepos",
-        "photo": {
-          "file": "Brown-throated_three-toed_sloth_male.jpg",
-          "author": "D. Gordon E. Robertson",
-          "license": "CC BY-SA 3.0",
-          "caption": "Sloth in Manuel Antonio"
-        }
-      },
-      {
-        "day": 7,
-        "title": "Fly home",
-        "plan": "Leave by 7am, 3 hour drive to SJO, return SUV, midday flight to Newark.",
-        "eat": "Gallo pinto breakfast to go",
-        "photo": {
-          "file": "Juan_Santamaria_International_Airport_-_Arrives.JPG",
-          "author": "Ivanmartinez",
-          "license": "CC BY-SA 3.0",
-          "caption": "San Jose airport arrivals hall"
-        }
-      }
-    ],
-    "heroPhotos": [
-      {
-        "file": "Arenal_Volcano_as_seen_from_Monteverde.jpg",
-        "author": "Peter Andersen",
-        "license": "CC BY-SA 3.0",
-        "caption": "Arenal Volcano from Monteverde"
-      },
-      {
-        "file": "Tabacón_Hot_Springs,_Costa_Rica.jpg",
-        "author": "CIA World Factbook",
-        "license": "Public domain",
-        "caption": "Tabacon hot springs"
-      },
-      {
-        "file": "White-headed_capuchin_at_Manuel_Antonio_National_Park,_Costa_Rica.jpg",
-        "author": "CIA World Factbook",
-        "license": "Public domain",
-        "caption": "Capuchin in Manuel Antonio"
-      }
-    ],
-    "sources": [
-      {
-        "label": "United NYC-San Jose CR fares (Dec 2026 from $587)",
-        "url": "https://www.united.com/en-us/flights-from-new-york-to-san-jose-3"
-      },
-      {
-        "label": "Kayak EWR-SJO",
-        "url": "https://www.kayak.com/flight-routes/Newark-EWR/San-Jose-Juan-Santamaria-Intl-SJO"
-      },
-      {
-        "label": "JetBlue NYC-SJO fares",
-        "url": "https://www.jetblue.com/en/flights-from-new-york-to-san-jose-costa-rica"
-      },
-      {
-        "label": "TPG: Delta JFK-LIR from Dec 19",
-        "url": "https://thepointsguy.com/news/delta-air-lines-new-route-new-york-costa-rica"
-      },
-      {
-        "label": "PHL: AA PHL-LIR Saturday service",
-        "url": "https://www.phl.org/newsroom/AA-winter24"
-      },
-      {
-        "label": "Teletica: Festival de la Luz 2026 route",
-        "url": "https://www.teletica.com/entretenimiento/este-sera-el-recorrido-del-festival-de-la-luz-2026_417334"
-      },
-      {
-        "label": "Manuel Antonio park guide (Tuesday closure)",
-        "url": "https://www.costaricavibes.com/manuel-antonio-tips/"
-      }
-    ],
-    "unverified": [
-      "Main Cabin fare for Dec 12 to 18 (only United 'from' and Kayak snippets seen)",
-      "United EWR-SJO and SJO-EWR exact December times; Day 7 drive assumes a midday departure",
-      "AA PHL-LIR running in Dec 2026 (one aggregator shows Saturdays from Dec 5)",
-      "December 2BR all-in rates in La Fortuna and Manuel Antonio",
-      "Manuel Antonio park hours (7am to 4pm vs 3pm)"
-    ]
-  }
+  "flight": {
+   "from": "JFK",
+   "airline": "Icelandair",
+   "routing": "JFK-KEF nonstop (Icelandair; EWR-KEF also listed year-round). Out Sat Dec 12 evening, lands Sun ~6:30am; home Fri Dec 18 afternoon.",
+   "aaMetal": false,
+   "hours": "5h 40m out, 6h 15m back",
+   "notes": "Book Economy Standard (bag + seat). Icelandair partners with Alaska Mileage Plan. United/Delta KEF routes are summer only. Bookable on Capital One Travel."
+  },
+  "weather": {
+   "highF": 37,
+   "lowF": 29,
+   "daylight": "~4h 15m (sunrise ~11:15am, sunset ~3:30pm)",
+   "precip": "Rain, sleet or snow most days; strong wind common"
+  },
+  "stay": "Downtown Reykjavik near Laugavegur: walkable, tour pickups at the door",
+  "getAround": "No car: Flybus from KEF, guided minibus tours for Golden Circle, South Coast and aurora. Self-drive (4x4 SUV) means icy roads, 2.5h each way to Vik.",
+  "entry": "US passport valid 3+ months past departure. Schengen; EES biometric check on arrival. ETIAS not yet required.",
+  "events": [
+   "Yule Lads: first arrives the night of Dec 11 to 12, one more each night to Dec 24",
+   "Hjartatorg Christmas market weekends in December (2026 dates not yet posted)",
+   "Hafnarfjordur Christmas Village expected Dec 1 to 23 2026 (based on prior years)"
+  ],
+  "pros": [
+   "Under 6h nonstop from JFK or EWR",
+   "Warm geothermal lagoons in snowy darkness",
+   "Real chance of northern lights"
+  ],
+  "cons": [
+   "Only about 4 hours of daylight",
+   "Storms can cancel tours and close roads",
+   "Expensive food and drink"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Overnight flight",
+    "plan": "Sat evening JFK to Keflavik; sleep on board, land about 6:30am Sunday.",
+    "eat": "Dinner at JFK before boarding",
+    "photo": {
+     "file": "Icelandair_Boeing_757-200_at_KEF.jpg",
+     "author": "Wissembourg",
+     "license": "CC BY-SA 4.0",
+     "caption": "Icelandair jet at Keflavik"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Reykjavik + Christmas lights",
+    "plan": "Flybus to town, nap, stroll Laugavegur and the Old Harbour under Christmas lights.",
+    "eat": "Lamb soup at Icelandic Street Food",
+    "photo": {
+     "file": "Laugavegur,_Reykjavik.jpg",
+     "author": "Marek Ślusarczyk",
+     "license": "CC BY 3.0",
+     "caption": "Laugavegur shopping street"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Golden Circle",
+    "plan": "Guided tour: Thingvellir rift, Strokkur geyser, Gullfoss. Aurora tour after dark if skies clear.",
+    "eat": "Tomato soup at Fridheimar greenhouse",
+    "photo": {
+     "file": "Strokkur_Eruption.JPG",
+     "author": "ConTheJedi",
+     "license": "CC0",
+     "caption": "Strokkur geyser erupting"
+    }
+   },
+   {
+    "day": 4,
+    "title": "South Coast to Vik",
+    "plan": "Long guided day: Seljalandsfoss, Skogafoss, Reynisfjara black sand beach. Stay back from waves.",
+    "eat": "Fish and chips at Smidjan Brugghus, Vik",
+    "photo": {
+     "file": "Skogafoss_winter.jpg",
+     "author": "The blanz",
+     "license": "CC BY-SA 3.0",
+     "caption": "Skogafoss in winter"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Hallgrimskirkja + Sky Lagoon",
+    "plan": "Church tower view at sunrise (11am), Harpa, then sunset soak at Sky Lagoon.",
+    "eat": "Hot dog at Baejarins Beztu Pylsur",
+    "photo": {
+     "file": "Hallgrimskirkja-church-during-winter-lights-festival.jpg",
+     "author": "Hákon Ágústsson",
+     "license": "CC BY-SA 4.0",
+     "caption": "Hallgrimskirkja lit in winter"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Perlan + aurora night two",
+    "plan": "Perlan ice cave and glacier exhibit, Christmas market, backup northern lights tour.",
+    "eat": "Seafood at Messinn",
+    "photo": {
+     "file": "Iceland_Aurora_1.jpg",
+     "author": "Carl Young",
+     "license": "CC BY-SA 4.0",
+     "caption": "Aurora over Thingvellir"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Blue Lagoon, fly home",
+    "plan": "Transfer with bags to Blue Lagoon (near airport), soak, then afternoon flight to JFK.",
+    "eat": "Lava Restaurant at Blue Lagoon",
+    "photo": {
+     "file": "Iceland_Blue_Lagoon.jpg",
+     "author": "Sarah1990",
+     "license": "CC BY-SA 3.0",
+     "caption": "Blue Lagoon steam"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Gullfoss,_Iceland,_20230501_0940_3780.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "caption": "Gullfoss waterfall"
+   },
+   {
+    "file": "Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg",
+    "author": "Francisco Diez",
+    "license": "CC BY 2.0",
+    "caption": "Northern lights in Iceland"
+   },
+   {
+    "file": "Reynisfjara-66-Basalt-2018-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "caption": "Reynisfjara basalt columns"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Icelandair NYC fares (Dec 2026 from $446)",
+    "url": "https://www.icelandair.com/en-us/flights/flights-from-new-york-to-iceland"
+   },
+   {
+    "label": "Icelandair 2026-27 schedule (Newark year-round)",
+    "url": "https://www.icelandair.com/flights/campaign/destinations-schedule/"
+   },
+   {
+    "label": "Reykjavik December sunrise/sunset",
+    "url": "https://www.timeanddate.com/sun/iceland/reykjavik?month=12"
+   },
+   {
+    "label": "Hjartatorg Christmas market",
+    "url": "https://visitreykjavik.is/christmas-market-hjartartorg"
+   },
+   {
+    "label": "Iceland car rental winter costs",
+    "url": "https://carsiceland.com/4x4-rental-iceland-car-faqs"
+   },
+   {
+    "label": "Navan: ETIAS status Oct 2026",
+    "url": "https://navan.com/blog/when-does-etias-go-into-effect"
+   }
+  ],
+  "unverified": [
+   "Icelandair JFK (vs EWR) frequency in December 2026 and exact flight times",
+   "Economy Standard fare for Dec 12 to 18 (only Economy Light 'from' fare seen)",
+   "Reykjavik 2BR December all-in rate",
+   "Blue Lagoon status: closed repeatedly during Reykjanes eruptions; check before booking, Sky Lagoon is the backup",
+   "2026 Christmas market dates in Reykjavik and Hafnarfjordur"
+  ]
+ },
+ {
+  "id": "costa-rica",
+  "name": "Arenal + Manuel Antonio, Costa Rica",
+  "region": "Latin America",
+  "passport": true,
+  "warm": true,
+  "tagline": "Volcano, hot springs, sloths, Pacific beaches",
+  "whyParents": "Rainforest bridges, volcano hot springs and monkeys on the beach, about 5.5 hours nonstop.",
+  "fly": "5.5h nonstop",
+  "costPP": {
+   "flights": 600,
+   "flightsBasis": "United EWR-SJO nonstop: united.com lists Dec 2026 round trips from $587; Kayak/Cheapflights show United nonstops ~$465 to $468 late Nov/Dec (likely basic). Main Cabin Dec 12 to 18 ~$600.",
+   "flightsVerified": false,
+   "lodging": 400,
+   "lodgingBasis": "La Fortuna 2BR house ~$200/night all-in x 3 + Manuel Antonio 2BR condo ~$330/night all-in x 3 = ~$1,590 / 4. Listing 'from' rates $145 to $435; no December data.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed from site"
+  },
+  "flight": {
+   "from": "EWR",
+   "airline": "United",
+   "routing": "EWR-SJO nonstop (United). Alt: JetBlue JFK-SJO nonstop (Dec 2026 one-ways from $202).",
+   "aaMetal": false,
+   "hours": "5h 25m",
+   "notes": "AA PHL-LIR nonstop is Saturday-only, so no Friday return. Delta JFK-LIR starts Dec 19, too late. AA via MIA is the 1-stop option."
+  },
+  "weather": {
+   "highF": 86,
+   "lowF": 70,
+   "daylight": "11h 35m",
+   "precip": "Dry season starting on Pacific coast; Arenal still has frequent showers"
+  },
+  "stay": "La Fortuna town (volcano views), then Manuel Antonio hillside near park",
+  "getAround": "Rent full-size 4x4 SUV (Toyota Fortuner class) at SJO. Drives: SJO to La Fortuna ~3h, La Fortuna to Manuel Antonio ~4h, back to SJO ~3h.",
+  "entry": "US passport valid for the stay; no visa for tourism. Proof of onward ticket may be asked.",
+  "events": [
+   "Festival de la Luz parade in San Jose Sat Dec 12 2026 (new route, Plaza de la Democracia to Paseo Colon); itinerary heads to Arenal instead",
+   "Manuel Antonio National Park closed Tuesdays; timed tickets online only via SINAC, book ahead"
+  ],
+  "pros": [
+   "Warm, green, short nonstop",
+   "Sloths, monkeys, toucans almost guaranteed",
+   "Volcano hot springs and easy beaches"
+  ],
+  "cons": [
+   "Long drives on winding roads",
+   "Arenal clouds often hide the volcano",
+   "Pricey park entries and tours add up"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Land SJO, drive to Arenal",
+    "plan": "Pick up SUV, 3 hour scenic drive to La Fortuna, sunset volcano view.",
+    "eat": "Casado at Soda La Hormiga, La Fortuna",
+    "photo": {
+     "file": "Arenal_Volcano_seen_from_La_Fortuna,_Costa_Rica.jpg",
+     "author": "CIA World Factbook",
+     "license": "Public domain",
+     "caption": "Arenal above La Fortuna"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Hanging bridges + volcano trails",
+    "plan": "Morning bird walk on Mistico Hanging Bridges, afternoon Arenal Volcano National Park lava trails.",
+    "eat": "Lunch at Mistico's Restaurante Puente Colgante",
+    "photo": {
+     "file": "Mystic_Hanging_Bridges_(70665).jpg",
+     "author": "unverified",
+     "license": "unverified",
+     "caption": "Mistico hanging bridges"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Waterfall + hot springs",
+    "plan": "Hike 500 steps to La Fortuna Waterfall and swim, then evening at Tabacon hot springs.",
+    "eat": "Tabacon buffet dinner",
+    "photo": {
+     "file": "La_Fortuna_Waterfall,_La_Fortuna_de_San_Carlos,_Costa_Rica_(Unsplash).jpg",
+     "author": "Isabella Jusková",
+     "license": "CC0",
+     "caption": "La Fortuna Waterfall"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Drive to Manuel Antonio",
+    "plan": "About 4 hours to the Pacific coast (park closed today, Tuesday). Sunset on Playa Espadilla.",
+    "eat": "Sunset drinks at El Avion",
+    "photo": {
+     "file": "Quepos_Pano.jpg",
+     "author": "unverified",
+     "license": "CC BY-SA 4.0",
+     "caption": "Sunset on Playa Espadilla"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Manuel Antonio National Park",
+    "plan": "7am guided walk for sloths and monkeys, then swim at Playa Manuel Antonio.",
+    "eat": "Ceviche at Emilio's Cafe",
+    "photo": {
+     "file": "CostaRica_ManuelAntonioNationalPark_EspadillaSur_Pano_(pixinn.net).jpg",
+     "author": "Christophe Meneboeuf",
+     "license": "CC BY-SA",
+     "caption": "Espadilla Sur beach in park"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Wildlife + beach day",
+    "plan": "Sloth tour or catamaran snorkel cruise, lazy afternoon at the beach.",
+    "eat": "Seafood at Ronny's Place, Quepos",
+    "photo": {
+     "file": "Brown-throated_three-toed_sloth_male.jpg",
+     "author": "D. Gordon E. Robertson",
+     "license": "CC BY-SA 3.0",
+     "caption": "Sloth in Manuel Antonio"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Leave by 7am, 3 hour drive to SJO, return SUV, midday flight to Newark.",
+    "eat": "Gallo pinto breakfast to go",
+    "photo": {
+     "file": "Juan_Santamaria_International_Airport_-_Arrives.JPG",
+     "author": "Ivanmartinez",
+     "license": "CC BY-SA 3.0",
+     "caption": "San Jose airport arrivals hall"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Arenal_Volcano_as_seen_from_Monteverde.jpg",
+    "author": "Peter Andersen",
+    "license": "CC BY-SA 3.0",
+    "caption": "Arenal Volcano from Monteverde"
+   },
+   {
+    "file": "Tabacón_Hot_Springs,_Costa_Rica.jpg",
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "caption": "Tabacon hot springs"
+   },
+   {
+    "file": "White-headed_capuchin_at_Manuel_Antonio_National_Park,_Costa_Rica.jpg",
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "caption": "Capuchin in Manuel Antonio"
+   }
+  ],
+  "sources": [
+   {
+    "label": "United NYC-San Jose CR fares (Dec 2026 from $587)",
+    "url": "https://www.united.com/en-us/flights-from-new-york-to-san-jose-3"
+   },
+   {
+    "label": "Kayak EWR-SJO",
+    "url": "https://www.kayak.com/flight-routes/Newark-EWR/San-Jose-Juan-Santamaria-Intl-SJO"
+   },
+   {
+    "label": "JetBlue NYC-SJO fares",
+    "url": "https://www.jetblue.com/en/flights-from-new-york-to-san-jose-costa-rica"
+   },
+   {
+    "label": "TPG: Delta JFK-LIR from Dec 19",
+    "url": "https://thepointsguy.com/news/delta-air-lines-new-route-new-york-costa-rica"
+   },
+   {
+    "label": "PHL: AA PHL-LIR Saturday service",
+    "url": "https://www.phl.org/newsroom/AA-winter24"
+   },
+   {
+    "label": "Teletica: Festival de la Luz 2026 route",
+    "url": "https://www.teletica.com/entretenimiento/este-sera-el-recorrido-del-festival-de-la-luz-2026_417334"
+   },
+   {
+    "label": "Manuel Antonio park guide (Tuesday closure)",
+    "url": "https://www.costaricavibes.com/manuel-antonio-tips/"
+   }
+  ],
+  "unverified": [
+   "Main Cabin fare for Dec 12 to 18 (only United 'from' and Kayak snippets seen)",
+   "United EWR-SJO and SJO-EWR exact December times; Day 7 drive assumes a midday departure",
+   "AA PHL-LIR running in Dec 2026 (one aggregator shows Saturdays from Dec 5)",
+   "December 2BR all-in rates in La Fortuna and Manuel Antonio",
+   "Manuel Antonio park hours (7am to 4pm vs 3pm)"
+  ]
+ }
 ]

@@ -388,11 +388,6 @@ body.locked { overflow: hidden; }
     <div class="grid" id="grid"></div>
   </section>
 
-  <section id="picks" class="wrap">
-    <h2 data-i18n="picksTitle">Our top 5</h2>
-    <p class="hint" data-i18n="picksHint"></p>
-    <div class="picks" id="picklist"></div>
-  </section>
 </main>
 
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
@@ -563,21 +558,71 @@ const dateL = i => DATES[LANG][i] || "";
 const shortDate = i => LANG === "vi" ? DATES.vi[i].split(" ").pop() : DATES.en[i].slice(4);
 const shortName = d => L(d, "name").split(",")[0];
 
+/* ---------- photos (Wikimedia Commons) ---------- */
+// Each photo knows its Commons file name and a search phrase. If the file's thumbnail does not load
+// (renamed, missing, or smaller than 960px), ask the Commons API for the right thumbnail; if the file
+// does not exist, search Commons for that place and use the best match, with its real credit.
+const IMGFIX = store.get("imgfix") || {};
+const imgAttrs = p => `src="${esc(IMGFIX[p.file]?.src || p.src)}" data-file="${esc(p.file)}" data-q="${esc(p.q || p.caption)}" alt="${esc(p.caption)}" loading="lazy" referrerpolicy="no-referrer"`;
+const credit = (p, link) => {
+  const f = IMGFIX[p.file], author = f?.author || p.author, lic = f?.license || p.license, page = f?.page || p.page;
+  return `${esc(p.caption)} &middot; ${link ? `<a href="${esc(page)}" target="_blank" rel="noopener">${esc(author)}, ${esc(lic)}</a>` : `${esc(author)}, ${esc(lic)}`}`;
+};
 function photo(p, cls = "", link = true) {
   if (!p) return `<figure class="broken ${cls}" data-cap=""></figure>`;
   return `<figure class="${cls}" data-cap="${esc(p.caption)}">
-    <img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="${esc(p.caption)}" loading="lazy" referrerpolicy="no-referrer">
-    <span class="credit">${esc(p.caption)} &middot; ${link ? `<a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.author)}, ${esc(p.license)}</a>` : `${esc(p.author)}, ${esc(p.license)}`}</span>
+    <img ${imgAttrs(p)}>
+    <span class="credit" data-link="${link ? 1 : ""}">${credit(p, link)}</span>
   </figure>`;
 }
-// If the 960px thumbnail fails (e.g. original smaller than 960px), try the original; then fall back to a caption tile.
-document.addEventListener("error", e => {
+const API = "https://commons.wikimedia.org/w/api.php?format=json&origin=*&action=query&prop=imageinfo&iiprop=url|mime|extmetadata&iiextmetadatafilter=Artist|LicenseShortName&iiurlwidth=960&";
+const plain = html => { const d = document.createElement("div"); d.innerHTML = html || ""; return d.textContent.trim(); };
+const asFix = (pg, title) => {
+  const ii = pg.imageinfo[0], m = ii.extmetadata || {};
+  return { src: ii.thumburl || ii.url, author: plain(m.Artist?.value).slice(0, 60) || "Wikimedia Commons",
+    license: plain(m.LicenseShortName?.value) || "see file page", page: ii.descriptionurl || `https://commons.wikimedia.org/wiki/${encodeURIComponent(title)}` };
+};
+async function commonsQuery(params) {
+  const r = await fetch(API + params); const j = await r.json();
+  return Object.values(j?.query?.pages || {}).filter(pg => pg.imageinfo && /jpeg|png|webp/.test(pg.imageinfo[0].mime))
+    .sort((a, b) => (a.index || 0) - (b.index || 0));
+}
+async function findPhoto(file, q, taken) {
+  const exact = await commonsQuery("redirects=1&titles=" + encodeURIComponent("File:" + file));
+  if (exact.length) return asFix(exact[0], exact[0].title);
+  const words = q.split(/\s+/);
+  for (const query of [q, words.slice(-3).join(" "), words.slice(-1)[0]]) {
+    const hits = (await commonsQuery("generator=search&gsrnamespace=6&gsrlimit=8&gsrsearch=" + encodeURIComponent(query + " filetype:bitmap")))
+      .filter(pg => !taken.has(pg.imageinfo[0].thumburl));
+    if (hits.length) return asFix(hits[0], hits[0].title);
+  }
+  return null;
+}
+const pending = new Map();
+document.addEventListener("error", async e => {
   const img = e.target;
-  if (img.tagName !== "IMG") return;
-  if (img.dataset.orig && img.src !== img.dataset.orig) { img.src = img.dataset.orig; return; }
+  if (img.tagName !== "IMG" || !img.dataset.file || img.dataset.tried) return markBroken(img);
+  img.dataset.tried = "1";
+  const file = img.dataset.file;
+  try {
+    // photos already showing nearby, so a search does not repeat one
+    const box = img.closest(".sheetbody, .grid") || document;
+    const taken = new Set([...box.querySelectorAll("img")].map(i => i.currentSrc || i.src));
+    if (!pending.has(file)) pending.set(file, findPhoto(file, img.dataset.q || file, taken));
+    const fix = await pending.get(file);
+    if (!fix) return markBroken(img);
+    IMGFIX[file] = fix; store.set("imgfix", IMGFIX);
+    document.querySelectorAll(`img[data-file="${CSS.escape(file)}"]`).forEach(i => {
+      i.src = fix.src;
+      const cr = i.closest("figure")?.querySelector(".credit");
+      if (cr) cr.innerHTML = `${esc(i.alt)} &middot; ${cr.dataset.link ? `<a href="${esc(fix.page)}" target="_blank" rel="noopener">${esc(fix.author)}, ${esc(fix.license)}</a>` : `${esc(fix.author)}, ${esc(fix.license)}`}`;
+    });
+  } catch { markBroken(img); }
+}, true);
+function markBroken(img) {
   const fig = img.closest("figure"); if (fig) fig.classList.add("broken");
   else img.style.visibility = "hidden";
-}, true);
+}
 
 function card(d) {
   const c = d.costPP, w = d.weather, hero = d.heroPhotos || [];
@@ -640,7 +685,7 @@ function card(d) {
 function tile(d) {
   const c = d.costPP, w = d.weather, p = (d.heroPhotos || [])[0];
   return `<article class="tile" data-open="${esc(d.id)}" tabindex="0" aria-label="${esc(L(d, "name"))}">
-    <div class="pic">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
+    <div class="pic">${p ? `<img ${imgAttrs(p)}>` : ""}
       <span class="badge">${esc(regionL(d.region))}</span><span class="mine" data-mine="${esc(d.id)}" hidden></span></div>
     <div class="tb">
       <h3>${esc(L(d, "name"))}</h3>
@@ -926,15 +971,6 @@ function renderStatic() {
   document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === LANG));
   $("#sortSel").innerHTML = Object.keys(SORTS).map(k => `<option value="${k}" ${k === sortBy ? "selected" : ""}>${T("sorts")[k]}</option>`).join("");
   if (cur) { $("#sheetBody").innerHTML = card(byId[cur]); $("#sheetTitle").textContent = shortName(byId[cur]); }
-  $("#picklist").innerHTML = DATA.recs.filter(r => byId[r.id]).map((r, i) => {
-    const d = byId[r.id];
-    return `<a class="pick ${i === 0 ? "first" : ""}" href="#${esc(d.id)}" style="color:inherit;text-decoration:none">
-      ${photo((d.heroPhotos || [])[0], "", false)}
-      <div class="pb">${i === 0 ? `<span class="firstpill">${T("firstPick")}</span>` : ""}<div class="rank">${i + 1}</div><h3>${esc(L(d, "name"))}</h3>
-        <p>${T("pickMeta", money(d.costPP.trip), temp1(d.weather.highF), d.passport)}</p>
-        <p style="margin-top:6px">${esc(LANG === "vi" && r.vi ? r.vi : r.why)}</p></div>
-    </a>`;
-  }).join("");
   $("#foot").textContent = T("foot");
 }
 function setLang(l) {

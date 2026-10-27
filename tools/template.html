@@ -291,21 +291,77 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
 .results a { color: var(--ink); font-weight: 600; text-decoration: none; }
 .results .pts { font-weight: 700; font-variant-numeric: tabular-nums; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* ---------- trip grid + full trip view (sheet) ---------- */
+.topctl { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.mytop { font: 700 0.9rem var(--body); padding: 8px 14px; border-radius: 999px; border: 0; background: var(--accent); color: var(--bg); cursor: pointer; white-space: nowrap; }
+.sortrow { display: flex; align-items: center; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+.sortrow label { font-weight: 600; font-size: 0.9rem; color: var(--muted); }
+.sortrow select { font: 600 0.95rem var(--body); color: var(--ink); background: var(--surface); border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 10px; min-height: 40px; }
+.sortrow .count { margin: 0; }
+#trips .hint { margin: 14px 0 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.tile:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,0.12); }
+.tile .pic { position: relative; aspect-ratio: 16 / 10; background: var(--accent-soft); overflow: hidden; }
+.tile .pic img { width: 100%; height: 100%; object-fit: cover; }
+.tile .pic .badge { position: absolute; left: 10px; top: 10px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; background: rgba(0,0,0,0.55); color: #fff; padding: 4px 9px; border-radius: 999px; }
+.tile .pic .mine { position: absolute; right: 10px; top: 10px; font-weight: 800; background: var(--accent); color: var(--bg); padding: 4px 10px; border-radius: 999px; font-size: 0.85rem; }
+.tile .tb { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.tile h3 { font-family: var(--body); font-weight: 700; font-size: 1.15rem; line-height: 1.25; }
+.tile .price { font-size: 1.6rem; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.tile .price small { font-size: 0.9rem; font-weight: 500; color: var(--muted); }
+.tile .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.tile .addbtn { margin-top: auto; align-self: stretch; text-align: center; }
+.pill.fly { background: var(--bg); color: var(--muted); }
+.sheet { position: fixed; inset: 0; z-index: 40; background: color-mix(in srgb, #000 60%, transparent); display: grid; place-items: center;
+  padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.sheetbox { background: var(--surface); width: min(980px, 100%); height: min(92vh, 100%); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 30px 80px rgba(0,0,0,0.4); }
+.sheethead { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.sheethead b { flex: 1; min-width: 0; font-size: 1.05rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: center; }
+.iconbtn { width: 44px; height: 44px; flex: none; border-radius: 12px; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); font-size: 1.6rem; line-height: 1; cursor: pointer; }
+.iconbtn:disabled { opacity: 0.3; cursor: default; }
+.closebtn { flex: none; font: 700 0.95rem var(--body); height: 44px; padding: 0 16px; border-radius: 12px; border: 0; background: var(--ink); color: var(--bg); cursor: pointer; }
+.sheetbody { flex: 1; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.sheetbody .dest { border: 0; border-radius: 0; }
+.sheetfoot { display: flex; align-items: center; gap: 12px; padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); background: var(--surface); }
+.sheetfoot .addbtn { flex: 1; justify-self: stretch; padding: 13px 16px; font-size: 1rem; }
+.sheetpos { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+body.locked { overflow: hidden; }
+.gallery { display: grid; grid-auto-flow: column; grid-auto-columns: 86%; gap: 4px; overflow-x: auto; scroll-snap-type: x mandatory; background: var(--line); aspect-ratio: auto; }
+.gallery figure { scroll-snap-align: start; height: clamp(220px, 46vh, 460px); }
+@media (min-width: 760px) { .gallery { grid-auto-columns: 62%; } }
+.swipehint { font-size: 0.85rem; color: var(--muted); padding: 8px clamp(16px, 3vw, 28px) 0; }
+.regionpill { display: inline-block; justify-self: start; font-size: 0.8rem; font-weight: 700; padding: 4px 12px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+@media (max-width: 640px) {
+  header.top { padding-block: 16px 0; }
+  header.top h1 { font-size: 1.7rem; }
+  .filters { position: sticky; padding-block: 8px; }
+  .grid { grid-template-columns: 1fr; gap: 14px; }
+  .tile .pic { aspect-ratio: 16 / 9; }
+  .sheet { padding: 0; }
+  .sheetbox { width: 100%; height: 100%; border-radius: 0; }
+  .sheethead { padding-top: calc(10px + env(safe-area-inset-top, 0px)); }
+  .gallery { grid-auto-columns: 92%; }
+  .gallery figure { height: 260px; }
+}
 </style>
 </head>
 <body>
 <header class="top wrap">
   <div class="toprow">
     <h1 data-i18n="title">Winter Break 2026</h1>
-    <div class="langs" role="group" aria-label="Language">
-      <button type="button" data-lang="en">EN</button><button type="button" data-lang="vi">VI</button>
+    <div class="topctl">
+      <button type="button" class="mytop" id="myTopBtn" hidden></button>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button><button type="button" data-lang="vi">VI</button>
+      </div>
     </div>
   </div>
   <p class="sub" data-i18n-html="sub"></p>
-  <div class="jump"><a href="#compare" data-i18n="jCompare">Compare all</a><a href="#trips" data-i18n="jTrips">See each trip</a><a href="#picks" data-i18n="jPicks">Our top 5</a></div>
 </header>
 
-<section class="wrap" style="padding-block: 8px 16px">
+<section class="wrap" style="padding-block: 8px 12px">
   <div class="family" id="family" aria-live="polite">
     <h2 data-i18n="famTitle">Family vote</h2>
     <p data-i18n="famText"></p>
@@ -314,6 +370,46 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
     <ol class="results" id="results" hidden></ol>
   </div>
 </section>
+
+<div class="filters">
+  <div class="wrap">
+    <div class="chips" id="chips" role="toolbar" aria-label="Filter trips"></div>
+    <div class="sortrow">
+      <label for="sortSel" data-i18n="sortBy">Sort by</label>
+      <select id="sortSel"></select>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section id="trips" class="wrap">
+    <p class="hint" data-i18n="tripsHint"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="picks" class="wrap">
+    <h2 data-i18n="picksTitle">Our top 5</h2>
+    <p class="hint" data-i18n="picksHint"></p>
+    <div class="picks" id="picklist"></div>
+  </section>
+</main>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+  <div class="sheetbox">
+    <div class="sheethead">
+      <button type="button" class="iconbtn" id="sheetPrev" aria-label="Previous trip">&#8249;</button>
+      <b id="sheetTitle"></b>
+      <button type="button" class="iconbtn" id="sheetNext" aria-label="Next trip">&#8250;</button>
+      <button type="button" class="closebtn" id="sheetClose" data-i18n="close">Close</button>
+    </div>
+    <div class="sheetbody" id="sheetBody"></div>
+    <div class="sheetfoot">
+      <button type="button" class="addbtn" id="sheetAdd" hidden></button>
+      <span class="sheetpos" id="sheetPos"></span>
+    </div>
+  </div>
+</div>
 
 <div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle" hidden>
   <div class="gatebox">
@@ -345,47 +441,6 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
   </div>
 </div>
 
-<div class="filters">
-  <div class="wrap">
-    <div class="chips" id="chips" role="toolbar" aria-label="Filter trips"></div>
-    <div class="count" id="count" aria-live="polite"></div>
-  </div>
-</div>
-
-<main>
-  <section id="compare" class="wrap">
-    <h2 data-i18n="glance">At a glance</h2>
-    <p class="hint" data-i18n="glanceHint"></p>
-    <div class="tablebox">
-      <table id="tbl">
-        <thead><tr>
-          <th scope="col" data-k="name"><button type="button" data-i18n="thPlace">Place</button></th>
-          <th scope="col" data-k="trip"><button type="button" data-i18n="thCost">Flights + stay</button></th>
-          <th scope="col" data-k="hi"><button type="button" data-i18n="thWeather">Weather</button></th>
-          <th scope="col" data-k="pass"><button type="button" data-i18n="thPassport">Passport</button></th>
-          <th scope="col" data-k="hrs"><button type="button" data-i18n="thFlight">Flight</button></th>
-        </tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </section>
-
-  <section id="trips" class="wrap">
-    <h2 data-i18n="tripsTitle">The trips</h2>
-    <p class="hint" data-i18n="tripsHint"></p>
-    <div class="strip" id="strip" role="tablist" aria-label="Choose a trip"></div>
-    <div class="stepper" id="stepTop"></div>
-    <div id="cards"></div>
-    <div class="stepper" id="stepBottom"></div>
-  </section>
-
-  <section id="picks" class="wrap">
-    <h2 data-i18n="picksTitle">Our top 5</h2>
-    <p class="hint" data-i18n="picksHint"></p>
-    <div class="picks" id="picklist"></div>
-  </section>
-</main>
-
 <footer class="wrap" id="foot"></footer>
 
 <script>
@@ -413,7 +468,9 @@ const STR = {
     justLooking: "Just looking", switchWho: "Not you? Switch person",
     glance: "At a glance", glanceHint: "Tap a column to sort. Tap a place to see its plan.",
     thPlace: "Place", thCost: "Flights + stay", thWeather: "Weather", thPassport: "Passport", thFlight: "Flight",
-    tripsTitle: "The trips", tripsHint: "Tap a trip below, or use the arrow buttons to flip through them one at a time.",
+    tripsTitle: "The trips", tripsHint: "Tap any trip to see photos and the day-by-day plan.",
+    sortBy: "Sort by", sorts: { price: "Lowest price", region: "Region", warm: "Warmest", flight: "Shortest flight", name: "A to Z" },
+    each: "each", myPicks: "My picks", myTop: n => `My top 5 (${n})`, close: "Close", swipe: n => `Swipe for ${n} photos`,
     picksTitle: "Our top 5", picksHint: "Claude's suggestions, ranked for Mom and Dad first, then cost and how easy the week feels. Your own vote is what counts.",
     people: { mom: "Mom", dad: "Dad", emily: "Emily", jennifer: "Jennifer" },
     voted: "Voted", notVoted: "Not voted yet", votedShort: "voted", notYet: "not yet", loading: "Loading votes...",
@@ -453,7 +510,9 @@ const STR = {
     justLooking: "Chỉ xem thôi", switchWho: "Không phải bạn? Đổi người",
     glance: "Tổng quan", glanceHint: "Bấm vào tên cột để sắp xếp. Bấm vào một nơi để xem lịch trình.",
     thPlace: "Địa điểm", thCost: "Vé bay + chỗ ở", thWeather: "Thời tiết", thPassport: "Hộ chiếu", thFlight: "Chuyến bay",
-    tripsTitle: "Các chuyến đi", tripsHint: "Bấm vào một chuyến bên dưới, hoặc dùng nút mũi tên để xem lần lượt từng chuyến.",
+    tripsTitle: "Các chuyến đi", tripsHint: "Bấm vào một chuyến để xem ảnh và lịch trình từng ngày.",
+    sortBy: "Sắp xếp", sorts: { price: "Giá thấp nhất", region: "Khu vực", warm: "Ấm nhất", flight: "Bay ngắn nhất", name: "A đến Z" },
+    each: "mỗi người", myPicks: "Chuyến tôi chọn", myTop: n => `Top 5 của tôi (${n})`, close: "Đóng", swipe: n => `Vuốt để xem ${n} ảnh`,
     picksTitle: "Top 5 gợi ý", picksHint: "Gợi ý của Claude, ưu tiên điều Ba Mẹ thích, rồi đến chi phí và độ thoải mái. Phiếu bầu của mỗi người mới là quyết định.",
     people: { mom: "Mẹ", dad: "Ba", emily: "Emily", jennifer: "Jennifer" },
     voted: "Đã bình chọn", notVoted: "Chưa bình chọn", votedShort: "đã chọn", notYet: "chưa", loading: "Đang tải phiếu bầu...",
@@ -522,7 +581,7 @@ document.addEventListener("error", e => {
 
 function card(d) {
   const c = d.costPP, w = d.weather, hero = d.heroPhotos || [];
-  const wv = L(d, "weather") || w;
+  const pics = [...hero, ...(d.itinerary || []).map(x => x.photo).filter(Boolean)];
   const days = (d.itinerary || []).map((x, i) => `
     <article class="day">
       ${photo(x.photo)}
@@ -536,11 +595,12 @@ function card(d) {
   const tick = v => v ? `<span class="ok">${T("checked")}</span>` : `<span class="unv">${T("estimate")}</span>`;
   const li = a => (a || []).map(x => `<li>${esc(x)}</li>`).join("");
   return `
-  <article class="dest" id="${esc(d.id)}" data-id="${esc(d.id)}">
-    <div class="mosaic n${Math.min(hero.length, 3)}">${hero.slice(0, 3).map(p => photo(p)).join("")}</div>
+  <article class="dest" data-id="${esc(d.id)}">
+    <div class="gallery">${pics.map(p => photo(p)).join("")}</div>
+    <div class="swipehint">${T("swipe", pics.length)}</div>
     <div class="dbody">
+      <span class="regionpill">${esc(regionL(d.region))}${d.passport ? "" : ` &middot; ${T("pillNoPass")}`}</span>
       <div class="dhead"><h3>${esc(L(d, "name"))}</h3><span class="tag">${esc(L(d, "tagline"))}</span></div>
-      <button type="button" class="addbtn" data-add="${esc(d.id)}" hidden></button>
       <div class="facts">
         <div class="fact"><div class="k">${T("kCost")}</div><div class="v num">${money(c.trip)}</div><div class="s">${T("sCost", money(c.flights), money(c.lodging))}</div></div>
         <div class="fact"><div class="k">${T("kWeather")}</div><div class="v num">${temp(w.highF, w.lowF)}</div><div class="s">${T("sDaylight", esc(dlL(w.daylight)))}</div></div>
@@ -577,35 +637,46 @@ function card(d) {
   </article>`;
 }
 
-function row(d) {
+function tile(d) {
   const c = d.costPP, w = d.weather, p = (d.heroPhotos || [])[0];
-  return `<tr data-id="${esc(d.id)}">
-    <td class="place"><div class="pl">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
-      <a href="#${esc(d.id)}">${esc(L(d, "name"))}<small>${esc(L(d, "tagline"))}</small></a>
-      <button type="button" class="addmini" data-add="${esc(d.id)}" hidden></button></div></td>
-    <td class="num"><span class="big">${money(c.trip)}</span><small style="display:block;color:var(--muted)">${money(c.flights)} + ${money(c.lodging)}</small></td>
-    <td><span class="pill ${d.warm ? "warm" : "cold"} num">${temp(w.highF, w.lowF)}</span></td>
-    <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? T("pillPass") : T("pillNoPass")}</span></td>
-    <td class="num">${esc(flyL(d.fly))}<small style="display:block;color:var(--muted)">${esc(d.flight.from)}</small></td>
-  </tr>`;
+  return `<article class="tile" data-open="${esc(d.id)}" tabindex="0" aria-label="${esc(L(d, "name"))}">
+    <div class="pic">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
+      <span class="badge">${esc(regionL(d.region))}</span><span class="mine" data-mine="${esc(d.id)}" hidden></span></div>
+    <div class="tb">
+      <h3>${esc(L(d, "name"))}</h3>
+      <div class="price">${money(c.trip)} <small>${T("each")}</small></div>
+      <div class="pills">
+        <span class="pill ${d.warm ? "warm" : "cold"} num">${temp1(w.highF)}</span>
+        <span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? T("pillPass") : T("pillNoPass")}</span>
+        <span class="pill fly">${esc(flyL(d.fly))}</span>
+      </div>
+      <button type="button" class="addbtn" data-add="${esc(d.id)}" hidden></button>
+    </div>
+  </article>`;
 }
 
 const dests = DATA.dests;
 const byId = Object.fromEntries(dests.map(d => [d.id, d]));
 const regions = [...new Set(dests.map(d => d.region))];
-const F = { region: "All", temp: "Any", nopass: false };
-const sortKeys = {
-  name: d => L(d, "name"), trip: d => d.costPP.trip,
-  hi: d => d.weather.highF, pass: d => d.passport ? 1 : 0, hrs: hrs,
+const F = { region: "All", temp: "Any", nopass: false, mine: false };
+const REGION_ORDER = ["US", "Canada", "Latin America", "Caribbean", "Europe", "Asia"];
+const SORTS = {
+  price: (a, b) => a.costPP.trip - b.costPP.trip,
+  warm: (a, b) => b.weather.highF - a.weather.highF,
+  flight: (a, b) => hrs(a) - hrs(b),
+  region: (a, b) => REGION_ORDER.indexOf(a.region) - REGION_ORDER.indexOf(b.region) || a.costPP.trip - b.costPP.trip,
+  name: (a, b) => L(a, "name").localeCompare(L(b, "name")),
 };
-let sort = { k: "trip", dir: 1 };
+let sortBy = "price";
+$("#sortSel").addEventListener("change", e => { sortBy = e.target.value; apply(); });
 
 function chips() {
   const b = (label, on, act, cls = "") => `<button type="button" class="chip ${cls}" aria-pressed="${on}" data-act="${act}">${label}</button>`;
   $("#chips").innerHTML =
     ["All", ...regions].map(r => b(r === "All" ? T("allPlaces") : regionL(r), F.region === r, "region:" + r)).join("") +
     b(T("warm"), F.temp === "Warm", "temp:Warm", "sep") + b(T("cold"), F.temp === "Cold", "temp:Cold") +
-    b(T("noPass"), F.nopass, "nopass", "sep");
+    b(T("noPass"), F.nopass, "nopass", "sep") +
+    (V.me ? b(T("myPicks"), F.mine, "mine", "sep") : "");
 }
 $("#chips").addEventListener("click", e => {
   const a = e.target.closest("button")?.dataset.act; if (!a) return;
@@ -613,67 +684,97 @@ $("#chips").addEventListener("click", e => {
   if (k === "region") F.region = v;
   if (k === "temp") F.temp = F.temp === v ? "Any" : v;
   if (k === "nopass") F.nopass = !F.nopass;
+  if (k === "mine") F.mine = !F.mine;
   apply();
 });
 
 const show = d => (F.region === "All" || d.region === F.region) &&
-  (F.temp === "Any" || (F.temp === "Warm") === !!d.warm) && (!F.nopass || !d.passport);
+  (F.temp === "Any" || (F.temp === "Warm") === !!d.warm) && (!F.nopass || !d.passport) &&
+  (!F.mine || V.list.includes(d.id));
 
+const visible = () => dests.filter(show).sort(SORTS[sortBy]);
 function apply() {
   chips();
-  const list = [...dests].sort((a, b) => {
-    const x = sortKeys[sort.k](a), y = sortKeys[sort.k](b);
-    return (x > y ? 1 : x < y ? -1 : 0) * sort.dir;
-  });
-  const tb = $("#tbl tbody");
-  tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="5">${T("noMatch")}</td></tr>`;
-  document.querySelectorAll("#tbl th").forEach(th => th.setAttribute("aria-sort", th.dataset.k === sort.k ? (sort.dir > 0 ? "ascending" : "descending") : "none"));
-  const n = dests.filter(show).length;
-  $("#count").textContent = n === dests.length ? T("count", n) : T("showing", n, dests.length);
-  renderBrowser();
+  const vis = visible();
+  $("#grid").innerHTML = vis.map(tile).join("") || `<p class="hint">${T("noMatch")}</p>`;
+  $("#count").textContent = vis.length === dests.length ? T("count", vis.length) : T("showing", vis.length, dests.length);
   syncAddButtons();
 }
 
-/* ---------- trip browser: one trip at a time ---------- */
-const ORDER = [...dests].sort((a, b) => a.costPP.trip - b.costPP.trip);
-let cur = ORDER[0].id;
-function renderBrowser() {
-  const vis = ORDER.filter(show);
-  if (!vis.some(d => d.id === cur) && vis.length) cur = vis[0].id;
-  const i = vis.findIndex(d => d.id === cur);
-  const mine = id => V.me ? V.list.indexOf(id) : -1;
-  $("#strip").innerHTML = vis.map(d => {
-    const p = (d.heroPhotos || [])[0], m = mine(d.id);
-    return `<button type="button" role="tab" data-go="${esc(d.id)}" aria-selected="${d.id === cur}">
-      <span class="th">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
-      <b>${esc(shortName(d))}</b>
-      <small>${money(d.costPP.trip)} &middot; ${temp1(d.weather.highF)}${m >= 0 ? ` <span class="mine">#${m + 1}</span>` : ""}</small>
-    </button>`;
-  }).join("");
-  document.querySelectorAll(".dest").forEach(el => { el.hidden = el.dataset.id !== cur || !vis.length; });
-  const prev = vis[i - 1], next = vis[i + 1];
-  const step = `<button type="button" data-go="${prev ? esc(prev.id) : ""}" ${prev ? "" : "disabled"}>&larr; ${prev ? esc(shortName(prev)) : ""}</button>
-    <span class="pos">${vis.length ? T("pos", i + 1, vis.length) : T("noTrips")}</span>
-    <button type="button" class="next" data-go="${next ? esc(next.id) : ""}" ${next ? "" : "disabled"}>${next ? esc(shortName(next)) : ""} &rarr;</button>`;
-  $("#stepTop").innerHTML = step;
-  $("#stepBottom").innerHTML = step;
-  const sel = $('#strip [aria-selected="true"]');
-  if (sel) $("#strip").scrollTo({ left: sel.offsetLeft - 16, behavior: "auto" });
-}
-function go(id, scroll) {
+/* ---------- full trip view: opens over the grid, full screen on phones ---------- */
+let cur = null, pushed = false;
+function openTrip(id, fromHashChange) {
   if (!byId[id]) return;
-  if (!show(byId[id])) { F.region = "All"; F.temp = "Any"; F.nopass = false; }
-  cur = id; apply();
-  if (scroll) $("#trips").scrollIntoView({ block: "start" });
+  cur = id;
+  const d = byId[id];
+  $("#sheetTitle").textContent = shortName(d);
+  $("#sheetBody").innerHTML = card(d);
+  $("#sheetBody").scrollTop = 0;
+  $("#sheet").hidden = false;
+  document.body.classList.add("locked");
+  if (!fromHashChange && location.hash.slice(1) !== id) { location.hash = id; pushed = true; }
+  syncSheet();
 }
+function closeTrip() {
+  if ($("#sheet").hidden) return;
+  $("#sheet").hidden = true; document.body.classList.remove("locked");
+  const was = cur; cur = null;
+  if (pushed) { pushed = false; history.back(); }
+  else if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+  document.querySelector(`.tile[data-open="${was}"]`)?.focus({ preventScroll: true });
+}
+function stepTrip(dir) {
+  const vis = visible(), i = vis.findIndex(d => d.id === cur);
+  const next = vis[i + dir]; if (!next) return;
+  cur = next.id;
+  $("#sheetTitle").textContent = shortName(next);
+  $("#sheetBody").innerHTML = card(next); $("#sheetBody").scrollTop = 0;
+  history.replaceState(null, "", "#" + next.id);
+  syncSheet();
+}
+function syncSheet() {
+  if (!cur) return;
+  const vis = visible(), i = vis.findIndex(d => d.id === cur);
+  $("#sheetPrev").disabled = i <= 0;
+  $("#sheetNext").disabled = i < 0 || i >= vis.length - 1;
+  $("#sheetPos").textContent = i >= 0 ? T("pos", i + 1, vis.length) : "";
+  const add = $("#sheetAdd"); add.dataset.add = cur;
+  syncAddButtons();
+}
+$("#sheetClose").addEventListener("click", closeTrip);
+$("#sheetPrev").addEventListener("click", () => stepTrip(-1));
+$("#sheetNext").addEventListener("click", () => stepTrip(1));
+$("#sheet").addEventListener("click", e => { if (e.target === $("#sheet")) closeTrip(); });
+document.addEventListener("keydown", e => {
+  if ($("#sheet").hidden) { if ((e.key === "Enter" || e.key === " ") && e.target.matches?.(".tile")) { e.preventDefault(); openTrip(e.target.dataset.open); } return; }
+  if (e.key === "Escape") closeTrip();
+  if (e.key === "ArrowRight") stepTrip(1);
+  if (e.key === "ArrowLeft") stepTrip(-1);
+});
+// swipe left/right on the trip text (not the photo or day rows, which scroll sideways) to change trip
+let touch = null;
+$("#sheetBody").addEventListener("touchstart", e => {
+  touch = e.target.closest(".gallery, .days") ? null : { x: e.touches[0].clientX, y: e.touches[0].clientY };
+}, { passive: true });
+$("#sheetBody").addEventListener("touchend", e => {
+  if (!touch) return;
+  const dx = e.changedTouches[0].clientX - touch.x, dy = e.changedTouches[0].clientY - touch.y;
+  if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 1.5) stepTrip(dx < 0 ? 1 : -1);
+  touch = null;
+});
 document.addEventListener("click", e => {
-  const b = e.target.closest("[data-go]");
-  if (b && b.dataset.go) { go(b.dataset.go, !!b.closest(".stepper")); return; }
+  if (e.target.closest("[data-add]")) return;
+  const t = e.target.closest("[data-open]");
+  if (t) { openTrip(t.dataset.open); return; }
   const a = e.target.closest('a[href^="#"]');
   const id = a && decodeURIComponent(a.getAttribute("href").slice(1));
-  if (id && byId[id]) { e.preventDefault(); go(id, true); }
+  if (id && byId[id]) { e.preventDefault(); openTrip(id); }
 });
-const fromHash = () => { const id = decodeURIComponent(location.hash.slice(1)); if (byId[id]) go(id, true); };
+const fromHash = () => {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (byId[id]) { if (cur !== id) openTrip(id, true); }
+  else if (!$("#sheet").hidden) { pushed = false; $("#sheet").hidden = true; document.body.classList.remove("locked"); cur = null; }
+};
 window.addEventListener("hashchange", fromHash);
 
 /* ---------- family vote ---------- */
@@ -748,6 +849,12 @@ $("#submitVote").addEventListener("click", async () => {
 function setStatus(t, err) { const s = $("#voteStatus"); s.textContent = t; s.classList.toggle("err", !!err); }
 
 function syncAddButtons() {
+  document.querySelectorAll("[data-mine]").forEach(el => {
+    const i = V.me ? V.list.indexOf(el.dataset.mine) : -1;
+    el.hidden = i < 0; el.textContent = `#${i + 1}`;
+  });
+  $("#myTopBtn").hidden = !V.me;
+  if (V.me) $("#myTopBtn").textContent = T("myTop", V.list.length);
   document.querySelectorAll("[data-add]").forEach(b => {
     b.hidden = !V.me;
     const i = V.list.indexOf(b.dataset.add), full = V.list.length >= 5;
@@ -759,8 +866,10 @@ function syncAddButtons() {
   });
 }
 
+$("#myTopBtn").addEventListener("click", () => { if (!V.me) return openGate(); V.open = true; renderVote(); });
 function renderVote() {
-  renderBrowser();
+  chips();
+  if (F.mine) apply();
   document.body.classList.toggle("voting", !!V.me);
   $("#tray").hidden = !V.me;
   $("#startVote").hidden = !!V.me;
@@ -808,10 +917,6 @@ async function loadVotes() {
   renderFamily(); renderVote(); if (!$("#gate").hidden) renderGate();
 }
 
-document.querySelectorAll("#tbl th button").forEach(btn => btn.addEventListener("click", () => {
-  const k = btn.parentElement.dataset.k;
-  sort = { k, dir: sort.k === k ? -sort.dir : 1 }; apply();
-}));
 
 function renderStatic() {
   document.documentElement.lang = LANG;
@@ -819,7 +924,8 @@ function renderStatic() {
   document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = T(el.dataset.i18n); });
   document.querySelectorAll("[data-i18n-html]").forEach(el => { el.innerHTML = T(el.dataset.i18nHtml); });
   document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === LANG));
-  $("#cards").innerHTML = ORDER.map(card).join("");
+  $("#sortSel").innerHTML = Object.keys(SORTS).map(k => `<option value="${k}" ${k === sortBy ? "selected" : ""}>${T("sorts")[k]}</option>`).join("");
+  if (cur) { $("#sheetBody").innerHTML = card(byId[cur]); $("#sheetTitle").textContent = shortName(byId[cur]); }
   $("#picklist").innerHTML = DATA.recs.filter(r => byId[r.id]).map((r, i) => {
     const d = byId[r.id];
     return `<a class="pick ${i === 0 ? "first" : ""}" href="#${esc(d.id)}" style="color:inherit;text-decoration:none">

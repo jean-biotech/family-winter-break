@@ -1,0 +1,144 @@
+{
+ "malaysia": {
+  "name": "Kuala Lumpur + Penang, Malaysia",
+  "tagline": "Đường chân trời Petronas, di sản Penang và món ăn đường phố",
+  "whyParents": "Đồ ăn và cảnh thành phố giống Singapore mà rẻ hơn, thêm những con phố thuộc địa của George Town được UNESCO công nhận.",
+  "stay": "KL: khu Bukit Bintang, đi bộ tới Jalan Alor và Pavilion. Penang: khu phố cổ di sản George Town, đi bộ tới tranh tường và các quầy ăn.",
+  "getAround": "KL: Grab, LRT và monorail. Tàu ETS Platinum từ KL Sentral tới Butterworth khoảng 4 tiếng, rồi đi phà sang George Town. Ở Penang đi Grab. Không cần thuê xe.",
+  "entry": "Miễn visa tới 90 ngày; hộ chiếu còn hạn 6 tháng. Khai MDAC miễn phí trên mạng trong vòng 3 ngày trước khi tới; tránh các trang thu phí.",
+  "events": [
+   "MetMalaysia: gió mùa Đông Bắc từ 27/10/2026 tới tháng 3/2027, mưa nhiều nhất và biển động ở bờ đông và phía Biển Đông",
+   "Trang trí Giáng Sinh ở trung tâm mua sắm Pavilion KL và KLCC (hằng năm; chưa công bố ngày cho 2026)",
+   "Đợt giảm giá mua sắm 12.12 vào ngày 12/12"
+  ],
+  "pros": [
+   "Đồ ăn đường phố rẻ mà ngon tuyệt, nhất là ở Penang",
+   "Nhiều người nói tiếng Anh, đi Grab dễ dàng",
+   "Chỗ ở và ăn uống rất rẻ"
+  ],
+  "cons": [
+   "Nóng, ẩm, khoảng 90F, chiều hay có giông ở KL",
+   "Khoảng 22 tiếng mỗi chiều, không có chuyến bay thẳng",
+   "Mất hai trong bảy ngày cho việc bay"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé cho đúng ngày 12/12 và 19/12/2026; $1,550 là giá ước tính mùa cao điểm",
+   "Giờ bay mùa đông 2026/27 của Cathay chặng PEN-HKG và HKG-JFK chưa xác nhận; phương án dự phòng là MH/AirAsia PEN-KUL (khoảng 1 tiếng) để nối chuyến ở KUL",
+   "Giá vé tàu ETS Platinum KL-Butterworth (khoảng $20) chưa xác nhận; xem ktmb.com.my",
+   "Chỗ ở: chưa thấy giá căn 2 phòng ngủ cho tháng 12; dựa trên giá trung bình thị trường",
+   "Cổng chính thức MDAC qua imi.gov.my; địa chỉ chính xác chưa xác nhận (có nhiều trang giả thu phí)",
+   "Ngày trang trí Giáng Sinh 2026 ở Pavilion/KLCC chưa công bố",
+   "Chưa kiểm tra giờ mở cửa và giá vé Cầu Petronas Skybridge và tàu leo núi Penang Hill"
+  ],
+  "precip": "KL: hầu như ngày nào chiều cũng có giông (khoảng 250 mm, 18-20 ngày mưa). Penang khô hơn (khoảng 140 mm, khoảng 14 ngày). Gió mùa ảnh hưởng bờ đông, không phải tuyến đường này.",
+  "flightText": "Cathay Pacific: JFK-HKG-KUL ngày 12/12, tới KUL ngày 13/12. Về PEN-HKG-JFK ngày 19/12 (CX634 rời PEN lúc 13:00, đã thấy hoạt động năm 2026), về tới nhà ngày 19/12. Cathay thuộc liên minh oneworld (tích dặm AA). Lựa chọn khác: Turkish qua Istanbul, Qatar qua Doha (kiểm tra tình hình gián đoạn ở Trung Đông), Singapore Airlines qua SIN. Đối tác Capital One: Cathay Asia Miles, Turkish, KrisFlyer. Không có chuyến bay thẳng từ PHL đi châu Á.",
+  "itinerary": [
+   {
+    "title": "Tới KL, ngắm đèn Petronas",
+    "plan": "Tới KLIA ngày 13/12, đi Grab về Bukit Bintang. Buổi tối xem nhạc nước ở công viên KLCC dưới tháp đôi Petronas lên đèn.",
+    "eat": "Sa tế nướng ở Jalan Alor"
+   },
+   {
+    "title": "Phố cổ KL + Phố Tàu",
+    "plan": "Quảng trường Merdeka, tòa nhà Sultan Abdul Samad, đồ thủ công ở Central Market, phố Petaling. Chiều muộn lên cầu Petronas Skybridge.",
+    "eat": "Mì Hokkien ở Kim Lian Kee, phố Petaling"
+   },
+   {
+    "title": "Động Batu + chùa Thean Hou",
+    "plan": "Sáng sớm đi động Batu (272 bậc) trước khi nóng và mưa giông, buổi chiều chùa Thean Hou, buổi tối xem trang trí Giáng Sinh ở Pavilion.",
+    "eat": "Cơm lá chuối ở Brickfields"
+   },
+   {
+    "title": "Đi tàu tới Penang",
+    "plan": "Buổi sáng đi tàu ETS Platinum từ KL Sentral tới Butterworth (khoảng 4 tiếng), đi phà sang George Town, ngắm hoàng hôn và dạo Esplanade và Tòa Thị Chính.",
+    "eat": "Hủ tiếu xào (char kway teow) ở Lebuh Kimberley"
+   },
+   {
+    "title": "Đồi Penang + chùa Kek Lok Si",
+    "plan": "Đi tàu leo núi lên đồi Penang ngắm toàn cảnh đảo, rồi tới chùa tháp Kek Lok Si và tượng Quan Âm.",
+    "eat": "Asam laksa ở Air Itam"
+   },
+   {
+    "title": "Tranh tường + nhà hội họ tộc",
+    "plan": "Tranh tường phố Armenian, đền họ Khoo Kongsi, nhà sàn Chew Jetty, khu Little India. Buổi tối đi ăn một vòng các quầy hàng rong.",
+    "eat": "Nasi kandar ở Line Clear"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ăn sáng roti canai, đi Grab ra sân bay Penang (khoảng 30 phút). Bay Cathay qua Hồng Kông, tới JFK tối 19/12.",
+    "eat": "Roti canai ở một quán kopitiam"
+   }
+  ]
+ },
+ "china": {
+  "name": "Bắc Kinh + Tây An, Trung Quốc (kết thúc ở Hồng Kông)",
+  "tagline": "Vạn Lý Trường Thành, Binh Mã Dũng, kết thúc ở Hồng Kông",
+  "whyParents": "Đi bộ trên Vạn Lý Trường Thành gần như vắng người, xem Tử Cấm Thành và Binh Mã Dũng, rồi kết thúc với đèn bến cảng Hồng Kông.",
+  "stay": "Bắc Kinh: khu Vương Phủ Tỉnh (đi bộ tới Tử Cấm Thành), Tây An: bên trong tường thành, Hồng Kông: Tiêm Sa Chủy (nhìn ra bến cảng)",
+  "getAround": "Trong thành phố đi metro và DiDi; thuê tài xế riêng đi Mộ Điền Dục (khoảng 1,5 tiếng mỗi chiều); tàu cao tốc G từ ga Bắc Kinh Tây tới ga Tây An Bắc khoảng 4 tiếng 10 phút tới 5 tiếng.",
+  "entry": "Miễn visa quá cảnh 240 giờ: nhập cảnh từ Mỹ/Hàn Quốc, xuất cảnh sang Hồng Kông, phải có vé đi tiếp. Nếu đi khứ hồi thì cần visa L ($140).",
+  "events": [
+   "Mùa vắng khách: không có ngày lễ Trung Quốc từ 13/12 tới 19/12, Vạn Lý Trường Thành ít người",
+   "Show ánh sáng Symphony of Lights ở bến cảng Hồng Kông lúc 8 giờ tối mỗi đêm",
+   "Tử Cấm Thành đóng cửa thứ Hai (14/12); vé mở bán trước 7 ngày, cần hộ chiếu"
+  ],
+  "pros": [
+   "Vạn Lý Trường Thành gần như vắng người vào mùa đông",
+   "Binh Mã Dũng cộng thêm tàu cao tốc 200 dặm/giờ",
+   "Không cần visa khi xuất cảnh qua Hồng Kông"
+  ],
+  "cons": [
+   "Phải có visa ($140 + phí trung tâm) nếu không xuất cảnh qua Hồng Kông",
+   "Lạnh buốt: Bắc Kinh cao nhất khoảng 37F, thấp nhất khoảng 19F",
+   "Google bị chặn; cài Alipay và eSIM chuyển vùng trước"
+  ],
+  "unverified": [
+   "Tất cả giá vé là ước tính; chưa thấy giá vé open-jaw cho đúng ngày 12/12 và 19/12/2026",
+   "Giờ nối chuyến tối của Korean Air ICN-PEK ngày 13/12 (các trang theo dõi cho thấy khoảng 18:40 tới 20:50)",
+   "Tần suất bay JFK-PEK mùa đông 2026 của Air China (5 chuyến/tuần theo dữ liệu mùa hè); đề xuất của Mỹ cấm hãng Trung Quốc bay qua không phận Nga có thể làm thay đổi",
+   "Chi tiết quy định 240 giờ lấy từ nguồn thứ cấp và trang MTR; xác nhận với Cục Quản lý Xuất nhập cảnh Quốc gia Trung Quốc trước khi đặt",
+   "Phí dịch vụ của trung tâm nộp hồ sơ visa (một nguồn ghi tổng cộng khoảng $252 kể cả phí dịch vụ)",
+   "Máng trượt ở Mộ Điền Dục có hoạt động mùa đông không và giới hạn tuổi 60+ được nhắc tới",
+   "Giá khách sạn tháng 12/2026"
+  ],
+  "precip": "Khô, nắng, nhiều gió; hiếm khi có tuyết. Tây An khoảng 42F/27F, Hồng Kông khoảng 68F/59F",
+  "flightText": "Đi Korean Air, về Cathay Pacific: Đi thứ Bảy 12/12: KE82 rời JFK 13:00 tới Seoul ICN 17:45 Chủ Nhật, chuyến KE buổi tối tới Bắc Kinh PEK (tới khoảng 9 giờ tối 13/12). Về: CX947 rời Tây An 15:50 tới Hồng Kông 19:05 thứ Sáu 18/12; CX840 rời HKG 16:30 tới JFK khoảng 7:30 tối thứ Bảy 19/12. Vé open-jaw kết thúc ở Hồng Kông là điều giúp chuyến đi được miễn visa. Cathay thuộc oneworld (tích dặm AA) và là đối tác chuyển điểm của Capital One. Phương án miễn visa rẻ hơn: Korean Air cả hai chiều, về Tây An-Seoul-JFK (Hàn Quốc cũng được tính là nước thứ ba). Air China bay thẳng JFK-PEK (5 chuyến/tuần, 747-8) sẽ tới vào thứ Hai 14/12.",
+  "itinerary": [
+   {
+    "title": "Tới Bắc Kinh (Chủ Nhật 13/12)",
+    "plan": "Bay qua Seoul tới khoảng 9 giờ tối, đi taxi hoặc tài xế về khách sạn ở Vương Phủ Tỉnh (khoảng 45 phút). Đi ngủ.",
+    "eat": "Ăn nhẹ khuya ở khách sạn hoặc quán mì ở Vương Phủ Tỉnh"
+   },
+   {
+    "title": "Vạn Lý Trường Thành ở Mộ Điền Dục",
+    "plan": "Tài xế riêng đón sớm. Đi cáp treo lên, đi bộ qua các tháp đã trùng tu, đi máng trượt xuống nếu mở (người 60+ có thể bị từ chối).",
+    "eat": "Ăn trưa cá hồi suối ở làng Mộ Điền Dục"
+   },
+   {
+    "title": "Tử Cấm Thành + Cảnh Sơn",
+    "plan": "Tử Cấm Thành (đặt vé trước 7 ngày, mang theo hộ chiếu), leo công viên Cảnh Sơn ngắm cảnh, dạo hồ đồng.",
+    "eat": "Vịt quay Bắc Kinh ở Siji Minfu"
+   },
+   {
+    "title": "Thiên Đàn, đi tàu tới Tây An",
+    "plan": "Sáng sớm tới Thiên Đàn xem người dân tập thái cực quyền, rồi đi tàu G tới Tây An (khoảng 4,5 tiếng). Buổi tối dạo Khu Hồi giáo.",
+    "eat": "Bánh mì kẹp thịt (roujiamo) và mì biangbiang ở Khu Hồi giáo"
+   },
+   {
+    "title": "Binh Mã Dũng",
+    "plan": "Đi với tài xế hoặc hướng dẫn viên tới Binh Mã Dũng (khoảng 1 tiếng). Hố 1 tới 3 và bảo tàng, về lại buổi tối.",
+    "eat": "Tiệc sủi cảo ở De Fa Chang"
+   },
+   {
+    "title": "Đạp xe trên tường thành, bay sang Hồng Kông",
+    "plan": "Buổi sáng đạp xe trên tường thành Tây An, chuyến bay 3:50 chiều sang Hồng Kông, buổi tối dạo bến cảng.",
+    "eat": "Ăn tối món Quảng Đông ở Tiêm Sa Chủy"
+   },
+   {
+    "title": "Buổi sáng ở Hồng Kông, bay về nhà",
+    "plan": "Ngắm cảnh từ phà Star Ferry và tàu điện lên đỉnh Peak Tram, có mặt ở sân bay lúc 1:30 chiều, chuyến bay thẳng 4:30 chiều tới JFK ngay tối hôm đó.",
+    "eat": "Dim sum ở Tim Ho Wan"
+   }
+  ]
+ }
+}

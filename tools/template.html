@@ -43,6 +43,7 @@
   color-scheme: dark;
 }
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
@@ -65,8 +66,6 @@ header.top { padding-block: 32px 8px; }
 header.top h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
 .sub { color: var(--muted); margin: 6px 0 0; font-size: 1.05rem; }
 .sub b { color: var(--ink); font-weight: 600; }
-.vote { display: inline-flex; flex-direction: column; margin-top: 16px; background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 700; font-size: 1.05rem; padding: 10px 18px; border-radius: 12px; }
-.vote span { font-weight: 500; font-size: 0.85rem; opacity: 0.85; }
 .jump { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; font-weight: 600; }
 
 /* filters */
@@ -196,6 +195,59 @@ details[open] > summary::before { content: "\2212"; }
 .pick.first .pb::before { content: "Our #1 pick"; display: inline-block; background: var(--accent); color: var(--bg); font-weight: 700; font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; margin-bottom: 6px; letter-spacing: 0.04em; }
 @media (max-width: 560px) { .pick { grid-template-columns: 1fr; } .pick figure { height: 160px; } .pick .pb { padding: 0 16px 16px; } }
 footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
+
+/* voting: who's viewing gate, add buttons, my-top-5 tray, family result */
+body.voting { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+.gate { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; background: color-mix(in srgb, var(--ink) 55%, transparent);
+  padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.gatebox { background: var(--surface); border-radius: 18px; padding: 24px; width: min(440px, 100%); display: grid; gap: 14px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+.gatebox h2 { font-size: 1.9rem; }
+.gatebox p { margin: 0; color: var(--muted); }
+.who { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.who button { font: 700 1.15rem var(--body); color: var(--ink); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 18px 10px; cursor: pointer; display: grid; gap: 2px; }
+.who button:hover { border-color: var(--accent); }
+.who button small { font-weight: 500; font-size: 0.8rem; color: var(--muted); }
+.who button.done small { color: var(--accent); }
+.linkbtn { all: unset; cursor: pointer; color: var(--accent); font-weight: 600; text-decoration: underline; justify-self: center; }
+.linkbtn:focus-visible { outline: 3px solid var(--accent); }
+.addbtn { font: 700 0.95rem var(--body); border-radius: 999px; padding: 9px 16px; cursor: pointer; border: 2px solid var(--accent); background: var(--accent); color: var(--bg); justify-self: start; }
+.addbtn.in { background: var(--accent-soft); color: var(--accent); }
+.addbtn:disabled { opacity: 0.45; cursor: not-allowed; }
+.addmini { font: 700 0.8rem var(--body); border-radius: 999px; padding: 4px 10px; border: 1.5px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; white-space: nowrap; }
+.addmini.in { background: var(--accent); color: var(--bg); }
+.tray { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface); border-top: 1px solid var(--line); box-shadow: 0 -8px 30px rgba(0,0,0,0.12);
+  padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.trayin { max-width: 1120px; margin: 0 auto; display: grid; gap: 10px; }
+.traybar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.traybar b { font-family: var(--display); font-weight: 400; font-size: 1.2rem; }
+.traybar b { flex: 1; min-width: 0; }
+.traybar .grow { order: 9; flex-basis: 100%; color: var(--muted); font-size: 0.9rem; }
+.tbtn { font: 700 0.9rem var(--body); border-radius: 10px; padding: 9px 14px; cursor: pointer; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); }
+.tbtn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.tbtn:disabled { opacity: 0.45; cursor: not-allowed; }
+.mylist { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; max-height: 46vh; overflow-y: auto; }
+.mylist li { display: grid; grid-template-columns: 30px 1fr auto; gap: 8px; align-items: center; background: var(--bg); border-radius: 10px; padding: 6px 8px; }
+.mylist .rk { font-family: var(--display); font-size: 1.3rem; color: var(--accent); text-align: center; }
+.mylist .nm { min-width: 0; font-weight: 600; line-height: 1.25; }
+.mylist .nm small { display: block; font-weight: 400; color: var(--muted); }
+.mylist .ctl { display: flex; gap: 4px; }
+.mylist .ctl button { width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 1rem; cursor: pointer; }
+.mylist .ctl button:disabled { opacity: 0.3; cursor: default; }
+.mylist .empty { display: block; color: var(--muted); background: none; padding: 4px 0; }
+.status { font-size: 0.9rem; font-weight: 600; color: var(--accent); }
+.status.err { color: var(--warm); }
+.family { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px clamp(16px, 3vw, 24px); display: grid; gap: 12px; }
+.family h2 { font-size: 1.5rem; }
+.family p { margin: 0; color: var(--muted); }
+.votedrow { display: flex; flex-wrap: wrap; gap: 8px; }
+.votedrow span { font-weight: 700; font-size: 0.85rem; padding: 5px 12px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.votedrow span.yes { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.results li { display: grid; grid-template-columns: 34px 1fr auto; gap: 10px; align-items: center; }
+.results .rk { font-family: var(--display); font-size: 1.5rem; color: var(--accent); text-align: center; }
+.results .bar { height: 8px; border-radius: 4px; background: var(--accent); margin-top: 4px; }
+.results a { color: var(--ink); font-weight: 600; text-decoration: none; }
+.results .pts { font-weight: 700; font-variant-numeric: tabular-nums; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 </head>
@@ -204,8 +256,42 @@ footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
   <h1>Winter Break 2026</h1>
   <p class="sub"><b>Sat Dec 12 to Fri Dec 18</b> &middot; Mom, Dad, Emily &amp; Jennifer &middot; all prices per person</p>
   <div class="jump"><a href="#compare">Compare all</a><a href="#trips">See each trip</a><a href="#picks">Our top 5</a></div>
-  <a class="vote" href="https://docs.google.com/spreadsheets/d/1F8QpAlEDetGe6Hy7Bmza5e_OaURabKps54OasOFAgAQ/edit" target="_blank" rel="noopener">Vote for your top 5 <span>Mom, Dad, Emily and Jennifer each rank 1 to 5 in the family sheet</span></a>
 </header>
+
+<section class="wrap" style="padding-block: 8px 16px">
+  <div class="family" id="family" aria-live="polite">
+    <h2>Family vote</h2>
+    <p>Everyone picks their own top 5. Picks stay private: you only see who has voted, and the combined family ranking shows up once all 4 are in.</p>
+    <div class="votedrow" id="votedrow"></div>
+    <button type="button" class="addbtn" id="startVote" hidden>Pick your name to vote</button>
+    <ol class="results" id="results" hidden></ol>
+  </div>
+</section>
+
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle" hidden>
+  <div class="gatebox">
+    <h2 id="gateTitle">Who's viewing?</h2>
+    <p>Pick your name, then tap <b>Add to my top 5</b> on the trips you like most. Your picks are private.</p>
+    <div class="who" id="who"></div>
+    <button type="button" class="linkbtn" id="justLooking">Just looking</button>
+  </div>
+</div>
+
+<div class="tray" id="tray" hidden>
+  <div class="trayin">
+    <div class="traybar">
+      <b id="trayTitle">My top 5</b>
+      <span class="grow" id="trayHint"></span>
+      <button type="button" class="tbtn" id="trayToggle" aria-expanded="false">Show list</button>
+      <button type="button" class="tbtn primary" id="submitVote" disabled>Submit my vote</button>
+    </div>
+    <ol class="mylist" id="mylist" hidden></ol>
+    <div class="traybar" style="justify-content:space-between">
+      <span class="status" id="voteStatus" role="status"></span>
+      <button type="button" class="linkbtn" id="switchWho">Not you? Switch</button>
+    </div>
+  </div>
+</div>
 
 <div class="filters">
   <div class="wrap">
@@ -240,7 +326,7 @@ footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
 
   <section id="picks" class="wrap">
     <h2>Our top 5</h2>
-    <p class="hint">Ranked for Mom and Dad first, then cost and how easy the week feels. Then <a href="https://docs.google.com/spreadsheets/d/1F8QpAlEDetGe6Hy7Bmza5e_OaURabKps54OasOFAgAQ/edit" target="_blank" rel="noopener">add your own ranking</a>.</p>
+    <p class="hint">Claude's suggestions, ranked for Mom and Dad first, then cost and how easy the week feels. Your own vote is what counts.</p>
     <div class="picks" id="picklist"></div>
   </section>
 </main>
@@ -290,6 +376,7 @@ function card(d) {
     <div class="mosaic n${Math.min(hero.length, 3)}">${hero.slice(0, 3).map(p => photo(p)).join("")}</div>
     <div class="dbody">
       <div class="dhead"><h3>${esc(d.name)}</h3><span class="tag">${esc(d.tagline)}</span></div>
+      <button type="button" class="addbtn" data-add="${esc(d.id)}" hidden>Add to my top 5</button>
       <div class="facts">
         <div class="fact"><div class="k">Flights + stay</div><div class="v num">${money(c.trip)}</div><div class="s">${money(c.flights)} flight + ${money(c.lodging)} stay, each</div></div>
         <div class="fact"><div class="k">Weather</div><div class="v num">${w.highF}&deg; / ${w.lowF}&deg;F</div><div class="s">${esc(w.daylight)} of daylight</div></div>
@@ -330,7 +417,8 @@ function row(d) {
   const c = d.costPP, w = d.weather, p = (d.heroPhotos || [])[0];
   return `<tr data-id="${esc(d.id)}">
     <td class="place"><div class="pl">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
-      <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a></div></td>
+      <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a>
+      <button type="button" class="addmini" data-add="${esc(d.id)}" hidden>+ Top 5</button></div></td>
     <td class="num"><span class="big">${money(c.trip)}</span><small style="display:block;color:var(--muted)">${money(c.flights)} + ${money(c.lodging)}</small></td>
     <td><span class="pill ${d.warm ? "warm" : "cold"} num">${w.highF}&deg; / ${w.lowF}&deg;F</span></td>
     <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? "Passport" : "No passport"}</span></td>
@@ -379,7 +467,141 @@ function apply() {
   document.querySelectorAll(".dest").forEach(el => { el.hidden = !show(byId[el.dataset.id]); });
   const n = dests.filter(show).length;
   $("#count").textContent = n === dests.length ? `${n} trips` : `Showing ${n} of ${dests.length} trips`;
+  syncAddButtons();
 }
+
+/* ---------- family vote ---------- */
+// Same-origin on Vercel; the GitHub Pages copy calls the Vercel deployment.
+const VOTE_API = location.hostname.endsWith("github.io") ? "__VERCEL_ORIGIN__/api/votes" : "/api/votes";
+const PEOPLE = [["mom", "Mom"], ["dad", "Dad"], ["emily", "Emily"], ["jennifer", "Jennifer"]];
+const label = id => (PEOPLE.find(p => p[0] === id) || [, ""])[1];
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem("wb26:" + k)); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem("wb26:" + k, JSON.stringify(v)); } catch {} },
+};
+const V = { me: store.get("me"), list: [], server: null, open: false, saving: false };
+if (V.me) V.list = (store.get("list:" + V.me) || []).filter(id => byId[id]);
+
+async function api(method, body) {
+  let r;
+  try {
+    r = await fetch(VOTE_API, { method, headers: body ? { "Content-Type": "application/json" } : {}, body: body ? JSON.stringify(body) : undefined });
+  } catch { throw new Error("Can't reach the vote server right now. Check your connection and try again."); }
+  const out = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(out.error || "Voting isn't connected yet.");
+  return out;
+}
+
+function renderGate() {
+  const voted = V.server?.voted || {};
+  $("#who").innerHTML = PEOPLE.map(([id, name]) =>
+    `<button type="button" data-who="${id}" class="${voted[id] ? "done" : ""}">${name}<small>${voted[id] ? "Voted" : "Not voted yet"}</small></button>`).join("");
+}
+function openGate() { renderGate(); $("#gate").hidden = false; $("#who button")?.focus(); }
+$("#who").addEventListener("click", e => {
+  const id = e.target.closest("[data-who]")?.dataset.who; if (!id) return;
+  V.me = id; store.set("me", id);
+  V.list = (store.get("list:" + id) || []).filter(x => byId[x]);
+  V.open = V.list.length > 0;
+  $("#gate").hidden = true;
+  renderVote();
+});
+$("#justLooking").addEventListener("click", () => { V.me = null; store.set("me", null); $("#gate").hidden = true; renderVote(); });
+$("#switchWho").addEventListener("click", openGate);
+$("#startVote").addEventListener("click", openGate);
+
+function saveList() { store.set("list:" + V.me, V.list); }
+function toggleTrip(id) {
+  if (!V.me) return openGate();
+  const i = V.list.indexOf(id);
+  if (i >= 0) { V.list.splice(i, 1); setStatus(`Removed ${byId[id].name}.`); }
+  else if (V.list.length < 5) { V.list.push(id); setStatus(`Added ${byId[id].name} as #${V.list.length}.`); }
+  saveList(); renderVote();
+}
+document.addEventListener("click", e => {
+  const id = e.target.closest("[data-add]")?.dataset.add;
+  if (id) { e.preventDefault(); toggleTrip(id); }
+});
+$("#mylist").addEventListener("click", e => {
+  const b = e.target.closest("button[data-act]"); if (!b) return;
+  const i = +b.dataset.i, act = b.dataset.act;
+  if (act === "up" && i > 0) [V.list[i - 1], V.list[i]] = [V.list[i], V.list[i - 1]];
+  if (act === "down" && i < V.list.length - 1) [V.list[i + 1], V.list[i]] = [V.list[i], V.list[i + 1]];
+  if (act === "remove") V.list.splice(i, 1);
+  saveList(); renderVote();
+});
+$("#trayToggle").addEventListener("click", () => { V.open = !V.open; renderVote(); });
+$("#submitVote").addEventListener("click", async () => {
+  if (V.list.length !== 5 || V.saving) return;
+  V.saving = true; setStatus("Saving your vote...");
+  try {
+    V.server = await api("POST", { voter: V.me, ranking: V.list });
+    const left = PEOPLE.filter(([id]) => !V.server.voted[id]).length;
+    setStatus(left ? `Vote saved. Waiting on ${left} more ${left === 1 ? "person" : "people"}.` : "Vote saved. Everyone has voted! See the family result at the top.");
+    V.open = false;
+  } catch (err) { setStatus(err.message, true); }
+  V.saving = false; renderVote(); renderFamily();
+});
+function setStatus(t, err) { const s = $("#voteStatus"); s.textContent = t; s.classList.toggle("err", !!err); }
+
+function syncAddButtons() {
+  document.querySelectorAll("[data-add]").forEach(b => {
+    b.hidden = !V.me;
+    const i = V.list.indexOf(b.dataset.add), full = V.list.length >= 5;
+    b.classList.toggle("in", i >= 0);
+    b.disabled = i < 0 && full;
+    b.textContent = b.classList.contains("addmini")
+      ? (i >= 0 ? `#${i + 1}` : "+ Top 5")
+      : (i >= 0 ? `#${i + 1} in my top 5 (tap to remove)` : full ? "Top 5 is full" : "Add to my top 5");
+  });
+}
+
+function renderVote() {
+  document.body.classList.toggle("voting", !!V.me);
+  $("#tray").hidden = !V.me;
+  $("#startVote").hidden = !!V.me;
+  syncAddButtons();
+  if (!V.me) return;
+  const n = V.list.length, done = V.server?.voted?.[V.me];
+  $("#trayTitle").textContent = `${label(V.me)}'s top 5`;
+  $("#trayHint").textContent = n < 5 ? `${n} of 5 picked. Tap "Add to my top 5" on a trip.` : done ? "Picked 5. Submit again to change your vote." : "Picked 5. Use the arrows to order them, then submit.";
+  $("#submitVote").disabled = n !== 5 || V.saving;
+  $("#submitVote").textContent = done ? "Update my vote" : "Submit my vote";
+  $("#trayToggle").textContent = V.open ? "Hide list" : `Show list (${n})`;
+  $("#trayToggle").setAttribute("aria-expanded", V.open);
+  $("#mylist").hidden = !V.open;
+  $("#mylist").innerHTML = n ? V.list.map((id, i) => `<li>
+      <span class="rk">${i + 1}</span>
+      <span class="nm">${esc(byId[id].name)}<small>${money(byId[id].costPP.trip)} &middot; ${byId[id].weather.highF}&deg;F</small></span>
+      <span class="ctl">
+        <button type="button" data-act="up" data-i="${i}" aria-label="Move up" ${i === 0 ? "disabled" : ""}>&#9650;</button>
+        <button type="button" data-act="down" data-i="${i}" aria-label="Move down" ${i === n - 1 ? "disabled" : ""}>&#9660;</button>
+        <button type="button" data-act="remove" data-i="${i}" aria-label="Remove">&#10005;</button>
+      </span></li>`).join("")
+    : `<li class="empty">No trips yet. Scroll down and tap "Add to my top 5" on the ones you like.</li>`;
+}
+
+function renderFamily() {
+  const s = V.server;
+  $("#votedrow").innerHTML = s
+    ? PEOPLE.map(([id, name]) => `<span class="${s.voted[id] ? "yes" : ""}">${name}: ${s.voted[id] ? "voted" : "not yet"}</span>`).join("")
+    : `<span>${esc(V.err || "Loading votes...")}</span>`;
+  const ol = $("#results");
+  ol.hidden = !(s && s.complete && s.results);
+  if (ol.hidden) return;
+  const top = s.results[0].points;
+  ol.innerHTML = s.results.filter(r => byId[r.id]).map((r, i) => `<li>
+    <span class="rk">${i + 1}</span>
+    <span><a href="#${esc(r.id)}">${esc(byId[r.id].name)}</a><div class="bar" style="width:${Math.max(6, r.points / top * 100)}%"></div></span>
+    <span class="pts">${r.points} pts</span></li>`).join("");
+}
+
+async function loadVotes() {
+  try { V.server = await api("GET"); V.err = null; }
+  catch (err) { V.err = location.protocol === "file:" ? "Voting works on the live site, not this downloaded copy." : err.message; }
+  renderFamily(); renderVote(); if (!$("#gate").hidden) renderGate();
+}
+
 document.querySelectorAll("#tbl th button").forEach(btn => btn.addEventListener("click", () => {
   const k = btn.parentElement.dataset.k;
   sort = { k, dir: sort.k === k ? -sort.dir : 1 }; apply();
@@ -397,6 +619,10 @@ $("#picklist").innerHTML = DATA.recs.map((r, i) => {
 }).join("");
 $("#foot").innerHTML = `Prices are per person: round-trip flight each, plus the rental split 4 ways (a bedroom for Mom and Dad, one for Emily and Jennifer), researched Oct 27, 2026, and will move. "Checked" means we found a real fare or listing; "estimate" means a typical price. Photos from Wikimedia Commons, credited on each image.`;
 apply();
+renderFamily();
+renderVote();
+if (!V.me) openGate();
+loadVotes();
 </script>
 </body>
 </html>

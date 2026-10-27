@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Winter Break 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: photo-led trip cards under a sortable at-a-glance table; one column on phones, itinerary days scroll sideways. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #17202b;
+  --muted: #5a6573;
+  --line: #dde2e8;
+  --accent: #1d5a7a;
+  --accent-soft: #e2eef4;
+  --warm: #b4562a;
+  --warm-soft: #f8e7dc;
+  --cold: #2c6aa0;
+  --cold-soft: #e1ecf7;
+  --gold: #9a6b00;
+  --gold-soft: #f6ecd2;
+  --display: "Young Serif", Georgia, "Times New Roman", serif;
+  --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161c; --surface: #1a2129; --ink: #e8edf2; --muted: #9aa6b3; --line: #2c3540;
+    --accent: #7cc0e0; --accent-soft: #1d3442; --warm: #f0a07a; --warm-soft: #3a2519;
+    --cold: #8fc0ec; --cold-soft: #1b2d40; --gold: #e3bf62; --gold-soft: #352b12;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --surface: #1a2129; --ink: #e8edf2; --muted: #9aa6b3; --line: #2c3540;
+  --accent: #7cc0e0; --accent-soft: #1d3442; --warm: #f0a07a; --warm-soft: #3a2519;
+  --cold: #8fc0ec; --cold-soft: #1b2d40; --gold: #e3bf62; --gold-soft: #352b12;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 var(--body);
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+img { max-width: 100%; display: block; }
+a { color: var(--accent); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.wrap {
+  max-width: 1120px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+h1, h2, h3 { font-family: var(--display); font-weight: 400; text-wrap: balance; margin: 0; line-height: 1.15; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* header */
+header.top { padding-block: 32px 8px; }
+header.top h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
+.sub { color: var(--muted); margin: 6px 0 0; font-size: 1.05rem; }
+.sub b { color: var(--ink); font-weight: 600; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; font-weight: 600; }
+
+/* filters */
+.filters { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px; border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; font: 600 0.9rem var(--body); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip.sep { margin-left: 6px; }
+.count { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+
+/* table */
+section { padding-block: 28px 8px; }
+section > h2 { font-size: 1.6rem; margin-bottom: 4px; }
+.hint { color: var(--muted); margin: 0 0 14px; font-size: 0.95rem; }
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+table { border-collapse: collapse; width: 100%; min-width: 640px; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: middle; }
+tr:last-child td { border-bottom: 0; }
+th { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 700; white-space: nowrap; }
+th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+th button:focus-visible { outline: 3px solid var(--accent); }
+th[aria-sort="ascending"] button::after { content: "\25B2"; font-size: 0.65rem; }
+th[aria-sort="descending"] button::after { content: "\25BC"; font-size: 0.65rem; }
+td.place { display: flex; gap: 10px; align-items: center; min-width: 200px; }
+td.place img, td.place .ph { width: 52px; height: 40px; object-fit: cover; border-radius: 6px; flex: none; background: var(--accent-soft); }
+td.place a { color: var(--ink); font-weight: 600; text-decoration: none; }
+td.place a:hover { text-decoration: underline; }
+td.place small { display: block; color: var(--muted); font-weight: 400; }
+.big { font-weight: 700; font-size: 1.05rem; }
+
+/* pills */
+.pill { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.pill.warm { background: var(--warm-soft); color: var(--warm); }
+.pill.cold { background: var(--cold-soft); color: var(--cold); }
+.pill.pass { background: var(--gold-soft); color: var(--gold); }
+.pill.nopass { background: var(--accent-soft); color: var(--accent); }
+.est { font-size: 0.7rem; color: var(--muted); font-weight: 600; letter-spacing: 0.04em; }
+
+/* cards */
+.dest { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; margin-bottom: 28px; scroll-margin-top: 80px; }
+.mosaic { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; gap: 3px; height: clamp(220px, 42vw, 380px); background: var(--line); }
+.mosaic figure:first-child { grid-row: span 2; }
+.mosaic.n1 { grid-template-columns: 1fr; } .mosaic.n1 figure { grid-row: auto; }
+.mosaic.n2 { grid-template-rows: 1fr; } .mosaic.n2 figure:first-child { grid-row: auto; }
+figure { margin: 0; position: relative; overflow: hidden; background: var(--accent-soft); min-height: 0; }
+figure img { width: 100%; height: 100%; object-fit: cover; }
+figure .credit {
+  position: absolute; right: 0; bottom: 0; max-width: 100%; font-size: 0.66rem; line-height: 1.3;
+  background: rgba(0,0,0,0.55); color: #fff; padding: 3px 7px; border-top-left-radius: 6px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+figure .credit a { color: #fff; }
+figure.broken img { display: none; }
+figure.broken::after { content: attr(data-cap); position: absolute; inset: 0; display: grid; place-items: center; color: var(--accent); font-weight: 600; padding: 12px; text-align: center; }
+.dbody { padding: 20px clamp(16px, 3vw, 28px) 24px; display: grid; gap: 18px; }
+.dhead { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; align-items: baseline; }
+.dhead h3 { font-size: clamp(1.6rem, 4vw, 2.1rem); }
+.tag { color: var(--muted); font-size: 1rem; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.fact { background: var(--bg); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+.fact .k { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 700; }
+.fact .v { font-size: 1.2rem; font-weight: 700; }
+.fact .s { font-size: 0.82rem; color: var(--muted); }
+.why { margin: 0; font-size: 1.05rem; }
+.why b { font-family: var(--display); font-weight: 400; }
+
+/* itinerary */
+.itin h4, .more h4 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 10px; }
+.days { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 1fr); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+@media (min-width: 900px) { .days { grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); overflow: visible; } }
+.day { scroll-snap-align: start; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: var(--surface); }
+.day figure { aspect-ratio: 4 / 3; }
+.day .dt { padding: 10px 12px 12px; display: grid; gap: 4px; }
+.day .dn { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+.day .tt { font-weight: 700; line-height: 1.25; }
+.day p { margin: 0; font-size: 0.92rem; color: var(--muted); }
+.day .eat { font-size: 0.88rem; color: var(--ink); }
+.day .eat b { color: var(--warm); }
+
+/* details */
+details { border-top: 1px solid var(--line); padding-top: 12px; }
+summary { cursor: pointer; font-weight: 700; color: var(--accent); list-style: none; display: flex; align-items: center; gap: 8px; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: "+"; display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--accent-soft); font-size: 1rem; }
+details[open] > summary::before { content: "\2212"; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px 24px; margin-top: 14px; }
+.grid2 > div { min-width: 0; }
+.grid2 h5 { margin: 0 0 4px; font-size: 0.9rem; }
+.grid2 p, .grid2 ul { margin: 0; font-size: 0.93rem; color: var(--muted); }
+.grid2 ul { padding-left: 18px; }
+.cost td, .cost th { padding: 6px 8px; font-size: 0.9rem; }
+.cost table { min-width: 0; }
+.ok { color: var(--accent); font-weight: 700; font-size: 0.75rem; }
+.unv { color: var(--warm); font-weight: 700; font-size: 0.75rem; }
+.sources ol { margin: 10px 0 0; padding-left: 20px; font-size: 0.85rem; color: var(--muted); word-break: break-word; }
+
+/* picks */
+.picks { display: grid; gap: 14px; }
+.pick { display: grid; grid-template-columns: 140px 1fr; gap: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.pick figure { min-height: 120px; }
+.pick .pb { padding: 14px 16px 14px 0; min-width: 0; }
+.pick .rank { font-family: var(--display); font-size: 1.6rem; color: var(--accent); line-height: 1; }
+.pick h3 { font-size: 1.3rem; margin: 4px 0; }
+.pick p { margin: 0; color: var(--muted); }
+.pick.first { border: 2px solid var(--accent); }
+.pick.first .pb::before { content: "Our #1 pick"; display: inline-block; background: var(--accent); color: var(--bg); font-weight: 700; font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; margin-bottom: 6px; letter-spacing: 0.04em; }
+@media (max-width: 560px) { .pick { grid-template-columns: 1fr; } .pick figure { height: 160px; } .pick .pb { padding: 0 16px 16px; } }
+footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+</head>
+<body>
+<header class="top wrap">
+  <h1>Winter Break 2026</h1>
+  <p class="sub"><b>Sat Dec 12 to Fri Dec 18</b> &middot; 4 of us &middot; all prices per person</p>
+  <div class="jump"><a href="#compare">Compare all</a><a href="#trips">See each trip</a><a href="#picks">Our top 5</a></div>
+</header>
+
+<div class="filters">
+  <div class="wrap">
+    <div class="chips" id="chips" role="toolbar" aria-label="Filter trips"></div>
+    <div class="count" id="count" aria-live="polite"></div>
+  </div>
+</div>
+
+<main>
+  <section id="compare" class="wrap">
+    <h2>At a glance</h2>
+    <p class="hint">Tap a column to sort. Tap a place to jump to its plan.</p>
+    <div class="tablebox">
+      <table id="tbl">
+        <thead><tr>
+          <th scope="col" data-k="name"><button type="button">Place</button></th>
+          <th scope="col" data-k="trip"><button type="button">Flights + stay</button></th>
+          <th scope="col" data-k="food"><button type="button">Food &amp; fun</button></th>
+          <th scope="col" data-k="hi"><button type="button">Weather</button></th>
+          <th scope="col" data-k="pass"><button type="button">Passport</button></th>
+          <th scope="col" data-k="hrs"><button type="button">Flight</button></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="trips" class="wrap">
+    <h2>The trips</h2>
+    <p class="hint">Swipe the days sideways on a phone. Flight, hotel area and sources are under "Trip details".</p>
+    <div id="cards"></div>
+  </section>
+
+  <section id="picks" class="wrap">
+    <h2>Our top 5</h2>
+    <p class="hint">Ranked for Mom and Dad first, then cost and how easy the week feels.</p>
+    <div class="picks" id="picklist"></div>
+  </section>
+</main>
+
+<footer class="wrap" id="foot"></footer>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const money = n => "$" + Math.round(n).toLocaleString("en-US");
+const DATES = ["Sat Dec 12", "Sun Dec 13", "Mon Dec 14", "Tue Dec 15", "Wed Dec 16", "Thu Dec 17", "Fri Dec 18", "Sat Dec 19", "Sun Dec 20"];
+const hrs = d => { const m = String(d.flight.hours || "").match(/(\d+)\s*h(?:\D*(\d+))?/); return m ? +m[1] + (+m[2] || 0) / 60 : 99; };
+
+function photo(p, cls = "") {
+  if (!p) return `<figure class="broken ${cls}" data-cap=""></figure>`;
+  return `<figure class="${cls}" data-cap="${esc(p.caption)}">
+    <img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="${esc(p.caption)}" loading="lazy" referrerpolicy="no-referrer">
+    <span class="credit">${esc(p.caption)} &middot; <a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.author)}, ${esc(p.license)}</a></span>
+  </figure>`;
+}
+// If the 960px thumbnail fails (e.g. original smaller than 960px), try the original; then fall back to a caption tile.
+document.addEventListener("error", e => {
+  const img = e.target;
+  if (img.tagName !== "IMG") return;
+  if (img.dataset.orig && img.src !== img.dataset.orig) { img.src = img.dataset.orig; return; }
+  const fig = img.closest("figure"); if (fig) fig.classList.add("broken");
+  else img.style.visibility = "hidden";
+}, true);
+
+function card(d) {
+  const c = d.costPP, w = d.weather, hero = d.heroPhotos || [];
+  const days = (d.itinerary || []).map((x, i) => `
+    <article class="day">
+      ${photo(x.photo)}
+      <div class="dt">
+        <span class="dn">Day ${x.day} &middot; ${DATES[i] || ""}</span>
+        <span class="tt">${esc(x.title)}</span>
+        <p>${esc(x.plan)}</p>
+        ${x.eat ? `<span class="eat"><b>Eat:</b> ${esc(x.eat)}</span>` : ""}
+      </div>
+    </article>`).join("");
+  const tick = v => v ? `<span class="ok">checked</span>` : `<span class="unv">estimate</span>`;
+  const li = a => (a || []).map(x => `<li>${esc(x)}</li>`).join("");
+  return `
+  <article class="dest" id="${esc(d.id)}" data-id="${esc(d.id)}">
+    <div class="mosaic n${Math.min(hero.length, 3)}">${hero.slice(0, 3).map(p => photo(p)).join("")}</div>
+    <div class="dbody">
+      <div class="dhead"><h3>${esc(d.name)}</h3><span class="tag">${esc(d.tagline)}</span></div>
+      <div class="facts">
+        <div class="fact"><div class="k">Flights + stay</div><div class="v num">${money(c.trip)}</div><div class="s">per person, about</div></div>
+        <div class="fact"><div class="k">Food &amp; fun</div><div class="v num">${money(c.foodFun)}</div><div class="s">per person, for the week</div></div>
+        <div class="fact"><div class="k">Weather</div><div class="v num">${w.highF}&deg; / ${w.lowF}&deg;F</div><div class="s">${esc(w.daylight)} of daylight</div></div>
+        <div class="fact"><div class="k">Passport</div><div class="v">${d.passport ? "Yes" : "Not needed"}</div><div class="s">${esc(d.flight.from)} &rarr; ${esc(d.flight.hours)}</div></div>
+      </div>
+      <p class="why"><b>Why Mom &amp; Dad would love it:</b> ${esc(d.whyParents)}</p>
+      <div class="itin"><h4>The week, day by day</h4><div class="days">${days}</div></div>
+      <details>
+        <summary>Trip details: flights, where to stay, getting around</summary>
+        <div class="grid2">
+          <div><h5>Flights</h5><p>${esc(d.flight.airline)}: ${esc(d.flight.routing)}${d.flight.notes ? ". " + esc(d.flight.notes) : ""}</p></div>
+          <div><h5>Where to stay</h5><p>${esc(d.stay)}</p></div>
+          <div><h5>Getting around</h5><p>${esc(d.getAround)}</p></div>
+          <div><h5>Weather</h5><p>${w.highF}&deg;F days, ${w.lowF}&deg;F nights, ${esc(w.daylight)} daylight. ${esc(w.precip)}</p></div>
+          <div><h5>Happening that week</h5><ul>${li(d.events)}</ul></div>
+          <div><h5>Entry for US citizens</h5><p>${esc(d.entry)}</p></div>
+          <div><h5>The good</h5><ul>${li(d.pros)}</ul></div>
+          <div><h5>Watch out for</h5><ul>${li(d.cons)}</ul></div>
+          <div class="cost"><h5>Cost per person</h5>
+            <table><tbody>
+              <tr><td>Flights</td><td class="num">${money(c.flights)}</td><td>${tick(c.flightsVerified)}</td></tr>
+              <tr><td>Stay (split 4 ways)</td><td class="num">${money(c.lodging)}</td><td>${tick(c.lodgingVerified)}</td></tr>
+              <tr><td>Food &amp; fun</td><td class="num">${money(c.foodFun)}</td><td><span class="unv">estimate</span></td></tr>
+            </tbody></table>
+            <p style="margin-top:6px">${esc(c.flightsBasis)} ${esc(c.lodgingBasis)}</p>
+          </div>
+          ${(d.unverified || []).length ? `<div><h5>Not yet confirmed</h5><ul>${li(d.unverified)}</ul></div>` : ""}
+        </div>
+      </details>
+      <details class="sources">
+        <summary>Sources (${(d.sources || []).length})</summary>
+        <ol>${(d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("")}</ol>
+      </details>
+    </div>
+  </article>`;
+}
+
+function row(d) {
+  const c = d.costPP, w = d.weather, p = (d.heroPhotos || [])[0];
+  return `<tr data-id="${esc(d.id)}">
+    <td class="place">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
+      <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a></td>
+    <td class="num big">${money(c.trip)}</td>
+    <td class="num">${money(c.foodFun)}</td>
+    <td><span class="pill ${d.warm ? "warm" : "cold"} num">${w.highF}&deg; / ${w.lowF}&deg;F</span></td>
+    <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? "Yes" : "No"}</span></td>
+    <td class="num">${esc(d.flight.hours)}<small style="display:block;color:var(--muted)">${esc(d.flight.from)}</small></td>
+  </tr>`;
+}
+
+const dests = DATA.dests;
+const byId = Object.fromEntries(dests.map(d => [d.id, d]));
+const regions = [...new Set(dests.map(d => d.region))];
+const F = { region: "All", temp: "Any", nopass: false };
+const sortKeys = {
+  name: d => d.name, trip: d => d.costPP.trip, food: d => d.costPP.foodFun,
+  hi: d => d.weather.highF, pass: d => d.passport ? 1 : 0, hrs: hrs,
+};
+let sort = { k: "trip", dir: 1 };
+
+function chips() {
+  const b = (label, on, act, cls = "") => `<button type="button" class="chip ${cls}" aria-pressed="${on}" data-act="${act}">${label}</button>`;
+  $("#chips").innerHTML =
+    ["All", ...regions].map(r => b(r === "All" ? "All places" : r, F.region === r, "region:" + r)).join("") +
+    b("Warm", F.temp === "Warm", "temp:Warm", "sep") + b("Snowy / cold", F.temp === "Cold", "temp:Cold") +
+    b("No passport", F.nopass, "nopass", "sep");
+}
+$("#chips").addEventListener("click", e => {
+  const a = e.target.closest("button")?.dataset.act; if (!a) return;
+  const [k, v] = a.split(":");
+  if (k === "region") F.region = v;
+  if (k === "temp") F.temp = F.temp === v ? "Any" : v;
+  if (k === "nopass") F.nopass = !F.nopass;
+  apply();
+});
+
+const show = d => (F.region === "All" || d.region === F.region) &&
+  (F.temp === "Any" || (F.temp === "Warm") === !!d.warm) && (!F.nopass || !d.passport);
+
+function apply() {
+  chips();
+  const list = [...dests].sort((a, b) => {
+    const x = sortKeys[sort.k](a), y = sortKeys[sort.k](b);
+    return (x > y ? 1 : x < y ? -1 : 0) * sort.dir;
+  });
+  const tb = $("#tbl tbody");
+  tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="6">No trips match. Clear a filter above.</td></tr>`;
+  document.querySelectorAll("#tbl th").forEach(th => th.setAttribute("aria-sort", th.dataset.k === sort.k ? (sort.dir > 0 ? "ascending" : "descending") : "none"));
+  document.querySelectorAll(".dest").forEach(el => { el.hidden = !show(byId[el.dataset.id]); });
+  const n = dests.filter(show).length;
+  $("#count").textContent = n === dests.length ? `${n} trips` : `Showing ${n} of ${dests.length} trips`;
+}
+document.querySelectorAll("#tbl th button").forEach(btn => btn.addEventListener("click", () => {
+  const k = btn.parentElement.dataset.k;
+  sort = { k, dir: sort.k === k ? -sort.dir : 1 }; apply();
+}));
+
+$("#cards").innerHTML = [...dests].sort((a, b) => a.costPP.trip - b.costPP.trip).map(card).join("");
+$("#picklist").innerHTML = DATA.recs.map((r, i) => {
+  const d = byId[r.id]; if (!d) return "";
+  return `<a class="pick ${i === 0 ? "first" : ""}" href="#${esc(d.id)}" style="color:inherit;text-decoration:none">
+    ${photo((d.heroPhotos || [])[0])}
+    <div class="pb"><div class="rank">${i + 1}</div><h3>${esc(d.name)}</h3>
+      <p><b class="num">${money(d.costPP.trip)}</b> flights + stay &middot; ${d.weather.highF}&deg;F &middot; ${d.passport ? "passport" : "no passport"}</p>
+      <p style="margin-top:6px">${esc(r.why)}</p></div>
+  </a>`;
+}).join("");
+$("#foot").innerHTML = `Prices are per person for 4 adults, researched Oct 27, 2026, and will move. "Checked" means we found a real fare or listing; "estimate" means a typical price. Photos from Wikimedia Commons, credited on each image.`;
+apply();
+</script>
+</body>
+</html>

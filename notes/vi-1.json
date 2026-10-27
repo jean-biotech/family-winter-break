@@ -1,0 +1,782 @@
+{
+ "paris": {
+  "name": "Paris, Pháp",
+  "tagline": "Chợ Giáng Sinh, đại lộ rực đèn, đi Versailles trong ngày",
+  "whyParents": "Thành phố Ba Mẹ yêu thích nhất, trang hoàng mùa Giáng Sinh, đi tàu tới Versailles rất dễ.",
+  "stay": "Le Marais (quận 3/quận 4): đi bộ được, ở trung tâm, đồ ăn ngon",
+  "getAround": "Metro và RER, cộng đi bộ; không cần xe. RER C tới Versailles (~40 phút). Taxi hoặc RER B từ CDG.",
+  "entry": "Hộ chiếu còn hạn hơn 3 tháng sau ngày rời đi. Không cần visa, 90/180 ngày. Sinh trắc học EES áp dụng từ 10/4/2026; chưa cần ETIAS.",
+  "events": [
+   "Chợ Giáng Sinh Tuileries: 14/11/2026 đến 3/1/2027 (theo Sortiraparis; chưa công bố danh sách gian hàng)",
+   "Chợ Giáng Sinh La Défense: 12/11 đến 31/12/2026, khoảng 300 gian hàng gỗ và sân trượt băng",
+   "Galeries Lafayette: tủ kính do Castelbajac thiết kế và cây thông dưới mái vòm ra mắt giữa tháng 11/2026; sân băng trên sân thượng mở từ 24/11/2026",
+   "Quy định Schengen 90/180: tối đa 90 ngày trong bất kỳ 180 ngày nào; chuyến này dùng 6 đến 7 ngày."
+  ],
+  "pros": [
+   "AA bay thẳng từ PHL",
+   "Chợ và tủ kính đẹp nhất trong năm",
+   "Đi tàu trong ngày rất tiện"
+  ],
+  "cons": [
+   "Ngày ngắn, trời xám, hay ẩm ướt",
+   "Chỗ ở tháng 12 đắt",
+   "Đông người ở Lafayette và các chợ"
+  ],
+  "unverified": [
+   "Tần suất chuyến AA PHL-CDG tháng 12 chưa xác nhận qua lịch bay đăng ký; vé tháng 12/2026 đang bán trên aa.com nên có vẻ vẫn bay.",
+   "Chưa tìm thấy ngày chính xác Galeries Lafayette ra mắt năm 2026.",
+   "Ngày chợ Tuileries 2026 chỉ có từ một nguồn.",
+   "Chỗ ở và ăn uống là ước tính.",
+   "Chưa tính giá phương án Reims/Champagne thay cho Versailles.",
+   "ETIAS: trang chính thức của EU vẫn ghi quý 4/2026, chưa công bố ngày; FT/TPG đưa tin lùi sang 2027. Dù sao thì đến 27/10/2026 vẫn chưa áp dụng và chưa bắt buộc; chưa có ngày chính thức cho 2027.",
+   "Số liệu thời tiết là mức trung bình khí hậu theo hiểu biết chung, chưa kiểm tra lần này."
+  ],
+  "precip": "mưa phùn khoảng 10 ngày/tháng, hiếm khi có tuyết",
+  "flightText": "American: American PHL-CDG bay thẳng (AA754), hằng ngày. Lựa chọn khác: Aer Lingus qua DUB 12-15/12/2026 $924 (1 điểm dừng); tiết kiệm không đáng kể",
+  "itinerary": [
+   {
+    "title": "Đến nơi + dạo sông Seine",
+    "plan": "Đáp CDG, nhận phòng, đi dạo dọc sông Seine lúc chạng vạng, xem tháp Eiffel lấp lánh mỗi đầu giờ.",
+    "eat": "Súp hành ở Au Pied de Cochon"
+   },
+   {
+    "title": "Bảo tàng Louvre + chợ Tuileries",
+    "plan": "Sáng đi Louvre (đặt vé trước), chiều dạo chợ Giáng Sinh Tuileries, uống rượu vang nóng, đi vòng quay.",
+    "eat": "Vin chaud và bánh crêpe ở chợ"
+   },
+   {
+    "title": "Tủ kính + Nhà hát Opéra",
+    "plan": "Cây thông và sân thượng Galeries Lafayette, tủ kính Printemps, tham quan Palais Garnier.",
+    "eat": "Ăn trưa ở Galeries Lafayette Le Gourmet"
+   },
+   {
+    "title": "Đi Versailles trong ngày",
+    "plan": "Đi RER C tới Versailles; cung điện, Phòng Gương, khu vườn mùa đông. Về trước khi trời tối.",
+    "eat": "Ore, quán cà phê của Alain Ducasse trong cung điện"
+   },
+   {
+    "title": "Nhà thờ Đức Bà + Khu La Tinh",
+    "plan": "Nhà thờ Đức Bà đã mở cửa lại, Sainte-Chapelle, tiệm sách Shakespeare and Company, vườn Luxembourg.",
+    "eat": "Bít tết khoai chiên ở Le Relais de l'Entrecôte"
+   },
+   {
+    "title": "Montmartre + đèn Champs-Élysées",
+    "plan": "Nhà thờ Sacré-Cœur và quảng trường họa sĩ; tối ngắm đèn Champs-Élysées tới Khải Hoàn Môn.",
+    "eat": "Ăn tối ở Le Consulat, Montmartre"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ăn sáng bánh ngọt, đi RER B hoặc taxi ra CDG cho chuyến AA buổi chiều.",
+    "eat": "Bánh sừng bò ở Du Pain et des Idées"
+   }
+  ]
+ },
+ "paris-alsace": {
+  "name": "Paris + Strasbourg và Colmar, Pháp",
+  "tagline": "Paris cộng những chợ Giáng Sinh nổi tiếng nhất nước Pháp",
+  "whyParents": "Paris lung linh cộng những làng Alsace như trong truyện cổ tích, thủ phủ chợ Giáng Sinh kinh điển của châu Âu, nối bằng tàu nhanh TGV.",
+  "stay": "Paris: Le Marais. Strasbourg: Grande Île, vài bước là tới chợ",
+  "getAround": "TGV từ ga Paris Est tới Strasbourg ~1g50; TER từ Strasbourg tới Colmar ~30 phút. Tại chỗ thì đi bộ và tàu điện; không cần xe.",
+  "entry": "Hộ chiếu còn hạn hơn 3 tháng sau ngày rời đi. Không cần visa, 90/180 ngày. Sinh trắc học EES áp dụng từ 10/4/2026; chưa cần ETIAS.",
+  "events": [
+   "Chợ Christkindelsmärik Strasbourg: khai mạc Thứ Sáu 27/11/2026; dự kiến đóng 24/12 (ngày kết thúc chưa chính thức)",
+   "Chợ Giáng Sinh Colmar: 23/11 đến 29/12/2026 (sáu chợ)",
+   "Chợ Tuileries ở Paris 14/11/2026 đến 3/1/2027; La Défense 12/11 đến 31/12/2026",
+   "Quy định Schengen 90/180: tối đa 90 ngày trong bất kỳ 180 ngày nào; chuyến này dùng 6 đến 7 ngày."
+  ],
+  "pros": [
+   "Chợ Giáng Sinh đẹp nhất nước Pháp",
+   "Tàu nhanh, cảnh đẹp, không phải lái xe",
+   "Vừa thành phố lớn vừa làng quê"
+  ],
+  "cons": [
+   "Chợ Strasbourg cuối tuần rất đông",
+   "Lạnh nhất trong các lựa chọn",
+   "Đổi khách sạn hai lần trong tuần"
+  ],
+  "unverified": [
+   "Ngày đóng chợ Strasbourg 2026 chưa công bố (năm 2025 kết thúc 24/12).",
+   "Thời gian TGV ~1g50 và Colmar ~30 phút lấy từ hiểu biết chung/trang tổng hợp; giá vé là ước tính.",
+   "Tần suất chuyến AA PHL-CDG tháng 12 chưa xác nhận qua lịch bay đăng ký.",
+   "Chỗ ở và ăn uống là ước tính.",
+   "ETIAS: trang chính thức của EU vẫn ghi quý 4/2026, chưa công bố ngày; FT/TPG đưa tin lùi sang 2027. Dù sao thì đến 27/10/2026 vẫn chưa áp dụng và chưa bắt buộc; chưa có ngày chính thức cho 2027.",
+   "Số liệu thời tiết là mức trung bình khí hậu theo hiểu biết chung, chưa kiểm tra lần này."
+  ],
+  "precip": "lạnh, nhiều ngày trời xám, Alsace có thể có tuyết",
+  "flightText": "American: American PHL-CDG bay thẳng khứ hồi; TGV tới Strasbourg. Lựa chọn khác: Aer Lingus 1 điểm dừng ~$924",
+  "itinerary": [
+   {
+    "title": "Đến Paris",
+    "plan": "Đáp CDG, nhận phòng ở Marais, tối dạo sông Seine và xem tháp Eiffel lấp lánh.",
+    "eat": "Ăn tối kiểu bistro ở Chez Janou"
+   },
+   {
+    "title": "Bảo tàng Louvre + chợ Tuileries",
+    "plan": "Sáng đi Louvre, dạo chợ Giáng Sinh Tuileries, ngắm cây thông Galeries Lafayette trước bữa tối.",
+    "eat": "Vin chaud và raclette ở chợ"
+   },
+   {
+    "title": "Đi TGV tới Strasbourg",
+    "plan": "Sáng đi TGV; chiều ngắm cây thông khổng lồ ở Place Kléber và chợ Christkindelsmärik ở Place Broglie.",
+    "eat": "Tarte flambée ở Maison Kammerzell"
+   },
+   {
+    "title": "Phố cổ Strasbourg",
+    "plan": "Nhà thờ lớn và đồng hồ thiên văn, kênh đào Petite France, đi thuyền, tối dạo chợ.",
+    "eat": "Choucroute ở Au Pont Saint-Martin"
+   },
+   {
+    "title": "Đi Colmar trong ngày",
+    "plan": "Đi tàu tới Colmar; khu Little Venice, sáu khu chợ, phố nhà khung gỗ lên đèn lúc chạng vạng.",
+    "eat": "Bánh quy Bredele và rượu riesling Alsace"
+   },
+   {
+    "title": "Về lại Paris",
+    "plan": "Sáng đi TGV về Paris; chiều lên Montmartre, tối ngắm đèn Champs-Élysées.",
+    "eat": "Ăn tối ở Le Consulat, Montmartre"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Đi RER B hoặc taxi ra CDG đón chuyến AA về nhà.",
+    "eat": "Bánh ngọt ở Du Pain et des Idées"
+   }
+  ]
+ },
+ "portugal": {
+  "name": "Lisbon + Porto, Bồ Đào Nha",
+  "tagline": "Thời tiết dễ chịu, đèn lễ hội, rượu port và bánh ngọt",
+  "whyParents": "Thủ đô châu Âu có mùa đông ấm nhất, rẻ và duyên dáng, có hầm rượu port và chuyến tàu cảnh đẹp lên phía bắc.",
+  "stay": "Lisbon: Chiado/Baixa, đường bằng, ở trung tâm. Porto: Ribeira",
+  "getAround": "Đi bộ, tàu điện và metro; Uber rẻ. Tàu Alfa Pendular từ Lisbon tới Porto ~2g40, €35.70. Tàu tới Sintra 40 phút.",
+  "entry": "Hộ chiếu còn hạn hơn 3 tháng sau ngày rời đi. Không cần visa, 90/180 ngày. Sinh trắc học EES áp dụng từ 10/4/2026; chưa cần ETIAS.",
+  "events": [
+   "Wonderland Lisboa, công viên Eduardo VII: báo chí đưa tin khai mạc 27/11/2026 (ban tổ chức chưa xác nhận); năm 2025 diễn ra 28/11 đến 4/1, vào cửa miễn phí",
+   "Đèn Giáng Sinh Lisbon: chưa công bố ngày thắp đèn năm 2026",
+   "Quy định Schengen 90/180: tối đa 90 ngày trong bất kỳ 180 ngày nào; chuyến này dùng 6 đến 7 ngày."
+  ],
+  "pros": [
+   "Thời tiết ấm nhất trong các lựa chọn",
+   "AA bay thẳng từ PHL",
+   "Chỗ ở và ăn uống rẻ nhất"
+  ],
+  "cons": [
+   "Tháng mưa nhiều, đường đá dốc trơn trượt",
+   "Cung điện Sintra có thể bị sương mù",
+   "Về từ thành phố khác nên thêm một chặng nối"
+  ],
+  "unverified": [
+   "Loại máy bay/tần suất AA PHL-LIS từ 2/12 đến 4/1 suy ra từ hồ sơ đổi máy bay (787-9 tới 1/12, A321XLR từ 5/1).",
+   "Ngày Wonderland Lisboa 2026 chưa được ban tổ chức xác nhận.",
+   "Chưa thấy giá vé AA PHL-LIS tháng 12; giá vé máy bay là ước tính.",
+   "Chưa kiểm tra giá chặng nối Porto-Lisbon trong cùng ngày.",
+   "Chỗ ở và ăn uống là ước tính.",
+   "ETIAS: trang chính thức của EU vẫn ghi quý 4/2026, chưa công bố ngày; FT/TPG đưa tin lùi sang 2027. Dù sao thì đến 27/10/2026 vẫn chưa áp dụng và chưa bắt buộc; chưa có ngày chính thức cho 2027.",
+   "Số liệu thời tiết là mức trung bình khí hậu theo hiểu biết chung, chưa kiểm tra lần này."
+  ],
+  "precip": "mùa mưa, khoảng 10 ngày mưa/tháng",
+  "flightText": "American (nối chuyến TAP): American PHL-LIS bay thẳng khứ hồi; TAP OPO-LIS để nối chuyến về. Lựa chọn khác: Hoặc đi tàu Porto-Lisbon ngày 17/12 rồi bay thẳng LIS-PHL ngày 18/12 (~$830 vé máy bay + ~$40 vé tàu)",
+  "itinerary": [
+   {
+    "title": "Đến Lisbon",
+    "plan": "Đáp LIS, nhận phòng ở Chiado, dạo phố Rua Augusta tới cây thông ở Praça do Comércio.",
+    "eat": "Bánh mì kẹp bifana ở O Trevo"
+   },
+   {
+    "title": "Alfama + lâu đài",
+    "plan": "Đi tàu điện số 28, ngắm cảnh từ lâu đài São Jorge, dạo hẻm Alfama, tối nghe nhạc fado.",
+    "eat": "Ăn tối nghe fado ở Clube de Fado"
+   },
+   {
+    "title": "Belém",
+    "plan": "Tu viện Jerónimos, tháp Belém, bờ sông MAAT; tối đi Wonderland Lisboa.",
+    "eat": "Bánh Pastéis de Belém nóng rắc quế"
+   },
+   {
+    "title": "Đi Sintra trong ngày",
+    "plan": "Đi tàu tới Sintra; cung điện Pena và Quinta da Regaleira.",
+    "eat": "Bánh Travesseiros ở Piriquita"
+   },
+   {
+    "title": "Đi tàu tới Porto",
+    "plan": "Đi Alfa Pendular lên bắc; chiều dạo Ribeira và cầu Dom Luís I lúc hoàng hôn.",
+    "eat": "Francesinha ở Café Santiago"
+   },
+   {
+    "title": "Hầm rượu port",
+    "plan": "Tiệm sách Livraria Lello, gạch men ga São Bento, qua Gaia nếm rượu port.",
+    "eat": "Nếm rượu port ở Graham's Lodge"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Nối chuyến Porto đi Lisbon, rồi bay AA LIS-PHL.",
+    "eat": "Bánh tart trứng pastel de nata ở Manteigaria"
+   }
+  ]
+ },
+ "greece": {
+  "name": "Athens, Hy Lạp",
+  "tagline": "Acropolis vắng khách, Delphi và Sounion",
+  "whyParents": "Kỳ quan cổ đại gần như không phải xếp hàng, ngày ấm nắng, đồ ăn ngon giá rẻ.",
+  "stay": "Plaka hoặc Koukaki: đi bộ tới Acropolis",
+  "getAround": "Metro từ sân bay, đi bộ trong trung tâm. Delphi ~2g30 lái xe: sedan cỡ trung hoặc đi tour. Sounion ~1g15 lái dọc bờ biển.",
+  "entry": "Hộ chiếu còn hạn hơn 3 tháng sau ngày rời đi. Không cần visa, 90/180 ngày. Sinh trắc học EES áp dụng từ 10/4/2026; chưa cần ETIAS.",
+  "events": [
+   "Cây thông Giáng Sinh quảng trường Syntagma: thắp đèn cuối tháng 11 (28/11/2024, 27/11/2025); chưa tìm thấy ngày năm 2026",
+   "Các đảo phần lớn đóng cửa tháng 12: phà giảm chuyến, đa số khách sạn và quán ăn trên đảo nghỉ",
+   "Quy định Schengen 90/180: tối đa 90 ngày trong bất kỳ 180 ngày nào; chuyến này dùng 6 đến 7 ngày."
+  ],
+  "pros": [
+   "Acropolis gần như vắng tanh vào tháng 12",
+   "Ấm và thường có nắng",
+   "Đồ ăn rẻ nhất trong các lựa chọn"
+  ],
+  "cons": [
+   "Tháng 12 không có AA bay thẳng",
+   "Các đảo phần lớn đóng cửa",
+   "Đi Delphi cần xe hoặc tour"
+  ],
+  "unverified": [
+   "Lịch Emirates EWR-ATH tháng 12/2026 lấy từ trang tổng hợp không chính thức (EK210 hằng ngày, ~9g10).",
+   "Chưa rõ Delta JFK-ATH và United EWR-ATH có bay tháng 12 không (có tin nói Delta chỉ bay tới đầu tháng 12).",
+   "Chưa tìm thấy ngày thắp đèn Syntagma 2026 và các sự kiện Giáng Sinh ở Athens.",
+   "Chỗ ở, ăn uống và chi phí xe/tour là ước tính.",
+   "ETIAS: trang chính thức của EU vẫn ghi quý 4/2026, chưa công bố ngày; FT/TPG đưa tin lùi sang 2027. Dù sao thì đến 27/10/2026 vẫn chưa áp dụng và chưa bắt buộc; chưa có ngày chính thức cho 2027.",
+   "Số liệu thời tiết là mức trung bình khí hậu theo hiểu biết chung, chưa kiểm tra lần này."
+  ],
+  "precip": "mưa khoảng 10 ngày/tháng, nhiều ngày nắng",
+  "flightText": "Emirates: Emirates EWR-ATH bay thẳng (EK210/EK209), hằng ngày. Lựa chọn khác: AA PHL-ATH 1 điểm dừng qua châu Âu từ $987",
+  "itinerary": [
+   {
+    "title": "Đến Athens",
+    "plan": "Đáp ATH, đi metro tới Plaka, tối dạo phố dưới Acropolis lên đèn.",
+    "eat": "Souvlaki ở Kostas, quảng trường Agia Irini"
+   },
+   {
+    "title": "Acropolis",
+    "plan": "Lên Acropolis sớm, rồi bảo tàng Acropolis và ngắm hoàng hôn trên đồi Areopagus.",
+    "eat": "Ăn tối ở Mani Mani, Koukaki"
+   },
+   {
+    "title": "Agora + Syntagma",
+    "plan": "Agora cổ, chợ Monastiraki, cây thông Syntagma, tối xem đổi gác.",
+    "eat": "Bánh Loukoumades ở Lukumades"
+   },
+   {
+    "title": "Đi Delphi trong ngày",
+    "plan": "Đi tour hoặc lái xe tới Delphi: đền sấm truyền, bảo tàng, ăn trưa ở Arachova.",
+    "eat": "Ăn trưa ở quán trong làng Arachova"
+   },
+   {
+    "title": "Mũi Sounion",
+    "plan": "Sáng dạo Vườn Quốc gia, chiều lái dọc biển tới đền Poseidon ngắm hoàng hôn.",
+    "eat": "Hải sản ở một quán ăn tại Sounion"
+   },
+   {
+    "title": "Sân vận động Panathenaic + đồi Lycabettus",
+    "plan": "Sân vận động Panathenaic, cửa hàng ở Plaka, đi cáp kéo lên Lycabettus ngắm đèn thành phố.",
+    "eat": "Mezze ở Klimataria, có nhạc sống"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Đi metro ra sân bay đón chuyến Emirates về EWR (khởi hành buổi chiều).",
+    "eat": "Ăn sáng bánh Bougatsa ở Bougatsadiko"
+   }
+  ]
+ },
+ "thailand": {
+  "name": "Bangkok + Chiang Mai, Thái Lan",
+  "tagline": "Chùa vàng, đồ ăn đường phố, đồi núi miền bắc mát mẻ",
+  "whyParents": "Thái Lan mà Ba Mẹ tò mò: cung điện tráng lệ, voi hiền lành, thời tiết ấm khô, chi phí rất thấp.",
+  "stay": "Bangkok: ven sông/Silom, đi thuyền tới chùa. Chiang Mai: Phố Cổ, đi bộ khắp nơi.",
+  "getAround": "Tàu trên cao BTS, thuyền trên sông, xe Grab (đặt XL cho 4 người + hành lý). Bay BKK-Chiang Mai. Không cần tự lái.",
+  "entry": "Miễn visa 30 ngày (giảm từ 60 ngày kể từ 15/9/2026). Khai TDAC miễn phí trên mạng trong vòng 3 ngày trước khi đến.",
+  "events": [
+   "Chưa xác nhận lễ hội nào trong 12 đến 18/12/2026; cao điểm mùa khô, mát",
+   "Chợ đêm Chiang Mai Night Bazaar mở mỗi tối"
+  ],
+  "pros": [
+   "Chi phí mỗi ngày thấp nhất trong các lựa chọn",
+   "Tháng 12 ấm, khô, nắng",
+   "Rất phong phú: chùa, đồ ăn, voi"
+  ],
+  "cons": [
+   "~22 tiếng mỗi chiều, nối chuyến một lần",
+   "Bangkok nóng và kẹt xe, dễ mệt",
+   "Không có AA bay thẳng; chỉ có hãng đối tác"
+  ],
+  "unverified": [
+   "Giá vé giữa tháng 12/2026 (chưa thấy báo giá cho 12 đến 19/12)",
+   "Lưu trú 30 ngày: xác nhận qua tiêu đề báo Bangkok Post, chưa đọc trực tiếp văn bản công báo",
+   "Chỗ ở và vé máy bay nội địa là ước tính thông thường",
+   "Số liệu thời tiết là mức trung bình khí hậu"
+  ],
+  "precip": "mùa khô, mưa khoảng 1 đến 2 ngày/tháng; đêm ở Chiang Mai ~60F",
+  "flightText": "JAL: JAL JFK-HND-BKK, 1 điểm dừng. Lựa chọn khác: EVA JFK-TPE-BKK hoặc Qatar qua DOH giá tương tự",
+  "itinerary": [
+   {
+    "title": "Đến Bangkok, hoàng hôn trên sông",
+    "plan": "Đi ngày 12/12, đến ngày 13/12. Nhận phòng, đi thuyền lúc hoàng hôn ngang chùa Wat Arun.",
+    "eat": "Pad thai ở Thipsamai"
+   },
+   {
+    "title": "Cung điện Hoàng gia + Wat Pho",
+    "plan": "Sáng sớm vào Cung điện Hoàng gia và chùa Phật Ngọc (che vai, đầu gối), Wat Pho, đi phà qua Wat Arun.",
+    "eat": "Tom yum tôm ở Krua Apsorn"
+   },
+   {
+    "title": "Chợ nổi + Phố Tàu",
+    "plan": "Sáng đi xe tới chợ nổi Damnoen Saduak, tối ăn đồ ăn đường phố ở Phố Tàu Yaowarat.",
+    "eat": "Heo quay giòn và súp bong bóng cá trên đường Yaowarat"
+   },
+   {
+    "title": "Bay tới Chiang Mai",
+    "plan": "Bay buổi sáng lên bắc. Chùa trong Phố Cổ: Wat Chedi Luang và Wat Phra Singh.",
+    "eat": "Khao soi ở Khao Soi Khun Yai"
+   },
+   {
+    "title": "Ngắm cảnh Doi Suthep",
+    "plan": "Đi Grab lên chùa Doi Suthep, ngắm toàn cảnh thành phố, rồi cà phê ở Nimman và massage Thái.",
+    "eat": "Xúc xích miền bắc ở Huen Phen"
+   },
+   {
+    "title": "Voi + chợ đêm",
+    "plan": "Nửa ngày ở khu bảo tồn voi nhân đạo, không cưỡi voi; tối mua sắm ở Night Bazaar.",
+    "eat": "Xôi xoài ở chợ"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Sáng dạo chùa, bay CNX-BKK hoặc qua Tokyo; đáp New York cùng ngày 19/12.",
+    "eat": "Ăn sáng cháo Jok"
+   }
+  ]
+ },
+ "south-vietnam": {
+  "name": "TP. Hồ Chí Minh, miền Tây + Phú Quốc, Việt Nam",
+  "tagline": "Sài Gòn nhộn nhịp, chợ nổi, biển đảo",
+  "whyParents": "Sài Gòn với nét Pháp xưa, chợ nổi miền Tây và kết thúc ở bãi biển ấm áp, giá rất rẻ.",
+  "stay": "Quận 1 gần Đồng Khởi, đi bộ tới các công trình thời Pháp.",
+  "getAround": "Xe Grab (loại 7 chỗ cho 4 người + hành lý), xe riêng đi miền Tây, bay chặng ngắn ra Phú Quốc. Không tự lái.",
+  "entry": "Cần e-visa: $25, tối đa 90 ngày, nộp tại evisa.gov.vn khoảng 1 tuần trước.",
+  "events": [
+   "Chưa xác nhận lễ hội nào trong 12 đến 18/12/2026; giữa tháng 12 đường phố Quận 1 thường trang trí Giáng Sinh (thường lệ, chưa xác nhận)"
+  ],
+  "pros": [
+   "Ăn ở rẻ nhất trong các lựa chọn",
+   "Miền Nam ấm, phần lớn khô ráo",
+   "Kết thúc ở biển Phú Quốc"
+  ],
+  "cons": [
+   "Phải làm thủ tục e-visa",
+   "Xe máy ở Sài Gòn rất hỗn loạn",
+   "~22 tiếng di chuyển, mỗi chiều nối chuyến một lần"
+  ],
+  "unverified": [
+   "Giá vé tháng 12/2026 (chưa tìm thấy); lịch bay nội địa Cần Thơ-Phú Quốc",
+   "Thông tin e-visa lấy từ trang thứ cấp, không trực tiếp từ evisa.gov.vn",
+   "Nhà thờ Đức Bà có thể vẫn đang trùng tu (chưa kiểm tra)",
+   "Số liệu thời tiết là mức trung bình khí hậu"
+  ],
+  "precip": "bắt đầu mùa khô, TP.HCM mưa khoảng 5 ngày/tháng; miền Trung (Hội An) tháng 12 mưa nhiều và dễ lũ nên bỏ qua",
+  "flightText": "JAL: JAL JFK-HND-SGN, 1 điểm dừng. Lựa chọn khác: Korean Air qua ICN hoặc Cathay qua HKG giá tương tự",
+  "itinerary": [
+   {
+    "title": "Đến Sài Gòn, quán sân thượng",
+    "plan": "Đi ngày 12/12, đến ngày 13/12. Nghỉ ngơi, tối lên quán bar sân thượng nhìn ra sông Sài Gòn.",
+    "eat": "Phở ở Phở Hòa Pasteur"
+   },
+   {
+    "title": "Sài Gòn thời Pháp",
+    "plan": "Ngắm bên ngoài Nhà thờ Đức Bà, Bưu điện Thành phố, Bảo tàng Chứng tích Chiến tranh, chợ Bến Thành.",
+    "eat": "Bánh mì ở Bánh Mì Huỳnh Hoa"
+   },
+   {
+    "title": "Địa đạo Củ Chi",
+    "plan": "Nửa ngày đi tour địa đạo Củ Chi, chiều bơi hồ, tối đi tour ăn vặt bằng xe ôm.",
+    "eat": "Cơm tấm ở Cơm Tấm Ba Ghiền"
+   },
+   {
+    "title": "Xuống miền Tây",
+    "plan": "Sáng ghé chụp hình Bưu điện, đi xe riêng xuống Cần Thơ (~3,5 tiếng), ghé vườn trái cây và đi thuyền.",
+    "eat": "Cá tai tượng cuốn bánh tráng"
+   },
+   {
+    "title": "Chợ nổi, bay ra đảo",
+    "plan": "Sáng sớm đi thuyền ra chợ nổi Cái Răng, rồi bay chặng ngắn ra Phú Quốc, ngắm hoàng hôn trên biển.",
+    "eat": "Hủ tiếu trên ghe"
+   },
+   {
+    "title": "Một ngày ở biển Phú Quốc",
+    "plan": "Tắm biển Bãi Sao, cáp treo vượt biển Hòn Thơm, hải sản lúc hoàng hôn ở chợ đêm Dương Đông.",
+    "eat": "Mực nướng và nước mắm Phú Quốc"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Sáng tắm biển, bay PQC-SGN, nối chuyến về nhà; đáp New York ngày 19/12.",
+    "eat": "Cà phê sữa đá"
+   }
+  ]
+ },
+ "oahu": {
+  "name": "Oahu (Honolulu + Waikiki), Hawaii",
+  "tagline": "Biển Waikiki, Trân Châu Cảng, sóng lớn North Shore",
+  "whyParents": "Chuyến Hawaii đầu tiên dễ đi: phố biển đi bộ được, lịch sử Thế chiến II sâu sắc, mùa sóng lớn ở North Shore.",
+  "stay": "Waikiki (phía đường Kuhio): đi bộ ra biển, quán ăn, không cần xe",
+  "getAround": "Ở Honolulu đi bộ/xe buýt TheBus/Uber. Thuê SUV cỡ lớn hoặc xe minivan 3 ngày để đi North Shore và bờ đông.",
+  "entry": "Nội địa Mỹ: không cần hộ chiếu. Cần REAL ID hoặc hộ chiếu để qua TSA.",
+  "events": [
+   "Honolulu Marathon: Chủ Nhật 13/12/2026, xuất phát 5 giờ sáng ở đại lộ Ala Moana, về đích ở công viên Kapiolani; sáng hôm đó nhiều đường ở Waikiki bị chặn",
+   "Kalakaua Merrie Mile: Thứ Bảy 12/12/2026, 7 giờ sáng, đường Monsarrat (cuối tuần marathon)",
+   "Honolulu City Lights: khai mạc Thứ Bảy 5/12/2026; cây thông và đèn trang trí ở Honolulu Hale suốt mùa lễ (ngày kết thúc chưa xác nhận)",
+   "Mùa sóng lớn North Shore: có thể có thi lướt sóng ở vịnh Waimea nếu sóng đủ lớn (ngày tùy theo sóng)"
+  ],
+  "pros": [
+   "Nhiều chuyến bay nhất và chỗ ở rẻ nhất Hawaii",
+   "Waikiki đi bộ được, chỉ cần xe vài ngày",
+   "Lịch sử Trân Châu Cảng và cung điện Iolani"
+  ],
+  "cons": [
+   "Waikiki đông; đông người dự marathon 12-13/12",
+   "Ngày đi dài, khoảng 14 tiếng mỗi chiều",
+   "Vịnh Hanauma phải đặt chỗ trên mạng trước"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé thực tế cho 12-18/12/2026; giá AA là ước tính từ ảnh chụp trang tuyến bay trên aa.com (PHL-HNL khứ hồi từ $658, các tháng khác).",
+   "Không tìm thấy chuyến American bay thẳng PHL-HNL ở bất kỳ nguồn hãng bay/sân bay nào; nối chuyến thực tế là qua các trạm AA đi Hawaii (DFW, PHX, LAX, ORD).",
+   "Chuyến bay thẳng Hawaiian/Alaska JFK-HNL (HA/AS 830) chỉ thấy trên trang tổng hợp lịch bay cho mùa xuân 2026; chưa xác nhận có bay tháng 12/2026.",
+   "Giá chỗ ở và thuê xe là ước tính từ ảnh chụp tin đăng 2025-26 và mức trung bình của HTA, không phải báo giá thực tế tháng 12/2026.",
+   "Số liệu thời tiết là khí hậu tháng 12 thông thường, không phải dự báo.",
+   "Ngày kết thúc City Lights 2026",
+   "Ngày Merrie Mile chỉ có từ một trang hướng dẫn"
+  ],
+  "precip": "mưa rào thoáng qua, bờ đón gió ẩm hơn; sóng lớn ở North Shore",
+  "flightText": "Hawaiian (Alaska) hoặc Delta: Hawaiian/Alaska hoặc Delta JFK-HNL bay thẳng, hằng ngày. Lựa chọn khác: AA PHL-HNL 1 điểm dừng hạng Main Cabin ~$750. Theo FlightConnections, United EWR-HNL bay thẳng chỉ khoảng 2 chuyến/tuần nên ngày có thể không khớp",
+  "itinerary": [
+   {
+    "title": "Đến nơi + hoàng hôn Waikiki",
+    "plan": "Đáp HNL, nhận căn hộ ở Waikiki, dạo đại lộ Kalakaua và bãi biển lúc hoàng hôn.",
+    "eat": "Poke bowl ở Ono Seafood"
+   },
+   {
+    "title": "Leo Diamond Head đón bình minh",
+    "plan": "Đặt suất sớm leo Diamond Head, rồi đi Kapahulu và công viên Kapiolani. Xem về đích marathon nếu là ngày 13/12.",
+    "eat": "Bánh Malasadas ở Leonard's Bakery"
+   },
+   {
+    "title": "Trân Châu Cảng",
+    "plan": "Đặt vé theo giờ vào Đài tưởng niệm USS Arizona; thêm Thiết giáp hạm Missouri. Chiều đi cung điện Iolani và City Lights.",
+    "eat": "Cơm phần plate lunch ở Rainbow Drive-In"
+   },
+   {
+    "title": "Một ngày ở North Shore",
+    "plan": "Nhận xe SUV. Thị trấn Haleiwa, sóng lớn vịnh Waimea, rùa biển ở Laniakea, bãi Sunset.",
+    "eat": "Tôm tỏi ở xe Giovanni's"
+   },
+   {
+    "title": "Bờ đông + Kualoa",
+    "plan": "Tour thung lũng Kualoa Ranch, biển Kailua và Lanikai, lái xe về qua đài ngắm cảnh Pali.",
+    "eat": "Đá bào ở Island Snow, Kailua"
+   },
+   {
+    "title": "Lặn ngắm san hô vịnh Hanauma",
+    "plan": "Đặt chỗ lặn buổi sáng ở vịnh Hanauma, rồi đi đường mòn hải đăng Makapuu ngắm cảnh. Hoàng hôn cuối cùng ở Waikiki.",
+    "eat": "Loco moco ở Rainbow Drive-In"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Sáng ra biển, trả xe, bay chuyến chiều hoặc chuyến đêm về PHL.",
+    "eat": "Spam musubi ở chợ địa phương"
+   }
+  ]
+ },
+ "maui": {
+  "name": "Maui, Hawaii",
+  "tagline": "Bình minh Haleakala, đường Hana, mùa cá voi",
+  "whyParents": "Cảnh Hawaii kinh điển: bình minh trên núi lửa, cung đường thác nước, vịnh lặn êm, những con cá voi lưng gù đầu mùa.",
+  "stay": "Kihei: căn hộ rẻ hơn, biển êm, vị trí trung tâm",
+  "getAround": "Bắt buộc có xe. SUV cỡ lớn hoặc minivan cho 4 người lớn + hành lý; đường Hana hẹp, lái chậm.",
+  "entry": "Nội địa Mỹ: không cần hộ chiếu. Cần REAL ID hoặc hộ chiếu để qua TSA.",
+  "events": [
+   "Lahaina: phố Front Street dự kiến mở lại cho xe từ 1/8/2026, một số cửa hàng đã trở lại; nhiều lô đất vẫn trống; tôn trọng khu vực rào chắn",
+   "Cảng Lahaina nạo vét từ tháng 6 đến tháng 12/2026; cảng chưa mở lại hoàn toàn, đặt thuyền từ Maalaea",
+   "Bắt đầu mùa cá voi lưng gù (tháng 12 đến tháng 4)",
+   "American Airlines mở đường bay thẳng hằng ngày Chicago-Kahului từ 17/12/2026"
+  ],
+  "pros": [
+   "Cảnh đẹp ấn tượng nhất trong bốn đảo",
+   "Biển Nam Maui êm, nhiều nắng",
+   "Đi thuyền ngắm cá voi đầu mùa"
+  ],
+  "cons": [
+   "Chỗ ở đắt hơn Oahu",
+   "Lahaina vẫn đang xây lại sau vụ cháy 2023",
+   "Ngày nào cũng cần xe"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé thực tế cho 12-18/12/2026; giá AA là ước tính từ ảnh chụp trang tuyến bay trên aa.com (PHL-HNL khứ hồi từ $658, các tháng khác).",
+   "Không tìm thấy chuyến American bay thẳng PHL-HNL ở bất kỳ nguồn hãng bay/sân bay nào; nối chuyến thực tế là qua các trạm AA đi Hawaii (DFW, PHX, LAX, ORD).",
+   "Chuyến bay thẳng Hawaiian/Alaska JFK-HNL (HA/AS 830) chỉ thấy trên trang tổng hợp lịch bay cho mùa xuân 2026; chưa xác nhận có bay tháng 12/2026.",
+   "Giá chỗ ở và thuê xe là ước tính từ ảnh chụp tin đăng 2025-26 và mức trung bình của HTA, không phải báo giá thực tế tháng 12/2026.",
+   "Số liệu thời tiết là khí hậu tháng 12 thông thường, không phải dự báo.",
+   "Front Street có thật sự mở lại ngày 1/8/2026 không và nhà hàng nào đang mở"
+  ],
+  "precip": "khô ở Kihei/Wailea, mưa rào ở Hana; đỉnh Haleakala gần mức đóng băng lúc rạng sáng",
+  "flightText": "American: AA PHL-DFW/PHX/LAX-OGG, 1 điểm dừng. Lựa chọn khác: Bay thẳng JFK-HNL (~$450 một chiều) rồi bay tiếp tới OGG (~$90); không rẻ hơn hay nhanh hơn AA 1 điểm dừng",
+  "itinerary": [
+   {
+    "title": "Đến nơi + biển Kihei",
+    "plan": "Đáp OGG, nhận xe SUV, đi chợ, ngắm hoàng hôn ở bãi Kamaole III.",
+    "eat": "Taco cá ở Coconut's Fish Cafe"
+   },
+   {
+    "title": "Bình minh Haleakala",
+    "plan": "Lái xe lúc 3 giờ sáng, có đặt chỗ ngắm bình minh; đi bộ ngắn đường Sliding Sands; ăn trưa ở Kula trên đường xuống.",
+    "eat": "Ăn sáng ở Kula Lodge"
+   },
+   {
+    "title": "Đường tới Hana",
+    "plan": "Đi sớm: thác Twin Falls, Waianapanapa (cần đặt chỗ), thác Wailua; quay về trước khi tối.",
+    "eat": "Bánh mì chuối ở Aunty Sandy's"
+   },
+   {
+    "title": "Molokini + cá voi",
+    "plan": "Sáng đi thuyền lặn từ Maalaea ra Molokini, để ý cá voi lưng gù đầu mùa. Chiều ngủ trưa.",
+    "eat": "Gà nướng huli huli bên đường"
+   },
+   {
+    "title": "Thung lũng Iao + ngắm sao",
+    "plan": "Khu di tích thung lũng Iao, ăn trưa ở Wailuku, rồi ngắm hoàng hôn và sao trên đỉnh Haleakala.",
+    "eat": "Mì Saimin ở Sam Sato's"
+   },
+   {
+    "title": "Tây Maui + Lahaina",
+    "plan": "Lái xe qua Front Street đã mở lại một cách tôn trọng, dạo biển Kaanapali, đường mòn ven biển Kapalua.",
+    "eat": "Kimo's, Front Street, nếu đã mở lại"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ăn sáng ở Paia, ngắm rùa ở Hookipa, trả xe, bay từ OGG.",
+    "eat": "Acai ở Paia Bowls"
+   }
+  ]
+ },
+ "big-island": {
+  "name": "Đảo Lớn: Kona + núi lửa, Hawaii",
+  "tagline": "Núi lửa đang hoạt động, cát đen, cà phê Kona",
+  "whyParents": "Xem núi lửa đang hoạt động, bơi cùng rùa biển và cá đuối manta, thăm nông trại cà phê Kona; đảo đa dạng nhất.",
+  "stay": "Căn hộ ở Kailua-Kona để có nắng, nhà nhỏ ở làng Volcano để xem dung nham",
+  "getAround": "Bắt buộc có xe, đường xa (Kona tới Volcano ~2,5 tiếng). SUV cỡ lớn hoặc minivan cho 4 người lớn + hành lý.",
+  "entry": "Nội địa Mỹ: không cần hộ chiếu. Cần REAL ID hoặc hộ chiếu để qua TSA.",
+  "events": [
+   "Kilauea: các đợt phun dung nham trên đỉnh vẫn tiếp diễn; đợt 55 ngày 17/10/2026 cao ~700 ft sau 2 tháng tạm ngưng. Có thể có đợt khác trong chuyến đi, nhưng không chắc",
+   "Các đợt phun có thể làm đóng một phần Vườn Quốc gia Núi lửa và gây tro bụi; xem USGS HVO mỗi ngày",
+   "Diễu hành Giáng Sinh Kailua-Kona: thường vào Thứ Bảy thứ hai của tháng 12 (14/12/2024, 13/12/2025), có lẽ Thứ Bảy 12/12/2026 (chưa xác nhận)"
+  ],
+  "pros": [
+   "Có cơ hội thấy dung nham phát sáng",
+   "Rùa biển, cá đuối manta, cát đen",
+   "Chỗ ở rẻ nhất trong các đảo"
+  ],
+  "cons": [
+   "Lái xe nhiều giữa hai bên đảo",
+   "Hoạt động dung nham khó đoán",
+   "Vùng núi lửa lạnh và mưa"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé thực tế cho 12-18/12/2026; giá AA là ước tính từ ảnh chụp trang tuyến bay trên aa.com (PHL-HNL khứ hồi từ $658, các tháng khác).",
+   "Không tìm thấy chuyến American bay thẳng PHL-HNL ở bất kỳ nguồn hãng bay/sân bay nào; nối chuyến thực tế là qua các trạm AA đi Hawaii (DFW, PHX, LAX, ORD).",
+   "Chuyến bay thẳng Hawaiian/Alaska JFK-HNL (HA/AS 830) chỉ thấy trên trang tổng hợp lịch bay cho mùa xuân 2026; chưa xác nhận có bay tháng 12/2026.",
+   "Giá chỗ ở và thuê xe là ước tính từ ảnh chụp tin đăng 2025-26 và mức trung bình của HTA, không phải báo giá thực tế tháng 12/2026.",
+   "Số liệu thời tiết là khí hậu tháng 12 thông thường, không phải dự báo.",
+   "Chưa xác nhận AA có bay lại tuyến mùa Dallas-Kona trong mùa đông 2026-27 không",
+   "Ngày diễu hành Giáng Sinh Kona 2026",
+   "Không có dự báo cho đợt phun tiếp theo của Kilauea"
+  ],
+  "precip": "Kona khô và nắng; làng Volcano cao nhất ~65F, đêm ~50F, mưa phùn; Hilo ẩm ướt",
+  "flightText": "American: AA PHL-PHX-KOA, 1 điểm dừng. Lựa chọn khác: JFK-HNL bay thẳng + chặng 40 phút tới KOA, ~$900 + ~$90",
+  "itinerary": [
+   {
+    "title": "Đến Kona",
+    "plan": "Đáp KOA, nhận xe SUV, nhận phòng ở Kailua-Kona, dạo đường Alii Drive lúc hoàng hôn.",
+    "eat": "Cá chiên khoai tây ở Splasher's Grill"
+   },
+   {
+    "title": "Lặn ngắm san hô vịnh Kealakekua",
+    "plan": "Đi thuyền hoặc chèo kayak có hướng dẫn tới rạn san hô Đài tưởng niệm Thuyền trưởng Cook. Tối lặn đêm xem cá đuối manta.",
+    "eat": "Cà phê Kona + bánh malasadas ở Holuakoa"
+   },
+   {
+    "title": "Nơi Trú Ẩn + cà phê",
+    "plan": "Công viên lịch sử Puuhonua o Honaunau, lặn ở Two Step, tham quan nông trại cà phê Kona.",
+    "eat": "Cơm heo Kalua ở Da Poke Shack"
+   },
+   {
+    "title": "Từ South Point tới Volcano",
+    "plan": "Lái xe xuống nam; ngắm rùa ở bãi cát đen Punaluu; nhận phòng ở Volcano; tối xem miệng núi lửa phát sáng nếu đang hoạt động.",
+    "eat": "Bánh mì ngọt ở Punaluu Bake Shop"
+   },
+   {
+    "title": "Vườn Quốc gia Núi lửa",
+    "plan": "Các điểm ngắm Kilauea, ống dung nham Nahuku, đường Chain of Craters ra tới vòm đá biển.",
+    "eat": "Ăn trưa ở Volcano House nhìn ra miệng núi lửa"
+   },
+   {
+    "title": "Hilo + Maunakea",
+    "plan": "Chợ nông sản Hilo, thác Akaka, đi đường Saddle Road lên trạm du khách Maunakea ngắm sao, về lại Kona.",
+    "eat": "Loco moco ở Cafe 100, Hilo"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Tắm biển lần cuối, mua cà phê mang về, trả xe SUV, bay từ KOA.",
+    "eat": "Đá bào trên đường Alii Drive"
+   }
+  ]
+ },
+ "kauai": {
+  "name": "Kauai, Hawaii",
+  "tagline": "Vách đá Na Pali, hẻm núi Waimea, biển yên tĩnh",
+  "whyParents": "Đảo xanh nhất và yên bình nhất: ngắm vách đá hùng vĩ bằng thuyền, cảnh hẻm núi, hải cẩu thầy tu trên bãi biển, ít xe cộ.",
+  "stay": "Poipu: bờ biển nhiều nắng nhất, bãi biển, hải cẩu thầy tu",
+  "getAround": "Bắt buộc có xe; chỉ có một quốc lộ chính. SUV cỡ lớn hoặc minivan cho 4 người lớn + hành lý.",
+  "entry": "Nội địa Mỹ: không cần hộ chiếu. Cần REAL ID hoặc hộ chiếu để qua TSA.",
+  "events": [
+   "Diễu hành Lights on Rice, Lihue: Thứ Sáu 4/12/2026 (trước chuyến đi); đèn trang trí Kauai Festival of Lights thường để tới Năm Mới (năm 2026 chưa xác nhận)",
+   "Sóng mùa đông North Shore: tour thuyền Na Pali có thể đổi tuyến hoặc hủy khi sóng lớn"
+  ],
+  "pros": [
+   "Bờ biển Na Pali đẹp hàng đầu thế giới",
+   "Ít đông đúc nhất, nhịp sống chậm",
+   "Poipu nắng và hay thấy hải cẩu thầy tu"
+  ],
+  "cons": [
+   "Đảo mưa nhiều nhất vào tháng 12",
+   "Ít chuyến bay tới LIH",
+   "Tour thuyền tùy thời tiết"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé thực tế cho 12-18/12/2026; giá AA là ước tính từ ảnh chụp trang tuyến bay trên aa.com (PHL-HNL khứ hồi từ $658, các tháng khác).",
+   "Không tìm thấy chuyến American bay thẳng PHL-HNL ở bất kỳ nguồn hãng bay/sân bay nào; nối chuyến thực tế là qua các trạm AA đi Hawaii (DFW, PHX, LAX, ORD).",
+   "Chuyến bay thẳng Hawaiian/Alaska JFK-HNL (HA/AS 830) chỉ thấy trên trang tổng hợp lịch bay cho mùa xuân 2026; chưa xác nhận có bay tháng 12/2026.",
+   "Giá chỗ ở và thuê xe là ước tính từ ảnh chụp tin đăng 2025-26 và mức trung bình của HTA, không phải báo giá thực tế tháng 12/2026.",
+   "Số liệu thời tiết là khí hậu tháng 12 thông thường, không phải dự báo.",
+   "Các sân bay AA bay thẳng tới LIH tháng 12/2026 (giả định LAX)",
+   "Ngày và địa điểm Festival of Lights 2026"
+  ],
+  "precip": "đảo ẩm nhất vào tháng 12; bờ nam (Poipu) nắng nhất; bờ bắc mưa và sóng lớn",
+  "flightText": "American: AA PHL-LAX/PHX-LIH, 1 điểm dừng. Lựa chọn khác: JFK-HNL bay thẳng + chặng nối tới LIH, ~$900 + ~$90",
+  "itinerary": [
+   {
+    "title": "Đến nơi + biển Poipu",
+    "plan": "Đáp LIH, nhận xe SUV, 30 phút tới Poipu, ngắm hoàng hôn ở công viên biển Poipu.",
+    "eat": "Taco cá ở Da Crack, Koloa"
+   },
+   {
+    "title": "Hẻm núi Waimea",
+    "plan": "Lái xe lên hẻm núi Waimea tới điểm ngắm Kalalau; trên đường về ghé thị trấn Waimea.",
+    "eat": "Đá bào ở JoJo's, Waimea"
+   },
+   {
+    "title": "Ngắm Na Pali bằng thuyền",
+    "plan": "Sáng đi thuyền catamaran từ Port Allen dọc các hang biển Na Pali; lặn ngắm san hô nếu biển êm.",
+    "eat": "Cơm phần plate lunch ở Ishihara Market"
+   },
+   {
+    "title": "North Shore + Hanalei",
+    "plan": "Hải đăng Kilauea Point, cầu tàu vịnh Hanalei, ngắm cảnh Tunnels/Haena (công viên Haena cần đặt chỗ).",
+    "eat": "Hanalei Bread Company"
+   },
+   {
+    "title": "Sông Wailua",
+    "plan": "Chèo kayak có hướng dẫn trên sông Wailua tới thác Secret Falls hoặc đi thuyền tới Fern Grotto; ngắm thác Wailua.",
+    "eat": "Poke ở Pono Market, Kapaa"
+   },
+   {
+    "title": "Một ngày thong thả ở bờ nam",
+    "plan": "Đi bộ ven biển Mahaulepu, Spouting Horn, tham quan vườn Allerton hoặc McBryde, thị trấn Koloa.",
+    "eat": "Merriman's Fish House, Poipu"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Sáng ra biển, trả xe SUV ở LIH, bay về nhà.",
+    "eat": "Hamura Saimin, Lihue"
+   }
+  ]
+ },
+ "oahu-maui": {
+  "name": "Kết hợp Oahu + Maui, Hawaii",
+  "tagline": "Hai đảo: lịch sử Waikiki, phong cảnh Maui",
+  "whyParents": "Hay nhất của cả hai: Trân Châu Cảng và Waikiki, rồi bình minh Haleakala và đường Hana.",
+  "stay": "Căn hộ ở Waikiki 3 đêm, rồi căn hộ ở Kihei 3 đêm",
+  "getAround": "Oahu: đi bộ/Uber, thuê xe 1 ngày. Maui: SUV cỡ lớn hoặc minivan cho 4 người lớn + hành lý.",
+  "entry": "Nội địa Mỹ: không cần hộ chiếu. Cần REAL ID hoặc hộ chiếu để qua TSA.",
+  "events": [
+   "Honolulu Marathon: Chủ Nhật 13/12/2026; sáng sớm nhiều đường ở Waikiki bị chặn",
+   "Honolulu City Lights ở Honolulu Hale (khai mạc 5/12/2026)",
+   "Front Street ở Lahaina dự kiến mở lại 1/8/2026; cảng nạo vét đến hết tháng 12/2026",
+   "Bắt đầu mùa cá voi lưng gù ở Maui"
+  ],
+  "pros": [
+   "Hai đảo rất khác nhau trong một tuần",
+   "Văn hóa thành phố cộng thiên nhiên hoang sơ",
+   "Vé bay vào một nơi, về từ nơi khác nên không phải đi ngược"
+  ],
+  "cons": [
+   "Phải dọn đồ giữa chuyến",
+   "Thêm chuyến bay và phí hành lý",
+   "Mỗi đảo chỉ 3 ngày"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé thực tế cho 12-18/12/2026; giá AA là ước tính từ ảnh chụp trang tuyến bay trên aa.com (PHL-HNL khứ hồi từ $658, các tháng khác).",
+   "Không tìm thấy chuyến American bay thẳng PHL-HNL ở bất kỳ nguồn hãng bay/sân bay nào; nối chuyến thực tế là qua các trạm AA đi Hawaii (DFW, PHX, LAX, ORD).",
+   "Chuyến bay thẳng Hawaiian/Alaska JFK-HNL (HA/AS 830) chỉ thấy trên trang tổng hợp lịch bay cho mùa xuân 2026; chưa xác nhận có bay tháng 12/2026.",
+   "Giá chỗ ở và thuê xe là ước tính từ ảnh chụp tin đăng 2025-26 và mức trung bình của HTA, không phải báo giá thực tế tháng 12/2026.",
+   "Số liệu thời tiết là khí hậu tháng 12 thông thường, không phải dự báo.",
+   "Chưa thấy giá AA cho vé vào một nơi, về từ nơi khác; giá chặng giữa các đảo lấy từ ngày mùa hè 2026"
+  ],
+  "precip": "phía khuất gió phần lớn nắng, có mưa rào thoáng qua; đỉnh Haleakala gần mức đóng băng lúc rạng sáng",
+  "flightText": "Đi Hawaiian hoặc Delta, về American: Hawaiian/Delta JFK-HNL bay thẳng; về bằng AA OGG-PHX/DFW-PHL. Lựa chọn khác: Toàn bộ AA 1 điểm dừng từ PHL (vào HNL, ra OGG) ~$920 gồm cả chặng nối giữa đảo",
+  "itinerary": [
+   {
+    "title": "Đến Waikiki",
+    "plan": "Đáp HNL, nhận phòng ở Waikiki, dạo biển lúc hoàng hôn.",
+    "eat": "Poke ở Ono Seafood"
+   },
+   {
+    "title": "Trân Châu Cảng + Diamond Head",
+    "plan": "Vé theo giờ vào Đài tưởng niệm USS Arizona; chiều leo Diamond Head (đã đặt suất).",
+    "eat": "Cơm phần plate lunch ở Rainbow Drive-In"
+   },
+   {
+    "title": "North Shore",
+    "plan": "Ngày thuê xe: Haleiwa, sóng vịnh Waimea, rùa biển ở Laniakea, ngắm cảnh Kualoa.",
+    "eat": "Tôm tỏi Giovanni's"
+   },
+   {
+    "title": "Bay tới Maui",
+    "plan": "Sáng bay HNL-OGG, nhận xe SUV, căn hộ ở Kihei, hoàng hôn ở biển Kamaole.",
+    "eat": "Taco ở Coconut's Fish Cafe"
+   },
+   {
+    "title": "Bình minh Haleakala",
+    "plan": "Đặt chỗ ngắm bình minh, đi bộ ngắn quanh miệng núi lửa, thăm nông trại Kula và ăn trưa.",
+    "eat": "Ăn sáng ở Kula Lodge"
+   },
+   {
+    "title": "Đường tới Hana",
+    "plan": "Đi sớm: các thác nước, bãi cát đen Waianapanapa (cần đặt chỗ), thác Wailua; về trước khi tối.",
+    "eat": "Bánh mì chuối Aunty Sandy's"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ăn sáng ở Paia, ngắm rùa ở Hookipa, trả xe SUV, bay từ OGG.",
+    "eat": "Acai ở Paia Bowls"
+   }
+  ]
+ },
+ "_recs": {
+  "paris-alsace": "Paris, nơi Ba Mẹ yêu thích, cộng Strasbourg và Colmar đúng mùa chợ Giáng Sinh đẹp nhất. American bay thẳng từ Philly, phần còn lại đi tàu nhanh, không phải lái xe.",
+  "vienna-prague": "Hai thành phố có chợ Giáng Sinh đẹp nhất châu Âu, nối nhau bằng 4 tiếng đi tàu. Bay thẳng đi từ Newark và rẻ hơn Paris một chút.",
+  "portugal": "Tuần châu Âu dễ đi nhất: ngày ấm 59°F, American bay thẳng từ Philly, và đồ ăn đáng tiền bậc nhất châu Âu.",
+  "costa-rica": "Ấm áp, xanh tươi và rẻ nhất danh sách: bay thẳng 5,5 tiếng, rồi núi lửa, suối nước nóng, con lười và biển Thái Bình Dương.",
+  "thailand": "Chuyến châu Á mà Ba Mẹ tò mò: chùa chiền, chợ đêm và ngày nắng 88°F. Tới nơi thì rất rẻ; cái khó là khoảng 22 tiếng đi đường mỗi chiều."
+ }
+}

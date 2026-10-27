@@ -32,17 +32,26 @@ def load():
         p = NOTES / f"{b}.json"
         if p.exists():
             dests += json.loads(p.read_text())
-    for b in BATCHES:
-        pp = NOTES / f"price-{b}.json"
+    # later files win: per-region price re-checks, then the nonstop-preference flight pass
+    for pp in [NOTES / f"price-{b}.json" for b in BATCHES] + [NOTES / "price-nonstop.json"]:
         if not pp.exists():
             continue
+        fixes = json.loads(pp.read_text())
         for d in dests:
-            fix = json.loads(pp.read_text()).get(d["id"])
-            if fix:
-                src = fix.pop("sources", [])
-                d["costPP"].update(fix)
-                seen = {x["url"] for x in d["sources"]}
-                d["sources"] += [x for x in src if x["url"] not in seen]
+            fix = dict(fixes.get(d["id"]) or {})
+            if not fix:
+                continue
+            seen = {x["url"] for x in d["sources"]}
+            d["sources"] += [x for x in fix.pop("sources", []) if x["url"] not in seen]
+            if "fly" in fix:
+                d["flyOverride"] = fix.pop("fly")
+            for k in ("from", "routing", "airline"):
+                if k in fix:
+                    d["flight"][k] = fix.pop(k)
+            if fix.get("alt"):
+                d["flight"]["notes"] = "Other option: " + fix.pop("alt")
+            fix.pop("alt", None)
+            d["costPP"].update(fix)
     for d in dests:
         for ph in d.get("heroPhotos", []):
             commons(ph)
@@ -52,8 +61,11 @@ def load():
         c = d["costPP"]
         c["trip"] = c["flights"] + c["lodging"]
     fly = json.loads((NOTES / "display.json").read_text())
+    # Asia trips leave Dec 12 and land a day or two later, so day 1 starts later
+    start = {"japan": 1, "thailand": 1, "south-vietnam": 1, "singapore": 2, "singapore-bangkok": 2}
     for d in dests:
-        d["fly"] = fly.get(d["id"], d["flight"].get("hours", ""))
+        d["start"] = start.get(d["id"], 0)
+        d["fly"] = d.pop("flyOverride", None) or fly.get(d["id"], d["flight"].get("hours", ""))
         # drop notes about our own research process; keep real open questions
         d["unverified"] = [u for u in d.get("unverified", [])
                            if not re.search(r"photo|search budget|Commons|author/license", u, re.I)]

@@ -274,7 +274,7 @@ function card(d) {
     <article class="day">
       ${photo(x.photo)}
       <div class="dt">
-        <span class="dn">Day ${x.day} &middot; ${DATES[i] || ""}</span>
+        <span class="dn">Day ${x.day} &middot; ${DATES[i + (d.start || 0)] || ""}</span>
         <span class="tt">${esc(x.title)}</span>
         <p>${esc(x.plan)}</p>
         ${x.eat ? `<span class="eat"><b>Eat:</b> ${esc(x.eat)}</span>` : ""}
@@ -294,7 +294,7 @@ function card(d) {
         <div class="fact"><div class="k">Passport</div><div class="v">${d.passport ? "Yes" : "Not needed"}</div><div class="s">Flight ${esc(d.fly)} from ${esc(d.flight.from)}</div></div>
       </div>
       <p class="why"><b>Why Mom &amp; Dad would love it:</b> ${esc(d.whyParents)}</p>
-      <div class="itin"><h4>The week, day by day</h4><div class="days">${days}</div></div>
+      <div class="itin"><h4>The week, day by day${d.start ? ` <span style="text-transform:none;letter-spacing:0;color:var(--warm)">(leave Dec 12, land ${DATES[d.start].slice(4)}; home ${DATES[d.start + 6].slice(4)})</span>` : ""}</h4><div class="days">${days}</div></div>
       <details>
         <summary>Trip details: flights, where to stay, getting around</summary>
         <div class="grid2">

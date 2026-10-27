@@ -1,0 +1,114 @@
+{
+  "alaska": {
+    "flights": 900,
+    "flightsBasis": "aa.com PHL-ANC page: Dec 2026 from $653 RT economy (lowest of month, likely Basic). Used ~$650 for open jaw PHL-ANC / FAI-PHL + $90 Main Cabin + ANC-FAI one way ~$160 (Alaska Saver $122 to $262 range). Cross-check: Google Flights $473 Delta Nov 19-Dec 3, Momondo $441.",
+    "flightsVerified": true,
+    "lodging": 430,
+    "lodgingBasis": "~$275/night all-in x 3 nights Anchorage + ~$300/night all-in x 3 nights Fairbanks (aurora season) = $1,725 / 4. Holidu: Anchorage avg $274/night (Nov $354), Fairbanks $186 to $250; no December figure found.",
+    "lodgingVerified": false,
+    "foodFun": 1250,
+    "foodFunBasis": "Food ~$75/day x 7 ($525); Chena aurora tour ~$230, dog sled ~$155, Alyeska tram ~$45, Ice Museum, Native Heritage Center, UA Museum, Wildlife Center (~$515 total); 1/4 of two SUV rentals 6 days ~$130/day all-in + gas + parking (~$225).",
+    "sources": [
+      { "label": "AA PHL-ANC fares (Dec 2026 from $653)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-anchorage" },
+      { "label": "Google Flights PHL-ANC", "url": "https://www.google.com/travel/flights/flights-from-philadelphia-to-anchorage.html?gl=US&hl=en-US" },
+      { "label": "Alaska Airlines ANC-FAI fares", "url": "https://www.alaskaair.com/en/flights-from-anchorage-to-fairbanks" },
+      { "label": "Holidu Anchorage rentals", "url": "https://holidu.com/vacation-rentals/usa/anchorage" },
+      { "label": "Holidu Fairbanks rentals", "url": "https://holidu.com/vacation-rentals/usa/fairbanks" },
+      { "label": "Momondo Anchorage SUV December ~$104/day", "url": "https://www.momondo.com.au/car-hire/SUV-rentals-Anchorage-28519.csv.ksp" },
+      { "label": "Fairbanks aurora and dog sled tour prices", "url": "https://capturetheatlas.com/northern-lights-tours-from-fairbanks/" }
+    ]
+  },
+  "usvi": {
+    "flights": 790,
+    "flightsBasis": "aa.com PHL-STT page: Dec 2026 from $680 RT, 12/08-12/15/26 $680 (a 12/13-12/19 $286 listing looks like a glitch, ignored). Flights.com Dec 7-24 $640; Google Flights $793 AA nonstop Nov 28-Dec 5. Used ~$700 + $90 Main Cabin.",
+    "flightsVerified": true,
+    "lodging": 940,
+    "lodgingBasis": "Red Hook 2BR ~$500/night all-in x 3 + Cruz Bay 2BR villa ~$750/night all-in (incl 12.5% tax, fees) x 3 = $3,750 / 4. Sea Turtle Villa 2BR $556 pre-tax late Nov to mid Dec; St. Thomas condo $316 all-in Dec 10-11 (1BR scale).",
+    "lodgingVerified": true,
+    "foodFun": 1050,
+    "foodFunBasis": "Food ~$100/day x 7 ($700); Trunk Bay, snorkel gear, paddleboard, Magens Bay, ferries (~$80); 1/4 Jeep Wrangler 6 days ~$144/day + tax, gas, car barge (~$285).",
+    "sources": [
+      { "label": "AA PHL-STT fares (Dec 2026)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-st-thomas" },
+      { "label": "Flights.com PHL-STT", "url": "https://www.flights.com/lp/flights/phl/stt/philadelphia-to-st-thomas" },
+      { "label": "Google Flights PHL-STT", "url": "https://www.google.com/travel/flights/flights-from-philadelphia-to-saint-thomas.html?gl=US&hl=en-US" },
+      { "label": "Sea Turtle Villa St. John rate chart", "url": "https://algvacations.villasofdistinction.com/villa/united-states-virgin-islands/st-john/sea-turtle-villa" },
+      { "label": "Emerald Kite St. John 2BR near Cruz Bay", "url": "https://emeraldkite.com/vacation-rentals/st.-john-home-938300/" },
+      { "label": "Travelocity Red Hook (Dec 10-11 listing)", "url": "https://www.travelocity.com/Red-Hook-Hotels.d9626.Travel-Guide-Hotels" },
+      { "label": "Cheapflights St. Thomas Jeep rentals", "url": "https://www.cheapflights.com/Saint-Thomas-Island-Jeep-Rentals.54601.21.cb.ksp" }
+    ]
+  },
+  "puerto-rico": {
+    "flights": 420,
+    "flightsBasis": "aa.com PHL-SJU page: Dec 2026 from $227 RT (12/10-12/17, teaser low). Kayak December avg $424; Expedia AA nonstop Dec 5-9 ~$338. Used typical ~$340 + $80 Main Cabin.",
+    "flightsVerified": true,
+    "lodging": 640,
+    "lodgingBasis": "Old San Juan 2BR ~$400/night all-in x 4 + Vieques/Esperanza 2BR ~$480/night all-in x 2 = $2,560 / 4. Expedia OSJ condo $352/night Dec 9-10 before fees; Casita at Encantada 2BR $399+ (no Dec date).",
+    "lodgingVerified": false,
+    "foodFun": 830,
+    "foodFunBasis": "Food ~$75/day x 7 ($525); forts $10, bio bay kayak ~$70, ferry ~$25, Ubers ~$25; 1/4 Vieques jeep 2 days (~$50); 1/4 mainland SUV 4 days + Ceiba and OSJ parking + gas (~$130).",
+    "sources": [
+      { "label": "AA PHL-SJU fares (Dec 2026 from $227)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-san-juan" },
+      { "label": "Kayak PHL-SJU monthly averages", "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/San-Juan-Luis-Munoz-Marin-Intl-SJU" },
+      { "label": "Expedia PHL-SJU", "url": "https://www.expedia.com/cn/lp/flights/phl/sju/philadelphia-to-san-juan" },
+      { "label": "Kayak Old San Juan rentals", "url": "https://www.kayak.com/San-Juan-Hotels-Old-San-Juan-Rentals.2619245.ksp" },
+      { "label": "Casita at Encantada Vieques", "url": "https://vieques.com/?p=254963" },
+      { "label": "Mosquito Bay kayak tour (Expedia)", "url": "https://www.expedia.com/things-to-do/a.a50887973.activity-details" }
+    ]
+  },
+  "quebec-montreal": {
+    "flights": 560,
+    "flightsBasis": "AA ~$476 RT PHL-YUL Dec 12-16 (family check); aa.com Dec 2026 from $444 (range $443 to $916); Kayak 12-month avg $545. Used $476 + $80 Main Cabin.",
+    "flightsVerified": true,
+    "lodging": 640,
+    "lodgingBasis": "Old Quebec 2BR ~$460/night all-in x 4 (family: Dec avg $375 to $430 + fees/taxes) + Old Montreal 2BR ~$350/night all-in x 2 = $2,540 / 4. Hotels.com Montreal Dec avg $207 (hotels). Montreal limits short-term rentals; licensed aparthotel may be needed. CAD at 1.40.",
+    "lodgingVerified": true,
+    "foodFun": 750,
+    "foodFunBasis": "Food ~$75/day x 7 ($525); VIA Rail 2 legs ~CAD 130 ($93); 1/4 day car for Montmorency/Ile d'Orleans ($30); falls cable car, funicular, toboggan, Basilica, museums (~$50); 747 bus, Metro, taxis (~$40). CAD at 1.40.",
+    "sources": [
+      { "label": "AA PHL-YUL fares (Dec 2026 from $444)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-montreal" },
+      { "label": "Kayak PHL-YUL", "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/Montreal-Pierre-Elliott-Trudeau-Intl-YUL" },
+      { "label": "HomeToGo Quebec City rentals", "url": "https://www.home-to-go.ca/quebec-city/" },
+      { "label": "Expedia Quebec City rentals price trend", "url": "https://www.expedia.com/cn/Quebec-City-Vacation-Rentals.d180017.Travel-Guide-VacationRentals" },
+      { "label": "Hotels.com Montreal monthly prices", "url": "https://sg.hotels.com/es/de169716/hoteles-montreal-quebec/monthTab8" },
+      { "label": "Bank of Canada daily rates (USD/CAD 1.3993 Oct 23 2026)", "url": "https://www.bankofcanada.ca/rates/daily-digest/" }
+    ]
+  },
+  "banff": {
+    "flights": 650,
+    "flightsBasis": "No AA Dec 2026 PHL-YYC fare found. Skyscanner $364 cheapest date Dec 19 2026 (teaser, stops unclear); Cheapflights 1-stop Dec 9 $440, Dec 14 $492 (year unclear); Momondo AA via ORD ~$649, typical $562 to $728. Used ~$560 + $90 Main Cabin.",
+    "flightsVerified": false,
+    "lodging": 555,
+    "lodgingBasis": "Banff 2BR condo ~CAD 400 listed = ~$285, all-in with GST, tourism levy, cleaning, service ~$370/night x 6 = $2,220 / 4. Hotels.com Banff Dec avg $330 (hotels); Holidu avg $388. CAD at 1.40.",
+    "lodgingVerified": true,
+    "foodFun": 1000,
+    "foodFunBasis": "Food ~$80/day x 7 ($560) + Fairmont tea ~CAD 85 ($61); gondola ~$60, icewalk ~$72, sleigh ~$36, hot springs $12, market $10, park pass share $25; 1/4 full-size SUV 6 days ~$100/day all-in + gas + parking (~$175). Ski day not included.",
+    "sources": [
+      { "label": "Skyscanner PHL-YYC", "url": "https://www.skyscanner.com/routes/phla/yyc/philadelphia-to-calgary.html" },
+      { "label": "Cheapflights PHL-YYC", "url": "https://www.cheapflights.com/flights-to-calgary/philadelphia-pa/" },
+      { "label": "Momondo PHL-YYC", "url": "https://www.momondo.com/flights/philadelphia/calgary" },
+      { "label": "Hotels.com Banff (Dec avg)", "url": "https://es.hotels.com/de170124/hotels-banff-alberta/" },
+      { "label": "Holidu Banff rentals", "url": "https://www.holidu.com/vacation-rentals/canada/banff" },
+      { "label": "Banff Gondola 2026 prices", "url": "https://banffbound.com/blog/banff-gondola-tickets-guide" },
+      { "label": "Parks Canada pass 2026", "url": "https://banffbound.com/blog/parks-canada-discovery-pass-price-2026" }
+    ]
+  },
+  "vancouver-whistler": {
+    "flights": 690,
+    "flightsBasis": "aa.com PHL-YVR page: Dec 2026 from $564 RT economy (Dec 8-15, 1 stop). Used ~$600 for Dec 12/13-18 + $90 Main Cabin. FareCompare typical $413 to $767.",
+    "flightsVerified": true,
+    "lodging": 660,
+    "lodgingBasis": "Vancouver: BC principal-residence STR rules limit whole-home rentals, so 2 hotel rooms ~$380/night all-in x 3; Whistler Village 2BR condo ~$500/night all-in x 3 (Expedia 2BR near lifts $525 pre-tax Dec 27 2025; RedWeek Dec $307 to $386) = $2,640 / 4. CAD at 1.40.",
+    "lodgingVerified": false,
+    "foodFun": 1180,
+    "foodFunBasis": "Food ~$85/day x 7 + splurge dinners ($620); Peak 2 Peak CAD 158 ($113), Scandinave ~$107, Capilano ~$57, Grouse ~$54, Sea to Sky Gondola ~$54, market, Audain (~$415); Canada Line $14; 1/4 SUV w/ winter tires 4 days + gas + Whistler parking (~$140).",
+    "sources": [
+      { "label": "AA PHL-YVR fares (Dec 2026 from $564)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-vancouver" },
+      { "label": "FareCompare PHL-YVR", "url": "https://www.farecompare.com/flights/Philadelphia-PHL/Vancouver-YVR/market.html" },
+      { "label": "Expedia Whistler 2BR condo near lifts", "url": "https://www.expedia.com/Whistler-Hotels-Luxury-Condo-Close-To-Lifts-In-Whistler-Village-Pool.h33983832.Hotel-Information" },
+      { "label": "RedWeek Whistler Dec rentals", "url": "https://redweek.com/resort/P2238-whistler-vacation-club-at-twin-peaks/timeshare-rentals" },
+      { "label": "Whistler Peak 2 Peak winter 2026/27 prices", "url": "https://www.whistler.com/activities/peak-2-peak-gondola/" },
+      { "label": "Capilano admission", "url": "https://www.vancouvertourism.org/capilano-suspension-bridge/" },
+      { "label": "Championtraveler downtown Vancouver rentals", "url": "https://championtraveler.com/price/cost-of-a-trip-to-downtown-vancouver-bc-ca/" }
+    ]
+  }
+}

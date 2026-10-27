@@ -392,10 +392,10 @@
   },
   "flight": {
    "from": "JFK",
-   "airline": "Singapore Airlines",
-   "routing": "JFK-SIN nonstop (SQ23 daily, 10:15pm, ~19h); EWR-SIN also nonstop, frequency unclear",
+   "airline": "Japan Airlines or Cathay Pacific (oneworld)",
+   "routing": "JFK-HND-SIN on JAL (AA codeshare) or JFK-HKG-SIN on Cathay, 1 stop. Singapore Airlines JFK/EWR-SIN nonstops have no economy cabin (premium economy and business only)",
    "aaMetal": false,
-   "hours": "~19h nonstop",
+   "hours": "~23h with 1 stop",
    "notes": "Longest flights in the world. oneworld alt: JAL JFK-HND-SIN or Cathay JFK-HKG-SIN (~24h). KrisFlyer and Asia Miles are Capital One transfer partners."
   },
   "weather": {
@@ -412,7 +412,7 @@
    "Orchard Road Christmas on A Great Street: 2025 lit Nov 8 to Jan 1; 2026 dates not yet announced"
   ],
   "pros": [
-   "Nonstop flight, no connection stress",
+   "Easiest Asia city for first-timers",
    "Ultra safe, clean, English spoken",
    "Hawker food is cheap and excellent"
   ],
@@ -425,7 +425,7 @@
    {
     "day": 1,
     "title": "Land Dec 14, Marina Bay",
-    "plan": "Leave JFK Dec 12 night, land Dec 14 dawn. Nap, evening Spectra light show at Marina Bay.",
+    "plan": "Leave JFK Dec 12, land Dec 14 early. Nap, evening Spectra light show at Marina Bay.",
     "eat": "Satay at Lau Pa Sat's Satay Street",
     "photo": {
      "file": "Marina_Bay_Sands_Night_Panorama.jpg",
@@ -497,7 +497,7 @@
    {
     "day": 7,
     "title": "Jewel Changi, fly home",
-    "plan": "Early Jewel Rain Vortex waterfall, midday SQ24 nonstop, land JFK Dec 19 evening.",
+    "plan": "Early Jewel Rain Vortex waterfall, then fly home with 1 stop; land NYC Dec 20.",
     "eat": "Kaya toast at Ya Kun",
     "photo": {
      "file": "At_Jewel_Changi,_Singapore_2023_36.jpg",
@@ -549,11 +549,9 @@
   ],
   "unverified": [
    "2026 dates for Christmas Wonderland and Orchard Road lights (only 2025 dates found; both usually run late Nov to Jan 1)",
-   "Mid-December 2026 fares; SQ nonstop price for Dec 12 to 19",
    "Newark SQ21 frequency in winter 2026",
    "SG Arrival Card and 90-day stay confirmed only via secondary sites, not ica.gov.sg",
    "Short-term private rental restriction (from general knowledge, not re-checked)",
-   "Hotel rates are typical estimates; Day 1 timing assumes SQ23 Dec 12 departure lands Dec 14 early morning",
    "Licenses for Basile Morin and Marcin Konsek photos; Cloud Forest author credit seen secondhand"
   ]
  },
@@ -755,10 +753,10 @@
   },
   "flight": {
    "from": "JFK",
-   "airline": "Singapore Airlines out, JAL or Cathay home",
-   "routing": "JFK-SIN nonstop SQ23; SIN-BKK ~2h25m (SQ, Thai, Scoot); BKK-HND-JFK on JAL (AA codeshare) or BKK-HKG-JFK Cathay",
+   "airline": "Japan Airlines or Cathay Pacific (oneworld)",
+   "routing": "JFK-HND-SIN on JAL (AA codeshare) or JFK-HKG-SIN on Cathay, 1 stop. Singapore Airlines JFK/EWR-SIN nonstops have no economy cabin (premium economy and business only); SIN-BKK about 2h25m; home BKK-HND-JFK on JAL or BKK-HKG-JFK on Cathay",
    "aaMetal": false,
-   "hours": "~19h out, ~20h back",
+   "hours": "~23h with 1 stop",
    "notes": "Book as multi-city. All-oneworld version: JAL via Tokyo both ways. KrisFlyer, Asia Miles, Avios transfer from Capital One."
   },
   "weather": {
@@ -776,7 +774,7 @@
   ],
   "pros": [
    "Sees both places parents want",
-   "Nonstop out, dry Bangkok weather",
+   "Dry, sunny Bangkok weather",
    "Bangkok half keeps costs down"
   ],
   "cons": [

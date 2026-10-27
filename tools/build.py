@@ -3,7 +3,9 @@ import hashlib, json, pathlib, re, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 NOTES = ROOT / "notes"
-BATCHES = ["europe", "asia", "hawaii", "na"]
+BATCHES = ["europe", "asia", "hawaii", "na", "new-us", "new-europe", "new-other"]
+# trips the family dropped (kept in the notes, left off the page)
+EXCLUDE = {"croatia", "puerto-rico", "japan", "singapore", "singapore-bangkok", "usvi", "rome"}
 
 
 def commons(photo):
@@ -31,7 +33,7 @@ def load():
     for b in BATCHES:
         p = NOTES / f"{b}.json"
         if p.exists():
-            dests += json.loads(p.read_text())
+            dests += [d for d in json.loads(p.read_text()) if d["id"] not in EXCLUDE]
     # later files win: per-region price re-checks, then the nonstop-preference flight pass
     for pp in [NOTES / f"price-{b}.json" for b in BATCHES] + [NOTES / "price-nonstop.json"]:
         if not pp.exists():

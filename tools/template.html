@@ -126,7 +126,23 @@ td.place small { display: block; color: var(--muted); font-weight: 400; }
 .est { font-size: 0.7rem; color: var(--muted); font-weight: 600; letter-spacing: 0.04em; }
 
 /* cards */
-.dest { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; margin-bottom: 28px; scroll-margin-top: 80px; }
+.dest { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+/* trip browser: thumbnail strip + one trip at a time with previous / next */
+#trips { scroll-margin-top: 8px; }
+.strip { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x proximity; padding: 4px 2px 10px; scrollbar-width: thin; }
+.strip button { flex: none; width: 128px; scroll-snap-align: start; display: grid; gap: 4px; text-align: left; padding: 0 0 8px; border: 2px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); color: var(--ink); cursor: pointer; font: inherit; }
+.strip button[aria-selected="true"] { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.strip .th { height: 72px; background: var(--accent-soft); overflow: hidden; }
+.strip .th img { width: 100%; height: 100%; object-fit: cover; }
+.strip b { font-size: 0.82rem; line-height: 1.2; padding: 0 8px; font-weight: 700; }
+.strip small { font-size: 0.78rem; color: var(--muted); padding: 0 8px; font-variant-numeric: tabular-nums; }
+.strip .mine { color: var(--accent); font-weight: 700; }
+.stepper { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; margin-block: 10px; }
+.stepper button { font: 700 0.92rem var(--body); padding: 11px 12px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.stepper button:last-child { text-align: right; }
+.stepper button.next { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.stepper button:disabled { visibility: hidden; }
+.stepper .pos { font-size: 0.85rem; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .mosaic { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; gap: 3px; height: clamp(220px, 42vw, 380px); background: var(--line); }
 .mosaic figure:first-child { grid-row: span 2; }
 .mosaic.n1 { grid-template-columns: 1fr; } .mosaic.n1 figure { grid-row: auto; }
@@ -341,8 +357,11 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
 
   <section id="trips" class="wrap">
     <h2>The trips</h2>
-    <p class="hint">Swipe the days sideways. Flights, hotel area and sources are under each trip.</p>
+    <p class="hint">Tap a trip below, or use Next to flip through them one at a time.</p>
+    <div class="strip" id="strip" role="tablist" aria-label="Choose a trip"></div>
+    <div class="stepper" id="stepTop"></div>
     <div id="cards"></div>
+    <div class="stepper" id="stepBottom"></div>
   </section>
 
   <section id="picks" class="wrap">
@@ -485,11 +504,53 @@ function apply() {
   const tb = $("#tbl tbody");
   tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="5">No trips match. Clear a filter above.</td></tr>`;
   document.querySelectorAll("#tbl th").forEach(th => th.setAttribute("aria-sort", th.dataset.k === sort.k ? (sort.dir > 0 ? "ascending" : "descending") : "none"));
-  document.querySelectorAll(".dest").forEach(el => { el.hidden = !show(byId[el.dataset.id]); });
   const n = dests.filter(show).length;
   $("#count").textContent = n === dests.length ? `${n} trips` : `Showing ${n} of ${dests.length} trips`;
+  renderBrowser();
   syncAddButtons();
 }
+
+/* ---------- trip browser: one trip at a time ---------- */
+const ORDER = [...dests].sort((a, b) => a.costPP.trip - b.costPP.trip);
+let cur = ORDER[0].id;
+function renderBrowser() {
+  const vis = ORDER.filter(show);
+  if (!vis.some(d => d.id === cur) && vis.length) cur = vis[0].id;
+  const i = vis.findIndex(d => d.id === cur);
+  const mine = id => (typeof V !== "undefined" && V.me) ? V.list.indexOf(id) : -1;
+  $("#strip").innerHTML = vis.map(d => {
+    const p = (d.heroPhotos || [])[0], m = mine(d.id);
+    return `<button type="button" role="tab" data-go="${esc(d.id)}" aria-selected="${d.id === cur}">
+      <span class="th">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
+      <b>${esc(d.name.split(",")[0])}</b>
+      <small>${money(d.costPP.trip)} &middot; ${d.weather.highF}&deg;F${m >= 0 ? ` <span class="mine">#${m + 1}</span>` : ""}</small>
+    </button>`;
+  }).join("");
+  document.querySelectorAll(".dest").forEach(el => { el.hidden = el.dataset.id !== cur || !vis.length; });
+  const prev = vis[i - 1], next = vis[i + 1];
+  const step = `<button type="button" data-go="${prev ? esc(prev.id) : ""}" ${prev ? "" : "disabled"}>&larr; ${prev ? esc(prev.name.split(",")[0]) : ""}</button>
+    <span class="pos">${vis.length ? `${i + 1} of ${vis.length}` : "No trips match"}</span>
+    <button type="button" class="next" data-go="${next ? esc(next.id) : ""}" ${next ? "" : "disabled"}>${next ? esc(next.name.split(",")[0]) : ""} &rarr;</button>`;
+  $("#stepTop").innerHTML = step;
+  $("#stepBottom").innerHTML = step;
+  const sel = $('#strip [aria-selected="true"]');
+  if (sel) $("#strip").scrollTo({ left: sel.offsetLeft - 16, behavior: "auto" });
+}
+function go(id, scroll) {
+  if (!byId[id]) return;
+  if (!show(byId[id])) { F.region = "All"; F.temp = "Any"; F.nopass = false; }
+  cur = id; apply();
+  if (scroll) $("#trips").scrollIntoView({ block: "start" });
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-go]");
+  if (b && b.dataset.go) { go(b.dataset.go, b.closest(".stepper") === $("#stepBottom") || b.closest(".stepper") === $("#stepTop")); return; }
+  const a = e.target.closest('a[href^="#"]');
+  const id = a && decodeURIComponent(a.getAttribute("href").slice(1));
+  if (id && byId[id]) { e.preventDefault(); go(id, true); }
+});
+const fromHash = () => { const id = decodeURIComponent(location.hash.slice(1)); if (byId[id]) go(id, true); };
+window.addEventListener("hashchange", fromHash);
 
 /* ---------- family vote ---------- */
 // Same-origin on Vercel; the GitHub Pages copy calls the Vercel deployment.
@@ -578,6 +639,7 @@ function syncAddButtons() {
 }
 
 function renderVote() {
+  renderBrowser();
   document.body.classList.toggle("voting", !!V.me);
   $("#tray").hidden = !V.me;
   $("#startVote").hidden = !!V.me;
@@ -643,6 +705,7 @@ $("#foot").innerHTML = `Prices are per person: round-trip flight each, plus the 
 apply();
 renderFamily();
 renderVote();
+fromHash();
 if (!V.me) openGate();
 loadVotes();
 </script>

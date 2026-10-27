@@ -3,7 +3,7 @@ import hashlib, json, pathlib, re, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 NOTES = ROOT / "notes"
-BATCHES = ["europe", "asia", "hawaii", "na", "new-us", "new-europe", "new-other"]
+BATCHES = ["europe", "asia", "hawaii", "na", "new-us", "new-europe", "new-other", "new-malaysia", "new-china"]
 # trips the family dropped (kept in the notes, left off the page)
 EXCLUDE = {"croatia", "puerto-rico", "japan", "singapore", "singapore-bangkok", "usvi", "rome"}
 

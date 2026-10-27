@@ -67,7 +67,7 @@ def load():
     start = {"japan": 1, "thailand": 1, "south-vietnam": 1, "singapore": 2, "singapore-bangkok": 2}
     for d in dests:
         d["start"] = start.get(d["id"], 0)
-        d["fly"] = d.pop("flyOverride", None) or fly.get(d["id"], d["flight"].get("hours", ""))
+        d["fly"] = d.pop("flyOverride", None) or fly.get(d["id"]) or d.get("fly") or d["flight"].get("hours", "")
         # drop notes about our own research process; keep real open questions
         d["unverified"] = [u for u in d.get("unverified", [])
                            if not re.search(r"photo|search budget|Commons|author/license", u, re.I)]

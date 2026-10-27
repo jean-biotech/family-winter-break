@@ -63,6 +63,12 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; text-wrap: balance; 
 
 /* header */
 header.top { padding-block: 32px 8px; }
+.toprow { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.langs { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; overflow: hidden; flex: none; background: var(--surface); }
+.langs button { font: 700 0.85rem var(--body); padding: 7px 12px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.langs button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.gatelangs { justify-self: center; }
+.gatelangs button { padding: 8px 16px; font-size: 0.95rem; }
 header.top h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
 .sub { color: var(--muted); margin: 6px 0 0; font-size: 1.05rem; }
 .sub b { color: var(--ink); font-weight: 600; }
@@ -224,7 +230,7 @@ details[open] > summary::before { content: "\2212"; }
 .pick h3 { font-size: 1.3rem; margin: 4px 0; }
 .pick p { margin: 0; color: var(--muted); }
 .pick.first { border: 2px solid var(--accent); }
-.pick.first .pb::before { content: "Our #1 pick"; display: inline-block; background: var(--accent); color: var(--bg); font-weight: 700; font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; margin-bottom: 6px; letter-spacing: 0.04em; }
+.firstpill { display: inline-block; background: var(--accent); color: var(--bg); font-weight: 700; font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; margin-bottom: 6px; letter-spacing: 0.04em; }
 @media (max-width: 560px) { .pick { grid-template-columns: 1fr; } .pick figure { height: 160px; } .pick .pb { padding: 0 16px 16px; } }
 footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
 
@@ -288,27 +294,35 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
 </head>
 <body>
 <header class="top wrap">
-  <h1>Winter Break 2026</h1>
-  <p class="sub"><b>Sat Dec 12 to Fri Dec 18</b> &middot; Mom, Dad, Emily &amp; Jennifer &middot; all prices per person</p>
-  <div class="jump"><a href="#compare">Compare all</a><a href="#trips">See each trip</a><a href="#picks">Our top 5</a></div>
+  <div class="toprow">
+    <h1 data-i18n="title">Winter Break 2026</h1>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" data-lang="en">EN</button><button type="button" data-lang="vi">VI</button>
+    </div>
+  </div>
+  <p class="sub" data-i18n-html="sub"></p>
+  <div class="jump"><a href="#compare" data-i18n="jCompare">Compare all</a><a href="#trips" data-i18n="jTrips">See each trip</a><a href="#picks" data-i18n="jPicks">Our top 5</a></div>
 </header>
 
 <section class="wrap" style="padding-block: 8px 16px">
   <div class="family" id="family" aria-live="polite">
-    <h2>Family vote</h2>
-    <p>Pick your own top 5. Picks stay private: the family ranking appears once all 4 have voted.</p>
+    <h2 data-i18n="famTitle">Family vote</h2>
+    <p data-i18n="famText"></p>
     <div class="votedrow" id="votedrow"></div>
-    <button type="button" class="addbtn" id="startVote" hidden>Pick your name to vote</button>
+    <button type="button" class="addbtn" id="startVote" data-i18n="startVote" hidden>Pick your name to vote</button>
     <ol class="results" id="results" hidden></ol>
   </div>
 </section>
 
 <div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle" hidden>
   <div class="gatebox">
-    <h2 id="gateTitle">Who's viewing?</h2>
-    <p>Pick your name, then tap <b>Add to my top 5</b> on the trips you like most. Your picks are private.</p>
+    <div class="langs gatelangs" role="group" aria-label="Language">
+      <button type="button" data-lang="en">English</button><button type="button" data-lang="vi">Ti&#7871;ng Vi&#7879;t</button>
+    </div>
+    <h2 id="gateTitle" data-i18n="gateTitle">Who's viewing?</h2>
+    <p data-i18n-html="gateText"></p>
     <div class="who" id="who"></div>
-    <button type="button" class="linkbtn" id="justLooking">Just looking</button>
+    <button type="button" class="linkbtn" id="justLooking" data-i18n="justLooking">Just looking</button>
   </div>
 </div>
 
@@ -316,16 +330,16 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
   <div class="trayin">
     <div class="traybar">
       <div class="trayhead">
-        <b id="trayTitle">My top 5</b>
+        <b id="trayTitle"></b>
         <span class="status" id="voteStatus" role="status"></span>
       </div>
-      <button type="button" class="tbtn" id="trayToggle" aria-expanded="false">List</button>
-      <button type="button" class="tbtn primary" id="submitVote" disabled>Submit</button>
+      <button type="button" class="tbtn" id="trayToggle" aria-expanded="false"></button>
+      <button type="button" class="tbtn primary" id="submitVote" disabled></button>
     </div>
     <div class="traymore" id="trayMore" hidden>
       <p class="grow" id="trayHint"></p>
       <ol class="mylist" id="mylist"></ol>
-      <button type="button" class="linkbtn" id="switchWho">Not you? Switch person</button>
+      <button type="button" class="linkbtn" id="switchWho" data-i18n="switchWho">Not you? Switch person</button>
     </div>
   </div>
 </div>
@@ -339,16 +353,16 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
 
 <main>
   <section id="compare" class="wrap">
-    <h2>At a glance</h2>
-    <p class="hint">Tap a column to sort. Tap a place to jump to its plan.</p>
+    <h2 data-i18n="glance">At a glance</h2>
+    <p class="hint" data-i18n="glanceHint"></p>
     <div class="tablebox">
       <table id="tbl">
-        <thead><tr aria-label="Sort by">
-          <th scope="col" data-k="name"><button type="button">Place</button></th>
-          <th scope="col" data-k="trip"><button type="button">Flights + stay</button></th>
-          <th scope="col" data-k="hi"><button type="button">Weather</button></th>
-          <th scope="col" data-k="pass"><button type="button">Passport</button></th>
-          <th scope="col" data-k="hrs"><button type="button">Flight</button></th>
+        <thead><tr>
+          <th scope="col" data-k="name"><button type="button" data-i18n="thPlace">Place</button></th>
+          <th scope="col" data-k="trip"><button type="button" data-i18n="thCost">Flights + stay</button></th>
+          <th scope="col" data-k="hi"><button type="button" data-i18n="thWeather">Weather</button></th>
+          <th scope="col" data-k="pass"><button type="button" data-i18n="thPassport">Passport</button></th>
+          <th scope="col" data-k="hrs"><button type="button" data-i18n="thFlight">Flight</button></th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -356,8 +370,8 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
   </section>
 
   <section id="trips" class="wrap">
-    <h2>The trips</h2>
-    <p class="hint">Tap a trip below, or use Next to flip through them one at a time.</p>
+    <h2 data-i18n="tripsTitle">The trips</h2>
+    <p class="hint" data-i18n="tripsHint"></p>
     <div class="strip" id="strip" role="tablist" aria-label="Choose a trip"></div>
     <div class="stepper" id="stepTop"></div>
     <div id="cards"></div>
@@ -365,8 +379,8 @@ body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
   </section>
 
   <section id="picks" class="wrap">
-    <h2>Our top 5</h2>
-    <p class="hint">Claude's suggestions, ranked for Mom and Dad first, then cost and how easy the week feels. Your own vote is what counts.</p>
+    <h2 data-i18n="picksTitle">Our top 5</h2>
+    <p class="hint" data-i18n="picksHint"></p>
     <div class="picks" id="picklist"></div>
   </section>
 </main>
@@ -378,8 +392,116 @@ const DATA = /*__DATA__*/null;
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const money = n => "$" + Math.round(n).toLocaleString("en-US");
-const DATES = ["Sat Dec 12", "Sun Dec 13", "Mon Dec 14", "Tue Dec 15", "Wed Dec 16", "Thu Dec 17", "Fri Dec 18", "Sat Dec 19", "Sun Dec 20"];
 const hrs = d => { const m = String(d.fly).match(/([\d.]+)\s*h(?:\s*(\d+)m)?/); return m ? +m[1] + (+m[2] || 0) / 60 : 99; };
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem("wb26:" + k)); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem("wb26:" + k, JSON.stringify(v)); } catch {} },
+};
+
+/* ---------- language: English / Tiếng Việt ---------- */
+let LANG = store.get("lang") === "vi" ? "vi" : "en";
+const STR = {
+  en: {
+    title: "Winter Break 2026",
+    sub: "<b>Sat Dec 12 to Fri Dec 18</b> &middot; Mom, Dad, Emily &amp; Jennifer &middot; all prices per person",
+    jCompare: "Compare all", jTrips: "See each trip", jPicks: "Our top 5",
+    famTitle: "Family vote", famText: "Pick your own top 5. Picks stay private: the family ranking appears once all 4 have voted.",
+    startVote: "Pick your name to vote",
+    gateTitle: "Who's viewing?",
+    gateText: "Pick your name, then tap <b>Add to my top 5</b> on the trips you like most. Your picks are private.",
+    justLooking: "Just looking", switchWho: "Not you? Switch person",
+    glance: "At a glance", glanceHint: "Tap a column to sort. Tap a place to see its plan.",
+    thPlace: "Place", thCost: "Flights + stay", thWeather: "Weather", thPassport: "Passport", thFlight: "Flight",
+    tripsTitle: "The trips", tripsHint: "Tap a trip below, or use the arrow buttons to flip through them one at a time.",
+    picksTitle: "Our top 5", picksHint: "Claude's suggestions, ranked for Mom and Dad first, then cost and how easy the week feels. Your own vote is what counts.",
+    people: { mom: "Mom", dad: "Dad", emily: "Emily", jennifer: "Jennifer" },
+    voted: "Voted", notVoted: "Not voted yet", votedShort: "voted", notYet: "not yet", loading: "Loading votes...",
+    add: "Add to my top 5", inTop: n => `#${n} in my top 5 (tap to remove)`, full: "Top 5 is full", addMini: "+ Top 5",
+    trayTitle: (name, n) => `${name}'s top 5: ${n} of 5`,
+    hintPick: 'Tap "Add to my top 5" on a trip to add it here.', hintDone: "Submit again any time to change your vote.", hintOrder: "Use the arrows to put them in order, then submit.",
+    stPick: "Tap Add on the trips you like", stDone: "Your vote is in", stReady: "Ready to submit",
+    submit: "Submit", update: "Update", list: "List", close: "Close", saving: "Saving your vote...",
+    saved: left => `Vote saved. Waiting on ${left} more ${left === 1 ? "person" : "people"}.`, savedAll: "Vote saved. Everyone has voted! See the family result at the top.",
+    added: (name, n) => `Added ${name} as #${n}.`, removed: name => `Removed ${name}.`,
+    emptyList: 'No trips yet. Scroll down and tap "Add to my top 5" on the ones you like.',
+    up: "Move up", down: "Move down", remove: "Remove", pts: n => `${n} pts`,
+    allPlaces: "All places", warm: "Warm", cold: "Snowy / cold", noPass: "No passport",
+    regions: {},
+    count: n => `${n} trips`, showing: (n, t) => `Showing ${n} of ${t} trips`, noMatch: "No trips match. Clear a filter above.", pos: (i, n) => `${i} of ${n}`, noTrips: "No trips match",
+    kCost: "Flights + stay", sCost: (f, l) => `${f} flight + ${l} stay, each`, kWeather: "Weather", sDaylight: x => `${x} of daylight`,
+    kPassport: "Passport", yes: "Yes", notNeeded: "Not needed", sFlight: (fly, from) => `Flight ${fly} from ${from}`,
+    why: "Why Mom &amp; Dad would love it:", week: "The week, day by day", landNote: (land, home) => `(leave Dec 12, land ${land}; home ${home})`,
+    day: n => `Day ${n}`, eat: "Eat:",
+    details: "Flights, where to stay, getting around", hFlights: "Flights", hStay: "Where to stay", hAround: "Getting around", hWeather: "Weather",
+    weatherLine: (hi, lo, dl) => `${hi} days, ${lo} nights, ${dl} daylight.`, hEvents: "Happening that week", hEntry: "Entry for US citizens",
+    hGood: "The good", hWatch: "Watch out for", hCost: "Cost per person", rowFlights: "Flights", rowStay: "Stay (rental split 4 ways)",
+    checked: "checked", estimate: "estimate", hUnconfirmed: "Not yet confirmed", sources: n => `Sources (${n})`, enOnly: "",
+    pillPass: "Passport", pillNoPass: "No passport", firstPick: "Our #1 pick",
+    pickMeta: (cost, t, pass) => `<b class="num">${cost}</b> flights + stay &middot; ${t} &middot; ${pass ? "passport" : "no passport"}`,
+    foot: `Prices are per person: round-trip flight each, plus the rental split 4 ways (a bedroom for Mom and Dad, one for Emily and Jennifer), researched Oct 2026, and will move. "Checked" means we found a real fare or listing; "estimate" means a typical price. Photos from Wikimedia Commons, credited on each image.`,
+    connErr: "Can't reach the vote server right now. Check your connection and try again.", notConnected: "Voting isn't connected yet.", fileCopy: "Voting works on the live site, not this downloaded copy.",
+  },
+  vi: {
+    title: "Kỳ nghỉ đông 2026",
+    sub: "<b>Thứ Bảy 12/12 đến Thứ Sáu 18/12</b> &middot; Mẹ, Ba, Emily &amp; Jennifer &middot; giá tính cho mỗi người",
+    jCompare: "So sánh", jTrips: "Xem từng chuyến", jPicks: "Top 5 gợi ý",
+    famTitle: "Cả nhà bình chọn", famText: "Mỗi người chọn top 5 của mình. Lựa chọn được giữ kín: kết quả chung chỉ hiện khi cả 4 người đã bình chọn.",
+    startVote: "Chọn tên để bình chọn",
+    gateTitle: "Ai đang xem?",
+    gateText: "Chọn tên của bạn, rồi bấm <b>Thêm vào top 5</b> ở những chuyến bạn thích nhất. Lựa chọn của bạn được giữ kín.",
+    justLooking: "Chỉ xem thôi", switchWho: "Không phải bạn? Đổi người",
+    glance: "Tổng quan", glanceHint: "Bấm vào tên cột để sắp xếp. Bấm vào một nơi để xem lịch trình.",
+    thPlace: "Địa điểm", thCost: "Vé bay + chỗ ở", thWeather: "Thời tiết", thPassport: "Hộ chiếu", thFlight: "Chuyến bay",
+    tripsTitle: "Các chuyến đi", tripsHint: "Bấm vào một chuyến bên dưới, hoặc dùng nút mũi tên để xem lần lượt từng chuyến.",
+    picksTitle: "Top 5 gợi ý", picksHint: "Gợi ý của Claude, ưu tiên điều Ba Mẹ thích, rồi đến chi phí và độ thoải mái. Phiếu bầu của mỗi người mới là quyết định.",
+    people: { mom: "Mẹ", dad: "Ba", emily: "Emily", jennifer: "Jennifer" },
+    voted: "Đã bình chọn", notVoted: "Chưa bình chọn", votedShort: "đã chọn", notYet: "chưa", loading: "Đang tải phiếu bầu...",
+    add: "Thêm vào top 5", inTop: n => `Hạng ${n} trong top 5 (bấm để bỏ)`, full: "Top 5 đã đủ", addMini: "+ Top 5",
+    trayTitle: (name, n) => `Top 5 của ${name}: ${n}/5`,
+    hintPick: "Bấm \"Thêm vào top 5\" ở một chuyến để thêm vào đây.", hintDone: "Có thể gửi lại bất cứ lúc nào để đổi phiếu.", hintOrder: "Dùng mũi tên để sắp xếp thứ tự, rồi bấm Gửi.",
+    stPick: "Bấm Thêm ở những chuyến bạn thích", stDone: "Đã gửi phiếu", stReady: "Sẵn sàng để gửi",
+    submit: "Gửi", update: "Cập nhật", list: "Danh sách", close: "Đóng", saving: "Đang lưu phiếu...",
+    saved: left => `Đã lưu phiếu. Còn chờ ${left} người nữa.`, savedAll: "Đã lưu phiếu. Cả nhà đã bình chọn xong! Xem kết quả ở trên cùng.",
+    added: (name, n) => `Đã thêm ${name}, hạng ${n}.`, removed: name => `Đã bỏ ${name}.`,
+    emptyList: "Chưa có chuyến nào. Kéo xuống và bấm \"Thêm vào top 5\" ở những chuyến bạn thích.",
+    up: "Lên", down: "Xuống", remove: "Bỏ", pts: n => `${n} điểm`,
+    allPlaces: "Tất cả", warm: "Ấm áp", cold: "Lạnh / tuyết", noPass: "Không cần hộ chiếu",
+    regions: { Europe: "Châu Âu", Asia: "Châu Á", US: "Mỹ", Canada: "Canada", Caribbean: "Caribe", "Latin America": "Mỹ Latinh" },
+    count: n => `${n} chuyến`, showing: (n, t) => `Đang hiện ${n}/${t} chuyến`, noMatch: "Không có chuyến nào phù hợp. Bỏ bớt bộ lọc ở trên.", pos: (i, n) => `${i}/${n}`, noTrips: "Không có chuyến phù hợp",
+    kCost: "Vé bay + chỗ ở", sCost: (f, l) => `vé ${f} + chỗ ở ${l}, mỗi người`, kWeather: "Thời tiết", sDaylight: x => `${x} có ánh sáng ban ngày`,
+    kPassport: "Hộ chiếu", yes: "Cần", notNeeded: "Không cần", sFlight: (fly, from) => `Bay ${fly} từ ${from}`,
+    why: "Vì sao Ba Mẹ sẽ thích:", week: "Lịch trình từng ngày", landNote: (land, home) => `(đi 12/12, đến nơi ${land}; về nhà ${home})`,
+    day: n => `Ngày ${n}`, eat: "Ăn:",
+    details: "Chuyến bay, chỗ ở, đi lại", hFlights: "Chuyến bay", hStay: "Nên ở khu nào", hAround: "Đi lại", hWeather: "Thời tiết",
+    weatherLine: (hi, lo, dl) => `Ban ngày ${hi}, ban đêm ${lo}, ${dl} có ánh sáng.`, hEvents: "Sự kiện trong tuần", hEntry: "Nhập cảnh (công dân Mỹ)",
+    hGood: "Điểm hay", hWatch: "Cần lưu ý", hCost: "Chi phí mỗi người", rowFlights: "Vé máy bay", rowStay: "Chỗ ở (chia 4 người)",
+    checked: "đã kiểm tra", estimate: "ước tính", hUnconfirmed: "Chưa xác nhận", sources: n => `Nguồn (${n})`,
+    enOnly: "Chi tiết nguồn và giá bằng tiếng Anh.",
+    pillPass: "Cần hộ chiếu", pillNoPass: "Không cần hộ chiếu", firstPick: "Gợi ý số 1",
+    pickMeta: (cost, t, pass) => `<b class="num">${cost}</b> vé bay + chỗ ở &middot; ${t} &middot; ${pass ? "cần hộ chiếu" : "không cần hộ chiếu"}`,
+    foot: "Giá tính cho mỗi người: vé máy bay khứ hồi của mỗi người, cộng tiền thuê nhà chia 4 (một phòng cho Ba Mẹ, một phòng cho Emily và Jennifer), tra cứu tháng 10/2026 và có thể thay đổi. \"Đã kiểm tra\" nghĩa là đã thấy giá vé hoặc giá phòng thật; \"ước tính\" là giá thông thường. Ảnh từ Wikimedia Commons, ghi nguồn trên từng ảnh.",
+    connErr: "Không kết nối được máy chủ bình chọn. Kiểm tra mạng rồi thử lại.", notConnected: "Chức năng bình chọn chưa được kết nối.", fileCopy: "Bình chọn chỉ hoạt động trên trang web, không phải bản tải về.",
+  },
+};
+const T = (k, ...a) => { const v = STR[LANG][k] ?? STR.en[k]; return typeof v === "function" ? v(...a) : v; };
+// translated trip text lives in d.vi (same shape as the English fields); fall back to English
+const L = (d, k) => (LANG === "vi" && d.vi && d.vi[k] != null) ? d.vi[k] : d[k];
+const LD = (d, i, k) => (LANG === "vi" && d.vi?.itinerary?.[i]?.[k]) || d.itinerary[i][k];
+const toC = f => Math.round((f - 32) * 5 / 9);
+const temp = (hi, lo) => LANG === "vi" ? `${toC(hi)}&deg; / ${toC(lo)}&deg;C` : `${hi}&deg; / ${lo}&deg;F`;
+const temp1 = f => LANG === "vi" ? `${toC(f)}&deg;C` : `${f}&deg;F`;
+// "7h 15m nonstop", "22h, 1 stop" -> Vietnamese
+const viTime = s => String(s).replace(/~/g, "khoảng ").replace(/(\d+(?:\.\d+)?)h(?:\s*(\d+)m)?/g, (m, h, mm) => `${h} giờ${mm ? ` ${mm} phút` : ""}`);
+const flyL = s => LANG !== "vi" ? s : viTime(s).replace(/nonstop out/, "bay thẳng chiều đi").replace(/nonstop/g, "bay thẳng").replace(/(\d) stops?/g, "$1 điểm dừng").replace(/ out\b/g, " chiều đi").replace(/ back\b/g, " chiều về").replace(/home/g, "chiều về").replace(/ each way/g, " mỗi chiều");
+const dlL = s => LANG !== "vi" ? s : viTime(s);
+const regionL = r => T("regions")[r] || r;
+const DATES = {
+  en: ["Sat Dec 12", "Sun Dec 13", "Mon Dec 14", "Tue Dec 15", "Wed Dec 16", "Thu Dec 17", "Fri Dec 18", "Sat Dec 19", "Sun Dec 20"],
+  vi: ["Thứ Bảy 12/12", "Chủ Nhật 13/12", "Thứ Hai 14/12", "Thứ Ba 15/12", "Thứ Tư 16/12", "Thứ Năm 17/12", "Thứ Sáu 18/12", "Thứ Bảy 19/12", "Chủ Nhật 20/12"],
+};
+const dateL = i => DATES[LANG][i] || "";
+const shortDate = i => LANG === "vi" ? DATES.vi[i].split(" ").pop() : DATES.en[i].slice(4);
+const shortName = d => L(d, "name").split(",")[0];
 
 function photo(p, cls = "", link = true) {
   if (!p) return `<figure class="broken ${cls}" data-cap=""></figure>`;
@@ -399,54 +521,55 @@ document.addEventListener("error", e => {
 
 function card(d) {
   const c = d.costPP, w = d.weather, hero = d.heroPhotos || [];
+  const wv = L(d, "weather") || w;
   const days = (d.itinerary || []).map((x, i) => `
     <article class="day">
       ${photo(x.photo)}
       <div class="dt">
-        <span class="dn">Day ${x.day} &middot; ${DATES[i + (d.start || 0)] || ""}</span>
-        <span class="tt">${esc(x.title)}</span>
-        <p>${esc(x.plan)}</p>
-        ${x.eat ? `<span class="eat"><b>Eat:</b> ${esc(x.eat)}</span>` : ""}
+        <span class="dn">${T("day", x.day)} &middot; ${dateL(i + (d.start || 0))}</span>
+        <span class="tt">${esc(LD(d, i, "title"))}</span>
+        <p>${esc(LD(d, i, "plan"))}</p>
+        ${x.eat ? `<span class="eat"><b>${T("eat")}</b> ${esc(LD(d, i, "eat"))}</span>` : ""}
       </div>
     </article>`).join("");
-  const tick = v => v ? `<span class="ok">checked</span>` : `<span class="unv">estimate</span>`;
+  const tick = v => v ? `<span class="ok">${T("checked")}</span>` : `<span class="unv">${T("estimate")}</span>`;
   const li = a => (a || []).map(x => `<li>${esc(x)}</li>`).join("");
   return `
   <article class="dest" id="${esc(d.id)}" data-id="${esc(d.id)}">
     <div class="mosaic n${Math.min(hero.length, 3)}">${hero.slice(0, 3).map(p => photo(p)).join("")}</div>
     <div class="dbody">
-      <div class="dhead"><h3>${esc(d.name)}</h3><span class="tag">${esc(d.tagline)}</span></div>
-      <button type="button" class="addbtn" data-add="${esc(d.id)}" hidden>Add to my top 5</button>
+      <div class="dhead"><h3>${esc(L(d, "name"))}</h3><span class="tag">${esc(L(d, "tagline"))}</span></div>
+      <button type="button" class="addbtn" data-add="${esc(d.id)}" hidden></button>
       <div class="facts">
-        <div class="fact"><div class="k">Flights + stay</div><div class="v num">${money(c.trip)}</div><div class="s">${money(c.flights)} flight + ${money(c.lodging)} stay, each</div></div>
-        <div class="fact"><div class="k">Weather</div><div class="v num">${w.highF}&deg; / ${w.lowF}&deg;F</div><div class="s">${esc(w.daylight)} of daylight</div></div>
-        <div class="fact"><div class="k">Passport</div><div class="v">${d.passport ? "Yes" : "Not needed"}</div><div class="s">Flight ${esc(d.fly)} from ${esc(d.flight.from)}</div></div>
+        <div class="fact"><div class="k">${T("kCost")}</div><div class="v num">${money(c.trip)}</div><div class="s">${T("sCost", money(c.flights), money(c.lodging))}</div></div>
+        <div class="fact"><div class="k">${T("kWeather")}</div><div class="v num">${temp(w.highF, w.lowF)}</div><div class="s">${T("sDaylight", esc(dlL(w.daylight)))}</div></div>
+        <div class="fact"><div class="k">${T("kPassport")}</div><div class="v">${d.passport ? T("yes") : T("notNeeded")}</div><div class="s">${T("sFlight", esc(flyL(d.fly)), esc(d.flight.from))}</div></div>
       </div>
-      <p class="why"><b>Why Mom &amp; Dad would love it:</b> ${esc(d.whyParents)}</p>
-      <div class="itin"><h4>The week, day by day${d.start ? ` <span style="text-transform:none;letter-spacing:0;color:var(--warm)">(leave Dec 12, land ${DATES[d.start].slice(4)}; home ${DATES[d.start + 6].slice(4)})</span>` : ""}</h4><div class="days">${days}</div></div>
+      <p class="why"><b>${T("why")}</b> ${esc(L(d, "whyParents"))}</p>
+      <div class="itin"><h4>${T("week")}${d.start ? ` <span style="text-transform:none;letter-spacing:0;color:var(--warm)">${T("landNote", shortDate(d.start), shortDate(d.start + 6))}</span>` : ""}</h4><div class="days">${days}</div></div>
       <details>
-        <summary>Flights, where to stay, getting around</summary>
+        <summary>${T("details")}</summary>
         <div class="grid2">
-          <div><h5>Flights</h5><p>${esc(d.flight.airline)}: ${esc(d.flight.routing)}${d.flight.notes ? ". " + esc(d.flight.notes) : ""}</p></div>
-          <div><h5>Where to stay</h5><p>${esc(d.stay)}</p></div>
-          <div><h5>Getting around</h5><p>${esc(d.getAround)}</p></div>
-          <div><h5>Weather</h5><p>${w.highF}&deg;F days, ${w.lowF}&deg;F nights, ${esc(w.daylight)} daylight. ${esc(w.precip)}</p></div>
-          <div><h5>Happening that week</h5><ul>${li(d.events)}</ul></div>
-          <div><h5>Entry for US citizens</h5><p>${esc(d.entry)}</p></div>
-          <div><h5>The good</h5><ul>${li(d.pros)}</ul></div>
-          <div><h5>Watch out for</h5><ul>${li(d.cons)}</ul></div>
-          <div class="cost"><h5>Cost per person</h5>
+          <div><h5>${T("hFlights")}</h5><p>${esc(L(d, "flightText") || `${d.flight.airline}: ${d.flight.routing}${d.flight.notes ? ". " + d.flight.notes : ""}`)}</p></div>
+          <div><h5>${T("hStay")}</h5><p>${esc(L(d, "stay"))}</p></div>
+          <div><h5>${T("hAround")}</h5><p>${esc(L(d, "getAround"))}</p></div>
+          <div><h5>${T("hWeather")}</h5><p>${T("weatherLine", temp1(w.highF), temp1(w.lowF), esc(dlL(w.daylight)))} ${esc(L(d, "precip") || w.precip)}</p></div>
+          <div><h5>${T("hEvents")}</h5><ul>${li(L(d, "events"))}</ul></div>
+          <div><h5>${T("hEntry")}</h5><p>${esc(L(d, "entry"))}</p></div>
+          <div><h5>${T("hGood")}</h5><ul>${li(L(d, "pros"))}</ul></div>
+          <div><h5>${T("hWatch")}</h5><ul>${li(L(d, "cons"))}</ul></div>
+          <div class="cost"><h5>${T("hCost")}</h5>
             <table><tbody>
-              <tr><td>Flights</td><td class="num">${money(c.flights)}</td><td>${tick(c.flightsVerified)}</td></tr>
-              <tr><td>Stay (rental split 4 ways)</td><td class="num">${money(c.lodging)}</td><td>${tick(c.lodgingVerified)}</td></tr>
+              <tr><td>${T("rowFlights")}</td><td class="num">${money(c.flights)}</td><td>${tick(c.flightsVerified)}</td></tr>
+              <tr><td>${T("rowStay")}</td><td class="num">${money(c.lodging)}</td><td>${tick(c.lodgingVerified)}</td></tr>
             </tbody></table>
-            <p style="margin-top:6px">${esc(c.flightsBasis)} ${esc(c.lodgingBasis)}</p>
+            <p style="margin-top:6px">${T("enOnly")} ${esc(c.flightsBasis)} ${esc(c.lodgingBasis)}</p>
           </div>
-          ${(d.unverified || []).length ? `<div><h5>Not yet confirmed</h5><ul>${li(d.unverified)}</ul></div>` : ""}
+          ${(L(d, "unverified") || []).length ? `<div><h5>${T("hUnconfirmed")}</h5><ul>${li(L(d, "unverified"))}</ul></div>` : ""}
         </div>
       </details>
       <details class="sources">
-        <summary>Sources (${(d.sources || []).length})</summary>
+        <summary>${T("sources", (d.sources || []).length)}</summary>
         <ol>${(d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("")}</ol>
       </details>
     </div>
@@ -457,12 +580,12 @@ function row(d) {
   const c = d.costPP, w = d.weather, p = (d.heroPhotos || [])[0];
   return `<tr data-id="${esc(d.id)}">
     <td class="place"><div class="pl">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
-      <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a>
-      <button type="button" class="addmini" data-add="${esc(d.id)}" hidden>+ Top 5</button></div></td>
+      <a href="#${esc(d.id)}">${esc(L(d, "name"))}<small>${esc(L(d, "tagline"))}</small></a>
+      <button type="button" class="addmini" data-add="${esc(d.id)}" hidden></button></div></td>
     <td class="num"><span class="big">${money(c.trip)}</span><small style="display:block;color:var(--muted)">${money(c.flights)} + ${money(c.lodging)}</small></td>
-    <td><span class="pill ${d.warm ? "warm" : "cold"} num">${w.highF}&deg; / ${w.lowF}&deg;F</span></td>
-    <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? "Passport" : "No passport"}</span></td>
-    <td class="num">${esc(d.fly)}<small style="display:block;color:var(--muted)">${esc(d.flight.from)}</small></td>
+    <td><span class="pill ${d.warm ? "warm" : "cold"} num">${temp(w.highF, w.lowF)}</span></td>
+    <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? T("pillPass") : T("pillNoPass")}</span></td>
+    <td class="num">${esc(flyL(d.fly))}<small style="display:block;color:var(--muted)">${esc(d.flight.from)}</small></td>
   </tr>`;
 }
 
@@ -471,7 +594,7 @@ const byId = Object.fromEntries(dests.map(d => [d.id, d]));
 const regions = [...new Set(dests.map(d => d.region))];
 const F = { region: "All", temp: "Any", nopass: false };
 const sortKeys = {
-  name: d => d.name, trip: d => d.costPP.trip,
+  name: d => L(d, "name"), trip: d => d.costPP.trip,
   hi: d => d.weather.highF, pass: d => d.passport ? 1 : 0, hrs: hrs,
 };
 let sort = { k: "trip", dir: 1 };
@@ -479,9 +602,9 @@ let sort = { k: "trip", dir: 1 };
 function chips() {
   const b = (label, on, act, cls = "") => `<button type="button" class="chip ${cls}" aria-pressed="${on}" data-act="${act}">${label}</button>`;
   $("#chips").innerHTML =
-    ["All", ...regions].map(r => b(r === "All" ? "All places" : r, F.region === r, "region:" + r)).join("") +
-    b("Warm", F.temp === "Warm", "temp:Warm", "sep") + b("Snowy / cold", F.temp === "Cold", "temp:Cold") +
-    b("No passport", F.nopass, "nopass", "sep");
+    ["All", ...regions].map(r => b(r === "All" ? T("allPlaces") : regionL(r), F.region === r, "region:" + r)).join("") +
+    b(T("warm"), F.temp === "Warm", "temp:Warm", "sep") + b(T("cold"), F.temp === "Cold", "temp:Cold") +
+    b(T("noPass"), F.nopass, "nopass", "sep");
 }
 $("#chips").addEventListener("click", e => {
   const a = e.target.closest("button")?.dataset.act; if (!a) return;
@@ -502,10 +625,10 @@ function apply() {
     return (x > y ? 1 : x < y ? -1 : 0) * sort.dir;
   });
   const tb = $("#tbl tbody");
-  tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="5">No trips match. Clear a filter above.</td></tr>`;
+  tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="5">${T("noMatch")}</td></tr>`;
   document.querySelectorAll("#tbl th").forEach(th => th.setAttribute("aria-sort", th.dataset.k === sort.k ? (sort.dir > 0 ? "ascending" : "descending") : "none"));
   const n = dests.filter(show).length;
-  $("#count").textContent = n === dests.length ? `${n} trips` : `Showing ${n} of ${dests.length} trips`;
+  $("#count").textContent = n === dests.length ? T("count", n) : T("showing", n, dests.length);
   renderBrowser();
   syncAddButtons();
 }
@@ -517,20 +640,20 @@ function renderBrowser() {
   const vis = ORDER.filter(show);
   if (!vis.some(d => d.id === cur) && vis.length) cur = vis[0].id;
   const i = vis.findIndex(d => d.id === cur);
-  const mine = id => (typeof V !== "undefined" && V.me) ? V.list.indexOf(id) : -1;
+  const mine = id => V.me ? V.list.indexOf(id) : -1;
   $("#strip").innerHTML = vis.map(d => {
     const p = (d.heroPhotos || [])[0], m = mine(d.id);
     return `<button type="button" role="tab" data-go="${esc(d.id)}" aria-selected="${d.id === cur}">
       <span class="th">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
-      <b>${esc(d.name.split(",")[0])}</b>
-      <small>${money(d.costPP.trip)} &middot; ${d.weather.highF}&deg;F${m >= 0 ? ` <span class="mine">#${m + 1}</span>` : ""}</small>
+      <b>${esc(shortName(d))}</b>
+      <small>${money(d.costPP.trip)} &middot; ${temp1(d.weather.highF)}${m >= 0 ? ` <span class="mine">#${m + 1}</span>` : ""}</small>
     </button>`;
   }).join("");
   document.querySelectorAll(".dest").forEach(el => { el.hidden = el.dataset.id !== cur || !vis.length; });
   const prev = vis[i - 1], next = vis[i + 1];
-  const step = `<button type="button" data-go="${prev ? esc(prev.id) : ""}" ${prev ? "" : "disabled"}>&larr; ${prev ? esc(prev.name.split(",")[0]) : ""}</button>
-    <span class="pos">${vis.length ? `${i + 1} of ${vis.length}` : "No trips match"}</span>
-    <button type="button" class="next" data-go="${next ? esc(next.id) : ""}" ${next ? "" : "disabled"}>${next ? esc(next.name.split(",")[0]) : ""} &rarr;</button>`;
+  const step = `<button type="button" data-go="${prev ? esc(prev.id) : ""}" ${prev ? "" : "disabled"}>&larr; ${prev ? esc(shortName(prev)) : ""}</button>
+    <span class="pos">${vis.length ? T("pos", i + 1, vis.length) : T("noTrips")}</span>
+    <button type="button" class="next" data-go="${next ? esc(next.id) : ""}" ${next ? "" : "disabled"}>${next ? esc(shortName(next)) : ""} &rarr;</button>`;
   $("#stepTop").innerHTML = step;
   $("#stepBottom").innerHTML = step;
   const sel = $('#strip [aria-selected="true"]');
@@ -544,7 +667,7 @@ function go(id, scroll) {
 }
 document.addEventListener("click", e => {
   const b = e.target.closest("[data-go]");
-  if (b && b.dataset.go) { go(b.dataset.go, b.closest(".stepper") === $("#stepBottom") || b.closest(".stepper") === $("#stepTop")); return; }
+  if (b && b.dataset.go) { go(b.dataset.go, !!b.closest(".stepper")); return; }
   const a = e.target.closest('a[href^="#"]');
   const id = a && decodeURIComponent(a.getAttribute("href").slice(1));
   if (id && byId[id]) { e.preventDefault(); go(id, true); }
@@ -555,12 +678,8 @@ window.addEventListener("hashchange", fromHash);
 /* ---------- family vote ---------- */
 // Same-origin on Vercel; the GitHub Pages copy calls the Vercel deployment.
 const VOTE_API = location.hostname.endsWith("github.io") ? "https://family-winter-break.vercel.app/api/votes" : "/api/votes";
-const PEOPLE = [["mom", "Mom"], ["dad", "Dad"], ["emily", "Emily"], ["jennifer", "Jennifer"]];
-const label = id => (PEOPLE.find(p => p[0] === id) || [, ""])[1];
-const store = {
-  get(k) { try { return JSON.parse(localStorage.getItem("wb26:" + k)); } catch { return null; } },
-  set(k, v) { try { localStorage.setItem("wb26:" + k, JSON.stringify(v)); } catch {} },
-};
+const PEOPLE = ["mom", "dad", "emily", "jennifer"];
+const label = id => T("people")[id] || "";
 const V = { me: store.get("me"), list: [], server: null, open: false, saving: false };
 if (V.me) V.list = (store.get("list:" + V.me) || []).filter(id => byId[id]);
 
@@ -568,16 +687,16 @@ async function api(method, body) {
   let r;
   try {
     r = await fetch(VOTE_API, { method, headers: body ? { "Content-Type": "application/json" } : {}, body: body ? JSON.stringify(body) : undefined });
-  } catch { throw new Error("Can't reach the vote server right now. Check your connection and try again."); }
+  } catch { throw new Error(T("connErr")); }
   const out = await r.json().catch(() => ({}));
-  if (!r.ok) throw new Error(out.error || "Voting isn't connected yet.");
+  if (!r.ok) throw new Error(LANG === "en" && out.error ? out.error : T("notConnected"));
   return out;
 }
 
 function renderGate() {
   const voted = V.server?.voted || {};
-  $("#who").innerHTML = PEOPLE.map(([id, name]) =>
-    `<button type="button" data-who="${id}" class="${voted[id] ? "done" : ""}">${name}<small>${voted[id] ? "Voted" : "Not voted yet"}</small></button>`).join("");
+  $("#who").innerHTML = PEOPLE.map(id =>
+    `<button type="button" data-who="${id}" class="${voted[id] ? "done" : ""}">${label(id)}<small>${voted[id] ? T("voted") : T("notVoted")}</small></button>`).join("");
 }
 function openGate() { renderGate(); $("#gate").hidden = false; $("#who button")?.focus(); }
 $("#who").addEventListener("click", e => {
@@ -585,6 +704,7 @@ $("#who").addEventListener("click", e => {
   V.me = id; store.set("me", id);
   V.list = (store.get("list:" + id) || []).filter(x => byId[x]);
   V.open = V.list.length > 0;
+  setStatus("");
   $("#gate").hidden = true;
   renderVote();
 });
@@ -596,8 +716,8 @@ function saveList() { store.set("list:" + V.me, V.list); }
 function toggleTrip(id) {
   if (!V.me) return openGate();
   const i = V.list.indexOf(id);
-  if (i >= 0) { V.list.splice(i, 1); setStatus(`Removed ${byId[id].name}.`); }
-  else if (V.list.length < 5) { V.list.push(id); setStatus(`Added ${byId[id].name} as #${V.list.length}.`); }
+  if (i >= 0) { V.list.splice(i, 1); setStatus(T("removed", shortName(byId[id]))); }
+  else if (V.list.length < 5) { V.list.push(id); setStatus(T("added", shortName(byId[id]), V.list.length)); }
   saveList(); renderVote();
 }
 document.addEventListener("click", e => {
@@ -615,11 +735,11 @@ $("#mylist").addEventListener("click", e => {
 $("#trayToggle").addEventListener("click", () => { V.open = !V.open; renderVote(); });
 $("#submitVote").addEventListener("click", async () => {
   if (V.list.length !== 5 || V.saving) return;
-  V.saving = true; setStatus("Saving your vote...");
+  V.saving = true; setStatus(T("saving"));
   try {
     V.server = await api("POST", { voter: V.me, ranking: V.list });
-    const left = PEOPLE.filter(([id]) => !V.server.voted[id]).length;
-    setStatus(left ? `Vote saved. Waiting on ${left} more ${left === 1 ? "person" : "people"}.` : "Vote saved. Everyone has voted! See the family result at the top.");
+    const left = PEOPLE.filter(id => !V.server.voted[id]).length;
+    setStatus(left ? T("saved", left) : T("savedAll"));
     V.open = false;
   } catch (err) { setStatus(err.message, true); }
   V.saving = false; renderVote(); renderFamily();
@@ -633,8 +753,8 @@ function syncAddButtons() {
     b.classList.toggle("in", i >= 0);
     b.disabled = i < 0 && full;
     b.textContent = b.classList.contains("addmini")
-      ? (i >= 0 ? `#${i + 1}` : "+ Top 5")
-      : (i >= 0 ? `#${i + 1} in my top 5 (tap to remove)` : full ? "Top 5 is full" : "Add to my top 5");
+      ? (i >= 0 ? `#${i + 1}` : T("addMini"))
+      : (i >= 0 ? T("inTop", i + 1) : full ? T("full") : T("add"));
   });
 }
 
@@ -646,43 +766,44 @@ function renderVote() {
   syncAddButtons();
   if (!V.me) return;
   const n = V.list.length, done = V.server?.voted?.[V.me];
-  $("#trayTitle").textContent = `${label(V.me)}'s top 5: ${n} of 5`;
-  $("#trayHint").textContent = n < 5 ? `Tap "Add to my top 5" on a trip to add it here.` : done ? "Submit again any time to change your vote." : "Use the arrows to put them in order, then submit.";
-  if (!$("#voteStatus").textContent) setStatus(n < 5 ? "Tap Add on the trips you like" : done ? "Your vote is in" : "Ready to submit");
+  $("#trayTitle").textContent = T("trayTitle", label(V.me), n);
+  $("#trayHint").textContent = n < 5 ? T("hintPick") : done ? T("hintDone") : T("hintOrder");
+  if (!$("#voteStatus").textContent) setStatus(n < 5 ? T("stPick") : done ? T("stDone") : T("stReady"));
   $("#submitVote").disabled = n !== 5 || V.saving;
-  $("#submitVote").textContent = done ? "Update" : "Submit";
-  $("#trayToggle").textContent = V.open ? "Close" : "List";
+  $("#submitVote").textContent = done ? T("update") : T("submit");
+  $("#trayToggle").textContent = V.open ? T("close") : T("list");
   $("#trayToggle").setAttribute("aria-expanded", V.open);
   $("#trayMore").hidden = !V.open;
   $("#mylist").innerHTML = n ? V.list.map((id, i) => `<li>
       <span class="rk">${i + 1}</span>
-      <span class="nm">${esc(byId[id].name)}<small>${money(byId[id].costPP.trip)} &middot; ${byId[id].weather.highF}&deg;F</small></span>
+      <span class="nm">${esc(L(byId[id], "name"))}<small>${money(byId[id].costPP.trip)} &middot; ${temp1(byId[id].weather.highF)}</small></span>
       <span class="ctl">
-        <button type="button" data-act="up" data-i="${i}" aria-label="Move up" ${i === 0 ? "disabled" : ""}>&#9650;</button>
-        <button type="button" data-act="down" data-i="${i}" aria-label="Move down" ${i === n - 1 ? "disabled" : ""}>&#9660;</button>
-        <button type="button" data-act="remove" data-i="${i}" aria-label="Remove">&#10005;</button>
+        <button type="button" data-act="up" data-i="${i}" aria-label="${T("up")}" ${i === 0 ? "disabled" : ""}>&#9650;</button>
+        <button type="button" data-act="down" data-i="${i}" aria-label="${T("down")}" ${i === n - 1 ? "disabled" : ""}>&#9660;</button>
+        <button type="button" data-act="remove" data-i="${i}" aria-label="${T("remove")}">&#10005;</button>
       </span></li>`).join("")
-    : `<li class="empty">No trips yet. Scroll down and tap "Add to my top 5" on the ones you like.</li>`;
+    : `<li class="empty">${T("emptyList")}</li>`;
 }
 
 function renderFamily() {
   const s = V.server;
   $("#votedrow").innerHTML = s
-    ? PEOPLE.map(([id, name]) => `<span class="${s.voted[id] ? "yes" : ""}">${name}: ${s.voted[id] ? "voted" : "not yet"}</span>`).join("")
-    : `<span>${esc(V.err || "Loading votes...")}</span>`;
+    ? PEOPLE.map(id => `<span class="${s.voted[id] ? "yes" : ""}">${label(id)}: ${s.voted[id] ? T("votedShort") : T("notYet")}</span>`).join("")
+    : `<span>${esc(V.err ? T(V.err) : T("loading"))}</span>`;
   const ol = $("#results");
   ol.hidden = !(s && s.complete && s.results);
   if (ol.hidden) return;
-  const top = s.results[0].points;
-  ol.innerHTML = s.results.filter(r => byId[r.id]).map((r, i) => `<li>
+  const res = s.results.filter(r => byId[r.id]);
+  const top = res.length ? res[0].points : 1;
+  ol.innerHTML = res.map((r, i) => `<li>
     <span class="rk">${i + 1}</span>
-    <span><a href="#${esc(r.id)}">${esc(byId[r.id].name)}</a><div class="bar" style="width:${Math.max(6, r.points / top * 100)}%"></div></span>
-    <span class="pts">${r.points} pts</span></li>`).join("");
+    <span><a href="#${esc(r.id)}">${esc(L(byId[r.id], "name"))}</a><div class="bar" style="width:${Math.max(6, r.points / top * 100)}%"></div></span>
+    <span class="pts">${T("pts", r.points)}</span></li>`).join("");
 }
 
 async function loadVotes() {
   try { V.server = await api("GET"); V.err = null; }
-  catch (err) { V.err = location.protocol === "file:" ? "Voting works on the live site, not this downloaded copy." : err.message; }
+  catch (err) { V.err = location.protocol === "file:" ? "fileCopy" : (err.message === T("connErr") ? "connErr" : "notConnected"); }
   renderFamily(); renderVote(); if (!$("#gate").hidden) renderGate();
 }
 
@@ -691,17 +812,32 @@ document.querySelectorAll("#tbl th button").forEach(btn => btn.addEventListener(
   sort = { k, dir: sort.k === k ? -sort.dir : 1 }; apply();
 }));
 
-$("#cards").innerHTML = [...dests].sort((a, b) => a.costPP.trip - b.costPP.trip).map(card).join("");
-$("#picklist").innerHTML = DATA.recs.map((r, i) => {
-  const d = byId[r.id]; if (!d) return "";
-  return `<a class="pick ${i === 0 ? "first" : ""}" href="#${esc(d.id)}" style="color:inherit;text-decoration:none">
-    ${photo((d.heroPhotos || [])[0], "", false)}
-    <div class="pb"><div class="rank">${i + 1}</div><h3>${esc(d.name)}</h3>
-      <p><b class="num">${money(d.costPP.trip)}</b> flights + stay &middot; ${d.weather.highF}&deg;F &middot; ${d.passport ? "passport" : "no passport"}</p>
-      <p style="margin-top:6px">${esc(r.why)}</p></div>
-  </a>`;
-}).join("");
-$("#foot").innerHTML = `Prices are per person: round-trip flight each, plus the rental split 4 ways (a bedroom for Mom and Dad, one for Emily and Jennifer), researched Oct 27, 2026, and will move. "Checked" means we found a real fare or listing; "estimate" means a typical price. Photos from Wikimedia Commons, credited on each image.`;
+function renderStatic() {
+  document.documentElement.lang = LANG;
+  document.title = T("title");
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = T(el.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-html]").forEach(el => { el.innerHTML = T(el.dataset.i18nHtml); });
+  document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === LANG));
+  $("#cards").innerHTML = ORDER.map(card).join("");
+  $("#picklist").innerHTML = DATA.recs.filter(r => byId[r.id]).map((r, i) => {
+    const d = byId[r.id];
+    return `<a class="pick ${i === 0 ? "first" : ""}" href="#${esc(d.id)}" style="color:inherit;text-decoration:none">
+      ${photo((d.heroPhotos || [])[0], "", false)}
+      <div class="pb">${i === 0 ? `<span class="firstpill">${T("firstPick")}</span>` : ""}<div class="rank">${i + 1}</div><h3>${esc(L(d, "name"))}</h3>
+        <p>${T("pickMeta", money(d.costPP.trip), temp1(d.weather.highF), d.passport)}</p>
+        <p style="margin-top:6px">${esc(LANG === "vi" && r.vi ? r.vi : r.why)}</p></div>
+    </a>`;
+  }).join("");
+  $("#foot").textContent = T("foot");
+}
+function setLang(l) {
+  if (l === LANG) return;
+  LANG = l; store.set("lang", l);
+  renderStatic(); apply(); renderFamily(); renderVote(); renderGate();
+}
+document.addEventListener("click", e => { const l = e.target.closest("[data-lang]")?.dataset.lang; if (l) setLang(l); });
+
+renderStatic();
 apply();
 renderFamily();
 renderVote();

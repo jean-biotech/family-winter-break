@@ -1,0 +1,439 @@
+[
+ {
+  "id": "london",
+  "name": "London, England",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Christmas lights, Winter Wonderland, Bath day trip",
+  "whyParents": "Classic London at Christmas, an easy AA nonstop from Philly, and Bath's market by train.",
+  "fly": "7h 10m nonstop",
+  "costPP": {
+   "flights": 1000,
+   "flightsBasis": "AA PHL-LHR nonstop Main Cabin, mid-Dec estimate. aa.com shows PHL-London Nov 11-18 2026 from $902; Kayak puts Dec as the priciest month (avg $923 to $1,428). 1-stops are not meaningfully cheaper, so nonstop wins.",
+   "flightsVerified": false,
+   "lodging": 675,
+   "lodgingBasis": "2 hotel rooms (e.g. Premier Inn County Hall/Southbank) ~$225/room/night all-in x 2 x 6 nights / 4. Cheaper than a central 2BR rental (~GBP 450/night all-in, about $890 pp). Momondo typical $168 to $262/night.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed by the family"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-LHR nonstop (AA, daily; Nov/Dec 2026 fares on sale)",
+   "aaMetal": true,
+   "hours": "7h 10m out, ~8h 20m back",
+   "notes": "BA also flies PHL-LHR nonstop; BA Avios is a Capital One transfer partner. Arrive Heathrow T3."
+  },
+  "weather": {
+   "highF": 48,
+   "lowF": 39,
+   "daylight": "7h 50m",
+   "precip": "drizzle ~11 days/month, snow rare"
+  },
+  "stay": "South Bank/Westminster: walk to sights and lights",
+  "getAround": "No car. Elizabeth line from Heathrow, Tube and buses with contactless card. GWR train Paddington to Bath ~1h 30m each way.",
+  "entry": "UK ETA required: GBP 20 (~$27) each via UK ETA app or GOV.UK, usually decided within 3 working days. Not Schengen; EES/ETIAS do not apply.",
+  "events": [
+   "Hyde Park Winter Wonderland: Nov 19 2026 to Jan 3 2027 (closed Dec 25), timed entry free to GBP 8.25",
+   "Christmas at Kew light trail: select dates Nov 13 2026 to Jan 3 2027, from 4:20pm, adults from GBP 29.50",
+   "Regent Street lights on since Nov 5 2026; Oxford Street switch-on date not announced",
+   "Bath Christmas Market: Nov 26 to Dec 13 2026, so Sun Dec 13 is its final day"
+  ],
+  "pros": [
+   "AA nonstop from PHL, no language barrier",
+   "Lights, markets and theatre at peak",
+   "Easy rail day trips"
+  ],
+  "cons": [
+   "Dark by 4pm, often damp",
+   "Pricey hotels and meals",
+   "ETA application needed for each person"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive + Regent Street lights",
+    "plan": "Land LHR, Elizabeth line in, nap, evening walk under Regent Street and Covent Garden lights.",
+    "eat": "Fish and chips at Poppies, Soho",
+    "photo": {
+     "file": "Regent Street Christmas Lights 2017 - geograph.org.uk - 5642213.jpg",
+     "author": "Christine Matthews",
+     "license": "CC BY-SA 2.0",
+     "caption": "Regent Street Christmas lights"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Bath day trip",
+    "plan": "Train to Bath for the market's final day, Roman Baths, Royal Crescent. Back for dinner.",
+    "eat": "Sally Lunn bun at Sally Lunn's",
+    "photo": {
+     "file": "Bath Abbey during Christmas.jpg",
+     "author": "Elvbel",
+     "license": "CC BY-SA 4.0",
+     "caption": "Bath Abbey at Christmas"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Westminster + South Bank",
+    "plan": "Westminster Abbey, Big Ben, Churchill War Rooms, London Eye at dusk.",
+    "eat": "Pie and mash at The Albert pub",
+    "photo": {
+     "file": "Westminster Bridge and Palace of Westminster.jpg",
+     "author": "Martin Dunst",
+     "license": "CC BY-SA 4.0",
+     "caption": "Westminster Bridge and Parliament"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Tower + Borough Market",
+    "plan": "Crown Jewels at the Tower, walk Tower Bridge, lunch at Borough Market.",
+    "eat": "Borough Market stalls: raclette, Bread Ahead doughnuts",
+    "photo": {
+     "file": "Tower Bridge by night from London Bridge 2013.JPG",
+     "author": "Bert Seghers",
+     "license": "CC0",
+     "caption": "Tower Bridge lit at night"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Museum + Winter Wonderland",
+    "plan": "British Museum morning, Oxford Street shops, evening Winter Wonderland in Hyde Park.",
+    "eat": "Bratwurst and mulled wine at Winter Wonderland",
+    "photo": {
+     "file": "Hyde Park Winter Wonderland 2011 - 08.jpg",
+     "author": "Garry Knight",
+     "license": "CC BY-SA 2.0",
+     "caption": "Hyde Park Winter Wonderland"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Kensington + Kew lights",
+    "plan": "V&A, Harrods food hall, then Christmas at Kew light trail (book ahead).",
+    "eat": "Afternoon tea at Harrods Tea Rooms",
+    "photo": {
+     "file": "Kew Gardens Christmas (23752628151).jpg",
+     "author": "Alex Liivet",
+     "license": "CC0",
+     "caption": "Christmas at Kew"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Last coffee, Elizabeth line to Heathrow T3 for midday AA flight.",
+    "eat": "Full English at The Breakfast Club",
+    "photo": {
+     "file": "Heathrow Terminal 3 Departures.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Heathrow Terminal 3"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Tower Bridge London Dusk Feb 2006.jpg",
+    "author": "David Iliff (Diliff)",
+    "license": "CC BY-SA 3.0",
+    "caption": "Tower Bridge at dusk"
+   },
+   {
+    "file": "1 westminster palace panorama 2012 dusk.jpg",
+    "author": "See Commons",
+    "license": "CC BY-SA 4.0",
+    "caption": "Westminster at dusk"
+   },
+   {
+    "file": "Covent Garden Market Christmas 2017 Decorations.jpg",
+    "author": "Simeon87",
+    "license": "See Commons",
+    "caption": "Covent Garden at Christmas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Winter Wonderland 2026 official tickets guide",
+    "url": "https://hydeparkwinterwonderland.com/tickets-guide/"
+   },
+   {
+    "label": "Kew: Christmas at Kew 2026",
+    "url": "https://www.kew.org/kew-gardens/whats-on/christmas"
+   },
+   {
+    "label": "Londonist: 2026 Christmas lights switch-on dates",
+    "url": "https://londonist.com/when-are-the-london-christmas-lights-switched-on"
+   },
+   {
+    "label": "Radio Bath: Bath Christmas Market 2026 dates",
+    "url": "https://radiobath.com/festive-magic-for-christmas-2026-already-on-the-horizon-in-bath/page/3/"
+   },
+   {
+    "label": "VisasNews: UK ETA fee GBP 20 from Apr 8 2026",
+    "url": "https://visasnews.com/en/uk-eta-fee-to-increase-to-20-on-april-8-2026/"
+   },
+   {
+    "label": "Mondaq: UK fee rises Apr 8 2026",
+    "url": "https://www.mondaq.com/uk/general-immigration/1763142/uk-immigration-nationality-and-passport-fee-rises-from-8-april-2026"
+   },
+   {
+    "label": "GOV.UK: apply for an ETA",
+    "url": "https://www.gov.uk/eta"
+   },
+   {
+    "label": "aa.com PHL-England fares (Nov 2026 $902)",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-england"
+   },
+   {
+    "label": "Kayak PHL-LHR route data",
+    "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/London-Heathrow-LHR"
+   },
+   {
+    "label": "Momondo: Premier Inn County Hall rates",
+    "url": "https://momondo.com/hotels/london/Premier-Inn-London-County-Hall.mhd327811.ksp"
+   },
+   {
+    "label": "AirDNA London ADR",
+    "url": "https://www.airdna.co/vacation-rental-data/app/gb/default/london/revenue"
+   }
+  ],
+  "unverified": [
+   "No dated mid-Dec 2026 PHL-LHR fare seen; $1,000 is an estimate from a Nov 2026 aa.com fare and Kayak December averages.",
+   "Lodging is an estimate: no Dec 2026 hotel or 2BR rate seen. GBP converted at ~1.32 (early Oct 2026 rate).",
+   "AA PHL-LHR December 2026 frequency not confirmed from a schedule filing; Nov 2026 fares are on sale.",
+   "ETA fee and process from secondary sources (official gov.uk page not reachable here); confirm on gov.uk/eta.",
+   "Covent Garden and Oxford Street 2026 switch-on dates not announced.",
+   "Weather figures are climate normals, not checked this session.",
+   "Photo licenses marked See Commons were not confirmed on the file page."
+  ]
+ },
+ {
+  "id": "vienna-prague",
+  "name": "Vienna, Austria + Prague, Czechia",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Two great Christmas-market capitals, linked by train",
+  "whyParents": "Old-world Europe at its most festive: palaces, cafes and markets in two cities.",
+  "fly": "8h 10m nonstop out; ~12h, 1 stop home",
+  "costPP": {
+   "flights": 1050,
+   "flightsBasis": "Open jaw: Austrian EWR-VIE nonstop out, PRG-EWR 1-stop home (no winter nonstop from Prague). Kayak Dec median JFK-VIE RT $1,017. AA 1-stop PHL-VIE/PRG-PHL ~$900 (aa.com PHL-PRG Dec 2-11 2026 from $747 basic), so nonstop is within $250.",
+   "flightsVerified": false,
+   "lodging": 465,
+   "lodgingBasis": "Vienna Innere Stadt 2BR ~$320/night all-in x 3 + Prague Old Town 2BR ~$300/night all-in x 3 = $1,860 / 4. Kayak Prague Dec avg C$406/night (all types); HouseStay Vienna 2BR $223 to $295 listed.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed by the family"
+  },
+  "flight": {
+   "from": "EWR",
+   "airline": "Austrian (Star Alliance)",
+   "routing": "EWR-VIE nonstop (Austrian, 1 daily in Dec 2026); PRG-EWR 1 stop via VIE or FRA",
+   "aaMetal": false,
+   "hours": "8h 10m out, ~12h back",
+   "notes": "AA option: PHL-VIE out, PRG-PHL back, 1 stop each way (often via LHR on BA, Avios transfer partner). AA PHL-VIE nonstop starts May 2027, too late."
+  },
+  "weather": {
+   "highF": 37,
+   "lowF": 29,
+   "daylight": "8h",
+   "precip": "gray, light rain or snow ~8 days/month"
+  },
+  "stay": "Vienna Innere Stadt, then Prague Old Town: walk to markets",
+  "getAround": "No car. CAT or S-Bahn from VIE airport, U-Bahn and trams. Direct train Vienna Hbf to Prague hl.n. ~4h, about EUR 20 to 30 booked ahead.",
+  "entry": "Passport valid 3+ months past exit. Schengen, no visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Vienna Christkindlmarkt, Rathausplatz: Nov 13 to Dec 26 2026, 10am to 10pm",
+   "Schonbrunn Palace Christmas market: Nov 6 2026 to Jan 6 2027",
+   "Prague Old Town Square market: late Nov 2026 (opening reported Nov 20 to 30) to Jan 6 2027",
+   "Prague Wenceslas Square market: Nov 28 2026 to Jan 6 2027 (Visit Czechia)"
+  ],
+  "pros": [
+   "Two top Christmas-market cities",
+   "Scenic 4h train, no car",
+   "Prague is good value"
+  ],
+  "cons": [
+   "Coldest option, near freezing",
+   "No nonstop home from Prague",
+   "Markets very crowded evenings"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Vienna + Rathausplatz",
+    "plan": "Land VIE, CAT train to city, evening at the Rathausplatz market and lit park.",
+    "eat": "Punsch and Kasekrainer at the market",
+    "photo": {
+     "file": "Wien - Christkindlmarkt, Rathausplatz.JPG",
+     "author": "Bwag",
+     "license": "See Commons",
+     "caption": "Rathausplatz Christmas market"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Schonbrunn Palace",
+    "plan": "Palace tour, wintry gardens, Christmas market in the forecourt; Gloriette view.",
+    "eat": "Apple strudel at Cafe Residenz, Schonbrunn",
+    "photo": {
+     "file": "Christmas Market at Schönbrunn Palace in Vienna, Austria (16406086720).jpg",
+     "author": "Flickr user (see Commons)",
+     "license": "CC BY-SA 2.0",
+     "caption": "Schonbrunn Christmas market"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Old Town + coffeehouses",
+    "plan": "St. Stephen's Cathedral, Hofburg, Cafe Central, evening at Spittelberg crafts market.",
+    "eat": "Wiener schnitzel at Figlmuller",
+    "photo": {
+     "file": "Stephansdom Wien Nacht und Schnee.JPG",
+     "author": "DerHHO",
+     "license": "CC BY-SA 3.0",
+     "caption": "St. Stephen's in snow"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Train to Prague",
+    "plan": "Morning Railjet to Prague (~4h), check in, Old Town Square market and tree.",
+    "eat": "Trdelnik and svarak at the market",
+    "photo": {
+     "file": "Christmas market Prague 2021 04.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Old Town Square market"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Prague Castle",
+    "plan": "Castle complex, St. Vitus Cathedral, Golden Lane; walk down through Mala Strana.",
+    "eat": "Svickova at Lokal Hradcany",
+    "photo": {
+     "file": "Prag, Prager Burg, Veitsdom -- 2019 -- 6661.jpg",
+     "author": "Dietmar Rabich",
+     "license": "See Commons",
+     "caption": "St. Vitus Cathedral"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Charles Bridge + Wenceslas",
+    "plan": "Early Charles Bridge, Astronomical Clock on the hour, Wenceslas Square market.",
+    "eat": "Roast duck at U Fleku brewery",
+    "photo": {
+     "file": "Prague charles bridge winter.jpg",
+     "author": "Estec",
+     "license": "CC BY 3.0",
+     "caption": "Charles Bridge in snow"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Breakfast, taxi or bus to PRG for 1-stop flight home.",
+    "eat": "Kolache at Erhartova cukrarna",
+    "photo": {
+     "file": "Václav Havel Airport Prague – Terminal 1 interior.jpg",
+     "author": "Martin2035",
+     "license": "See Commons",
+     "caption": "Prague airport Terminal 1"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Rathaus Wien Christkindlmarkt Panorama.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Vienna City Hall market"
+   },
+   {
+    "file": "Schönbrunn in Weihnachten.jpg",
+    "author": "Freddy Alexander Bugueño Tolmo",
+    "license": "CC BY-SA 4.0",
+    "caption": "Schonbrunn at Christmas"
+   },
+   {
+    "file": "Prag, Altstädter Rathaus, Astronomische Uhr -- 2019 -- 6590.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "caption": "Prague Astronomical Clock"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Vienna Unwrapped: 2026 market dates",
+    "url": "https://www.vienna-unwrapped.com/vienna-christmas-market/"
+   },
+   {
+    "label": "Visiting Vienna: when markets open",
+    "url": "https://www.visitingvienna.com/sights/christmasmarkets/when-open/"
+   },
+   {
+    "label": "Austria.info: Vienna Christmas markets",
+    "url": "https://www.austria.info/en-us/highlights/christmas-markets-in-vienna/"
+   },
+   {
+    "label": "Visit Czechia: Prague Christmas markets",
+    "url": "https://www.visitczechia.com/en-US/1a322307-180f-4329-b639-4195c28def62/event/e-christmas-markets-prague"
+   },
+   {
+    "label": "Praguehints: 2026 markets",
+    "url": "https://praguehints.com/?p=10792"
+   },
+   {
+    "label": "AeroRoutes: Austrian NW26 (EWR daily Dec 2026)",
+    "url": "https://www.aeroroutes.com/eng/260520-osnw26inc"
+   },
+   {
+    "label": "Kayak JFK-VIE route data (Dec median $1,017)",
+    "url": "https://www.kayak.com/flight-routes/New-York-John-F-Kennedy-Intl-JFK/Vienna-Intl-VIE"
+   },
+   {
+    "label": "Vienna.at: AA PHL-VIE nonstop from May 2027",
+    "url": "https://www.vienna.at/new-usa-route-daily-nonstop-from-vienna-to-philadelphia/10424681"
+   },
+   {
+    "label": "Condor/aa.com PHL-PRG fares",
+    "url": "https://www.condor.com/en-us/flights-from-philadelphia-to-prague"
+   },
+   {
+    "label": "Everyrail: Vienna to Prague trains",
+    "url": "https://everyrail.com/trains/vienna-to-prague/"
+   },
+   {
+    "label": "Kayak Prague rentals by month",
+    "url": "https://www.ca.kayak.com/Prague-Vacation-Rentals.19865.rental.ksp"
+   },
+   {
+    "label": "EY: EES fully operational Apr 10 2026",
+    "url": "https://taxnews.ey.com/news/2026-0949-eus-entry-exit-system-fully-operational-as-of-10-april-2026"
+   },
+   {
+    "label": "EU delegation to the US: ETIAS status",
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en"
+   }
+  ],
+  "unverified": [
+   "No dated mid-Dec 2026 open-jaw fare seen; $1,050 is an estimate from Kayak Dec averages and an early-Dec AA PHL-PRG fare.",
+   "Austrian EWR-VIE daily in Dec 2026 is from a May 2026 AeroRoutes filing; Austrian said it is trimming some New York frequencies this winter.",
+   "Delta JFK-PRG nonstop appears summer-only; no Dec 2026 nonstop from Prague found.",
+   "Prague Old Town Square opening date varies by source (Nov 20 to 30); all agree it is open mid-Dec.",
+   "Spittelberg market 2026 dates not published; usually open through Dec 23.",
+   "Lodging is an estimate from listing and monthly-average data, not Dec 2026 quotes.",
+   "Weather figures are climate normals, not checked this session.",
+   "Photo licenses marked See Commons were not confirmed on the file page."
+  ]
+ }
+]

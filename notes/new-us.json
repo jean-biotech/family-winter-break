@@ -1,0 +1,608 @@
+[
+ {
+  "id": "california-coast",
+  "name": "San Francisco, Big Sur + Yosemite, California",
+  "region": "US",
+  "passport": false,
+  "warm": false,
+  "tagline": "City, wild coast, snowy Yosemite Valley",
+  "whyParents": "Three Californias in one week: cable cars, Big Sur cliffs and Yosemite's granite walls dusted with snow.",
+  "fly": "6h 20m nonstop",
+  "costPP": {
+   "flights": 510,
+   "flightsBasis": "American PHL-SFO nonstop. aa.com route page shows Dec 2026 RT from $419 (e.g. 12/09 to 12/16, likely Basic); +$90 for Main Cabin. Kayak typical RT ~$359 to $420. United EWR-SFO nonstop similar.",
+   "flightsVerified": true,
+   "lodging": 625,
+   "lodgingBasis": "SF: 2 hotel rooms Union Square ~$200/room all-in x 2 nights ($800; SF limits whole-home rentals). Monterey: 2 hotel rooms ~$190/room all-in x 2 ($760). Yosemite West 2BR cabin ~$370 listed, ~$470 all-in x 2 ($940). $2,500 / 4.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed from site by family"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-SFO nonstop (AA, several daily); home SFO-PHL nonstop",
+   "aaMetal": true,
+   "hours": "6h 20m out, ~5h 30m back",
+   "notes": "Pick an afternoon or red-eye return: Yosemite to SFO is ~4h. Alt: United EWR-SFO nonstop."
+  },
+  "weather": {
+   "highF": 57,
+   "lowF": 45,
+   "daylight": "9h 30m",
+   "precip": "SF and Monterey: rain ~10 days/month. Yosemite Valley ~48F/26F, snow possible"
+  },
+  "stay": "Union Square (SF), Monterey near Cannery Row, Yosemite West cabin inside park",
+  "getAround": "SF on foot, cable car, ferry. Pick up full-size AWD SUV Day 3 and carry chains. Drives: SF-Monterey 2h, Monterey-Yosemite 4h, Yosemite-SFO 4h.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "SF Ballet Nutcracker, War Memorial Opera House, Dec 4 to 27, 2026",
+   "Bracebridge Dinner at The Ahwahnee, select December 2026 nights (listings conflict on exact dates); formal, sells out early",
+   "Highway 1 through Big Sur fully open since Jan 14, 2026 (Regent's Slide); storm closures still possible",
+   "Yosemite: Tioga Road and Glacier Point Road closed for winter; chains must be carried Nov to March, even with AWD"
+  ],
+  "pros": [
+   "Nonstop on American from Philly",
+   "Big Sur coast fully reopened in 2026",
+   "Quiet, snowy Yosemite Valley with few crowds"
+  ],
+  "cons": [
+   "Two 4 hour drives, chains may be required",
+   "Glacier Point and Tioga Road closed in winter",
+   "Coast can be rainy and gray"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive SF + Ferry Building",
+    "plan": "Land SFO, BART or taxi downtown, Embarcadero stroll, Ferry Building market at dusk.",
+    "eat": "Hog Island oysters at the Ferry Building",
+    "photo": {
+     "file": "San Francisco Ferry Building night.jpg",
+     "author": "Nicholas Hartmann",
+     "license": "CC BY-SA 4.0",
+     "caption": "Ferry Building lit at night"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Alcatraz + cable cars",
+    "plan": "Morning Alcatraz ferry (book ahead), Powell-Mason cable car, Golden Gate Bridge walk at sunset.",
+    "eat": "Clam chowder in sourdough at Boudin",
+    "photo": {
+     "file": "San Francisco (CA, USA), Alcatraz, Blick auf Golden Gate Bridge -- 2022 -- 3163.jpg",
+     "author": "Dietmar Rabich",
+     "license": "CC BY-SA 4.0",
+     "caption": "Golden Gate from Alcatraz"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Coast to Monterey",
+    "plan": "Pick up SUV, Highway 1 via Half Moon Bay, afternoon at Monterey Bay Aquarium.",
+    "eat": "Fish tacos on Cannery Row",
+    "photo": {
+     "file": "Kelp Forest - MBA - DSC06952.JPG",
+     "author": "Daderot",
+     "license": "CC0",
+     "caption": "Aquarium kelp forest tank"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Big Sur day",
+    "plan": "Bixby Bridge, Pfeiffer Big Sur, McWay Falls overlook, back to Monterey by dark.",
+    "eat": "Lunch at Nepenthe above the sea",
+    "photo": {
+     "file": "Bixby Creek Bridge from Hurricane Point Vista Point 01.jpg",
+     "author": "Joe Mabel",
+     "license": "CC BY-SA 4.0",
+     "caption": "Bixby Creek Bridge, Big Sur"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Drive to Yosemite",
+    "plan": "Four hour drive inland, arrive Tunnel View for late light over the valley.",
+    "eat": "Pizza at Degnan's Kitchen, Yosemite Village",
+    "photo": {
+     "file": "Winter Morning Sunrise Tunnel View Yosemite Valley - Yosemite National Park (5763418254).jpg",
+     "author": "Chase Lindberg",
+     "license": "CC BY 2.0",
+     "caption": "Tunnel View in winter"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Yosemite Valley",
+    "plan": "Lower Yosemite Fall loop, El Capitan meadow, ranger walk, cocoa at The Ahwahnee.",
+    "eat": "Dinner at The Ahwahnee Dining Room",
+    "photo": {
+     "file": "Yosemite Valley in Winter.jpg",
+     "author": "Brocken Inaglory",
+     "license": "CC BY-SA 3.0",
+     "caption": "Snowy Yosemite Valley"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Early look at Yosemite Falls, drive 4h to SFO, afternoon flight to PHL.",
+    "eat": "In-N-Out on the way to SFO",
+    "photo": {
+     "file": "Yosemite falls winter 2010.JPG",
+     "author": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "caption": "Yosemite Falls in winter"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Golden Gate Bridge, North view.jpg",
+    "author": "Radomianin",
+    "license": "CC BY-SA 4.0",
+    "caption": "Golden Gate from Battery Spencer"
+   },
+   {
+    "file": "McWay Falls Big Sur May 2011 001.jpg",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 3.0",
+    "caption": "McWay Falls, Big Sur"
+   },
+   {
+    "file": "Tunnel View, Yosemite Valley, Yosemite NP - Diliff.jpg",
+    "author": "David Iliff (Diliff)",
+    "license": "CC BY-SA 3.0",
+    "caption": "Yosemite Valley from Tunnel View"
+   }
+  ],
+  "sources": [
+   {
+    "label": "aa.com PHL-SFO fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-san-francisco"
+   },
+   {
+    "label": "Kayak PHL-SFO",
+    "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/San-Francisco-SFO"
+   },
+   {
+    "label": "Caltrans: Hwy 1 reopens at Regent's Slide",
+    "url": "https://dot.ca.gov/caltrans-near-me/district-5/d5-news/d5-news-1-14-26"
+   },
+   {
+    "label": "Yosemite winter road conditions",
+    "url": "https://www.yosemite.com/plan-your-trip/travel-responsibly/yosemite-road-conditions/"
+   },
+   {
+    "label": "SF Ballet 2026-27 season (Nutcracker Dec 4-27)",
+    "url": "https://sfciviccenter.org/event/sf-ballet-2026-2027-season/"
+   },
+   {
+    "label": "Bracebridge Dinner 2026 listing",
+    "url": "https://www.yosemitethisyear.com/eventdetail/18454/99th-annual-bracebridge-dinner-at-yosemite"
+   },
+   {
+    "label": "Union Square hotel Dec rates",
+    "url": "https://www.hotels.com/nh1409874/hotels-in-union-square-san-francisco-california/"
+   },
+   {
+    "label": "SF short-term rental rules",
+    "url": "https://projects.sfplanning.org/community-stabilization/short-term-rental-regulations.htm"
+   },
+   {
+    "label": "Yosemite cabins Dec snapshots",
+    "url": "https://www.expedia.com/es/Parque-Nacional-Yosemite-Cabanas.d183032-aaCabanas.Guia-Viajes-Alojamiento"
+   }
+  ],
+  "unverified": [
+   "AA $419 Dec fare not tied to Dec 12 to 18; Main Cabin uplift estimated",
+   "Monterey hotel and Yosemite West all-in rates are estimates from Dec snapshots",
+   "Exact 2026 Bracebridge Dinner nights",
+   "Union Square ice rink 2026 season not announced",
+   "Chain control and storm closures change daily"
+  ]
+ },
+ {
+  "id": "california-desert",
+  "name": "Palm Springs, Joshua Tree + Death Valley, California",
+  "region": "US",
+  "passport": false,
+  "warm": true,
+  "tagline": "Sunny desert, mountain tram, salt flats",
+  "whyParents": "Dry 70F days, mid-century Palm Springs, Joshua trees and Death Valley's colors at their most comfortable season.",
+  "fly": "6h 15m nonstop",
+  "costPP": {
+   "flights": 460,
+   "flightsBasis": "Open jaw, both nonstop: Alaska JFK-PSP (alaskaair.com Saver from $160 one way, Dec 9 2026; ~$230 Main) + JetBlue LAS-JFK (Dec 2026 from $138 one way Blue Basic; ~$220 Blue). From PHL only 1-stop to PSP; AA LAS-PHL nonstop also works home.",
+   "flightsVerified": true,
+   "lodging": 650,
+   "lodgingBasis": "Palm Springs 2BR home ~$380/night all-in incl. ~$159 cleaning and 11.5% city tax x 3 nights ($1,140). The Ranch at Death Valley, 2 rooms ~$290 each incl. tax x 2 ($1,160). Las Vegas, 2 rooms ~$150 incl. resort fee x 1 ($300). $2,600 / 4.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed from site by family"
+  },
+  "flight": {
+   "from": "JFK",
+   "airline": "Alaska (oneworld, earns AA miles) out; JetBlue home",
+   "routing": "JFK-PSP nonstop (Alaska, ~daily in winter); home LAS-JFK nonstop (JetBlue or Delta)",
+   "aaMetal": false,
+   "hours": "6h 15m out, ~5h back",
+   "notes": "Delta also returns JFK-PSP in December. Philly option: PHL-PSP 1 stop on AA, home LAS-PHL AA nonstop."
+  },
+  "weather": {
+   "highF": 70,
+   "lowF": 45,
+   "daylight": "9h 50m",
+   "precip": "Very dry, ~1 rain day/month. Death Valley ~65F/40F, Joshua Tree nights near freezing"
+  },
+  "stay": "Palm Springs Movie Colony home with pool, then Furnace Creek inside Death Valley",
+  "getAround": "Full-size SUV, pick up PSP, drop LAS (one-way fee ~$150 to $300). Drives: Joshua Tree 1h, Palm Springs to Furnace Creek ~4.5h, Furnace Creek to LAS 2h.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "Palm Springs Aerial Tramway on winter hours Oct 5, 2026 to May 27, 2027 (10am weekdays, 8am weekends)",
+   "Death Valley: Titus Canyon Road closed Oct 2, 2026 to about May 2027; Westside Road closed after Oct 2026 storms",
+   "Death Valley: South Badwater Road reopened Jan 31, 2026, with rough patches; Scotty's Castle still closed",
+   "Joshua Tree: no closures found for December 2026"
+  ],
+  "pros": [
+   "Warmest US mainland week, almost no rain",
+   "Nonstop both ways, no backtracking",
+   "Three very different deserts in one trip"
+  ],
+  "cons": [
+   "Long 4.5 hour drive to Death Valley",
+   "Fly from JFK, not Philly",
+   "Some Death Valley backroads closed by floods"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Palm Springs",
+    "plan": "Land PSP, pick up SUV, check in, sunset stroll on Palm Canyon Drive.",
+    "eat": "Dinner at Workshop Kitchen + Bar",
+    "photo": {
+     "file": "Palm Canyon Drive-1.jpg",
+     "author": "Visitor7",
+     "license": "CC BY-SA 3.0",
+     "caption": "Palm Canyon Drive, downtown"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Tram + mid-century tour",
+    "plan": "Aerial Tramway to 8,500 ft snow, afternoon modernist homes drive, pool time.",
+    "eat": "Date shake at Shields, then Tropicale",
+    "photo": {
+     "file": "Palm springs aerial tramway.jpg",
+     "author": "Matthew Field (Mfield)",
+     "license": "CC BY-SA 3.0",
+     "caption": "Rotating tram car"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Joshua Tree day",
+    "plan": "Hidden Valley loop, Skull Rock, Keys View, Cholla Cactus Garden at golden hour.",
+    "eat": "Pie at Crossroads Cafe, Joshua Tree",
+    "photo": {
+     "file": "2018 Keys View - Joshua Tree National Park 01.jpg",
+     "author": "Farragutful",
+     "license": "CC BY-SA 4.0",
+     "caption": "Keys View, Joshua Tree"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Drive to Death Valley",
+    "plan": "4.5 hour drive via Baker, Dante's View, Zabriskie Point at sunset.",
+    "eat": "Dinner at 1849 Buffet, The Ranch",
+    "photo": {
+     "file": "Zabriskie Point, Death Valley (5464224780).jpg",
+     "author": "Pedro Szekely",
+     "license": "CC BY-SA 2.0",
+     "caption": "Zabriskie Point badlands"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Badwater + Golden Canyon",
+    "plan": "Badwater salt flats, Devil's Golf Course, Golden Canyon hike, stargazing after dark.",
+    "eat": "Burgers at Last Kind Words Saloon",
+    "photo": {
+     "file": "Boardwalk at Badwater Basin, Death Valley National Park, California.jpg",
+     "author": "Christian David",
+     "license": "CC BY-SA 4.0",
+     "caption": "Badwater Basin boardwalk"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Dunes, then Las Vegas",
+    "plan": "Sunrise at Mesquite Flat Dunes, Mosaic Canyon, drive 2h to Las Vegas, Strip lights.",
+    "eat": "Bellagio Patisserie, then Eiffel Tower Restaurant",
+    "photo": {
+     "file": "Death Valley Mesquite Flats Sand Dunes 2013.jpg",
+     "author": "Tuxyso",
+     "license": "CC BY-SA 3.0",
+     "caption": "Mesquite Flat Sand Dunes"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Return SUV at LAS, nonstop to JFK.",
+    "eat": "Breakfast at Eggslut, Cosmopolitan",
+    "photo": {
+     "file": "Las Vegas Strip at night, 2012.jpg",
+     "author": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "caption": "Las Vegas Strip at night"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Cholla Cactus Garden at Sunset (50010867961).jpg",
+    "author": "Joshua Tree National Park (NPS)",
+    "license": "Public domain",
+    "caption": "Cholla Cactus Garden sunset"
+   },
+   {
+    "file": "Mesquite Sand Dunes in Death Valley.jpg",
+    "author": "Brocken Inaglory",
+    "license": "CC BY-SA 3.0",
+    "caption": "Death Valley sand dunes"
+   },
+   {
+    "file": "Palm Springs at 8500 Feet.jpg",
+    "author": "cmcclave",
+    "license": "CC BY 2.0",
+    "caption": "Tram above Palm Springs"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Alaska JFK-PSP fares (Dec 2026)",
+    "url": "https://www.alaskaair.com/en/flights-from-new-york-to-palm-springs"
+   },
+   {
+    "label": "Kayak JFK-PSP nonstops",
+    "url": "https://www.kayak.com/flight-routes/New-York-John-F-Kennedy-Intl-JFK/Palm-Springs-PSP"
+   },
+   {
+    "label": "PSP 2026-27 seasonal service",
+    "url": "https://flypsp.com/psp-kicks-off-seasonal-service-with-more-nonstops-returning-early/"
+   },
+   {
+    "label": "JetBlue LAS-NYC fares",
+    "url": "https://www.jetblue.com/en/flights-from-las-vegas-to-new-york"
+   },
+   {
+    "label": "Death Valley alerts and conditions",
+    "url": "https://www.nps.gov/deva/planyourvisit/conditions.htm"
+   },
+   {
+    "label": "Titus Canyon closure into 2027",
+    "url": "https://lasvegassun.com/news/2026/sep/28/popular-death-valley-road-set-to-close-for-months/"
+   },
+   {
+    "label": "Palm Springs Tramway hours",
+    "url": "https://pstramway.com/contact/"
+   },
+   {
+    "label": "Kayak Palm Springs rentals",
+    "url": "https://www.kayak.com/Palm-Springs-Vacation-Rentals.35219.rental.ksp"
+   },
+   {
+    "label": "Death Valley lodging rates",
+    "url": "https://nationalparkstraveler.org/node/26167"
+   }
+  ],
+  "unverified": [
+   "Alaska and JetBlue fares not seen for exact Dec 12 and Dec 18 dates; Main Cabin uplift estimated",
+   "Palm Springs 2BR, Death Valley and Las Vegas December rates are estimates",
+   "One-way SUV drop fee PSP to LAS not quoted",
+   "Artist Drive status for December 2026"
+  ]
+ },
+ {
+  "id": "arizona-parks",
+  "name": "Sedona + Grand Canyon, Arizona",
+  "region": "US",
+  "passport": false,
+  "warm": false,
+  "tagline": "Red rocks, then the canyon in snow",
+  "whyParents": "Sedona's glowing red rocks and the Grand Canyon's South Rim, uncrowded in December, on an American nonstop.",
+  "fly": "5h 15m nonstop",
+  "costPP": {
+   "flights": 450,
+   "flightsBasis": "American PHL-PHX nonstop (AA hub, many daily). aa.com shows Dec 2026 RT from $327 (likely Basic); Momondo AA nonstop early Dec ~$511. Used ~$360 + $90 Main Cabin.",
+   "flightsVerified": true,
+   "lodging": 605,
+   "lodgingBasis": "Sedona 2BR home ~$400/night all-in x 3 ($1,200; Holidu Dec avg $609 all sizes, Expedia 2BR Dec $201 to $334 before fees). Maswik Lodge inside park, 2 rooms ~$215 each incl. tax x 2 ($860). Phoenix 2 hotel rooms ~$180 x 1 ($360). $2,420 / 4.",
+   "lodgingVerified": false,
+   "foodFun": 0,
+   "foodFunBasis": "Removed from site by family"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-PHX nonstop (AA, several daily); home PHX-PHL nonstop",
+   "aaMetal": true,
+   "hours": "5h 15m out, ~4h 30m back",
+   "notes": "Flagstaff (FLG) is closer but needs a connection via PHX or DFW and costs more."
+  },
+  "weather": {
+   "highF": 57,
+   "lowF": 32,
+   "daylight": "9h 55m",
+   "precip": "Mostly sunny. Grand Canyon South Rim ~43F/18F with snow possible; Phoenix ~67F"
+  },
+  "stay": "West Sedona home with red-rock views, then Maswik Lodge steps from the rim",
+  "getAround": "Full-size AWD SUV from PHX. Drives: PHX-Sedona 2h, Sedona-Grand Canyon 2h15m, Grand Canyon-Phoenix 3.5 to 4h. Snow possible near Flagstaff.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "Tlaquepaque Festival of Lights, Sedona: traditionally the 2nd Saturday of December (would be Sat Dec 12, 2026), 6,000 luminarias; 2026 date not yet posted",
+   "Grand Canyon Railway Polar Express, Williams: nightly Nov 6, 2026 to Jan 3, 2027, 5:30 and 7:30pm",
+   "Grand Canyon North Rim closed for winter (its historic lodge burned in the 2025 Dragon Bravo Fire); South Rim open all year",
+   "Hermit Road open to private cars Dec to Feb unless snow closes it"
+  ],
+  "pros": [
+   "American nonstop from Philly to its PHX hub",
+   "Two icons, short drives, small crowds",
+   "Snow on the canyon, sun in Sedona"
+  ],
+  "cons": [
+   "Freezing canyon nights, icy rim trails",
+   "Snow can close roads for a day or two",
+   "North Rim closed, some Sedona trails fire-damaged"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive + Tlaquepaque",
+    "plan": "Land PHX, drive 2h to Sedona, Tlaquepaque village (Festival of Lights if Dec 12).",
+    "eat": "Dinner at El Rincon, Tlaquepaque",
+    "photo": {
+     "file": "The Secret Garden Cafe (14884498124).jpg",
+     "author": "Norton Gusky",
+     "license": "CC BY 2.0",
+     "caption": "Tlaquepaque courtyard, Sedona"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Cathedral Rock + chapel",
+    "plan": "Red Rock Crossing walk under Cathedral Rock, Chapel of the Holy Cross, uptown shops.",
+    "eat": "Southwest dinner at Elote Cafe",
+    "photo": {
+     "file": "Cathedral Rock at Red Rock Crossing.jpg",
+     "author": "Adam Baker",
+     "license": "CC BY 2.0",
+     "caption": "Cathedral Rock from Oak Creek"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Jeep tour + sunset",
+    "plan": "Morning Pink Jeep tour, easy Bell Rock loop, sunset at Airport Mesa.",
+    "eat": "Mariposa Latin Grill at sunset",
+    "photo": {
+     "file": "Sedona Sunset Airport Mesa.jpg",
+     "author": "Greg Sumers",
+     "license": "CC BY-SA 4.0",
+     "caption": "Sunset from Airport Mesa"
+    }
+   },
+   {
+    "day": 4,
+    "title": "To the Grand Canyon",
+    "plan": "Oak Creek Canyon drive via Flagstaff, check in Maswik, sunset at Mather Point.",
+    "eat": "Bison chili at Arizona Room",
+    "photo": {
+     "file": "Grand Canyon South Rim at Sunset.jpg",
+     "author": "Mgimelfarb",
+     "license": "CC0",
+     "caption": "Sunset from Mather Point"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Rim Trail + Hermit Road",
+    "plan": "Walk the Rim Trail, drive Hermit Road viewpoints, Hopi Point sunset.",
+    "eat": "Dinner at El Tovar Dining Room",
+    "photo": {
+     "file": "Hopi Point, South Rim Grand Canyon, eastern sunset (7860594176).jpg",
+     "author": "tsaiproject",
+     "license": "CC BY 2.0",
+     "caption": "Hopi Point at sunset"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Desert View, then Phoenix",
+    "plan": "Desert View Drive to the Watchtower, then drive about 4h to Phoenix.",
+    "eat": "Pizzeria Bianco, downtown Phoenix",
+    "photo": {
+     "file": "Le Grand Canyon 2016 Desert View Watchtower (7).JPG",
+     "author": "Pierre André Leclercq",
+     "license": "CC BY-SA 4.0",
+     "caption": "Desert View Watchtower"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Morning at Desert Botanical Garden, return SUV, afternoon nonstop to PHL.",
+    "eat": "Breakfast at Matt's Big Breakfast",
+    "photo": {
+     "file": "Desert Botanical Garden Phoenix Arizona 17.JPG",
+     "author": "Simeon87",
+     "license": "CC BY-SA 3.0",
+     "caption": "Desert Botanical Garden cacti"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Chapel of the Holy Cross, Sedona, AZ.jpg",
+    "author": "Matthew P. Del Buono",
+    "license": "CC BY-SA 3.0",
+    "caption": "Chapel of the Holy Cross"
+   },
+   {
+    "file": "Grand Canyon with Snow 4.JPG",
+    "author": "Simeon87",
+    "license": "CC BY-SA 3.0",
+    "caption": "Grand Canyon with snow"
+   },
+   {
+    "file": "Cathedral Rock - Sedona AZ-1.jpg",
+    "author": "Terrydarc",
+    "license": "CC BY-SA 3.0",
+    "caption": "Cathedral Rock, Sedona"
+   }
+  ],
+  "sources": [
+   {
+    "label": "aa.com PHL-PHX fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-phoenix"
+   },
+   {
+    "label": "Momondo PHL-PHX",
+    "url": "https://www.momondo.com/flights/philadelphia/phoenix"
+   },
+   {
+    "label": "Grand Canyon roads and winter conditions",
+    "url": "https://www.nps.gov/grca/planyourvisit/weather-condition.htm"
+   },
+   {
+    "label": "Polar Express 2026 dates",
+    "url": "https://www.kold.com/2026/10/26/all-aboard-tickets-sale-now-grand-canyon-railways-polar-express-trip/"
+   },
+   {
+    "label": "Tlaquepaque Festival of Lights",
+    "url": "https://www.tlaq.com/festival-of-lights-at-tlaquepaque"
+   },
+   {
+    "label": "Pocket Fire closures update",
+    "url": "https://visitsedona.com/blog/pocket-fire-fully-contained-as-targeted-trail-and-creek-closures-remain-nea/"
+   },
+   {
+    "label": "Holidu Sedona rentals",
+    "url": "https://www.holidu.com/vacation-rentals/usa/sedona"
+   },
+   {
+    "label": "Maswik Lodge rates",
+    "url": "https://grandcanyon.com/poi/maswik-lodge/"
+   }
+  ],
+  "unverified": [
+   "AA $327 Dec fare not tied to Dec 12 to 18; Main Cabin uplift estimated",
+   "Sedona, Maswik and Phoenix December all-in rates are estimates",
+   "2026 Festival of Lights date",
+   "Some Pocket Fire area trails (e.g. West Fork) may still be closed"
+  ]
+ }
+]

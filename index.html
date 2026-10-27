@@ -345,6 +345,14 @@ body.locked { overflow: hidden; }
   .gallery { grid-auto-columns: 92%; }
   .gallery figure { height: 260px; }
 }
+
+.traybar { position: relative; }
+.ranktip { position: absolute; right: 0; bottom: calc(100% + 12px); max-width: 260px; background: var(--ink); color: var(--bg); font-weight: 600; font-size: 0.9rem; line-height: 1.35; padding: 10px 14px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
+.ranktip::after { content: ""; position: absolute; right: 120px; top: 100%; border: 8px solid transparent; border-top-color: var(--ink); }
+.tbtn.nudge { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+@media (prefers-reduced-motion: no-preference) { .tbtn.nudge { animation: nudge 1.6s ease-in-out 2; } }
+@keyframes nudge { 0%, 100% { transform: none; } 50% { transform: scale(1.06); } }
+.votedrow span.yes { font-weight: 800; }
 </style>
 </head>
 <body>
@@ -426,6 +434,7 @@ body.locked { overflow: hidden; }
         <span class="status" id="voteStatus" role="status"></span>
       </div>
       <button type="button" class="tbtn" id="trayToggle" aria-expanded="false"></button>
+      <div class="ranktip" id="rankTip" role="status" hidden></div>
       <button type="button" class="tbtn primary" id="submitVote" disabled></button>
     </div>
     <div class="traymore" id="trayMore" hidden>
@@ -456,7 +465,7 @@ const STR = {
     title: "Winter Break 2026",
     sub: "<b>Sat Dec 12 to Fri Dec 18</b> &middot; Mom, Dad, Emily &amp; Jennifer &middot; all prices per person",
     jCompare: "Compare all", jTrips: "See each trip", jPicks: "Our top 5",
-    famTitle: "Family vote", famText: "Pick your own top 5. Picks stay private: the family ranking appears once all 4 have voted.",
+    famTitle: "Family vote", famText: "Everyone ranks their own top 5. You can see who has finished, but nobody sees anyone else's picks. The family ranking appears once all 4 are done.",
     startVote: "Pick your name to vote",
     gateTitle: "Who's viewing?",
     gateText: "Pick your name, then tap <b>Add to my top 5</b> on the trips you like most. Your picks are private.",
@@ -468,12 +477,13 @@ const STR = {
     each: "each", myPicks: "My picks", myTop: n => `My top 5 (${n})`, close: "Close", swipe: n => `Swipe for ${n} photos`,
     picksTitle: "Our top 5", picksHint: "Claude's suggestions, ranked for Mom and Dad first, then cost and how easy the week feels. Your own vote is what counts.",
     people: { mom: "Mom", dad: "Dad", emily: "Emily", jennifer: "Jennifer" },
-    voted: "Voted", notVoted: "Not voted yet", votedShort: "voted", notYet: "not yet", loading: "Loading votes...",
+    voted: "Voted", notVoted: "Not voted yet", votedShort: "\u2713 finished", notYet: "not yet", loading: "Loading votes...",
     add: "Add to my top 5", inTop: n => `#${n} in my top 5 (tap to remove)`, full: "Top 5 is full", addMini: "+ Top 5",
-    trayTitle: (name, n) => `${name}'s top 5: ${n} of 5`,
+    trayTitle: (name, n) => `${name} · ${n}/5`,
     hintPick: 'Tap "Add to my top 5" on a trip to add it here.', hintDone: "Submit again any time to change your vote.", hintOrder: "Use the arrows to put them in order, then submit.",
-    stPick: "Tap Add on the trips you like", stDone: "Your vote is in", stReady: "Ready to submit",
-    submit: "Submit", update: "Update", list: "List", close: "Close", saving: "Saving your vote...",
+    stPick: "Tap Add on the trips you like", stDone: "Your ranking is in", stReady: "Put them in order, then Submit", stRank: n => `${n} picked. Tap See & rank to order them`,
+    rankTip: "Your picks are saved here. Tap to see and rank them.",
+    submit: "Submit", update: "Update", list: n => `See & rank (${n})`, close: "Done", saving: "Saving your vote...",
     saved: left => `Vote saved. Waiting on ${left} more ${left === 1 ? "person" : "people"}.`, savedAll: "Vote saved. Everyone has voted! See the family result at the top.",
     added: (name, n) => `Added ${name} as #${n}.`, removed: name => `Removed ${name}.`,
     emptyList: 'No trips yet. Scroll down and tap "Add to my top 5" on the ones you like.',
@@ -498,7 +508,7 @@ const STR = {
     title: "Kỳ nghỉ đông 2026",
     sub: "<b>Thứ Bảy 12/12 đến Thứ Sáu 18/12</b> &middot; Mẹ, Ba, Emily &amp; Jennifer &middot; giá tính cho mỗi người",
     jCompare: "So sánh", jTrips: "Xem từng chuyến", jPicks: "Top 5 gợi ý",
-    famTitle: "Cả nhà bình chọn", famText: "Mỗi người chọn top 5 của mình. Lựa chọn được giữ kín: kết quả chung chỉ hiện khi cả 4 người đã bình chọn.",
+    famTitle: "Cả nhà bình chọn", famText: "Mỗi người tự xếp hạng top 5 của mình. Mọi người thấy ai đã xong, nhưng không ai thấy lựa chọn của người khác. Kết quả chung hiện khi cả 4 người đã xong.",
     startVote: "Chọn tên để bình chọn",
     gateTitle: "Ai đang xem?",
     gateText: "Chọn tên của bạn, rồi bấm <b>Thêm vào top 5</b> ở những chuyến bạn thích nhất. Lựa chọn của bạn được giữ kín.",
@@ -510,12 +520,13 @@ const STR = {
     each: "mỗi người", myPicks: "Chuyến tôi chọn", myTop: n => `Top 5 của tôi (${n})`, close: "Đóng", swipe: n => `Vuốt để xem ${n} ảnh`,
     picksTitle: "Top 5 gợi ý", picksHint: "Gợi ý của Claude, ưu tiên điều Ba Mẹ thích, rồi đến chi phí và độ thoải mái. Phiếu bầu của mỗi người mới là quyết định.",
     people: { mom: "Mẹ", dad: "Ba", emily: "Emily", jennifer: "Jennifer" },
-    voted: "Đã bình chọn", notVoted: "Chưa bình chọn", votedShort: "đã chọn", notYet: "chưa", loading: "Đang tải phiếu bầu...",
+    voted: "Đã bình chọn", notVoted: "Chưa bình chọn", votedShort: "\u2713 đã xong", notYet: "chưa xong", loading: "Đang tải phiếu bầu...",
     add: "Thêm vào top 5", inTop: n => `Hạng ${n} trong top 5 (bấm để bỏ)`, full: "Top 5 đã đủ", addMini: "+ Top 5",
-    trayTitle: (name, n) => `Top 5 của ${name}: ${n}/5`,
+    trayTitle: (name, n) => `${name} · ${n}/5`,
     hintPick: "Bấm \"Thêm vào top 5\" ở một chuyến để thêm vào đây.", hintDone: "Có thể gửi lại bất cứ lúc nào để đổi phiếu.", hintOrder: "Dùng mũi tên để sắp xếp thứ tự, rồi bấm Gửi.",
-    stPick: "Bấm Thêm ở những chuyến bạn thích", stDone: "Đã gửi phiếu", stReady: "Sẵn sàng để gửi",
-    submit: "Gửi", update: "Cập nhật", list: "Danh sách", close: "Đóng", saving: "Đang lưu phiếu...",
+    stPick: "Bấm Thêm ở những chuyến bạn thích", stDone: "Đã gửi bảng xếp hạng", stReady: "Sắp xếp thứ tự, rồi bấm Gửi", stRank: n => `Đã chọn ${n}. Bấm Xếp hạng để sắp thứ tự`,
+    rankTip: "Các chuyến bạn chọn được lưu ở đây. Bấm để xem và xếp hạng.",
+    submit: "Gửi", update: "Cập nhật", list: n => `Xếp hạng (${n})`, close: "Xong", saving: "Đang lưu phiếu...",
     saved: left => `Đã lưu phiếu. Còn chờ ${left} người nữa.`, savedAll: "Đã lưu phiếu. Cả nhà đã bình chọn xong! Xem kết quả ở trên cùng.",
     added: (name, n) => `Đã thêm ${name}, hạng ${n}.`, removed: name => `Đã bỏ ${name}.`,
     emptyList: "Chưa có chuyến nào. Kéo xuống và bấm \"Thêm vào top 5\" ở những chuyến bạn thích.",
@@ -859,12 +870,19 @@ $("#justLooking").addEventListener("click", () => { V.me = null; store.set("me",
 $("#switchWho").addEventListener("click", openGate);
 $("#startVote").addEventListener("click", openGate);
 
+function showRankTip() {
+  const tip = $("#rankTip"); tip.textContent = T("rankTip"); tip.hidden = false;
+  clearTimeout(showRankTip.t); showRankTip.t = setTimeout(() => { tip.hidden = true; }, 7000);
+}
 function saveList() { store.set("list:" + V.me, V.list); }
 function toggleTrip(id) {
   if (!V.me) return openGate();
   const i = V.list.indexOf(id);
   if (i >= 0) { V.list.splice(i, 1); setStatus(T("removed", shortName(byId[id]))); }
-  else if (V.list.length < 5) { V.list.push(id); setStatus(T("added", shortName(byId[id]), V.list.length)); }
+  else if (V.list.length < 5) {
+    V.list.push(id); setStatus(T("added", shortName(byId[id]), V.list.length));
+    if (!store.get("rankTip")) { store.set("rankTip", true); showRankTip(); }
+  }
   saveList(); renderVote();
 }
 document.addEventListener("click", e => {
@@ -879,7 +897,7 @@ $("#mylist").addEventListener("click", e => {
   if (act === "remove") V.list.splice(i, 1);
   saveList(); renderVote();
 });
-$("#trayToggle").addEventListener("click", () => { V.open = !V.open; renderVote(); });
+$("#trayToggle").addEventListener("click", () => { V.open = !V.open; $("#rankTip").hidden = true; renderVote(); });
 $("#submitVote").addEventListener("click", async () => {
   if (V.list.length !== 5 || V.saving) return;
   V.saving = true; setStatus(T("saving"));
@@ -891,7 +909,7 @@ $("#submitVote").addEventListener("click", async () => {
   } catch (err) { setStatus(err.message, true); }
   V.saving = false; renderVote(); renderFamily();
 });
-function setStatus(t, err) { const s = $("#voteStatus"); s.textContent = t; s.classList.toggle("err", !!err); }
+function setStatus(t, err) { const s = $("#voteStatus"); s.textContent = t; s.classList.toggle("err", !!err); V.autoStatus = false; }
 
 function syncAddButtons() {
   document.querySelectorAll("[data-mine]").forEach(el => {
@@ -923,10 +941,13 @@ function renderVote() {
   const n = V.list.length, done = V.server?.voted?.[V.me];
   $("#trayTitle").textContent = T("trayTitle", label(V.me), n);
   $("#trayHint").textContent = n < 5 ? T("hintPick") : done ? T("hintDone") : T("hintOrder");
-  if (!$("#voteStatus").textContent) setStatus(n < 5 ? T("stPick") : done ? T("stDone") : T("stReady"));
+  if (!$("#voteStatus").textContent || V.autoStatus) {
+    setStatus(n === 0 ? T("stPick") : n < 5 ? T("stRank", n) : done ? T("stDone") : T("stReady")); V.autoStatus = true;
+  }
   $("#submitVote").disabled = n !== 5 || V.saving;
   $("#submitVote").textContent = done ? T("update") : T("submit");
-  $("#trayToggle").textContent = V.open ? T("close") : T("list");
+  $("#trayToggle").textContent = V.open ? T("close") : T("list", n);
+  $("#trayToggle").classList.toggle("nudge", n > 0 && !V.open && !done);
   $("#trayToggle").setAttribute("aria-expanded", V.open);
   $("#trayMore").hidden = !V.open;
   $("#mylist").innerHTML = n ? V.list.map((id, i) => `<li>

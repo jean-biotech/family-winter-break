@@ -472,7 +472,7 @@ function apply() {
 
 /* ---------- family vote ---------- */
 // Same-origin on Vercel; the GitHub Pages copy calls the Vercel deployment.
-const VOTE_API = location.hostname.endsWith("github.io") ? "__VERCEL_ORIGIN__/api/votes" : "/api/votes";
+const VOTE_API = location.hostname.endsWith("github.io") ? "https://family-winter-break.vercel.app/api/votes" : "/api/votes";
 const PEOPLE = [["mom", "Mom"], ["dad", "Dad"], ["emily", "Emily"], ["jennifer", "Jennifer"]];
 const label = id => (PEOPLE.find(p => p[0] === id) || [, ""])[1];
 const store = {

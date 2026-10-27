@@ -563,7 +563,7 @@ const shortName = d => L(d, "name").split(",")[0];
 // (renamed, missing, or smaller than 960px), ask the Commons API for the right thumbnail; if the file
 // does not exist, search Commons for that place and use the best match, with its real credit.
 const IMGFIX = store.get("imgfix") || {};
-const imgAttrs = p => `src="${esc(IMGFIX[p.file]?.src || p.src)}" data-file="${esc(p.file)}" data-q="${esc(p.q || p.caption)}" alt="${esc(p.caption)}" loading="lazy" referrerpolicy="no-referrer"`;
+const imgAttrs = p => `src="${esc(IMGFIX[p.file]?.src || p.src)}" data-file="${esc(p.file)}" data-q="${esc(p.q || p.caption)}" alt="${esc(p.caption)}" loading="lazy"`;
 const credit = (p, link) => {
   const f = IMGFIX[p.file], author = f?.author || p.author, lic = f?.license || p.license, page = f?.page || p.page;
   return `${esc(p.caption)} &middot; ${link ? `<a href="${esc(page)}" target="_blank" rel="noopener">${esc(author)}, ${esc(lic)}</a>` : `${esc(author)}, ${esc(lic)}`}`;

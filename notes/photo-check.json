@@ -1,0 +1,3314 @@
+[
+ {
+  "dest": "paris",
+  "slot": "hero0",
+  "file": "Eiffel Tower at Night.jpg",
+  "caption": "Eiffel Tower from Trocadéro",
+  "q": "Eiffel Tower from Trocadéro France",
+  "found": {
+   "title": "File:Eiffel Tower at Night.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Eiffel_Tower_at_Night.jpg/960px-Eiffel_Tower_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1859,
+   "page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Night.jpg",
+   "author": "Stefan Krause, Germany",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "hero1",
+  "file": "Avenue des Champs-Élysées en heure bleue.jpg",
+  "caption": "Champs-Élysées at blue hour",
+  "q": "Champs-Élysées at blue hour France",
+  "found": {
+   "title": "File:Avenue des Champs-Élysées en heure bleue.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Avenue_des_Champs-%C3%89lys%C3%A9es_en_heure_bleue.jpg/960px-Avenue_des_Champs-%C3%89lys%C3%A9es_en_heure_bleue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6016,
+   "page": "https://commons.wikimedia.org/wiki/File:Avenue_des_Champs-%C3%89lys%C3%A9es_en_heure_bleue.jpg",
+   "author": "Edison McCullen",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "hero2",
+  "file": "Esplanade des Invalides snow-covered 2.jpg",
+  "caption": "Invalides under rare snow",
+  "q": "Invalides under rare snow France",
+  "found": {
+   "title": "File:Esplanade des Invalides snow-covered 2.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Esplanade_des_Invalides_snow-covered_2.jpg/960px-Esplanade_des_Invalides_snow-covered_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1200,
+   "page": "https://commons.wikimedia.org/wiki/File:Esplanade_des_Invalides_snow-covered_2.jpg",
+   "author": "BomBom",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day1",
+  "file": "Eiffel Tower and Pont Alexandre III at night.jpg",
+  "caption": "Eiffel Tower over the Seine",
+  "q": "Eiffel Tower over the Seine France",
+  "found": {
+   "title": "File:Eiffel Tower and Pont Alexandre III at night.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg/960px-Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4288,
+   "page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg",
+   "author": "Getfunky Paris",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day2",
+  "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+  "caption": "Tuileries from the big wheel",
+  "q": "Tuileries from the big wheel France",
+  "found": {
+   "title": "File:Tuileries Garden seen from the Grande Roue de Paris.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg/960px-Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1069,
+   "page": "https://commons.wikimedia.org/wiki/File:Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+   "author": "Benedikt Beun",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day3",
+  "file": "Galerie Lafayette Haussmann Dome.jpg",
+  "caption": "Galeries Lafayette dome at Christmas",
+  "q": "Galeries Lafayette dome at Christmas France",
+  "found": {
+   "title": "File:Galerie Lafayette Haussmann Dome.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/960px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5678,
+   "page": "https://commons.wikimedia.org/wiki/File:Galerie_Lafayette_Haussmann_Dome.jpg",
+   "author": "Benh LIEU SONG (Flickr)",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day4",
+  "file": "Chateau Versailles Galerie des Glaces.jpg",
+  "caption": "Versailles Hall of Mirrors",
+  "q": "Versailles Hall of Mirrors France",
+  "found": {
+   "title": "File:Chateau Versailles Galerie des Glaces.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/960px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3892,
+   "page": "https://commons.wikimedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg",
+   "author": "Myrabella",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day5",
+  "file": "Notre-Dame de Paris Winter.jpg",
+  "caption": "Notre-Dame in winter",
+  "q": "Notre-Dame in winter France",
+  "found": {
+   "title": "File:Notre-Dame de Paris Winter.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Notre-Dame_de_Paris_Winter.jpg/960px-Notre-Dame_de_Paris_Winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2057,
+   "page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_Winter.jpg",
+   "author": "Nicolas von Kospoth (Triggerhappy)",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day6",
+  "file": "Sacre Coeur, Paris August 2014.jpg",
+  "caption": "Sacré-Cœur atop Montmartre",
+  "q": "Sacré-Cœur atop Montmartre France",
+  "found": {
+   "title": "File:Sacre Coeur, Paris August 2014.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sacre_Coeur%2C_Paris_August_2014.jpg/960px-Sacre_Coeur%2C_Paris_August_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3741,
+   "page": "https://commons.wikimedia.org/wiki/File:Sacre_Coeur,_Paris_August_2014.jpg",
+   "author": "Mark Fischer",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "paris",
+  "slot": "day7",
+  "file": "Jet bridge, Paris-Charles de Gaulle Airport, Roissy (SIAE2156).jpg",
+  "caption": "Gates at CDG Terminal 2",
+  "q": "Gates at CDG Terminal 2 France",
+  "found": {
+   "title": "File:Jet bridge, Paris-Charles de Gaulle Airport, Roissy (SIAE2156).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Jet_bridge%2C_Paris-Charles_de_Gaulle_Airport%2C_Roissy_%28SIAE2156%29.jpg/960px-Jet_bridge%2C_Paris-Charles_de_Gaulle_Airport%2C_Roissy_%28SIAE2156%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6252,
+   "page": "https://commons.wikimedia.org/wiki/File:Jet_bridge,_Paris-Charles_de_Gaulle_Airport,_Roissy_(SIAE2156).jpg",
+   "author": "Matti Blume",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "hero0",
+  "file": "Galerie Lafayette Haussmann Dome.jpg",
+  "caption": "Galeries Lafayette Christmas dome",
+  "q": "Galeries Lafayette Christmas dome France",
+  "found": {
+   "title": "File:Galerie Lafayette Haussmann Dome.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/960px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5678,
+   "page": "https://commons.wikimedia.org/wiki/File:Galerie_Lafayette_Haussmann_Dome.jpg",
+   "author": "Benh LIEU SONG (Flickr)",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "hero1",
+  "file": "Marché de Noël de Colmar 001.jpg",
+  "caption": "Colmar Christmas market",
+  "q": "Colmar Christmas market France",
+  "found": {
+   "title": "File:Marché de Noël de Colmar 001.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/March%C3%A9_de_No%C3%ABl_de_Colmar_001.jpg/960px-March%C3%A9_de_No%C3%ABl_de_Colmar_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2048,
+   "page": "https://commons.wikimedia.org/wiki/File:March%C3%A9_de_No%C3%ABl_de_Colmar_001.jpg",
+   "author": "Arnaud 25",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "hero2",
+  "file": "Strasbourg Cathedral, by night.jpg",
+  "caption": "Strasbourg Cathedral at night",
+  "q": "Strasbourg Cathedral at night France",
+  "found": {
+   "title": "File:Strasbourg Cathedral, by night.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Strasbourg_Cathedral%2C_by_night.jpg/960px-Strasbourg_Cathedral%2C_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3264,
+   "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral,_by_night.jpg",
+   "author": "Tristan from Luxembourg, Luxembourg",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day1",
+  "file": "Eiffel Tower and Pont Alexandre III at night.jpg",
+  "caption": "Eiffel Tower over the Seine",
+  "q": "Eiffel Tower over the Seine France",
+  "found": {
+   "title": "File:Eiffel Tower and Pont Alexandre III at night.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg/960px-Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4288,
+   "page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg",
+   "author": "Getfunky Paris",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day2",
+  "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+  "caption": "Tuileries from the big wheel",
+  "q": "Tuileries from the big wheel France",
+  "found": {
+   "title": "File:Tuileries Garden seen from the Grande Roue de Paris.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg/960px-Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1069,
+   "page": "https://commons.wikimedia.org/wiki/File:Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+   "author": "Benedikt Beun",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day3",
+  "file": "Sapin, place Kléber (Strasbourg) (2).jpg",
+  "caption": "Giant tree, Place Kléber",
+  "q": "Giant tree, Place Kléber France",
+  "found": {
+   "title": "File:Sapin, place Kléber (Strasbourg) (2).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sapin%2C_place_Kl%C3%A9ber_%28Strasbourg%29_%282%29.jpg/960px-Sapin%2C_place_Kl%C3%A9ber_%28Strasbourg%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5400,
+   "page": "https://commons.wikimedia.org/wiki/File:Sapin,_place_Kl%C3%A9ber_(Strasbourg)_(2).jpg",
+   "author": "Gzen92",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day4",
+  "file": "Petite France Strasbourg.jpg",
+  "caption": "Petite France canals, Strasbourg",
+  "q": "Petite France canals, Strasbourg France",
+  "found": {
+   "title": "File:Petite France Strasbourg.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Petite_France_Strasbourg.jpg/960px-Petite_France_Strasbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1797,
+   "page": "https://commons.wikimedia.org/wiki/File:Petite_France_Strasbourg.jpg",
+   "author": "Andreas Trepte",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day5",
+  "file": "Petite Venise depuis le pont de la rue des Écoles (Colmar) (8).jpg",
+  "caption": "Colmar's Little Venice",
+  "q": "Colmar's Little Venice France",
+  "found": {
+   "title": "File:Petite Venise depuis le pont de la rue des Écoles (Colmar) (8).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Petite_Venise_depuis_le_pont_de_la_rue_des_%C3%89coles_%28Colmar%29_%288%29.jpg/960px-Petite_Venise_depuis_le_pont_de_la_rue_des_%C3%89coles_%28Colmar%29_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4930,
+   "page": "https://commons.wikimedia.org/wiki/File:Petite_Venise_depuis_le_pont_de_la_rue_des_%C3%89coles_(Colmar)_(8).jpg",
+   "author": "Gzen92",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day6",
+  "file": "Champs Elysees Night 30 Nov 19.jpg",
+  "caption": "Champs-Élysées holiday lights",
+  "q": "Champs-Élysées holiday lights France",
+  "found": {
+   "title": "File:Champs Elysees Night 30 Nov 19.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Champs_Elysees_Night_30_Nov_19.jpg/960px-Champs_Elysees_Night_30_Nov_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3024,
+   "page": "https://commons.wikimedia.org/wiki/File:Champs_Elysees_Night_30_Nov_19.jpg",
+   "author": "Theboys775",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "paris-alsace",
+  "slot": "day7",
+  "file": "Jet bridge, Paris-Charles de Gaulle Airport, Roissy (SIAE2156).jpg",
+  "caption": "Gates at CDG Terminal 2",
+  "q": "Gates at CDG Terminal 2 France",
+  "found": {
+   "title": "File:Jet bridge, Paris-Charles de Gaulle Airport, Roissy (SIAE2156).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Jet_bridge%2C_Paris-Charles_de_Gaulle_Airport%2C_Roissy_%28SIAE2156%29.jpg/960px-Jet_bridge%2C_Paris-Charles_de_Gaulle_Airport%2C_Roissy_%28SIAE2156%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6252,
+   "page": "https://commons.wikimedia.org/wiki/File:Jet_bridge,_Paris-Charles_de_Gaulle_Airport,_Roissy_(SIAE2156).jpg",
+   "author": "Matti Blume",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "hero0",
+  "file": "Alfama-CCBY.jpg",
+  "caption": "Alfama from Santa Luzia",
+  "q": "Alfama from Santa Luzia Portugal",
+  "found": {
+   "title": "File:Alfama-CCBY.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Alfama-CCBY.jpg/960px-Alfama-CCBY.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2293,
+   "page": "https://commons.wikimedia.org/wiki/File:Alfama-CCBY.jpg",
+   "author": "Miguel Vieira [2]",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "hero1",
+  "file": "Jerónimos April 2009-1a.jpg",
+  "caption": "Jerónimos Monastery, Belém",
+  "q": "Jerónimos Monastery, Belém Portugal",
+  "found": {
+   "title": "File:Jerónimos April 2009-1a.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Jer%C3%B3nimos_April_2009-1a.jpg/960px-Jer%C3%B3nimos_April_2009-1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4971,
+   "page": "https://commons.wikimedia.org/wiki/File:Jer%C3%B3nimos_April_2009-1a.jpg",
+   "author": "Alvesgaspar",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "hero2",
+  "file": "Ribeira, Porto, vista noturna - DCL6796.jpg",
+  "caption": "Porto's Ribeira at night",
+  "q": "Porto's Ribeira at night Portugal",
+  "found": {
+   "title": "File:Ribeira, Porto, vista noturna - DCL6796.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ribeira%2C_Porto%2C_vista_noturna_-_DCL6796.jpg/960px-Ribeira%2C_Porto%2C_vista_noturna_-_DCL6796.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 8256,
+   "page": "https://commons.wikimedia.org/wiki/File:Ribeira,_Porto,_vista_noturna_-_DCL6796.jpg",
+   "author": "DecarvalhoLiz",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day1",
+  "file": "Lisbon main square (36622604910).jpg",
+  "caption": "Praça do Comércio, Lisbon",
+  "q": "Praça do Comércio, Lisbon Portugal",
+  "found": {
+   "title": "File:Lisbon main square (36622604910).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lisbon_main_square_%2836622604910%29.jpg/960px-Lisbon_main_square_%2836622604910%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3806,
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon_main_square_(36622604910).jpg",
+   "author": "Deensel",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day2",
+  "file": "Tram 28 Lisbon.jpg",
+  "caption": "Tram 28 in Alfama",
+  "q": "Tram 28 in Alfama Portugal",
+  "found": {
+   "title": "File:Tram 28 Lisbon.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Tram_28_Lisbon.jpg/960px-Tram_28_Lisbon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1834,
+   "page": "https://commons.wikimedia.org/wiki/File:Tram_28_Lisbon.jpg",
+   "author": "Romazur",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day3",
+  "file": "Torre de Belém Lisboa Richard Bartz.jpg",
+  "caption": "Belém Tower on the Tagus",
+  "q": "Belém Tower on the Tagus Portugal",
+  "found": {
+   "title": "File:Torre de Belém Lisboa Richard Bartz.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Torre_de_Bel%C3%A9m_Lisboa_Richard_Bartz.jpg/960px-Torre_de_Bel%C3%A9m_Lisboa_Richard_Bartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1506,
+   "page": "https://commons.wikimedia.org/wiki/File:Torre_de_Bel%C3%A9m_Lisboa_Richard_Bartz.jpg",
+   "author": "Richard Bartz, Munich aka Makro Freak",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day4",
+  "file": "Sintra Portugal Palácio da Pena-01.jpg",
+  "caption": "Pena Palace, Sintra",
+  "q": "Pena Palace, Sintra Portugal",
+  "found": {
+   "title": "File:Sintra Portugal Palácio da Pena-01.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg/960px-Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3500,
+   "page": "https://commons.wikimedia.org/wiki/File:Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg",
+   "author": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day5",
+  "file": "Porto3flat-cc-contr-oliv1002 edit2.jpg",
+  "caption": "Ribeira and Dom Luís I bridge",
+  "q": "Ribeira and Dom Luís I bridge Portugal",
+  "found": {
+   "title": "File:Porto3flat-cc-contr-oliv1002 edit2.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Porto3flat-cc-contr-oliv1002_edit2.jpg/960px-Porto3flat-cc-contr-oliv1002_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5776,
+   "page": "https://commons.wikimedia.org/wiki/File:Porto3flat-cc-contr-oliv1002_edit2.jpg",
+   "author": "Taken by User:Olegivvit. Edited by Diliff. Brightened shadows with Shadow/Highli",
+   "license": "CC BY 2.5"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day6",
+  "file": "Rabelos en el río Duero, Vila Nova de Gaia, Portugal, 2012-05-09, DD 14.JPG",
+  "caption": "Port rabelo boats at Gaia",
+  "q": "Port rabelo boats at Gaia Portugal",
+  "found": {
+   "title": "File:Rabelos en el río Duero, Vila Nova de Gaia, Portugal, 2012-05-09, DD 14.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Rabelos_en_el_r%C3%ADo_Duero%2C_Vila_Nova_de_Gaia%2C_Portugal%2C_2012-05-09%2C_DD_14.JPG/960px-Rabelos_en_el_r%C3%ADo_Duero%2C_Vila_Nova_de_Gaia%2C_Portugal%2C_2012-05-09%2C_DD_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4890,
+   "page": "https://commons.wikimedia.org/wiki/File:Rabelos_en_el_r%C3%ADo_Duero,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_14.JPG",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "portugal",
+  "slot": "day7",
+  "file": "Porto view from Vila Nova de Gaia (27078365799).jpg",
+  "caption": "Last look at Porto",
+  "q": "Last look at Porto Portugal",
+  "found": {
+   "title": "File:Porto view from Vila Nova de Gaia (27078365799).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Porto_view_from_Vila_Nova_de_Gaia_%2827078365799%29.jpg/960px-Porto_view_from_Vila_Nova_de_Gaia_%2827078365799%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5760,
+   "page": "https://commons.wikimedia.org/wiki/File:Porto_view_from_Vila_Nova_de_Gaia_(27078365799).jpg",
+   "author": "prilfish from Vienna, Austria",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "hero0",
+  "file": "Acropolis-panorama-night.jpg",
+  "caption": "Acropolis lit at night",
+  "q": "Acropolis lit at night Greece",
+  "found": {
+   "title": "File:Acropolis-panorama-night.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Acropolis-panorama-night.jpg/500px-Acropolis-panorama-night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 846,
+   "page": "https://commons.wikimedia.org/wiki/File:Acropolis-panorama-night.jpg",
+   "author": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "hero1",
+  "file": "Acropolis of Athens at dusk.jpg",
+  "caption": "Acropolis at dusk from Lycabettus",
+  "q": "Acropolis at dusk from Lycabettus Greece",
+  "found": {
+   "title": "File:Acropolis of Athens at dusk.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Acropolis_of_Athens_at_dusk.jpg/960px-Acropolis_of_Athens_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5743,
+   "page": "https://commons.wikimedia.org/wiki/File:Acropolis_of_Athens_at_dusk.jpg",
+   "author": "Stymphal",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "hero2",
+  "file": "Erechtheum Acropolis Athens evening moon.jpg",
+  "caption": "Erechtheion under evening moon",
+  "q": "Erechtheion under evening moon Greece",
+  "found": {
+   "title": "File:Erechtheum Acropolis Athens evening moon.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Erechtheum_Acropolis_Athens_evening_moon.jpg/960px-Erechtheum_Acropolis_Athens_evening_moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3576,
+   "page": "https://commons.wikimedia.org/wiki/File:Erechtheum_Acropolis_Athens_evening_moon.jpg",
+   "author": "Jebulon",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day1",
+  "file": "The monument of Lysicrates at night and in the background the Acropolis of Athens.jpg",
+  "caption": "Plaka and lit Acropolis",
+  "q": "Plaka and lit Acropolis Greece",
+  "found": {
+   "title": "File:The monument of Lysicrates at night and in the background the Acropolis of Athens.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/The_monument_of_Lysicrates_at_night_and_in_the_background_the_Acropolis_of_Athens.jpg/960px-The_monument_of_Lysicrates_at_night_and_in_the_background_the_Acropolis_of_Athens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6000,
+   "page": "https://commons.wikimedia.org/wiki/File:The_monument_of_Lysicrates_at_night_and_in_the_background_the_Acropolis_of_Athens.jpg",
+   "author": "George E. Koronaios",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day2",
+  "file": "Parthenon from south.jpg",
+  "caption": "The Parthenon from south",
+  "q": "The Parthenon from south Greece",
+  "found": {
+   "title": "File:Parthenon from south.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Parthenon_from_south.jpg/960px-Parthenon_from_south.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2345,
+   "page": "https://commons.wikimedia.org/wiki/File:Parthenon_from_south.jpg",
+   "author": "Thermos",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day3",
+  "file": "Hephaistos Temple.JPG",
+  "caption": "Temple of Hephaestus, Agora",
+  "q": "Temple of Hephaestus, Agora Greece",
+  "found": {
+   "title": "File:Hephaistos Temple.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hephaistos_Temple.JPG/960px-Hephaistos_Temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3072,
+   "page": "https://commons.wikimedia.org/wiki/File:Hephaistos_Temple.JPG",
+   "author": "Storeye",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day4",
+  "file": "Temple of Apollo in Delphoi.jpg",
+  "caption": "Temple of Apollo, Delphi",
+  "q": "Temple of Apollo, Delphi Greece",
+  "found": {
+   "title": "File:Temple of Apollo in Delphoi.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Temple_of_Apollo_in_Delphoi.jpg/960px-Temple_of_Apollo_in_Delphoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5456,
+   "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Apollo_in_Delphoi.jpg",
+   "author": "Kyri Th.",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day5",
+  "file": "Temple of Poseidon at sunset 2.jpg",
+  "caption": "Sounion at sunset",
+  "q": "Sounion at sunset Greece",
+  "found": {
+   "title": "File:Temple of Poseidon at sunset 2.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Temple_of_Poseidon_at_sunset_2.jpg/960px-Temple_of_Poseidon_at_sunset_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3000,
+   "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Poseidon_at_sunset_2.jpg",
+   "author": "Oleksandr Troitskyi",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day6",
+  "file": "Panathenaic Stadium.jpg",
+  "caption": "Marble Panathenaic Stadium",
+  "q": "Marble Panathenaic Stadium Greece",
+  "found": {
+   "title": "File:Panathenaic Stadium.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Panathenaic_Stadium.jpg/960px-Panathenaic_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4032,
+   "page": "https://commons.wikimedia.org/wiki/File:Panathenaic_Stadium.jpg",
+   "author": "Danbu14",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "greece",
+  "slot": "day7",
+  "file": "Athens International Airport Eleftherios Venizelos Διεθνής Αερολιμένας Αθηνών Ελευθέριος Βενιζέλος 2019-12-01 i.jpg",
+  "caption": "Athens International Airport",
+  "q": "Athens International Airport Greece",
+  "found": {
+   "title": "File:Athens International Airport Eleftherios Venizelos Διεθνής Αερολιμένας Αθηνών Ελευθέριος Βενιζέλος 2019-12-01 i.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Athens_International_Airport_Eleftherios_Venizelos_%CE%94%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82_%CE%91%CE%B5%CF%81%CE%BF%CE%BB%CE%B9%CE%BC%CE%AD%CE%BD%CE%B1%CF%82_%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%AD%CF%81%CE%B9%CE%BF%CF%82_%CE%92%CE%B5%CE%BD%CE%B9%CE%B6%CE%AD%CE%BB%CE%BF%CF%82_2019-12-01_i.jpg/960px-Athens_International_Airport_Eleftherios_Venizelos_%CE%94%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82_%CE%91%CE%B5%CF%81%CE%BF%CE%BB%CE%B9%CE%BC%CE%AD%CE%BD%CE%B1%CF%82_%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%AD%CF%81%CE%B9%CE%BF%CF%82_%CE%92%CE%B5%CE%BD%CE%B9%CE%B6%CE%AD%CE%BB%CE%BF%CF%82_2019-12-01_i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6600,
+   "page": "https://commons.wikimedia.org/wiki/File:Athens_International_Airport_Eleftherios_Venizelos_%CE%94%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82_%CE%91%CE%B5%CF%81%CE%BF%CE%BB%CE%B9%CE%BC%CE%AD%CE%BD%CE%B1%CF%82_%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%AD%CF%81%CE%B9%CE%BF%CF%82_%CE%92%CE%B5%CE%BD%CE%B9%CE%B6%CE%AD%CE%BB%CE%BF%CF%82_2019-12-01_i.jpg",
+   "author": "Manfred Werner (Tsui)",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "hero0",
+  "file": "Wat_Phra_Kaew_outside_view.jpg",
+  "caption": "Wat Phra Kaew, Bangkok",
+  "q": "Wat Phra Kaew, Bangkok Thailand",
+  "found": {
+   "title": "File:Wat Phra Kaew outside view.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Wat_Phra_Kaew_outside_view.jpg/960px-Wat_Phra_Kaew_outside_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1109,
+   "page": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Kaew_outside_view.jpg",
+   "author": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "hero1",
+  "file": "Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_37.jpg",
+  "caption": "Wat Arun, Temple of Dawn",
+  "q": "Wat Arun, Temple of Dawn Thailand",
+  "found": {
+   "title": "File:Templo Wat Arun, Bangkok, Tailandia, 2013-08-22, DD 37.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_37.jpg/960px-Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4109,
+   "page": "https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_37.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day1",
+  "file": "Bangkok_along_the_Chao_Phraya_and_Wat_Arun_(14881669620).jpg",
+  "caption": "Chao Phraya and Wat Arun",
+  "q": "Chao Phraya and Wat Arun Thailand",
+  "found": {
+   "title": "File:Bangkok along the Chao Phraya and Wat Arun (14881669620).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Bangkok_along_the_Chao_Phraya_and_Wat_Arun_%2814881669620%29.jpg/960px-Bangkok_along_the_Chao_Phraya_and_Wat_Arun_%2814881669620%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4608,
+   "page": "https://commons.wikimedia.org/wiki/File:Bangkok_along_the_Chao_Phraya_and_Wat_Arun_(14881669620).jpg",
+   "author": "Clay Gilliland",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day2",
+  "file": "Grand_Palace_Bangkok,_Thailand.jpg",
+  "caption": "Grand Palace, Bangkok",
+  "q": "Grand Palace, Bangkok Thailand",
+  "found": {
+   "title": "File:Grand Palace Bangkok, Thailand.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_Palace_Bangkok%2C_Thailand.jpg/960px-Grand_Palace_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6158,
+   "page": "https://commons.wikimedia.org/wiki/File:Grand_Palace_Bangkok,_Thailand.jpg",
+   "author": "Andy Marchand",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day3",
+  "file": "Ratchaburi_Damnoen_Saduak_Floating_Market_2.jpg",
+  "caption": "Damnoen Saduak floating market",
+  "q": "Damnoen Saduak floating market Thailand",
+  "found": {
+   "title": "File:Ratchaburi Damnoen Saduak Floating Market 2.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ratchaburi_Damnoen_Saduak_Floating_Market_2.jpg/960px-Ratchaburi_Damnoen_Saduak_Floating_Market_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1450,
+   "page": "https://commons.wikimedia.org/wiki/File:Ratchaburi_Damnoen_Saduak_Floating_Market_2.jpg",
+   "author": "Mr.Niwat Tantayanusorn, Ph.D.",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day4",
+  "file": "Wat_Chedi_Luang_Assembly_Hall,_Chiang_Mai,_Thailand_-_Diliff.jpg",
+  "caption": "Wat Chedi Luang hall",
+  "q": "Wat Chedi Luang hall Thailand",
+  "found": {
+   "title": "File:Wat Chedi Luang Assembly Hall, Chiang Mai, Thailand - Diliff.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Wat_Chedi_Luang_Assembly_Hall%2C_Chiang_Mai%2C_Thailand_-_Diliff.jpg/960px-Wat_Chedi_Luang_Assembly_Hall%2C_Chiang_Mai%2C_Thailand_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3200,
+   "page": "https://commons.wikimedia.org/wiki/File:Wat_Chedi_Luang_Assembly_Hall,_Chiang_Mai,_Thailand_-_Diliff.jpg",
+   "author": "Diliff",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day5",
+  "file": "Panoramic_view_of_Chiang_Mai_City.jpg",
+  "caption": "Chiang Mai from Doi Suthep",
+  "q": "Chiang Mai from Doi Suthep Thailand",
+  "found": {
+   "title": "File:Panoramic view of Chiang Mai City.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Panoramic_view_of_Chiang_Mai_City.jpg/960px-Panoramic_view_of_Chiang_Mai_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 11175,
+   "page": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Chiang_Mai_City.jpg",
+   "author": "Supanut Arunoprayote",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day6",
+  "file": "Chiang_Mai_Sunday_Night_Market_1.jpg",
+  "caption": "Chiang Mai night market",
+  "q": "Chiang Mai night market Thailand",
+  "found": {
+   "title": "File:Chiang Mai Sunday Night Market 1.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Chiang_Mai_Sunday_Night_Market_1.jpg/960px-Chiang_Mai_Sunday_Night_Market_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4181,
+   "page": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_Sunday_Night_Market_1.jpg",
+   "author": "Christophe95",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "thailand",
+  "slot": "day7",
+  "file": "Chiang-Mai_Thailand_Wat-Chedi-Luang-stupa-02.jpg",
+  "caption": "Wat Chedi Luang stupa",
+  "q": "Wat Chedi Luang stupa Thailand",
+  "found": {
+   "title": "File:Chiang-Mai Thailand Wat-Chedi-Luang-stupa-02.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Chiang-Mai_Thailand_Wat-Chedi-Luang-stupa-02.jpg/960px-Chiang-Mai_Thailand_Wat-Chedi-Luang-stupa-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5107,
+   "page": "https://commons.wikimedia.org/wiki/File:Chiang-Mai_Thailand_Wat-Chedi-Luang-stupa-02.jpg",
+   "author": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "hero0",
+  "file": "Áo_dài_(26282428400).jpg",
+  "caption": "Ao dai by Saigon cathedral",
+  "q": "Ao dai by Saigon cathedral Vietnam",
+  "found": {
+   "title": "File:Áo dài (26282428400).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%C3%81o_d%C3%A0i_%2826282428400%29.jpg/960px-%C3%81o_d%C3%A0i_%2826282428400%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2563,
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_(26282428400).jpg",
+   "author": "Joe Le Merou from Taipei, Taiwan",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "hero1",
+  "file": "Lascar_Saigon_Notre-Dame_Basilica_(4607355479).jpg",
+  "caption": "Saigon colonial landmark",
+  "q": "Saigon colonial landmark Vietnam",
+  "found": {
+   "title": "File:Lascar Saigon Notre-Dame Basilica (4607355479).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Lascar_Saigon_Notre-Dame_Basilica_%284607355479%29.jpg/960px-Lascar_Saigon_Notre-Dame_Basilica_%284607355479%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1944,
+   "page": "https://commons.wikimedia.org/wiki/File:Lascar_Saigon_Notre-Dame_Basilica_(4607355479).jpg",
+   "author": "Jorge Láscar from Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day1",
+  "file": "Ho Chi Minh City Skyline (night).jpg",
+  "caption": "Saigon skyline at night",
+  "q": "Saigon skyline at night Vietnam",
+  "found": {
+   "title": "File:Ho Chi Minh City Skyline (night).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ho_Chi_Minh_City_Skyline_%28night%29.jpg/960px-Ho_Chi_Minh_City_Skyline_%28night%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3304,
+   "page": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_(night).jpg",
+   "author": "Jim 陳",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day2",
+  "file": "HCM-City_Kathedrale.JPG",
+  "caption": "Saigon Notre-Dame Cathedral",
+  "q": "Saigon Notre-Dame Cathedral Vietnam",
+  "found": {
+   "title": "File:HCM-City Kathedrale.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/HCM-City_Kathedrale.JPG/960px-HCM-City_Kathedrale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1312,
+   "page": "https://commons.wikimedia.org/wiki/File:HCM-City_Kathedrale.JPG",
+   "author": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day3",
+  "file": "VietnamCuChiTunnels.jpg",
+  "caption": "Cu Chi tunnel entrance",
+  "q": "Cu Chi tunnel entrance Vietnam",
+  "found": {
+   "title": "File:VietnamCuChiTunnels.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/VietnamCuChiTunnels.jpg/330px-VietnamCuChiTunnels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 465,
+   "page": "https://commons.wikimedia.org/wiki/File:VietnamCuChiTunnels.jpg",
+   "author": "Kevyn Jacobs",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day4",
+  "file": "Clock_and_exterior_of_Saigon_Central_Post_Office.JPG",
+  "caption": "Saigon Central Post Office",
+  "q": "Saigon Central Post Office Vietnam",
+  "found": {
+   "title": "File:Clock and exterior of Saigon Central Post Office.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Clock_and_exterior_of_Saigon_Central_Post_Office.JPG/960px-Clock_and_exterior_of_Saigon_Central_Post_Office.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3568,
+   "page": "https://commons.wikimedia.org/wiki/File:Clock_and_exterior_of_Saigon_Central_Post_Office.JPG",
+   "author": "Prenn",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day5",
+  "file": "CanThoFloatingMarket.jpg",
+  "caption": "Can Tho floating market",
+  "q": "Can Tho floating market Vietnam",
+  "found": {
+   "title": "File:CanThoFloatingMarket.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/CanThoFloatingMarket.jpg/960px-CanThoFloatingMarket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1727,
+   "page": "https://commons.wikimedia.org/wiki/File:CanThoFloatingMarket.jpg",
+   "author": "User:Doron",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day6",
+  "file": "Phu_Quoc.jpg",
+  "caption": "Phu Quoc island coast",
+  "q": "Phu Quoc island coast Vietnam",
+  "found": {
+   "title": "File:Phu Quoc.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Phu_Quoc.jpg/960px-Phu_Quoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1600,
+   "page": "https://commons.wikimedia.org/wiki/File:Phu_Quoc.jpg",
+   "author": "The exiler",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "south-vietnam",
+  "slot": "day7",
+  "file": "Phu_Quoc_airport.jpg",
+  "caption": "Phu Quoc airport",
+  "q": "Phu Quoc airport Vietnam",
+  "found": {
+   "title": "File:Phu Quoc airport.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Phu_Quoc_airport.jpg/960px-Phu_Quoc_airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1280,
+   "page": "https://commons.wikimedia.org/wiki/File:Phu_Quoc_airport.jpg",
+   "author": "Joe Gatling",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "hero0",
+  "file": "Waikiki_Beach_(2024)-L1004709.jpg",
+  "caption": "Waikiki toward Diamond Head",
+  "q": "Waikiki toward Diamond Head Hawaii",
+  "found": {
+   "title": "File:Waikiki Beach (2024)-L1004709.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Waikiki_Beach_%282024%29-L1004709.jpg/960px-Waikiki_Beach_%282024%29-L1004709.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 8487,
+   "page": "https://commons.wikimedia.org/wiki/File:Waikiki_Beach_(2024)-L1004709.jpg",
+   "author": "Frank Schulenburg",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "hero1",
+  "file": "USS_Arizona_Memorial_(aerial_view).jpg",
+  "caption": "USS Arizona Memorial aerial",
+  "q": "USS Arizona Memorial aerial Hawaii",
+  "found": {
+   "title": "File:USS Arizona Memorial (aerial view).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/USS_Arizona_Memorial_%28aerial_view%29.jpg/960px-USS_Arizona_Memorial_%28aerial_view%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3008,
+   "page": "https://commons.wikimedia.org/wiki/File:USS_Arizona_Memorial_(aerial_view).jpg",
+   "author": "DoD photo by: PH3(AW/SW) JAYME PASTORIC, USN",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "hero2",
+  "file": "Diamond_Head.jpg",
+  "caption": "Diamond Head from the sea",
+  "q": "Diamond Head from the sea Hawaii",
+  "found": {
+   "title": "File:Diamond Head.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Diamond_Head.jpg/960px-Diamond_Head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1280,
+   "page": "https://commons.wikimedia.org/wiki/File:Diamond_Head.jpg",
+   "author": "VideoFrog",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day1",
+  "file": "1999_-_Waikiki_Beach_Honolulu_Hawaï.jpg",
+  "caption": "Waikiki Beach, Honolulu",
+  "q": "Waikiki Beach, Honolulu Hawaii",
+  "found": {
+   "title": "File:1999 - Waikiki Beach Honolulu Hawaï.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg/500px-1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 700,
+   "page": "https://commons.wikimedia.org/wiki/File:1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg",
+   "author": "Content Provider(s): CDC/Dr. Edwin P. Ewing, Jr.",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day2",
+  "file": "Diamond_Head_crater_aerial_Jan_2022.png",
+  "caption": "Diamond Head crater from above",
+  "q": "Diamond Head crater from above Hawaii",
+  "found": {
+   "title": "File:Diamond Head crater aerial Jan 2022.png",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Diamond_Head_crater_aerial_Jan_2022.png/960px-Diamond_Head_crater_aerial_Jan_2022.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/png",
+   "width": 4032,
+   "page": "https://commons.wikimedia.org/wiki/File:Diamond_Head_crater_aerial_Jan_2022.png",
+   "author": "RL0919",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day3",
+  "file": "USS_Arizona_memorial_from_waterline.jpg",
+  "caption": "USS Arizona Memorial",
+  "q": "USS Arizona Memorial Hawaii",
+  "found": {
+   "title": "File:USS Arizona memorial from waterline.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/USS_Arizona_memorial_from_waterline.jpg/960px-USS_Arizona_memorial_from_waterline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1500,
+   "page": "https://commons.wikimedia.org/wiki/File:USS_Arizona_memorial_from_waterline.jpg",
+   "author": "National Park Service",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day4",
+  "file": "A183,_Oahu,_Hawaii,_USA,_Waimea_Bay,_2007.JPG",
+  "caption": "Surfer at Waimea Bay",
+  "q": "Surfer at Waimea Bay Hawaii",
+  "found": {
+   "title": "File:A183, Oahu, Hawaii, USA, Waimea Bay, 2007.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/A183%2C_Oahu%2C_Hawaii%2C_USA%2C_Waimea_Bay%2C_2007.JPG/500px-A183%2C_Oahu%2C_Hawaii%2C_USA%2C_Waimea_Bay%2C_2007.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 800,
+   "page": "https://commons.wikimedia.org/wiki/File:A183,_Oahu,_Hawaii,_USA,_Waimea_Bay,_2007.JPG",
+   "author": "Brian W. Schaller",
+   "license": "FAL"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day5",
+  "file": "Kualoa_Ranch.jpg",
+  "caption": "Kualoa Ranch valley",
+  "q": "Kualoa Ranch valley Hawaii",
+  "found": {
+   "title": "File:Kualoa Ranch.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Kualoa_Ranch.jpg/960px-Kualoa_Ranch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4900,
+   "page": "https://commons.wikimedia.org/wiki/File:Kualoa_Ranch.jpg",
+   "author": "Wikimedia Commons",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day6",
+  "file": "Hanauma Bay, Oahu, Hawaii, USA2.jpg",
+  "caption": "Hanauma Bay",
+  "q": "Hanauma Bay Hawaii",
+  "found": {
+   "title": "File:Hanauma Bay, Oahu, Hawaii, USA2.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Hanauma_Bay%2C_Oahu%2C_Hawaii%2C_USA2.jpg/960px-Hanauma_Bay%2C_Oahu%2C_Hawaii%2C_USA2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3713,
+   "page": "https://commons.wikimedia.org/wiki/File:Hanauma_Bay,_Oahu,_Hawaii,_USA2.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "oahu",
+  "slot": "day7",
+  "file": "Daimond_Head_Crater_(42421947950).jpg",
+  "caption": "Last look at Diamond Head",
+  "q": "Last look at Diamond Head Hawaii",
+  "found": {
+   "title": "File:Daimond Head Crater (42421947950).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Daimond_Head_Crater_%2842421947950%29.jpg/960px-Daimond_Head_Crater_%2842421947950%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5662,
+   "page": "https://commons.wikimedia.org/wiki/File:Daimond_Head_Crater_(42421947950).jpg",
+   "author": "Eric Tessmer from Honolulu Hawaii, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "hero0",
+  "file": "Haleakala_crater_(1).jpg",
+  "caption": "Haleakala crater trail",
+  "q": "Haleakala crater trail Hawaii",
+  "found": {
+   "title": "File:Haleakala crater (1).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Haleakala_crater_%281%29.jpg/960px-Haleakala_crater_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5184,
+   "page": "https://commons.wikimedia.org/wiki/File:Haleakala_crater_(1).jpg",
+   "author": "Navin75",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "hero1",
+  "file": "A_view_of_crater_in_Haleakala_National_Park.jpg",
+  "caption": "Haleakala crater view",
+  "q": "Haleakala crater view Hawaii",
+  "found": {
+   "title": "File:A view of crater in Haleakala National Park.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/A_view_of_crater_in_Haleakala_National_Park.jpg/960px-A_view_of_crater_in_Haleakala_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3264,
+   "page": "https://commons.wikimedia.org/wiki/File:A_view_of_crater_in_Haleakala_National_Park.jpg",
+   "author": "sightalks",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "hero2",
+  "file": "Wailua_Falls,_Hana,_HI(2).jpg",
+  "caption": "Wailua Falls, Road to Hana",
+  "q": "Wailua Falls, Road to Hana Hawaii",
+  "found": {
+   "title": "File:Wailua Falls, Hana, HI(2).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wailua_Falls%2C_Hana%2C_HI%282%29.jpg/960px-Wailua_Falls%2C_Hana%2C_HI%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5760,
+   "page": "https://commons.wikimedia.org/wiki/File:Wailua_Falls,_Hana,_HI(2).jpg",
+   "author": "Ekrem Canli",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day1",
+  "file": "Sunset from a beach near Kihei, Maui (8034699432).jpg",
+  "caption": "Sunset near Kihei",
+  "q": "Sunset near Kihei Hawaii",
+  "found": {
+   "title": "File:Sunset from a beach near Kihei, Maui (8034699432).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sunset_from_a_beach_near_Kihei%2C_Maui_%288034699432%29.jpg/960px-Sunset_from_a_beach_near_Kihei%2C_Maui_%288034699432%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2000,
+   "page": "https://commons.wikimedia.org/wiki/File:Sunset_from_a_beach_near_Kihei,_Maui_(8034699432).jpg",
+   "author": "Frank Kovalchek from Anchorage, Alaska, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day2",
+  "file": "Sunrise_from_Holua_Cabin.jpg",
+  "caption": "Sunrise in Haleakala crater",
+  "q": "Sunrise in Haleakala crater Hawaii",
+  "found": {
+   "title": "File:Sunrise from Holua Cabin.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sunrise_from_Holua_Cabin.jpg/960px-Sunrise_from_Holua_Cabin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2000,
+   "page": "https://commons.wikimedia.org/wiki/File:Sunrise_from_Holua_Cabin.jpg",
+   "author": "National Park Service",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day3",
+  "file": "Wailua_Falls,_Hana,_HI(2).jpg",
+  "caption": "Wailua Falls, Road to Hana",
+  "q": "Wailua Falls, Road to Hana Hawaii",
+  "found": {
+   "title": "File:Wailua Falls, Hana, HI(2).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wailua_Falls%2C_Hana%2C_HI%282%29.jpg/960px-Wailua_Falls%2C_Hana%2C_HI%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5760,
+   "page": "https://commons.wikimedia.org/wiki/File:Wailua_Falls,_Hana,_HI(2).jpg",
+   "author": "Ekrem Canli",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day4",
+  "file": "Snorkeling at Molokini Crater, Maui.jpg",
+  "caption": "Snorkeling at Molokini",
+  "q": "Snorkeling at Molokini Hawaii",
+  "found": {
+   "title": "File:Snorkeling at Molokini Crater, Maui.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Snorkeling_at_Molokini_Crater%2C_Maui.jpg/960px-Snorkeling_at_Molokini_Crater%2C_Maui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3751,
+   "page": "https://commons.wikimedia.org/wiki/File:Snorkeling_at_Molokini_Crater,_Maui.jpg",
+   "author": "SNORKELINGDIVES.COM",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day5",
+  "file": "Iao Needle @ Iao Valley State Monument, Maui, Hawaii - panoramio.jpg",
+  "caption": "Iao Needle, Iao Valley",
+  "q": "Iao Needle, Iao Valley Hawaii",
+  "found": {
+   "title": "File:Iao Needle @ Iao Valley State Monument, Maui, Hawaii - panoramio.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Iao_Needle_%40_Iao_Valley_State_Monument%2C_Maui%2C_Hawaii_-_panoramio.jpg/960px-Iao_Needle_%40_Iao_Valley_State_Monument%2C_Maui%2C_Hawaii_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3456,
+   "page": "https://commons.wikimedia.org/wiki/File:Iao_Needle_@_Iao_Valley_State_Monument,_Maui,_Hawaii_-_panoramio.jpg",
+   "author": "Aaron Zhu",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day6",
+  "file": "Kaanapali Beach Maui.jpg",
+  "caption": "Kaanapali Beach, West Maui",
+  "q": "Kaanapali Beach, West Maui Hawaii",
+  "found": {
+   "title": "File:Kaanapali Beach Maui.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Kaanapali_Beach_Maui.jpg/960px-Kaanapali_Beach_Maui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1725,
+   "page": "https://commons.wikimedia.org/wiki/File:Kaanapali_Beach_Maui.jpg",
+   "author": "John P Salvatore",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "maui",
+  "slot": "day7",
+  "file": "Venus_at_dawn_from_Mount_Haleakala_east_Maui_Hawaii_(15337438899).jpg",
+  "caption": "Dawn over east Maui",
+  "q": "Dawn over east Maui Hawaii",
+  "found": {
+   "title": "File:Venus at dawn from Mount Haleakala east Maui Hawaii (15337438899).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Venus_at_dawn_from_Mount_Haleakala_east_Maui_Hawaii_%2815337438899%29.jpg/960px-Venus_at_dawn_from_Mount_Haleakala_east_Maui_Hawaii_%2815337438899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3536,
+   "page": "https://commons.wikimedia.org/wiki/File:Venus_at_dawn_from_Mount_Haleakala_east_Maui_Hawaii_(15337438899).jpg",
+   "author": "Jim Morefield from Nevada, USA",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "hero0",
+  "file": "Halema'uma'u_Crater_in_Kilauea_volcano,_Hawaii..jpg",
+  "caption": "Halemaumau crater glow",
+  "q": "Halemaumau crater glow Hawaii",
+  "found": {
+   "title": "File:Halema'uma'u Crater in Kilauea volcano, Hawaii..jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Halema%27uma%27u_Crater_in_Kilauea_volcano%2C_Hawaii..jpg/960px-Halema%27uma%27u_Crater_in_Kilauea_volcano%2C_Hawaii..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1000,
+   "page": "https://commons.wikimedia.org/wiki/File:Halema%27uma%27u_Crater_in_Kilauea_volcano,_Hawaii..jpg",
+   "author": "Ivan Petrovich Vtorov",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "hero1",
+  "file": "Green_turtle_at_Black_Sand_Beach.jpg",
+  "caption": "Green turtle at Punaluu",
+  "q": "Green turtle at Punaluu Hawaii",
+  "found": {
+   "title": "File:Green turtle at Black Sand Beach.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Green_turtle_at_Black_Sand_Beach.jpg/960px-Green_turtle_at_Black_Sand_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6000,
+   "page": "https://commons.wikimedia.org/wiki/File:Green_turtle_at_Black_Sand_Beach.jpg",
+   "author": "Brocken Inaglory",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "hero2",
+  "file": "Captain_Cook_Monument._Kealakekua_Bay,_Captain_Cook_(504562)_(24000465856).jpg",
+  "caption": "Kealakekua Bay monument",
+  "q": "Kealakekua Bay monument Hawaii",
+  "found": {
+   "title": "File:Captain Cook Monument. Kealakekua Bay, Captain Cook (504562) (24000465856).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Captain_Cook_Monument._Kealakekua_Bay%2C_Captain_Cook_%28504562%29_%2824000465856%29.jpg/960px-Captain_Cook_Monument._Kealakekua_Bay%2C_Captain_Cook_%28504562%29_%2824000465856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3466,
+   "page": "https://commons.wikimedia.org/wiki/File:Captain_Cook_Monument._Kealakekua_Bay,_Captain_Cook_(504562)_(24000465856).jpg",
+   "author": "Robert Linsdell from St. Andrews, Canada",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day1",
+  "file": "Ali'i_Drive,_Kailua-Kona,_Hawaii_(4548895483).jpg",
+  "caption": "Alii Drive seawall, Kona",
+  "q": "Alii Drive seawall, Kona Hawaii",
+  "found": {
+   "title": "File:Ali'i Drive, Kailua-Kona, Hawaii (4548895483).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ali%27i_Drive%2C_Kailua-Kona%2C_Hawaii_%284548895483%29.jpg/960px-Ali%27i_Drive%2C_Kailua-Kona%2C_Hawaii_%284548895483%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2816,
+   "page": "https://commons.wikimedia.org/wiki/File:Ali%27i_Drive,_Kailua-Kona,_Hawaii_(4548895483).jpg",
+   "author": "Ken Lund from Reno, Nevada, USA",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day2",
+  "file": "Captain_Cook's_Monument_kayak_snorkeling_Big_island_Hawaii_(31337970747).jpg",
+  "caption": "Kayaks at Captain Cook Monument",
+  "q": "Kayaks at Captain Cook Monument Hawaii",
+  "found": {
+   "title": "File:Captain Cook's Monument kayak snorkeling Big island Hawaii (31337970747).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Captain_Cook%27s_Monument_kayak_snorkeling_Big_island_Hawaii_%2831337970747%29.jpg/960px-Captain_Cook%27s_Monument_kayak_snorkeling_Big_island_Hawaii_%2831337970747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6193,
+   "page": "https://commons.wikimedia.org/wiki/File:Captain_Cook%27s_Monument_kayak_snorkeling_Big_island_Hawaii_(31337970747).jpg",
+   "author": "dronepicr",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day3",
+  "file": "Puuhonua_o_Honaunau_page_banner.jpg",
+  "caption": "Puuhonua o Honaunau shoreline",
+  "q": "Puuhonua o Honaunau shoreline Hawaii",
+  "found": {
+   "title": "File:Puuhonua o Honaunau page banner.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Puuhonua_o_Honaunau_page_banner.jpg/960px-Puuhonua_o_Honaunau_page_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2100,
+   "page": "https://commons.wikimedia.org/wiki/File:Puuhonua_o_Honaunau_page_banner.jpg",
+   "author": "Footwarrior",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day4",
+  "file": "Punaluu_Black_Sand_Beach,_Hawaii,_USA6.jpg",
+  "caption": "Punaluu black sand beach",
+  "q": "Punaluu black sand beach Hawaii",
+  "found": {
+   "title": "File:Punaluu Black Sand Beach, Hawaii, USA6.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Punaluu_Black_Sand_Beach%2C_Hawaii%2C_USA6.jpg/960px-Punaluu_Black_Sand_Beach%2C_Hawaii%2C_USA6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3888,
+   "page": "https://commons.wikimedia.org/wiki/File:Punaluu_Black_Sand_Beach,_Hawaii,_USA6.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day5",
+  "file": "Halemaumau_Crater,_Kīlauea_Caldera,_Hawaiʻi_Volcanoes_National_Park,_Hawaii_(4528764695).jpg",
+  "caption": "Halemaumau crater, Kilauea",
+  "q": "Halemaumau crater, Kilauea Hawaii",
+  "found": {
+   "title": "File:Halemaumau Crater, Kīlauea Caldera, Hawaiʻi Volcanoes National Park, Hawaii (4528764695).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Halemaumau_Crater%2C_K%C4%ABlauea_Caldera%2C_Hawai%CA%BBi_Volcanoes_National_Park%2C_Hawaii_%284528764695%29.jpg/960px-Halemaumau_Crater%2C_K%C4%ABlauea_Caldera%2C_Hawai%CA%BBi_Volcanoes_National_Park%2C_Hawaii_%284528764695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2230,
+   "page": "https://commons.wikimedia.org/wiki/File:Halemaumau_Crater,_K%C4%ABlauea_Caldera,_Hawai%CA%BBi_Volcanoes_National_Park,_Hawaii_(4528764695).jpg",
+   "author": "Ken Lund from Reno, Nevada, USA",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day6",
+  "file": "Subaru_Telescope._Mauna_Kea_Summit_(503947)_(21404240034).jpg",
+  "caption": "Maunakea summit telescopes",
+  "q": "Maunakea summit telescopes Hawaii",
+  "found": {
+   "title": "File:Subaru Telescope. Mauna Kea Summit (503947) (21404240034).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Subaru_Telescope._Mauna_Kea_Summit_%28503947%29_%2821404240034%29.jpg/960px-Subaru_Telescope._Mauna_Kea_Summit_%28503947%29_%2821404240034%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5396,
+   "page": "https://commons.wikimedia.org/wiki/File:Subaru_Telescope._Mauna_Kea_Summit_(503947)_(21404240034).jpg",
+   "author": "Robert Linsdell from St. Andrews, Canada",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "big-island",
+  "slot": "day7",
+  "file": "Ali'i_Drive,_Kailua-Kona,_Hawaii_(2)_(4549537774).jpg",
+  "caption": "Kailua-Kona waterfront",
+  "q": "Kailua-Kona waterfront Hawaii",
+  "found": {
+   "title": "File:Ali'i Drive, Kailua-Kona, Hawaii (2) (4549537774).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Ali%27i_Drive%2C_Kailua-Kona%2C_Hawaii_%282%29_%284549537774%29.jpg/960px-Ali%27i_Drive%2C_Kailua-Kona%2C_Hawaii_%282%29_%284549537774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2816,
+   "page": "https://commons.wikimedia.org/wiki/File:Ali%27i_Drive,_Kailua-Kona,_Hawaii_(2)_(4549537774).jpg",
+   "author": "Ken Lund from Reno, Nevada, USA",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "hero0",
+  "file": "Na_Pali_Coast,_Kauai,_Hawaii.jpg",
+  "caption": "Na Pali Coast",
+  "q": "Na Pali Coast Hawaii",
+  "found": {
+   "title": "File:Na Pali Coast, Kauai, Hawaii.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Na_Pali_Coast%2C_Kauai%2C_Hawaii.jpg/960px-Na_Pali_Coast%2C_Kauai%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1761,
+   "page": "https://commons.wikimedia.org/wiki/File:Na_Pali_Coast,_Kauai,_Hawaii.jpg",
+   "author": "Jeff Kubina",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "hero1",
+  "file": "Waipoo_Falls_and_Waimea_Canyon_(33588353776).jpg",
+  "caption": "Waipoo Falls, Waimea Canyon",
+  "q": "Waipoo Falls, Waimea Canyon Hawaii",
+  "found": {
+   "title": "File:Waipoo Falls and Waimea Canyon (33588353776).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Waipoo_Falls_and_Waimea_Canyon_%2833588353776%29.jpg/960px-Waipoo_Falls_and_Waimea_Canyon_%2833588353776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6000,
+   "page": "https://commons.wikimedia.org/wiki/File:Waipoo_Falls_and_Waimea_Canyon_(33588353776).jpg",
+   "author": "Deb Nystrom from Ann Arbor, Michigan, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "hero2",
+  "file": "Hanalei_Pier_Kauai.jpg",
+  "caption": "Hanalei Pier and bay",
+  "q": "Hanalei Pier and bay Hawaii",
+  "found": {
+   "title": "File:Hanalei Pier Kauai.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hanalei_Pier_Kauai.jpg/960px-Hanalei_Pier_Kauai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1386,
+   "page": "https://commons.wikimedia.org/wiki/File:Hanalei_Pier_Kauai.jpg",
+   "author": "Hanalei_Bay_2_-_Kauai.jpg: Ralf Beier\nderivative work: W Nowicki (talk)",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day1",
+  "file": "An_endangered_Hawaiian_Monk_Seal_resting_on_Poipu_Beach_in_Kauai.jpg",
+  "caption": "Monk seal on Poipu Beach",
+  "q": "Monk seal on Poipu Beach Hawaii",
+  "found": {
+   "title": "File:An endangered Hawaiian Monk Seal resting on Poipu Beach in Kauai.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/An_endangered_Hawaiian_Monk_Seal_resting_on_Poipu_Beach_in_Kauai.jpg/960px-An_endangered_Hawaiian_Monk_Seal_resting_on_Poipu_Beach_in_Kauai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4334,
+   "page": "https://commons.wikimedia.org/wiki/File:An_endangered_Hawaiian_Monk_Seal_resting_on_Poipu_Beach_in_Kauai.jpg",
+   "author": "Ashley Lee",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day2",
+  "file": "Waimea_Canyon,_Kauaʻi.jpg",
+  "caption": "Waimea Canyon lookout",
+  "q": "Waimea Canyon lookout Hawaii",
+  "found": {
+   "title": "File:Waimea Canyon, Kauaʻi.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Waimea_Canyon%2C_Kaua%CA%BBi.jpg/960px-Waimea_Canyon%2C_Kaua%CA%BBi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6216,
+   "page": "https://commons.wikimedia.org/wiki/File:Waimea_Canyon,_Kaua%CA%BBi.jpg",
+   "author": "Frank Schulenburg",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day3",
+  "file": "Na_Pali_Coast_Kauai_Hawaii_(32406276598).jpg",
+  "caption": "Na Pali Coast cliffs",
+  "q": "Na Pali Coast cliffs Hawaii",
+  "found": {
+   "title": "File:Na Pali Coast Kauai Hawaii (32406276598).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Na_Pali_Coast_Kauai_Hawaii_%2832406276598%29.jpg/960px-Na_Pali_Coast_Kauai_Hawaii_%2832406276598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5926,
+   "page": "https://commons.wikimedia.org/wiki/File:Na_Pali_Coast_Kauai_Hawaii_(32406276598).jpg",
+   "author": "dronepicr",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day4",
+  "file": "Sunset_at_Hanalei_Pier_on_the_island_of_Kauai.jpg",
+  "caption": "Hanalei Pier at sunset",
+  "q": "Hanalei Pier at sunset Hawaii",
+  "found": {
+   "title": "File:Sunset at Hanalei Pier on the island of Kauai.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sunset_at_Hanalei_Pier_on_the_island_of_Kauai.jpg/960px-Sunset_at_Hanalei_Pier_on_the_island_of_Kauai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 7989,
+   "page": "https://commons.wikimedia.org/wiki/File:Sunset_at_Hanalei_Pier_on_the_island_of_Kauai.jpg",
+   "author": "Debbie Tee",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day5",
+  "file": "Wailua_Falls,_Kauai.JPG",
+  "caption": "Wailua Falls",
+  "q": "Wailua Falls Hawaii",
+  "found": {
+   "title": "File:Wailua Falls, Kauai.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Wailua_Falls%2C_Kauai.JPG/960px-Wailua_Falls%2C_Kauai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2048,
+   "page": "https://commons.wikimedia.org/wiki/File:Wailua_Falls,_Kauai.JPG",
+   "author": "No machine-readable author provided. Caracas1830 assumed (based on copyright cla",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day6",
+  "file": "Spouting_horn_blowhole_Kauai_Hawaii.jpg",
+  "caption": "Spouting Horn blowhole",
+  "q": "Spouting Horn blowhole Hawaii",
+  "found": {
+   "title": "File:Spouting horn blowhole Kauai Hawaii.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Spouting_horn_blowhole_Kauai_Hawaii.jpg/960px-Spouting_horn_blowhole_Kauai_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1140,
+   "page": "https://commons.wikimedia.org/wiki/File:Spouting_horn_blowhole_Kauai_Hawaii.jpg",
+   "author": "Ron Clausen",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "kauai",
+  "slot": "day7",
+  "file": "Hawaiian_monk_seal_close-up_(Neomonachus_schauinslandi).jpg",
+  "caption": "Monk seal close-up",
+  "q": "Monk seal close-up Hawaii",
+  "found": {
+   "title": "File:Hawaiian monk seal close-up (Neomonachus schauinslandi).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Hawaiian_monk_seal_close-up_%28Neomonachus_schauinslandi%29.jpg/960px-Hawaiian_monk_seal_close-up_%28Neomonachus_schauinslandi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5545,
+   "page": "https://commons.wikimedia.org/wiki/File:Hawaiian_monk_seal_close-up_(Neomonachus_schauinslandi).jpg",
+   "author": "E bailey",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "hero0",
+  "file": "Waikiki_Beach_(2024)-L1004709.jpg",
+  "caption": "Waikiki toward Diamond Head",
+  "q": "Waikiki toward Diamond Head Hawaii",
+  "found": {
+   "title": "File:Waikiki Beach (2024)-L1004709.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Waikiki_Beach_%282024%29-L1004709.jpg/960px-Waikiki_Beach_%282024%29-L1004709.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 8487,
+   "page": "https://commons.wikimedia.org/wiki/File:Waikiki_Beach_(2024)-L1004709.jpg",
+   "author": "Frank Schulenburg",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "hero1",
+  "file": "Diamond_Head_Tuff_Cone_in_Oahu_Hawaii_USA.jpg",
+  "caption": "Diamond Head, Oahu",
+  "q": "Diamond Head, Oahu Hawaii",
+  "found": {
+   "title": "File:Diamond Head Tuff Cone in Oahu Hawaii USA.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Diamond_Head_Tuff_Cone_in_Oahu_Hawaii_USA.jpg/960px-Diamond_Head_Tuff_Cone_in_Oahu_Hawaii_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3286,
+   "page": "https://commons.wikimedia.org/wiki/File:Diamond_Head_Tuff_Cone_in_Oahu_Hawaii_USA.jpg",
+   "author": "Steve Jurvetson (jurvetson on Flickr) https://www.flickr.com/people/jurvetson/",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "hero2",
+  "file": "Haleakala_Observatory_2017.jpg",
+  "caption": "Haleakala summit, Maui",
+  "q": "Haleakala summit, Maui Hawaii",
+  "found": {
+   "title": "File:Haleakala Observatory 2017.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Haleakala_Observatory_2017.jpg/960px-Haleakala_Observatory_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4909,
+   "page": "https://commons.wikimedia.org/wiki/File:Haleakala_Observatory_2017.jpg",
+   "author": "Ekrem Canli",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day1",
+  "file": "1999_-_Waikiki_Beach_Honolulu_Hawaï.jpg",
+  "caption": "Waikiki Beach, Honolulu",
+  "q": "Waikiki Beach, Honolulu Hawaii",
+  "found": {
+   "title": "File:1999 - Waikiki Beach Honolulu Hawaï.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg/500px-1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 700,
+   "page": "https://commons.wikimedia.org/wiki/File:1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg",
+   "author": "Content Provider(s): CDC/Dr. Edwin P. Ewing, Jr.",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day2",
+  "file": "USS_Arizona_memorial_from_waterline.jpg",
+  "caption": "USS Arizona Memorial",
+  "q": "USS Arizona Memorial Hawaii",
+  "found": {
+   "title": "File:USS Arizona memorial from waterline.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/USS_Arizona_memorial_from_waterline.jpg/960px-USS_Arizona_memorial_from_waterline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1500,
+   "page": "https://commons.wikimedia.org/wiki/File:USS_Arizona_memorial_from_waterline.jpg",
+   "author": "National Park Service",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day3",
+  "file": "A183,_Oahu,_Hawaii,_USA,_Waimea_Bay,_2007.JPG",
+  "caption": "Surfer at Waimea Bay",
+  "q": "Surfer at Waimea Bay Hawaii",
+  "found": {
+   "title": "File:A183, Oahu, Hawaii, USA, Waimea Bay, 2007.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/A183%2C_Oahu%2C_Hawaii%2C_USA%2C_Waimea_Bay%2C_2007.JPG/500px-A183%2C_Oahu%2C_Hawaii%2C_USA%2C_Waimea_Bay%2C_2007.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 800,
+   "page": "https://commons.wikimedia.org/wiki/File:A183,_Oahu,_Hawaii,_USA,_Waimea_Bay,_2007.JPG",
+   "author": "Brian W. Schaller",
+   "license": "FAL"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day4",
+  "file": "Haleakala_aerial.jpg",
+  "caption": "Haleakala rising over Maui",
+  "q": "Haleakala rising over Maui Hawaii",
+  "found": {
+   "title": "File:Haleakala aerial.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Haleakala_aerial.jpg/960px-Haleakala_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3648,
+   "page": "https://commons.wikimedia.org/wiki/File:Haleakala_aerial.jpg",
+   "author": "Surfsupusa (talk · contribs)",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day5",
+  "file": "Sunrise_from_Holua_Cabin.jpg",
+  "caption": "Sunrise in Haleakala crater",
+  "q": "Sunrise in Haleakala crater Hawaii",
+  "found": {
+   "title": "File:Sunrise from Holua Cabin.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sunrise_from_Holua_Cabin.jpg/960px-Sunrise_from_Holua_Cabin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2000,
+   "page": "https://commons.wikimedia.org/wiki/File:Sunrise_from_Holua_Cabin.jpg",
+   "author": "National Park Service",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day6",
+  "file": "Wailua_Falls,_Hana,_HI(2).jpg",
+  "caption": "Wailua Falls, Road to Hana",
+  "q": "Wailua Falls, Road to Hana Hawaii",
+  "found": {
+   "title": "File:Wailua Falls, Hana, HI(2).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wailua_Falls%2C_Hana%2C_HI%282%29.jpg/960px-Wailua_Falls%2C_Hana%2C_HI%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5760,
+   "page": "https://commons.wikimedia.org/wiki/File:Wailua_Falls,_Hana,_HI(2).jpg",
+   "author": "Ekrem Canli",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "oahu-maui",
+  "slot": "day7",
+  "file": "Haleakala_crater_(1).jpg",
+  "caption": "Haleakala crater trail",
+  "q": "Haleakala crater trail Hawaii",
+  "found": {
+   "title": "File:Haleakala crater (1).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Haleakala_crater_%281%29.jpg/960px-Haleakala_crater_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5184,
+   "page": "https://commons.wikimedia.org/wiki/File:Haleakala_crater_(1).jpg",
+   "author": "Navin75",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "hero0",
+  "file": "Auroraborealissm.jpg",
+  "caption": "Aurora near Anchorage",
+  "q": "Aurora near Anchorage Alaska",
+  "found": {
+   "title": "File:Auroraborealissm.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Auroraborealissm.jpg/960px-Auroraborealissm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1848,
+   "page": "https://commons.wikimedia.org/wiki/File:Auroraborealissm.jpg",
+   "author": "NOAA",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "hero1",
+  "file": "Chugach mountains over Anchorage rooftops.jpg",
+  "caption": "Chugach Mountains from Glen Alps",
+  "q": "Chugach Mountains from Glen Alps Alaska",
+  "found": {
+   "title": "File:Chugach mountains over Anchorage rooftops.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Chugach_mountains_over_Anchorage_rooftops.jpg/960px-Chugach_mountains_over_Anchorage_rooftops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4256,
+   "page": "https://commons.wikimedia.org/wiki/File:Chugach_mountains_over_Anchorage_rooftops.jpg",
+   "author": "Wonderlane",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day1",
+  "file": "Anchorage_Skyline_in_Winter_-_Hotel_Captain_Cook_-_Anchorage_Alaska.jpg",
+  "caption": "Downtown Anchorage winter sunset",
+  "q": "Downtown Anchorage winter sunset Alaska",
+  "found": {
+   "title": "File:Anchorage Skyline in Winter - Hotel Captain Cook - Anchorage Alaska.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Anchorage_Skyline_in_Winter_-_Hotel_Captain_Cook_-_Anchorage_Alaska.jpg/960px-Anchorage_Skyline_in_Winter_-_Hotel_Captain_Cook_-_Anchorage_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3541,
+   "page": "https://commons.wikimedia.org/wiki/File:Anchorage_Skyline_in_Winter_-_Hotel_Captain_Cook_-_Anchorage_Alaska.jpg",
+   "author": "Will Buckner",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day2",
+  "file": "Turnagain_Arm_and_Kenai_Mountains_(1).jpg",
+  "caption": "Turnagain Arm and Kenai Mountains",
+  "q": "Turnagain Arm and Kenai Mountains Alaska",
+  "found": {
+   "title": "File:Turnagain Arm and Kenai Mountains (1).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Turnagain_Arm_and_Kenai_Mountains_%281%29.jpg/960px-Turnagain_Arm_and_Kenai_Mountains_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3504,
+   "page": "https://commons.wikimedia.org/wiki/File:Turnagain_Arm_and_Kenai_Mountains_(1).jpg",
+   "author": "Frank K. from Anchorage, Alaska, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day3",
+  "file": "Alaska_Native_Heritage_Center_across_Lake_Tiulana.jpg",
+  "caption": "Heritage Center across Lake Tiulana",
+  "q": "Heritage Center across Lake Tiulana Alaska",
+  "found": {
+   "title": "File:Alaska Native Heritage Center across Lake Tiulana.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Alaska_Native_Heritage_Center_across_Lake_Tiulana.jpg/960px-Alaska_Native_Heritage_Center_across_Lake_Tiulana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3132,
+   "page": "https://commons.wikimedia.org/wiki/File:Alaska_Native_Heritage_Center_across_Lake_Tiulana.jpg",
+   "author": "Skvader",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day4",
+  "file": "Chena_River_in_winter.jpg",
+  "caption": "Frozen Chena River",
+  "q": "Frozen Chena River Alaska",
+  "found": {
+   "title": "File:Chena River in winter.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chena_River_in_winter.jpg/960px-Chena_River_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1600,
+   "page": "https://commons.wikimedia.org/wiki/File:Chena_River_in_winter.jpg",
+   "author": "James Brooks",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day5",
+  "file": "Polarlicht.jpg",
+  "caption": "Aurora over Bear Lake, Eielson",
+  "q": "Aurora over Bear Lake, Eielson Alaska",
+  "found": {
+   "title": "File:Polarlicht.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Polarlicht.jpg/960px-Polarlicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3008,
+   "page": "https://commons.wikimedia.org/wiki/File:Polarlicht.jpg",
+   "author": "United States Air Force photo by Senior Airman Joshua Strang",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day6",
+  "file": "Fairbanks_winter_panorama.JPG",
+  "caption": "Fairbanks winter panorama",
+  "q": "Fairbanks winter panorama Alaska",
+  "found": {
+   "title": "File:Fairbanks winter panorama.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Fairbanks_winter_panorama.JPG/960px-Fairbanks_winter_panorama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 9768,
+   "page": "https://commons.wikimedia.org/wiki/File:Fairbanks_winter_panorama.JPG",
+   "author": "JKBrooks85",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "alaska",
+  "slot": "day7",
+  "file": "Aurora2.jpg",
+  "caption": "Purple aurora over Alaska",
+  "q": "Purple aurora over Alaska Alaska",
+  "found": {
+   "title": "File:Aurora2.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Aurora2.jpg/960px-Aurora2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1777,
+   "page": "https://commons.wikimedia.org/wiki/File:Aurora2.jpg",
+   "author": "Jan Curtis of the Geophysical Institute at the University of Alaska, ACRC",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "hero0",
+  "file": "Château Frontenac after a freezing rain day in Quebec city.jpg",
+  "caption": "Château Frontenac after freezing rain",
+  "q": "Château Frontenac after freezing rain Canada",
+  "found": {
+   "title": "File:Château Frontenac after a freezing rain day in Quebec city.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ch%C3%A2teau_Frontenac_after_a_freezing_rain_day_in_Quebec_city.jpg/960px-Ch%C3%A2teau_Frontenac_after_a_freezing_rain_day_in_Quebec_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 10640,
+   "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_after_a_freezing_rain_day_in_Quebec_city.jpg",
+   "author": "Wilfredor",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "hero1",
+  "file": "Chute Montmorency Pain de sucre.jpg",
+  "caption": "Montmorency Falls ice cone",
+  "q": "Montmorency Falls ice cone Canada",
+  "found": {
+   "title": "File:Chute Montmorency Pain de sucre.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chute_Montmorency_Pain_de_sucre.jpg/960px-Chute_Montmorency_Pain_de_sucre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2736,
+   "page": "https://commons.wikimedia.org/wiki/File:Chute_Montmorency_Pain_de_sucre.jpg",
+   "author": "Pierre cb",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "hero2",
+  "file": "Kondiaronk Belvedere, Montreal city, Canada.jpg",
+  "caption": "Kondiaronk Belvedere in winter",
+  "q": "Kondiaronk Belvedere in winter Canada",
+  "found": {
+   "title": "File:Kondiaronk Belvedere, Montreal city, Canada.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg/960px-Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6536,
+   "page": "https://commons.wikimedia.org/wiki/File:Kondiaronk_Belvedere,_Montreal_city,_Canada.jpg",
+   "author": "Wilfredor",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day1",
+  "file": "Québec, Gare du Palais1.jpg",
+  "caption": "Gare du Palais, Quebec City",
+  "q": "Gare du Palais, Quebec City Canada",
+  "found": {
+   "title": "File:Québec, Gare du Palais1.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Qu%C3%A9bec%2C_Gare_du_Palais1.jpg/960px-Qu%C3%A9bec%2C_Gare_du_Palais1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3072,
+   "page": "https://commons.wikimedia.org/wiki/File:Qu%C3%A9bec,_Gare_du_Palais1.jpg",
+   "author": "Claude Boucher",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day2",
+  "file": "Château Frontenac et terrasse Dufferin (hiver).JPG",
+  "caption": "Frontenac and Dufferin Terrace, winter",
+  "q": "Frontenac and Dufferin Terrace, winter Canada",
+  "found": {
+   "title": "File:Château Frontenac et terrasse Dufferin (hiver).JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ch%C3%A2teau_Frontenac_et_terrasse_Dufferin_%28hiver%29.JPG/960px-Ch%C3%A2teau_Frontenac_et_terrasse_Dufferin_%28hiver%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1200,
+   "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_et_terrasse_Dufferin_(hiver).JPG",
+   "author": "Carogeraud",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day3",
+  "file": "Rue du Petit-Champlain at night in Quebec City.jpg",
+  "caption": "Rue du Petit-Champlain at night",
+  "q": "Rue du Petit-Champlain at night Canada",
+  "found": {
+   "title": "File:Rue du Petit-Champlain at night in Quebec City.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Rue_du_Petit-Champlain_at_night_in_Quebec_City.jpg/960px-Rue_du_Petit-Champlain_at_night_in_Quebec_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1996,
+   "page": "https://commons.wikimedia.org/wiki/File:Rue_du_Petit-Champlain_at_night_in_Quebec_City.jpg",
+   "author": "Wilfredor",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day4",
+  "file": "Chute Montmorency-hiver.JPG",
+  "caption": "Montmorency Falls in winter",
+  "q": "Montmorency Falls in winter Canada",
+  "found": {
+   "title": "File:Chute Montmorency-hiver.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Chute_Montmorency-hiver.JPG/960px-Chute_Montmorency-hiver.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1440,
+   "page": "https://commons.wikimedia.org/wiki/File:Chute_Montmorency-hiver.JPG",
+   "author": "Gilbert Bochenek",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day5",
+  "file": "Notre-Dame Basilica Interior, Montreal, Canada - Diliff.jpg",
+  "caption": "Notre-Dame Basilica interior, Montreal",
+  "q": "Notre-Dame Basilica interior, Montreal Canada",
+  "found": {
+   "title": "File:Notre-Dame Basilica Interior, Montreal, Canada - Diliff.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Notre-Dame_Basilica_Interior%2C_Montreal%2C_Canada_-_Diliff.jpg/960px-Notre-Dame_Basilica_Interior%2C_Montreal%2C_Canada_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 7402,
+   "page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_Basilica_Interior,_Montreal,_Canada_-_Diliff.jpg",
+   "author": "Diliff",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day6",
+  "file": "Montreal skyline from Mount Royal (8391101951).jpg",
+  "caption": "Montreal from Mount Royal, winter",
+  "q": "Montreal from Mount Royal, winter Canada",
+  "found": {
+   "title": "File:Montreal skyline from Mount Royal (8391101951).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Montreal_skyline_from_Mount_Royal_%288391101951%29.jpg/960px-Montreal_skyline_from_Mount_Royal_%288391101951%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3264,
+   "page": "https://commons.wikimedia.org/wiki/File:Montreal_skyline_from_Mount_Royal_(8391101951).jpg",
+   "author": "shankar s. from Dubai, united arab emirates",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "quebec-montreal",
+  "slot": "day7",
+  "file": "Jean-Talon Market.jpg",
+  "caption": "Jean-Talon Market, Montreal",
+  "q": "Jean-Talon Market, Montreal Canada",
+  "found": {
+   "title": "File:Jean-Talon Market.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Jean-Talon_Market.jpg/500px-Jean-Talon_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 797,
+   "page": "https://commons.wikimedia.org/wiki/File:Jean-Talon_Market.jpg",
+   "author": "de:User:Eberhard von Nellenburg",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "hero0",
+  "file": "Lake Louise Winter - panoramio (1).jpg",
+  "caption": "Lake Louise in winter",
+  "q": "Lake Louise in winter Canada",
+  "found": {
+   "title": "File:Lake Louise Winter - panoramio (1).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Lake_Louise_Winter_-_panoramio_%281%29.jpg/960px-Lake_Louise_Winter_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4288,
+   "page": "https://commons.wikimedia.org/wiki/File:Lake_Louise_Winter_-_panoramio_(1).jpg",
+   "author": "Jack Borno",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "hero1",
+  "file": "A frozen Lake Louise - Banff - panoramio.jpg",
+  "caption": "Frozen Lake Louise",
+  "q": "Frozen Lake Louise Canada",
+  "found": {
+   "title": "File:A frozen Lake Louise - Banff - panoramio.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/A_frozen_Lake_Louise_-_Banff_-_panoramio.jpg/960px-A_frozen_Lake_Louise_-_Banff_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4288,
+   "page": "https://commons.wikimedia.org/wiki/File:A_frozen_Lake_Louise_-_Banff_-_panoramio.jpg",
+   "author": "Jack Borno",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "hero2",
+  "file": "View of Cascade Mountain from Banff, Alberta in winter.jpg",
+  "caption": "Cascade Mountain over snowy Banff",
+  "q": "Cascade Mountain over snowy Banff Canada",
+  "found": {
+   "title": "File:View of Cascade Mountain from Banff, Alberta in winter.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/View_of_Cascade_Mountain_from_Banff%2C_Alberta_in_winter.jpg/960px-View_of_Cascade_Mountain_from_Banff%2C_Alberta_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4608,
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_Cascade_Mountain_from_Banff,_Alberta_in_winter.jpg",
+   "author": "Balachand",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day1",
+  "file": "Mist Over Banff Avenue (Unsplash).jpg",
+  "caption": "Banff Avenue in winter mist",
+  "q": "Banff Avenue in winter mist Canada",
+  "found": {
+   "title": "File:Mist Over Banff Avenue (Unsplash).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mist_Over_Banff_Avenue_%28Unsplash%29.jpg/960px-Mist_Over_Banff_Avenue_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 7360,
+   "page": "https://commons.wikimedia.org/wiki/File:Mist_Over_Banff_Avenue_(Unsplash).jpg",
+   "author": "Tj Holowaychuk tjholowaychuk",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day2",
+  "file": "Banff at Night from Sulphur Mountain (15952057279).jpg",
+  "caption": "Banff at night from Sulphur Mountain",
+  "q": "Banff at night from Sulphur Mountain Canada",
+  "found": {
+   "title": "File:Banff at Night from Sulphur Mountain (15952057279).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Banff_at_Night_from_Sulphur_Mountain_%2815952057279%29.jpg/960px-Banff_at_Night_from_Sulphur_Mountain_%2815952057279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2496,
+   "page": "https://commons.wikimedia.org/wiki/File:Banff_at_Night_from_Sulphur_Mountain_(15952057279).jpg",
+   "author": "Wilson Hui from Calgary, Canada",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day3",
+  "file": "Lake Louis, Banff National Park, Canadian Rockies.jpg",
+  "caption": "Lake Louise in winter",
+  "q": "Lake Louise in winter Canada",
+  "found": {
+   "title": "File:Lake Louis, Banff National Park, Canadian Rockies.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lake_Louis%2C_Banff_National_Park%2C_Canadian_Rockies.jpg/960px-Lake_Louis%2C_Banff_National_Park%2C_Canadian_Rockies.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3024,
+   "page": "https://commons.wikimedia.org/wiki/File:Lake_Louis,_Banff_National_Park,_Canadian_Rockies.jpg",
+   "author": "Preeteesh",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day4",
+  "file": "Ice Climbers on Frozen Waterfall - Johnston Canyon (15634069953).jpg",
+  "caption": "Frozen falls, Johnston Canyon",
+  "q": "Frozen falls, Johnston Canyon Canada",
+  "found": {
+   "title": "File:Ice Climbers on Frozen Waterfall - Johnston Canyon (15634069953).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Ice_Climbers_on_Frozen_Waterfall_-_Johnston_Canyon_%2815634069953%29.jpg/960px-Ice_Climbers_on_Frozen_Waterfall_-_Johnston_Canyon_%2815634069953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4368,
+   "page": "https://commons.wikimedia.org/wiki/File:Ice_Climbers_on_Frozen_Waterfall_-_Johnston_Canyon_(15634069953).jpg",
+   "author": "Wilson Hui from Calgary, Canada",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day5",
+  "file": "Banff Upper Hot Springs.JPG",
+  "caption": "Banff Upper Hot Springs pool",
+  "q": "Banff Upper Hot Springs pool Canada",
+  "found": {
+   "title": "File:Banff Upper Hot Springs.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Banff_Upper_Hot_Springs.JPG/960px-Banff_Upper_Hot_Springs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1600,
+   "page": "https://commons.wikimedia.org/wiki/File:Banff_Upper_Hot_Springs.JPG",
+   "author": "Vigorous action",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day6",
+  "file": "Sunshine Village 06.jpg",
+  "caption": "Sunshine Village ski area",
+  "q": "Sunshine Village ski area Canada",
+  "found": {
+   "title": "File:Sunshine Village 06.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Sunshine_Village_06.jpg/960px-Sunshine_Village_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3072,
+   "page": "https://commons.wikimedia.org/wiki/File:Sunshine_Village_06.jpg",
+   "author": "5of7",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "banff",
+  "slot": "day7",
+  "file": "DSC0015 Sunrise Vermilion Lake Banff National Park, AB in winter.jpg",
+  "caption": "Vermilion Lakes winter sunrise",
+  "q": "Vermilion Lakes winter sunrise Canada",
+  "found": {
+   "title": "File:DSC0015 Sunrise Vermilion Lake Banff National Park, AB in winter.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/DSC0015_Sunrise_Vermilion_Lake_Banff_National_Park%2C_AB_in_winter.jpg/960px-DSC0015_Sunrise_Vermilion_Lake_Banff_National_Park%2C_AB_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3600,
+   "page": "https://commons.wikimedia.org/wiki/File:DSC0015_Sunrise_Vermilion_Lake_Banff_National_Park,_AB_in_winter.jpg",
+   "author": "Robert Berdan",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "hero0",
+  "file": "Whistler Panorama -2007.jpg",
+  "caption": "Whistler and Blackcomb in snow",
+  "q": "Whistler and Blackcomb in snow Canada",
+  "found": {
+   "title": "File:Whistler Panorama -2007.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Whistler_Panorama_-2007.jpg/960px-Whistler_Panorama_-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2270,
+   "page": "https://commons.wikimedia.org/wiki/File:Whistler_Panorama_-2007.jpg",
+   "author": "Dylan DiLecce.",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "hero1",
+  "file": "Whistler Panorama 1.jpg",
+  "caption": "Panorama from Whistler Roundhouse",
+  "q": "Panorama from Whistler Roundhouse Canada",
+  "found": {
+   "title": "File:Whistler Panorama 1.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Whistler_Panorama_1.jpg/960px-Whistler_Panorama_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6383,
+   "page": "https://commons.wikimedia.org/wiki/File:Whistler_Panorama_1.jpg",
+   "author": "Wikimedia Commons",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "hero2",
+  "file": "Grouse Mountain in Winter - Flickr - Jaykhuang.jpg",
+  "caption": "Grouse Mountain in winter",
+  "q": "Grouse Mountain in winter Canada",
+  "found": {
+   "title": "File:Grouse Mountain in Winter - Flickr - Jaykhuang.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Grouse_Mountain_in_Winter_-_Flickr_-_Jaykhuang.jpg/960px-Grouse_Mountain_in_Winter_-_Flickr_-_Jaykhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2000,
+   "page": "https://commons.wikimedia.org/wiki/File:Grouse_Mountain_in_Winter_-_Flickr_-_Jaykhuang.jpg",
+   "author": "Jay Huang from Pleasanton, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day1",
+  "file": "Vancouver skyline stanley park.jpg",
+  "caption": "Vancouver skyline at night",
+  "q": "Vancouver skyline at night Canada",
+  "found": {
+   "title": "File:Vancouver skyline stanley park.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Vancouver_skyline_stanley_park.jpg/960px-Vancouver_skyline_stanley_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 9909,
+   "page": "https://commons.wikimedia.org/wiki/File:Vancouver_skyline_stanley_park.jpg",
+   "author": "Tomas Hellberg",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day2",
+  "file": "Stanley Park National Historic Site of Canada - Seawall at Sunset.jpg",
+  "caption": "Stanley Park Seawall at sunset",
+  "q": "Stanley Park Seawall at sunset Canada",
+  "found": {
+   "title": "File:Stanley Park National Historic Site of Canada - Seawall at Sunset.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Stanley_Park_National_Historic_Site_of_Canada_-_Seawall_at_Sunset.jpg/960px-Stanley_Park_National_Historic_Site_of_Canada_-_Seawall_at_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2592,
+   "page": "https://commons.wikimedia.org/wiki/File:Stanley_Park_National_Historic_Site_of_Canada_-_Seawall_at_Sunset.jpg",
+   "author": "Tiffany Rennick",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day3",
+  "file": "Capilano Suspension Bridge 2012 Winter (6845992546).jpg",
+  "caption": "Capilano Suspension Bridge in winter",
+  "q": "Capilano Suspension Bridge in winter Canada",
+  "found": {
+   "title": "File:Capilano Suspension Bridge 2012 Winter (6845992546).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Capilano_Suspension_Bridge_2012_Winter_%286845992546%29.jpg/960px-Capilano_Suspension_Bridge_2012_Winter_%286845992546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3744,
+   "page": "https://commons.wikimedia.org/wiki/File:Capilano_Suspension_Bridge_2012_Winter_(6845992546).jpg",
+   "author": "GoToVan from Vancouver, Canada",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day4",
+  "file": "Sea to Sky Gondola 01.jpg",
+  "caption": "Sea to Sky Gondola, Squamish",
+  "q": "Sea to Sky Gondola, Squamish Canada",
+  "found": {
+   "title": "File:Sea to Sky Gondola 01.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sea_to_Sky_Gondola_01.jpg/960px-Sea_to_Sky_Gondola_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3024,
+   "page": "https://commons.wikimedia.org/wiki/File:Sea_to_Sky_Gondola_01.jpg",
+   "author": "DarkNight0917",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day5",
+  "file": "Peak 2 Peak Gondola Tower 4.JPG",
+  "caption": "Peak 2 Peak Gondola tower",
+  "q": "Peak 2 Peak Gondola tower Canada",
+  "found": {
+   "title": "File:Peak 2 Peak Gondola Tower 4.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Peak_2_Peak_Gondola_Tower_4.JPG/960px-Peak_2_Peak_Gondola_Tower_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2304,
+   "page": "https://commons.wikimedia.org/wiki/File:Peak_2_Peak_Gondola_Tower_4.JPG",
+   "author": "Crystalmountainskier (talk)",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day6",
+  "file": "Inukshuk at Village Entrance, Whistler.JPG",
+  "caption": "Inukshuk at Whistler Village",
+  "q": "Inukshuk at Whistler Village Canada",
+  "found": {
+   "title": "File:Inukshuk at Village Entrance, Whistler.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Inukshuk_at_Village_Entrance%2C_Whistler.JPG/960px-Inukshuk_at_Village_Entrance%2C_Whistler.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2976,
+   "page": "https://commons.wikimedia.org/wiki/File:Inukshuk_at_Village_Entrance,_Whistler.JPG",
+   "author": "ZeWrestler",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "dest": "vancouver-whistler",
+  "slot": "day7",
+  "file": "Vancouver (BC, Canada), Skyline -- 2022 -- 2080-92.jpg",
+  "caption": "Vancouver skyline from Stanley Park",
+  "q": "Vancouver skyline from Stanley Park Canada",
+  "found": {
+   "title": "File:Vancouver (BC, Canada), Skyline -- 2022 -- 2080-92.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Vancouver_%28BC%2C_Canada%29%2C_Skyline_--_2022_--_2080-92.jpg/960px-Vancouver_%28BC%2C_Canada%29%2C_Skyline_--_2022_--_2080-92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 31201,
+   "page": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Skyline_--_2022_--_2080-92.jpg",
+   "author": "Dietmar Rabich",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "hero0",
+  "file": "Tower Bridge London Dusk Feb 2006.jpg",
+  "caption": "Tower Bridge at dusk",
+  "q": "Tower Bridge at dusk England",
+  "found": {
+   "title": "File:Tower Bridge London Dusk Feb 2006.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Tower_Bridge_London_Dusk_Feb_2006.jpg/960px-Tower_Bridge_London_Dusk_Feb_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6589,
+   "page": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_London_Dusk_Feb_2006.jpg",
+   "author": "Diliff",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "hero1",
+  "file": "1 westminster palace panorama 2012 dusk.jpg",
+  "caption": "Westminster at dusk",
+  "q": "Westminster at dusk England",
+  "found": {
+   "title": "File:1 westminster palace panorama 2012 dusk.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/1_westminster_palace_panorama_2012_dusk.jpg/960px-1_westminster_palace_panorama_2012_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6459,
+   "page": "https://commons.wikimedia.org/wiki/File:1_westminster_palace_panorama_2012_dusk.jpg",
+   "author": "chensiyuan",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "hero2",
+  "file": "Covent Garden Market Christmas 2017 Decorations.jpg",
+  "caption": "Covent Garden at Christmas",
+  "q": "Covent Garden at Christmas England",
+  "found": {
+   "title": "File:Covent Garden Market Christmas 2017 Decorations.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Covent_Garden_Market_Christmas_2017_Decorations.jpg/960px-Covent_Garden_Market_Christmas_2017_Decorations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4672,
+   "page": "https://commons.wikimedia.org/wiki/File:Covent_Garden_Market_Christmas_2017_Decorations.jpg",
+   "author": "Simeon87",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day1",
+  "file": "Regent Street Christmas Lights 2017 - geograph.org.uk - 5642213.jpg",
+  "caption": "Regent Street Christmas lights",
+  "q": "Regent Street Christmas lights England",
+  "found": {
+   "title": "File:Regent Street Christmas Lights 2017 - geograph.org.uk - 5642213.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Regent_Street_Christmas_Lights_2017_-_geograph.org.uk_-_5642213.jpg/960px-Regent_Street_Christmas_Lights_2017_-_geograph.org.uk_-_5642213.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1400,
+   "page": "https://commons.wikimedia.org/wiki/File:Regent_Street_Christmas_Lights_2017_-_geograph.org.uk_-_5642213.jpg",
+   "author": "Christine Matthews",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day2",
+  "file": "Bath Abbey during Christmas.jpg",
+  "caption": "Bath Abbey at Christmas",
+  "q": "Bath Abbey at Christmas England",
+  "found": {
+   "title": "File:Bath Abbey during Christmas.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Bath_Abbey_during_Christmas.jpg/960px-Bath_Abbey_during_Christmas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3115,
+   "page": "https://commons.wikimedia.org/wiki/File:Bath_Abbey_during_Christmas.jpg",
+   "author": "Elvbel",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day3",
+  "file": "Westminster Bridge and Palace of Westminster.jpg",
+  "caption": "Westminster Bridge and Parliament",
+  "q": "Westminster Bridge and Parliament England",
+  "found": {
+   "title": "File:Westminster Bridge and Palace of Westminster.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Westminster_Bridge_and_Palace_of_Westminster.jpg/960px-Westminster_Bridge_and_Palace_of_Westminster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5328,
+   "page": "https://commons.wikimedia.org/wiki/File:Westminster_Bridge_and_Palace_of_Westminster.jpg",
+   "author": "Martin Dunst",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day4",
+  "file": "Tower Bridge by night from London Bridge 2013.JPG",
+  "caption": "Tower Bridge lit at night",
+  "q": "Tower Bridge lit at night England",
+  "found": {
+   "title": "File:Tower Bridge by night from London Bridge 2013.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Tower_Bridge_by_night_from_London_Bridge_2013.JPG/960px-Tower_Bridge_by_night_from_London_Bridge_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4288,
+   "page": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_by_night_from_London_Bridge_2013.JPG",
+   "author": "Bert Seghers",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day5",
+  "file": "Hyde Park Winter Wonderland 2011 - 08.jpg",
+  "caption": "Hyde Park Winter Wonderland",
+  "q": "Hyde Park Winter Wonderland England",
+  "found": {
+   "title": "File:Hyde Park Winter Wonderland 2011 - 08.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hyde_Park_Winter_Wonderland_2011_-_08.jpg/960px-Hyde_Park_Winter_Wonderland_2011_-_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4928,
+   "page": "https://commons.wikimedia.org/wiki/File:Hyde_Park_Winter_Wonderland_2011_-_08.jpg",
+   "author": "Garry Knight",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day6",
+  "file": "Kew Gardens Christmas (23752628151).jpg",
+  "caption": "Christmas at Kew",
+  "q": "Christmas at Kew England",
+  "found": {
+   "title": "File:Kew Gardens Christmas (23752628151).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Kew_Gardens_Christmas_%2823752628151%29.jpg/960px-Kew_Gardens_Christmas_%2823752628151%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4000,
+   "page": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Christmas_(23752628151).jpg",
+   "author": "Alex Liivet from Chester, United Kingdom",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "london",
+  "slot": "day7",
+  "file": "Heathrow Terminal 3 Departures.jpg",
+  "caption": "Heathrow Terminal 3",
+  "q": "Heathrow Terminal 3 England",
+  "found": {
+   "title": "File:Heathrow Terminal 3 Departures.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Heathrow_Terminal_3_Departures.jpg/960px-Heathrow_Terminal_3_Departures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2592,
+   "page": "https://commons.wikimedia.org/wiki/File:Heathrow_Terminal_3_Departures.jpg",
+   "author": "Mark Hillary",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "hero0",
+  "file": "Rathaus Wien Christkindlmarkt Panorama.jpg",
+  "caption": "Vienna City Hall market",
+  "q": "Vienna City Hall market Czechia",
+  "found": {
+   "title": "File:Rathaus Wien Christkindlmarkt Panorama.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Rathaus_Wien_Christkindlmarkt_Panorama.jpg/960px-Rathaus_Wien_Christkindlmarkt_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4544,
+   "page": "https://commons.wikimedia.org/wiki/File:Rathaus_Wien_Christkindlmarkt_Panorama.jpg",
+   "author": "Feel free to use my photos, but please mention me as the author and if you want ",
+   "license": "CC BY-SA 3.0 at"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "hero1",
+  "file": "Schönbrunn in Weihnachten.jpg",
+  "caption": "Schonbrunn at Christmas",
+  "q": "Schonbrunn at Christmas Czechia",
+  "found": {
+   "title": "File:Schönbrunn in Weihnachten.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sch%C3%B6nbrunn_in_Weihnachten.jpg/960px-Sch%C3%B6nbrunn_in_Weihnachten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2000,
+   "page": "https://commons.wikimedia.org/wiki/File:Sch%C3%B6nbrunn_in_Weihnachten.jpg",
+   "author": "Freddy Alexander Bugueño Tolmo",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "hero2",
+  "file": "Prag, Altstädter Rathaus, Astronomische Uhr -- 2019 -- 6590.jpg",
+  "caption": "Prague Astronomical Clock",
+  "q": "Prague Astronomical Clock Czechia",
+  "found": {
+   "title": "File:Prag, Altstädter Rathaus, Astronomische Uhr -- 2019 -- 6590.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Prag%2C_Altst%C3%A4dter_Rathaus%2C_Astronomische_Uhr_--_2019_--_6590.jpg/960px-Prag%2C_Altst%C3%A4dter_Rathaus%2C_Astronomische_Uhr_--_2019_--_6590.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3708,
+   "page": "https://commons.wikimedia.org/wiki/File:Prag,_Altst%C3%A4dter_Rathaus,_Astronomische_Uhr_--_2019_--_6590.jpg",
+   "author": "Dietmar Rabich",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day1",
+  "file": "Wien - Christkindlmarkt, Rathausplatz.JPG",
+  "caption": "Rathausplatz Christmas market",
+  "q": "Rathausplatz Christmas market Czechia",
+  "found": {
+   "title": "File:Wien - Christkindlmarkt, Rathausplatz.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Wien_-_Christkindlmarkt%2C_Rathausplatz.JPG/960px-Wien_-_Christkindlmarkt%2C_Rathausplatz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4252,
+   "page": "https://commons.wikimedia.org/wiki/File:Wien_-_Christkindlmarkt,_Rathausplatz.JPG",
+   "author": "C.Stadler/Bwag",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day2",
+  "file": "Christmas Market at Schönbrunn Palace in Vienna, Austria (16406086720).jpg",
+  "caption": "Schonbrunn Christmas market",
+  "q": "Schonbrunn Christmas market Czechia",
+  "found": {
+   "title": "File:Christmas Market at Schönbrunn Palace in Vienna, Austria (16406086720).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Christmas_Market_at_Sch%C3%B6nbrunn_Palace_in_Vienna%2C_Austria_%2816406086720%29.jpg/960px-Christmas_Market_at_Sch%C3%B6nbrunn_Palace_in_Vienna%2C_Austria_%2816406086720%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5184,
+   "page": "https://commons.wikimedia.org/wiki/File:Christmas_Market_at_Sch%C3%B6nbrunn_Palace_in_Vienna,_Austria_(16406086720).jpg",
+   "author": "traveljunction",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day3",
+  "file": "Stephansdom Wien Nacht und Schnee.JPG",
+  "caption": "St. Stephen's in snow",
+  "q": "St. Stephen's in snow Czechia",
+  "found": {
+   "title": "File:Stephansdom Wien Nacht und Schnee.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Stephansdom_Wien_Nacht_und_Schnee.JPG/960px-Stephansdom_Wien_Nacht_und_Schnee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1944,
+   "page": "https://commons.wikimedia.org/wiki/File:Stephansdom_Wien_Nacht_und_Schnee.JPG",
+   "author": "DerHHO",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day4",
+  "file": "Christmas market Prague 2021 04.jpg",
+  "caption": "Old Town Square market",
+  "q": "Old Town Square market Czechia",
+  "found": {
+   "title": "File:Christmas market Prague 2021 04.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Christmas_market_Prague_2021_04.jpg/960px-Christmas_market_Prague_2021_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4608,
+   "page": "https://commons.wikimedia.org/wiki/File:Christmas_market_Prague_2021_04.jpg",
+   "author": "Helena Melezínková",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day5",
+  "file": "Prag, Prager Burg, Veitsdom -- 2019 -- 6661.jpg",
+  "caption": "St. Vitus Cathedral",
+  "q": "St. Vitus Cathedral Czechia",
+  "found": {
+   "title": "File:Prag, Prager Burg, Veitsdom -- 2019 -- 6661.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Prag%2C_Prager_Burg%2C_Veitsdom_--_2019_--_6661.jpg/960px-Prag%2C_Prager_Burg%2C_Veitsdom_--_2019_--_6661.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4480,
+   "page": "https://commons.wikimedia.org/wiki/File:Prag,_Prager_Burg,_Veitsdom_--_2019_--_6661.jpg",
+   "author": "Dietmar Rabich",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day6",
+  "file": "Prague charles bridge winter.jpg",
+  "caption": "Charles Bridge in snow",
+  "q": "Charles Bridge in snow Czechia",
+  "found": {
+   "title": "File:Prague charles bridge winter.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Prague_charles_bridge_winter.jpg/960px-Prague_charles_bridge_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1181,
+   "page": "https://commons.wikimedia.org/wiki/File:Prague_charles_bridge_winter.jpg",
+   "author": "Estec Co.Ltd, Prague Hotel Operator",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "dest": "vienna-prague",
+  "slot": "day7",
+  "file": "Václav Havel Airport Prague – Terminal 1 interior.jpg",
+  "caption": "Prague airport Terminal 1",
+  "q": "Prague airport Terminal 1 Czechia",
+  "found": {
+   "title": "File:Václav Havel Airport Prague – Terminal 1 interior.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/V%C3%A1clav_Havel_Airport_Prague_%E2%80%93_Terminal_1_interior.jpg/960px-V%C3%A1clav_Havel_Airport_Prague_%E2%80%93_Terminal_1_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4032,
+   "page": "https://commons.wikimedia.org/wiki/File:V%C3%A1clav_Havel_Airport_Prague_%E2%80%93_Terminal_1_interior.jpg",
+   "author": "Martin2035",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "hero0",
+  "file": "Gullfoss,_Iceland,_20230501_0940_3780.jpg",
+  "caption": "Gullfoss waterfall",
+  "q": "Gullfoss waterfall Iceland",
+  "found": {
+   "title": "File:Gullfoss, Iceland, 20230501 0940 3780.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gullfoss%2C_Iceland%2C_20230501_0940_3780.jpg/960px-Gullfoss%2C_Iceland%2C_20230501_0940_3780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5832,
+   "page": "https://commons.wikimedia.org/wiki/File:Gullfoss,_Iceland,_20230501_0940_3780.jpg",
+   "author": "Jakub Hałun",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "hero1",
+  "file": "Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg",
+  "caption": "Northern lights in Iceland",
+  "q": "Northern lights in Iceland Iceland",
+  "found": {
+   "title": "File:Aurora Borealis - Iceland - 2 Nov. 2013.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg/960px-Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6016,
+   "page": "https://commons.wikimedia.org/wiki/File:Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg",
+   "author": "Francisco Diez from Toronto, Canada",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "hero2",
+  "file": "Reynisfjara-66-Basalt-2018-gje.jpg",
+  "caption": "Reynisfjara basalt columns",
+  "q": "Reynisfjara basalt columns Iceland",
+  "found": {
+   "title": "File:Reynisfjara-66-Basalt-2018-gje.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Reynisfjara-66-Basalt-2018-gje.jpg/960px-Reynisfjara-66-Basalt-2018-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5184,
+   "page": "https://commons.wikimedia.org/wiki/File:Reynisfjara-66-Basalt-2018-gje.jpg",
+   "author": "Gerd Eichmann",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day1",
+  "file": "Icelandair_Boeing_757-200_at_KEF.jpg",
+  "caption": "Icelandair jet at Keflavik",
+  "q": "Icelandair jet at Keflavik Iceland",
+  "found": {
+   "title": "File:Icelandair Boeing 757-200 at KEF.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Icelandair_Boeing_757-200_at_KEF.jpg/960px-Icelandair_Boeing_757-200_at_KEF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2240,
+   "page": "https://commons.wikimedia.org/wiki/File:Icelandair_Boeing_757-200_at_KEF.jpg",
+   "author": "Wissembourg",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day2",
+  "file": "Laugavegur,_Reykjavik.jpg",
+  "caption": "Laugavegur shopping street",
+  "q": "Laugavegur shopping street Iceland",
+  "found": {
+   "title": "File:Laugavegur, Reykjavik.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Laugavegur%2C_Reykjavik.jpg/960px-Laugavegur%2C_Reykjavik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1800,
+   "page": "https://commons.wikimedia.org/wiki/File:Laugavegur,_Reykjavik.jpg",
+   "author": "Marek Ślusarczyk (Tupungato) Photo gallery",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day3",
+  "file": "Strokkur_Eruption.JPG",
+  "caption": "Strokkur geyser erupting",
+  "q": "Strokkur geyser erupting Iceland",
+  "found": {
+   "title": "File:Strokkur Eruption.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Strokkur_Eruption.JPG/960px-Strokkur_Eruption.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2560,
+   "page": "https://commons.wikimedia.org/wiki/File:Strokkur_Eruption.JPG",
+   "author": "ConTheJedi",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day4",
+  "file": "Skogafoss_winter.jpg",
+  "caption": "Skogafoss in winter",
+  "q": "Skogafoss in winter Iceland",
+  "found": {
+   "title": "File:Skogafoss winter.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Skogafoss_winter.jpg/960px-Skogafoss_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2916,
+   "page": "https://commons.wikimedia.org/wiki/File:Skogafoss_winter.jpg",
+   "author": "The blanz",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day5",
+  "file": "Hallgrimskirkja-church-during-winter-lights-festival.jpg",
+  "caption": "Hallgrimskirkja lit in winter",
+  "q": "Hallgrimskirkja lit in winter Iceland",
+  "found": {
+   "title": "File:Hallgrimskirkja-church-during-winter-lights-festival.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hallgrimskirkja-church-during-winter-lights-festival.jpg/500px-Hallgrimskirkja-church-during-winter-lights-festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 533,
+   "page": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja-church-during-winter-lights-festival.jpg",
+   "author": "Hákon Ágústsson",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day6",
+  "file": "Iceland_Aurora_1.jpg",
+  "caption": "Aurora over Thingvellir",
+  "q": "Aurora over Thingvellir Iceland",
+  "found": {
+   "title": "File:Iceland Aurora 1.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Iceland_Aurora_1.jpg/960px-Iceland_Aurora_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 4928,
+   "page": "https://commons.wikimedia.org/wiki/File:Iceland_Aurora_1.jpg",
+   "author": "Carl Young",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "day7",
+  "file": "Iceland_Blue_Lagoon.jpg",
+  "caption": "Blue Lagoon steam",
+  "q": "Blue Lagoon steam Iceland",
+  "found": {
+   "title": "File:Iceland Blue Lagoon.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Iceland_Blue_Lagoon.jpg/960px-Iceland_Blue_Lagoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2784,
+   "page": "https://commons.wikimedia.org/wiki/File:Iceland_Blue_Lagoon.jpg",
+   "author": "Sarah1990",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "hero0",
+  "file": "Arenal_Volcano_as_seen_from_Monteverde.jpg",
+  "caption": "Arenal Volcano from Monteverde",
+  "q": "Arenal Volcano from Monteverde Costa Rica",
+  "found": {
+   "title": "File:Arenal Volcano as seen from Monteverde.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Arenal_Volcano_as_seen_from_Monteverde.jpg/960px-Arenal_Volcano_as_seen_from_Monteverde.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2457,
+   "page": "https://commons.wikimedia.org/wiki/File:Arenal_Volcano_as_seen_from_Monteverde.jpg",
+   "author": "Peter Andersen",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "hero1",
+  "file": "Tabacón_Hot_Springs,_Costa_Rica.jpg",
+  "caption": "Tabacon hot springs",
+  "q": "Tabacon hot springs Costa Rica",
+  "found": {
+   "title": "File:Tabacón Hot Springs, Costa Rica.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tabac%C3%B3n_Hot_Springs%2C_Costa_Rica.jpg/960px-Tabac%C3%B3n_Hot_Springs%2C_Costa_Rica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1500,
+   "page": "https://commons.wikimedia.org/wiki/File:Tabac%C3%B3n_Hot_Springs,_Costa_Rica.jpg",
+   "author": "Central Intelligence Agency",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "hero2",
+  "file": "White-headed_capuchin_at_Manuel_Antonio_National_Park,_Costa_Rica.jpg",
+  "caption": "Capuchin in Manuel Antonio",
+  "q": "Capuchin in Manuel Antonio Costa Rica",
+  "found": {
+   "title": "File:White-headed capuchin at Manuel Antonio National Park, Costa Rica.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/White-headed_capuchin_at_Manuel_Antonio_National_Park%2C_Costa_Rica.jpg/960px-White-headed_capuchin_at_Manuel_Antonio_National_Park%2C_Costa_Rica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1280,
+   "page": "https://commons.wikimedia.org/wiki/File:White-headed_capuchin_at_Manuel_Antonio_National_Park,_Costa_Rica.jpg",
+   "author": "CIA",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day1",
+  "file": "Arenal_Volcano_seen_from_La_Fortuna,_Costa_Rica.jpg",
+  "caption": "Arenal above La Fortuna",
+  "q": "Arenal above La Fortuna Costa Rica",
+  "found": {
+   "title": "File:Arenal Volcano seen from La Fortuna, Costa Rica.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Arenal_Volcano_seen_from_La_Fortuna%2C_Costa_Rica.jpg/960px-Arenal_Volcano_seen_from_La_Fortuna%2C_Costa_Rica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1500,
+   "page": "https://commons.wikimedia.org/wiki/File:Arenal_Volcano_seen_from_La_Fortuna,_Costa_Rica.jpg",
+   "author": "Central Intelligence Agency",
+   "license": "Public domain"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day2",
+  "file": "Mystic_Hanging_Bridges_(70665).jpg",
+  "caption": "Mistico hanging bridges",
+  "q": "Mistico hanging bridges Costa Rica",
+  "found": {
+   "title": "File:Mystic Hanging Bridges (70665).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Mystic_Hanging_Bridges_%2870665%29.jpg/960px-Mystic_Hanging_Bridges_%2870665%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3424,
+   "page": "https://commons.wikimedia.org/wiki/File:Mystic_Hanging_Bridges_(70665).jpg",
+   "author": "Rhododendrites",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day3",
+  "file": "La_Fortuna_Waterfall,_La_Fortuna_de_San_Carlos,_Costa_Rica_(Unsplash).jpg",
+  "caption": "La Fortuna Waterfall",
+  "q": "La Fortuna Waterfall Costa Rica",
+  "found": {
+   "title": "File:La Fortuna Waterfall, La Fortuna de San Carlos, Costa Rica (Unsplash).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/La_Fortuna_Waterfall%2C_La_Fortuna_de_San_Carlos%2C_Costa_Rica_%28Unsplash%29.jpg/960px-La_Fortuna_Waterfall%2C_La_Fortuna_de_San_Carlos%2C_Costa_Rica_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 8100,
+   "page": "https://commons.wikimedia.org/wiki/File:La_Fortuna_Waterfall,_La_Fortuna_de_San_Carlos,_Costa_Rica_(Unsplash).jpg",
+   "author": "Isabella Jusková bellaskova",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day4",
+  "file": "Quepos_Pano.jpg",
+  "caption": "Sunset on Playa Espadilla",
+  "q": "Sunset on Playa Espadilla Costa Rica",
+  "found": {
+   "title": "File:Quepos Pano.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Quepos_Pano.jpg/960px-Quepos_Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3264,
+   "page": "https://commons.wikimedia.org/wiki/File:Quepos_Pano.jpg",
+   "author": "Peloy (Allan H.M.) / https://www.panoramio.com/user/4604224?with_photo_id=117001",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day5",
+  "file": "CostaRica_ManuelAntonioNationalPark_EspadillaSur_Pano_(pixinn.net).jpg",
+  "caption": "Espadilla Sur beach in park",
+  "q": "Espadilla Sur beach in park Costa Rica",
+  "found": {
+   "title": "File:CostaRica ManuelAntonioNationalPark EspadillaSur Pano (pixinn.net).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/CostaRica_ManuelAntonioNationalPark_EspadillaSur_Pano_%28pixinn.net%29.jpg/960px-CostaRica_ManuelAntonioNationalPark_EspadillaSur_Pano_%28pixinn.net%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3272,
+   "page": "https://commons.wikimedia.org/wiki/File:CostaRica_ManuelAntonioNationalPark_EspadillaSur_Pano_(pixinn.net).jpg",
+   "author": "Christophe Meneboeuf",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day6",
+  "file": "Brown-throated_three-toed_sloth_male.jpg",
+  "caption": "Sloth in Manuel Antonio",
+  "q": "Sloth in Manuel Antonio Costa Rica",
+  "found": {
+   "title": "File:Brown-throated three-toed sloth male.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Brown-throated_three-toed_sloth_male.jpg/960px-Brown-throated_three-toed_sloth_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2816,
+   "page": "https://commons.wikimedia.org/wiki/File:Brown-throated_three-toed_sloth_male.jpg",
+   "author": "D. Gordon E. Robertson",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "costa-rica",
+  "slot": "day7",
+  "file": "Juan_Santamaria_International_Airport_-_Arrives.JPG",
+  "caption": "San Jose airport arrivals hall",
+  "q": "San Jose airport arrivals hall Costa Rica",
+  "found": {
+   "title": "File:Juan Santamaria International Airport - Arrives.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Juan_Santamaria_International_Airport_-_Arrives.JPG/960px-Juan_Santamaria_International_Airport_-_Arrives.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2048,
+   "page": "https://commons.wikimedia.org/wiki/File:Juan_Santamaria_International_Airport_-_Arrives.JPG",
+   "author": "Ivanmartinez",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "hero0",
+  "file": "Petronas_Towers_(18354601833).jpg",
+  "caption": "Petronas Twin Towers, Kuala Lumpur",
+  "q": "Petronas Twin Towers, Kuala Lumpur Malaysia",
+  "found": {
+   "title": "File:Petronas Towers (18354601833).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Petronas_Towers_%2818354601833%29.jpg/960px-Petronas_Towers_%2818354601833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 7349,
+   "page": "https://commons.wikimedia.org/wiki/File:Petronas_Towers_(18354601833).jpg",
+   "author": "Jorge Láscar from Melbourne, Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "hero1",
+  "file": "Thean_Hou_Temple_(18790758808).jpg",
+  "caption": "Thean Hou Temple, Kuala Lumpur",
+  "q": "Thean Hou Temple, Kuala Lumpur Malaysia",
+  "found": {
+   "title": "File:Thean Hou Temple (18790758808).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Thean_Hou_Temple_%2818790758808%29.jpg/960px-Thean_Hou_Temple_%2818790758808%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5520,
+   "page": "https://commons.wikimedia.org/wiki/File:Thean_Hou_Temple_(18790758808).jpg",
+   "author": "Jorge Láscar from Melbourne, Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "hero2",
+  "file": "The_Railway_from_above_in_the_mist,_Bukit_Bendera,_Penang.jpg",
+  "caption": "Penang Hill funicular in mist",
+  "q": "Penang Hill funicular in mist Malaysia",
+  "found": {
+   "title": "File:The Railway from above in the mist, Bukit Bendera, Penang.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/The_Railway_from_above_in_the_mist%2C_Bukit_Bendera%2C_Penang.jpg/960px-The_Railway_from_above_in_the_mist%2C_Bukit_Bendera%2C_Penang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3264,
+   "page": "https://commons.wikimedia.org/wiki/File:The_Railway_from_above_in_the_mist,_Bukit_Bendera,_Penang.jpg",
+   "author": "Pro QueeNia",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day1",
+  "file": "Petronas_Panorama_II.jpg",
+  "caption": "Petronas Towers at night",
+  "q": "Petronas Towers at night Malaysia",
+  "found": {
+   "title": "File:Petronas Panorama II.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Petronas_Panorama_II.jpg/960px-Petronas_Panorama_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1215,
+   "page": "https://commons.wikimedia.org/wiki/File:Petronas_Panorama_II.jpg",
+   "author": "Someformofhuman",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day2",
+  "file": "Victorian_Fountain_and_Sultan_Abdul_Samad_Building_(18356307513).jpg",
+  "caption": "Merdeka Square, Sultan Abdul Samad Building",
+  "q": "Merdeka Square, Sultan Abdul Samad Building Malaysia",
+  "found": {
+   "title": "File:Victorian Fountain and Sultan Abdul Samad Building (18356307513).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Victorian_Fountain_and_Sultan_Abdul_Samad_Building_%2818356307513%29.jpg/960px-Victorian_Fountain_and_Sultan_Abdul_Samad_Building_%2818356307513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 5520,
+   "page": "https://commons.wikimedia.org/wiki/File:Victorian_Fountain_and_Sultan_Abdul_Samad_Building_(18356307513).jpg",
+   "author": "Jorge Láscar from Melbourne, Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day3",
+  "file": "Gombak_Selangor_Batu-Caves-01.jpg",
+  "caption": "Murugan statue, Batu Caves",
+  "q": "Murugan statue, Batu Caves Malaysia",
+  "found": {
+   "title": "File:Gombak Selangor Batu-Caves-01.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gombak_Selangor_Batu-Caves-01.jpg/960px-Gombak_Selangor_Batu-Caves-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3796,
+   "page": "https://commons.wikimedia.org/wiki/File:Gombak_Selangor_Batu-Caves-01.jpg",
+   "author": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day4",
+  "file": "Penang_City_Hall.jpg",
+  "caption": "Penang City Hall, Esplanade",
+  "q": "Penang City Hall, Esplanade Malaysia",
+  "found": {
+   "title": "File:Penang City Hall.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Penang_City_Hall.jpg/960px-Penang_City_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2048,
+   "page": "https://commons.wikimedia.org/wiki/File:Penang_City_Hall.jpg",
+   "author": "Cmglee",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day5",
+  "file": "Ke_Lok_Si_Illuminations_01.JPG",
+  "caption": "Kek Lok Si lit at night",
+  "q": "Kek Lok Si lit at night Malaysia",
+  "found": {
+   "title": "File:Ke Lok Si Illuminations 01.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ke_Lok_Si_Illuminations_01.JPG/960px-Ke_Lok_Si_Illuminations_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1600,
+   "page": "https://commons.wikimedia.org/wiki/File:Ke_Lok_Si_Illuminations_01.JPG",
+   "author": "Flying Pharmacist",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day6",
+  "file": "Penang_Malaysia_Wisma-PCTH-01.jpg",
+  "caption": "George Town heritage building",
+  "q": "George Town heritage building Malaysia",
+  "found": {
+   "title": "File:Penang Malaysia Wisma-PCTH-01.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Penang_Malaysia_Wisma-PCTH-01.jpg/960px-Penang_Malaysia_Wisma-PCTH-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3063,
+   "page": "https://commons.wikimedia.org/wiki/File:Penang_Malaysia_Wisma-PCTH-01.jpg",
+   "author": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "malaysia",
+  "slot": "day7",
+  "file": "Penang_airport_view.jpg",
+  "caption": "Penang International Airport",
+  "q": "Penang International Airport Malaysia",
+  "found": {
+   "title": "File:Penang airport view.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Penang_airport_view.jpg/960px-Penang_airport_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1080,
+   "page": "https://commons.wikimedia.org/wiki/File:Penang_airport_view.jpg",
+   "author": "Ginson Lim",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "hero0",
+  "file": "Great_Wall_of_China_July_2006.JPG",
+  "caption": "Great Wall at Mutianyu",
+  "q": "Great Wall at Mutianyu China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Great Wall of China July 2006.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/960px-Great_Wall_of_China_July_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2288,
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_July_2006.JPG",
+   "author": "Velatrix",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "hero1",
+  "file": "Group_of_terracotta_warriors_at_Xian.jpg",
+  "caption": "Terracotta warriors in Xi'an",
+  "q": "Terracotta warriors in Xi'an China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Group of terracotta warriors at Xian.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Group_of_terracotta_warriors_at_Xian.jpg/960px-Group_of_terracotta_warriors_at_Xian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1520,
+   "page": "https://commons.wikimedia.org/wiki/File:Group_of_terracotta_warriors_at_Xian.jpg",
+   "author": "No machine-readable author provided. Mr. Tickle assumed (based on copyright clai",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "hero2",
+  "file": "1996_-248-7_Beijing_Forbidden_City_(5069074132).jpg",
+  "caption": "Forbidden City, Beijing",
+  "q": "Forbidden City, Beijing China (ending in Hong Kong)",
+  "found": {
+   "title": "File:1996 -248-7 Beijing Forbidden City (5069074132).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/1996_-248-7_Beijing_Forbidden_City_%285069074132%29.jpg/960px-1996_-248-7_Beijing_Forbidden_City_%285069074132%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1585,
+   "page": "https://commons.wikimedia.org/wiki/File:1996_-248-7_Beijing_Forbidden_City_(5069074132).jpg",
+   "author": "Dan Lundberg",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day1",
+  "file": "Wangfujing_street,_Beijing.JPG",
+  "caption": "Wangfujing pedestrian street",
+  "q": "Wangfujing pedestrian street China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Wangfujing street, Beijing.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Wangfujing_street%2C_Beijing.JPG/960px-Wangfujing_street%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2592,
+   "page": "https://commons.wikimedia.org/wiki/File:Wangfujing_street,_Beijing.JPG",
+   "author": "Nggsc",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day2",
+  "file": "Chemin_de_ronde_muraille_long.JPG",
+  "caption": "Walkway on Mutianyu wall",
+  "q": "Walkway on Mutianyu wall China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Chemin de ronde muraille long.JPG",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Chemin_de_ronde_muraille_long.JPG/960px-Chemin_de_ronde_muraille_long.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2272,
+   "page": "https://commons.wikimedia.org/wiki/File:Chemin_de_ronde_muraille_long.JPG",
+   "author": "Fabienkhan",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day3",
+  "file": "20090528_Beijing_Forbidden_City_7913.jpg",
+  "caption": "Forbidden City halls",
+  "q": "Forbidden City halls China (ending in Hong Kong)",
+  "found": {
+   "title": "File:20090528 Beijing Forbidden City 7913.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/20090528_Beijing_Forbidden_City_7913.jpg/960px-20090528_Beijing_Forbidden_City_7913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 3008,
+   "page": "https://commons.wikimedia.org/wiki/File:20090528_Beijing_Forbidden_City_7913.jpg",
+   "author": "Jakub Hałun",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day4",
+  "file": "Temple_of_Heaven,_Beijing,_China_-_010_edit.jpg",
+  "caption": "Hall of Prayer, Temple of Heaven",
+  "q": "Hall of Prayer, Temple of Heaven China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Temple of Heaven, Beijing, China - 010 edit.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Temple_of_Heaven%2C_Beijing%2C_China_-_010_edit.jpg/960px-Temple_of_Heaven%2C_Beijing%2C_China_-_010_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 9027,
+   "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven,_Beijing,_China_-_010_edit.jpg",
+   "author": "Maros M r a z (Maros)",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day5",
+  "file": "Terracotta_pmorgan.jpg",
+  "caption": "Terracotta warriors up close",
+  "q": "Terracotta warriors up close China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Terracotta pmorgan.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Terracotta_pmorgan.jpg/960px-Terracotta_pmorgan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 2048,
+   "page": "https://commons.wikimedia.org/wiki/File:Terracotta_pmorgan.jpg",
+   "author": "Peter Morgan from Nomadic",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day6",
+  "file": "Xian_city_wall_inner_gate_looking_outside.jpg",
+  "caption": "Xi'an City Wall gate",
+  "q": "Xi'an City Wall gate China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Xian city wall inner gate looking outside.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Xian_city_wall_inner_gate_looking_outside.jpg/960px-Xian_city_wall_inner_gate_looking_outside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 1024,
+   "page": "https://commons.wikimedia.org/wiki/File:Xian_city_wall_inner_gate_looking_outside.jpg",
+   "author": "Richardelainechambers at English Wikipedia",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "dest": "china",
+  "slot": "day7",
+  "file": "Hong_Kong_Harbour_Night_2019-06-11.jpg",
+  "caption": "Hong Kong harbour from the Peak",
+  "q": "Hong Kong harbour from the Peak China (ending in Hong Kong)",
+  "found": {
+   "title": "File:Hong Kong Harbour Night 2019-06-11.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hong_Kong_Harbour_Night_2019-06-11.jpg/960px-Hong_Kong_Harbour_Night_2019-06-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 10439,
+   "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
+   "author": "Benh LIEU SONG (Flickr)",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

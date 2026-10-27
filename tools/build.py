@@ -26,7 +26,20 @@ def commons(photo):
     photo["author"] = photo["author"] or "Wikimedia Commons"
     photo["license"] = photo["license"] or "see file page"
     photo["page"] = f"https://commons.wikimedia.org/wiki/File:{q}"
+    found = CHECK.get(photo["file"].replace("_", " ").strip())
+    if found:
+        # the exact preview address Wikimedia gives (it now blocks hand-built and full-size links)
+        photo["src"] = found["src"].split("?")[0]
+        photo["author"], photo["license"], photo["page"] = found["author"], found["license"], found["page"]
     return photo
+
+
+CHECK = {}
+_check = NOTES / "photo-check.json"
+if _check.exists():
+    for o in json.loads(_check.read_text()):
+        if o.get("found"):
+            CHECK[o["file"].replace("_", " ").strip()] = o["found"]
 
 
 def load():
@@ -89,10 +102,16 @@ def load():
 def main():
     dests, recs = load()
     tpl = (ROOT / "tools" / "template.html").read_text()
-    data = json.dumps({"dests": dests, "recs": recs}, ensure_ascii=False).replace("</", "<\\/")
+    def tidy(v, key=""):
+        if isinstance(v, dict):
+            return {k: tidy(x, k) for k, x in v.items()}
+        if isinstance(v, list):
+            return [tidy(x, key) for x in v]
+        if isinstance(v, str) and key not in ("file", "src", "orig", "page", "url", "q"):
+            return v.replace("\u2014", ", ").replace("\u2013", "-")
+        return v
+    data = json.dumps(tidy({"dests": dests, "recs": recs}), ensure_ascii=False).replace("</", "<\\/")
     out = tpl.replace("/*__DATA__*/null", data)
-    # house style: no em dashes anywhere
-    out = out.replace("—", ", ").replace("–", "-")
     (ROOT / "winter-trip-options.html").write_text(out)
     (ROOT / "index.html").write_text(out)  # so GitHub Pages serves it at the site root
     print(f"built {len(dests)} destinations, {sum(len(d.get('itinerary', [])) + len(d.get('heroPhotos', [])) for d in dests)} photos")

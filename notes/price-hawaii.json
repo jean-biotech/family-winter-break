@@ -1,0 +1,94 @@
+{
+ "oahu": {
+  "flights": 750,
+  "flightsBasis": "AA PHL-HNL RT Sat Dec 12-Tue Dec 22 2026 $648 (Momondo fare finder, likely Basic); Kayak AA typical $580-$841; +~$100 for Main Cabin = ~$750",
+  "flightsVerified": true,
+  "lodging": 780,
+  "lodgingBasis": "Waikiki 2BR ~$520/night all-in x 6 nights / 4. Holidu Waikiki avg $370/night listed for Dec 12-19; Oahu Dec 2025 rental avg $432 (DBEDT via Hawaii Vacation Guide); +~25% cleaning/fees/18% tax. 2 hotel rooms (~$410/room all-in) cost more",
+  "lodgingVerified": true,
+  "foodFun": 1050,
+  "foodFunBasis": "~$100/day food x 6.5 days ($650); Kualoa valley tour ~$70, Missouri ~$40, Iolani ~$27, Hanauma ~$28, Diamond Head ~$8 (~$170); 1/4 of 3-day full-size SUV ~$450 + gas $50 + Waikiki parking ~$60/night x3 (~$170); 1/4 of airport/city Ubers (~$50)",
+  "sources": [
+   {"label": "Momondo PHL-HNL (AA Dec 12-22 2026 $648)", "url": "https://www.momondo.com/flights/philadelphia/honolulu"},
+   {"label": "Kayak PHL-HNL typical fares", "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/Honolulu-HNL"},
+   {"label": "AA PHL-HNL fare page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-honolulu"},
+   {"label": "Holidu Waikiki rentals (Dec 12-19 avg)", "url": "https://www.holidu.com/vacation-rentals/usa/waikiki"},
+   {"label": "Hawaii in December 2026: cost by island", "url": "https://thehawaiivacationguide.com/hawaii-christmas-vacation/"},
+   {"label": "Hawaii rate card: National full-size SUV weekly", "url": "https://hawaiistatecars.com/national"}
+  ]
+ },
+ "maui": {
+  "flights": 800,
+  "flightsBasis": "aa.com PHL-OGG RT Dec 15-22 2026 from $652; aa.com December 2026 month view from $802; mid-Dec typical ~$700 basic +~$100 Main Cabin = ~$800",
+  "flightsVerified": true,
+  "lodging": 960,
+  "lodgingBasis": "Kihei 2BR ~$640/night all-in x 6 nights / 4. Kihei Holiday 116 2BR $510/night listed Dec 2-19 2026 (findrentals) + cleaning, fees, 18% tax; Maui Dec 2025 rental avg $632 (Hawaii Vacation Guide)",
+  "lodgingVerified": true,
+  "foodFun": 1250,
+  "foodFunBasis": "~$110/day food x 6.5 days ($715); Molokini snorkel boat ~$170, Haleakala/Waianapanapa/Iao fees ~$25 (~$195); 1/4 of 6-day full-size SUV ~$1,300 all-in (Alamo/National rate card ~$990/wk + Hawaii taxes) + ~$150 gas (~$365)",
+  "sources": [
+   {"label": "AA PHL-OGG fare page (Dec 15-22 2026 $652)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-maui"},
+   {"label": "Kihei Holiday 116 2BR seasonal rates 2026", "url": "https://www.findrentals.com/aa-oceanfront-and-sales/p156703"},
+   {"label": "Hawaii in December 2026: cost by island", "url": "https://thehawaiivacationguide.com/hawaii-christmas-vacation/"},
+   {"label": "Hawaii rate card: Alamo full-size SUV weekly", "url": "https://hawaiistatecars.com/alamo/create"},
+   {"label": "Maui car rental price tracker", "url": "https://mauicarrental.biz/blog/how-much-does-car-rental-in-maui-cost"}
+  ]
+ },
+ "big-island": {
+  "flights": 750,
+  "flightsBasis": "aa.com PHL-KOA RT Dec 10-21 2026 from $507; Axel AA Dec 8-15 2026 $618 airline fare; Google Flights AA typical $580-$1,050. Use ~$650 basic +~$100 Main Cabin = ~$750",
+  "flightsVerified": true,
+  "lodging": 630,
+  "lodgingBasis": "Kona 2BR ~$470/night all-in x 4 + Volcano 2BR cottage ~$320/night all-in x 2 = ~$2,520 / 4. Kona Dec 2025 rental avg $382 (Hawaii Vacation Guide) + fees/tax; Volcano 2BR cottages $175-$300 avg (Vrbo/Vacasa/HawaiiGaga)",
+  "lodgingVerified": true,
+  "foodFun": 1375,
+  "foodFunBasis": "~$100/day food x 6.5 days ($650); Kealakekua snorkel boat ~$150, manta night snorkel ~$175, park fees ~$15, coffee tour ~$20 (~$360); 1/4 of 6-day full-size SUV ~$1,300 all-in + ~$200 gas for long drives (~$375)",
+  "sources": [
+   {"label": "AA PHL-KOA fare page (Dec 10-21 2026 $507)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-kona"},
+   {"label": "Axel PHL-KOA December 2026 fares", "url": "https://helloaxel.com/en/flights/from-philadelphia-to-kailua-kona-koa"},
+   {"label": "Google Flights PHL-KOA", "url": "https://www.google.com/travel/flights/flights-from-philadelphia-to-kailua-kona.html?gl=US&hl=en-US"},
+   {"label": "Hawaii in December 2026: cost by island", "url": "https://thehawaiivacationguide.com/hawaii-christmas-vacation/"},
+   {"label": "HawaiiGaga Volcano rentals", "url": "https://www.hawaiigaga.com/volcano-vacation-rentals.aspx"},
+   {"label": "Vacasa Volcano rentals", "url": "https://www.vacasa.com/usa/Hawaii/Volcano/"},
+   {"label": "Hawaii rate card: National full-size SUV weekly", "url": "https://hawaiistatecars.com/national"}
+  ]
+ },
+ "kauai": {
+  "flights": 820,
+  "flightsBasis": "Google Flights AA PHL-LIH RT Mon Dec 7-Mon Dec 21 2026 $668; Axel Dec 19-26 2026 ~$1,074 (holiday); mid-Dec ~$720 basic +~$100 Main Cabin = ~$820",
+  "flightsVerified": true,
+  "lodging": 865,
+  "lodgingBasis": "Poipu 2BR ~$575/night all-in x 6 nights / 4. Poipu Sands 2BR avg $553 all-in incl. tax and fees (HawaiiGaga, June 2026); HomeToGo Poipu 2BR $425-$562 listed; Kauai Dec 2025 hotel avg $490/room. No Dec-specific rental figure seen",
+  "lodgingVerified": false,
+  "foodFun": 1400,
+  "foodFunBasis": "~$105/day food x 6.5 days ($680); Na Pali catamaran ~$225, guided Wailua kayak ~$110, McBryde garden ~$35, Haena reservation/parking ~$10 (~$380); 1/4 of 6-day full-size SUV ~$1,300 all-in + ~$120 gas (~$355)",
+  "sources": [
+   {"label": "Google Flights PHL-LIH (AA Dec 7-21 2026 $668)", "url": "https://www.google.com/travel/flights/flights-from-philadelphia-to-kauai.html?gl=US&hl=en-US"},
+   {"label": "Axel PHL-LIH December 2026 fares", "url": "https://helloaxel.com/en/flights/from-philadelphia-to-kauai-island-lih"},
+   {"label": "AA PHL-LIH fare page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-kauai-island"},
+   {"label": "HawaiiGaga Poipu Sands 2BR average", "url": "https://www.hawaiigaga.com/kauai/condos/poipu-sands.aspx"},
+   {"label": "HomeToGo Poipu rentals", "url": "https://www.hometogo.com/poipu/"},
+   {"label": "Hawaii in December 2026: cost by island", "url": "https://thehawaiivacationguide.com/hawaii-christmas-vacation/"},
+   {"label": "Hawaii rate card: National full-size SUV weekly", "url": "https://hawaiistatecars.com/national"}
+  ]
+ },
+ "oahu-maui": {
+  "flights": 920,
+  "flightsBasis": "Open jaw PHL-HNL / OGG-PHL not seen; estimated ~$700 basic (AA PHL-HNL Dec 12-22 $648, PHL-OGG Dec 15-22 $652 to Dec month $802) +~$100 Main Cabin; plus HNL-OGG one way Dec 2026 from $62-64 (Alaska/Southwest) ~$90 with seat + ~$30 bag",
+  "flightsVerified": false,
+  "lodging": 870,
+  "lodgingBasis": "Waikiki 2BR ~$520/night all-in x 3 + Kihei 2BR ~$640/night all-in x 3 = ~$3,480 / 4 (Holidu Waikiki Dec 12-19 avg, findrentals Kihei Dec 2026 rate, Hawaii Vacation Guide Dec island averages)",
+  "lodgingVerified": true,
+  "foodFun": 1000,
+  "foodFunBasis": "~$105/day food x 6.5 days ($680); Diamond Head, Haleakala, Waianapanapa fees ~$40; 1/4 of Oahu 1-day SUV ~$160 + parking/gas ~$90 and Maui 3-4 day SUV ~$650 + gas ~$80 (~$245); 1/4 of HNL Ubers (~$35)",
+  "sources": [
+   {"label": "Momondo PHL-HNL (AA Dec 12-22 2026 $648)", "url": "https://www.momondo.com/flights/philadelphia/honolulu"},
+   {"label": "AA PHL-OGG fare page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-maui"},
+   {"label": "Southwest HNL-OGG (Dec 2026 from $64)", "url": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"},
+   {"label": "Alaska HNL-OGG (Dec 2026 from $62)", "url": "https://www.alaskaair.com/en/flights-from-honolulu-to-maui"},
+   {"label": "Holidu Waikiki rentals (Dec 12-19 avg)", "url": "https://www.holidu.com/vacation-rentals/usa/waikiki"},
+   {"label": "Kihei Holiday 116 2BR seasonal rates 2026", "url": "https://www.findrentals.com/aa-oceanfront-and-sales/p156703"},
+   {"label": "Hawaii in December 2026: cost by island", "url": "https://thehawaiivacationguide.com/hawaii-christmas-vacation/"}
+  ]
+ }
+}

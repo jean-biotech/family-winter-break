@@ -1,0 +1,89 @@
+{
+  "japan": {
+    "flights": 1350,
+    "flightsBasis": "JAL JFK-HND Dec 9-15 2026 from $942 (JAL route page); AA NYC-Tokyo Dec 2026 from $1,177 (aa.com route page). Lowest teasers; typical mid-Dec Main Cabin incl PHL connection ~$1,350.",
+    "flightsVerified": true,
+    "lodging": 685,
+    "lodgingBasis": "Tokyo 2BR apt ~$330/night all-in x3 + Hakone ryokan 2 rooms w/ kaiseki ~$450/room x1 + Kyoto Gion 2BR machiya ~$420/night all-in x2 = ~$2,730 / 4. AirROI Chiyoda Dec peak ADR ~$204 (all sizes); Gion House 2BR from $347; Ryuguden plan $545/2 guests",
+    "lodgingVerified": false,
+    "foodFun": 875,
+    "foodFunBasis": "~$80/day meals x6.5 (~$520; ryokan dinner in lodging) + ~$290 trains (Romancecar, Hakone pass, Shinkansen both ways, Haneda transfers, metro) + ~$55 sights (Shibuya Sky, temples) + ~$20 bag shipping. No car.",
+    "sources": [
+      {"label": "JAL NYC-Tokyo fares (Dec 9-15 2026 from $942)", "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-tokyo"},
+      {"label": "AA NYC-Tokyo route page (Dec 2026 from $1,177)", "url": "https://www.aa.com/en-us/flights-from-new-york-to-tokyo"},
+      {"label": "Kayak NYC-HND route page", "url": "https://www.kayak.com/flight-routes/New-York-NYC/Tokyo-Haneda-HND"},
+      {"label": "AirROI Chiyoda City STR data (Dec peak)", "url": "https://airroi.com/report/world/japan/tokyo-prefecture/chiyoda-city"},
+      {"label": "The Gion House 2BR listing", "url": "https://smartours.com/property/lovingly-restored-townhouse-in-central-kyoto-kiyomizu-gion/HA-1213678359"},
+      {"label": "Ryuguden Hakone kaiseki plan", "url": "https://www.expedia.co.th/Hakone-Hotels-Ryuguden.h2875849.Hotel-Information"}
+    ]
+  },
+  "thailand": {
+    "flights": 1550,
+    "flightsBasis": "JAL NYC-BKK Dec 8 2026 to Jan 14 2027 from $1,297; EVA JFK-BKK 11/18-12/06/2026 from $1,361; Trip.com says Dec averages up to $1,575. Typical mid-Dec ~$1,490 + BKK-CNX one-way w/ bag ~$60.",
+    "flightsVerified": true,
+    "lodging": 205,
+    "lodgingBasis": "Bangkok riverside/Silom 2BR ~$165/night all-in x3 + Chiang Mai Old City 2BR house ~$110/night all-in x3 = ~$825 / 4. Expedia Silom 2BR $155 for Dec 9-10; AirROI Chiang Mai Dec peak ADR ~$67 (all sizes)",
+    "lodgingVerified": true,
+    "foodFun": 500,
+    "foodFunBasis": "~$40/day meals x6.5 (~$260) + temples ~$30 + floating market car/boat ~$45 + elephant sanctuary ~$70 + massage/Doi Suthep ~$30 + Grab XL/airport transfers/boats ~$70. No car.",
+    "sources": [
+      {"label": "JAL NYC-Bangkok fares (Dec 8 2026 from $1,297)", "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-bangkok"},
+      {"label": "EVA NYC-Thailand fares", "url": "https://flights.evaair.com/en-us/flights-from-new-york-to-thailand"},
+      {"label": "Trip.com NYC-BKK (Dec average)", "url": "https://us.trip.com/flights/new-york-to-bangkok/airfares-nyc-bkk/"},
+      {"label": "Expedia Bangkok apartments (Silom 2BR Dec)", "url": "https://www.expedia.com/es/Bangkok-Departamentos.d178236-aaDepartamentos.Guia-Viajes-Alojamiento"},
+      {"label": "AirROI Bangkok STR data", "url": "https://airroi.com/airbnb-data/thailand/krung-thep-maha-nakhon/bangkok"},
+      {"label": "AirROI Chiang Mai STR data (Dec peak)", "url": "https://airroi.com/airbnb-data/thailand/chiang-mai-province/chiang-mai"}
+    ]
+  },
+  "singapore": {
+    "flights": 1450,
+    "flightsBasis": "SQ JFK-SIN economy from $1,198 (Nov-Dec 8 2026 windows, singaporeair.com); Cathay JFK-SIN from ~$1,139 (to Dec 9 2026). SQ23 JFK nonstop is premium economy/business only, so economy means one stop; typical mid-Dec ~$1,450.",
+    "flightsVerified": true,
+    "lodging": 870,
+    "lodgingBasis": "2 hotel rooms ~$290/night each all-in = $580 x6 nights = $3,480 / 4. Hotels.com Clarke Quay Dec avg $244 + ~18% tax/service; Paradox Merchant Court Dec 6-7 $211 all-in; Swissotel Stamford Dec 12-13 $269 pre-tax",
+    "lodgingVerified": true,
+    "foodFun": 700,
+    "foodFunBasis": "Hawker meals ~$45/day x6.5 (~$290) + chilli crab ~$80 + Raffles tea ~$100 + Gardens domes/Skywalk/Wonderland ~$60 + cable car/S.E.A. Aquarium ~$65 + ArtScience ~$25 + MRT/Grab/airport ~$80. No car.",
+    "sources": [
+      {"label": "Singapore Airlines NYC fares", "url": "https://www.singaporeair.com/en-us/flights-from-new-york"},
+      {"label": "Cathay NYC-Singapore fares", "url": "https://flights.cathaypacific.com/destinations/en_US/flights-from-new-york-to-singapore"},
+      {"label": "Upgraded Points: JFK-SIN nonstop premium economy", "url": "https://upgradedpoints.com/news/jfk-singapore-premium-economy-deal/"},
+      {"label": "Hotels.com Clarke Quay (Dec average)", "url": "https://es.hotels.com/es/nh1771966/hoteles-en-clarke-quay-singapur-singapur"},
+      {"label": "Expedia Clarke Quay 4-star hotels", "url": "https://www.expedia.com/4Star-Clarke-Quay-Hotels.s40-0-d6270159.Travel-Guide-Filter-Hotels"}
+    ]
+  },
+  "south-vietnam": {
+    "flights": 1475,
+    "flightsBasis": "JAL NYC-SGN Dec 2026 from $1,093; Korean Air Dec 2026 from $1,117; Axel JFK Dec 26 2026 $1,891 (holiday). Typical mid-Dec ~$1,350 + Can Tho/SGN-Phu Quoc and PQC-SGN domestic ~$125.",
+    "flightsVerified": true,
+    "lodging": 205,
+    "lodgingBasis": "HCMC District 1 2BR ~$100/night all-in x3 + Can Tho 2 hotel rooms ~$110 x1 + Phu Quoc 2BR villa ~$200/night all-in (Dec high season) x2 = ~$810 / 4. VRBO D1 2BR $78 all-in Dec 25 2025; Phu Quoc 2BR villas $120-170 standard season",
+    "lodgingVerified": false,
+    "foodFun": 520,
+    "foodFunBasis": "~$35/day meals x6.5 (~$230) + Cu Chi tour ~$45 + private car to Can Tho share ~$40 + Mekong boats ~$25 + Hon Thom cable car ~$40 + scooter food tour ~$50 + Grab/island transport ~$65 + $25 e-visa. No self-drive.",
+    "sources": [
+      {"label": "JAL NYC-Ho Chi Minh City fares", "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-ho-chi-minh-city"},
+      {"label": "Korean Air NYC-Ho Chi Minh fares", "url": "https://www.koreanair.com/flights/en-us/flights-from-new-york-to-ho-chi-minh"},
+      {"label": "Axel NYC-SGN Dec 2026 fares", "url": "https://helloaxel.com/en/flights/from-new-york-to-ho-chi-minh-city-sgn"},
+      {"label": "VRBO District 1 2BR listing", "url": "https://www.vrbo.com/4026979"},
+      {"label": "Phu Quoc villa prices guide", "url": "https://phuquoc-villa.pages.dev/blog/villa-prices-guide"}
+    ]
+  },
+  "singapore-bangkok": {
+    "flights": 1650,
+    "flightsBasis": "Open jaw NYC-SIN / BKK-NYC est ~$1,500 (SQ JFK-SIN from $1,198 Nov-Dec 2026; JAL NYC-BKK Dec 2026 from $1,297, typical mid-Dec higher) + SIN-BKK one-way w/ bag ~$150. Open-jaw fare itself not seen.",
+    "flightsVerified": false,
+    "lodging": 560,
+    "lodgingBasis": "Singapore 2 hotel rooms ~$580/night all-in x3 + Bangkok riverside 2BR ~$165/night all-in x3 = ~$2,235 / 4. Hotels.com Clarke Quay Dec avg $244 + tax; Expedia Silom 2BR $155 Dec",
+    "lodgingVerified": true,
+    "foodFun": 620,
+    "foodFunBasis": "Singapore 3 days: hawkers ~$135, chilli crab ~$80, Gardens/Wonderland ~$60, MRT/Grab ~$40. Bangkok 3.5 days: meals ~$125, temples ~$30, floating market car ~$45, dinner cruise ~$45, massage ~$15, Grab XL ~$40. No car.",
+    "sources": [
+      {"label": "Singapore Airlines NYC fares", "url": "https://www.singaporeair.com/en-us/flights-from-new-york"},
+      {"label": "JAL NYC-Bangkok fares", "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-bangkok"},
+      {"label": "ShopBack SIN-BKK fares 2026", "url": "https://www.shopback.sg/blog/travel/singapore-to-bangkok-cheapest-way-2026"},
+      {"label": "Hotels.com Clarke Quay (Dec average)", "url": "https://es.hotels.com/es/nh1771966/hoteles-en-clarke-quay-singapur-singapur"},
+      {"label": "Expedia Bangkok apartments", "url": "https://www.expedia.com/es/Bangkok-Departamentos.d178236-aaDepartamentos.Guia-Viajes-Alojamiento"}
+    ]
+  }
+}

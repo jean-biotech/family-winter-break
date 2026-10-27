@@ -89,6 +89,15 @@ if __name__ == "__main__":
     for dest, slot, ph in photos:
         n = re.sub(r"^(File|Image):", "", ph["file"]).replace("_", " ").strip()
         out.append({"dest": dest, "slot": slot, "file": ph["file"], "caption": ph.get("caption"), "q": ph.get("q"), "found": res.get(n)})
+    # Wikimedia blocks full-size originals; for photos narrower than 960px use the largest standard size below it
+    for o in out:
+        f = o["found"]
+        if f and "upload.wikimedia.org" in f["src"]:
+            step = max([w for w in (120, 250, 330, 500) if w < (f["width"] or 0)] or [120])
+            j = get({"action": "query", "titles": f["title"], "prop": "imageinfo", "iiprop": "url", "iiurlwidth": step})
+            ii = list(j["query"]["pages"].values())[0]["imageinfo"][0]
+            f["src"] = ii.get("thumburl") or ii["url"]
+            time.sleep(2)
     json.dump(out, open(sys.argv[2], "w"), indent=1, ensure_ascii=False)
     miss = [o for o in out if not o["found"]]
     print(f"{len(out)} photos, {len(names)} unique files, {len(miss)} missing")

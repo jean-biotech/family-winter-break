@@ -2674,6 +2674,38 @@
  {
   "dest": "iceland",
   "slot": "hero0",
+  "file": "Iceland lake Northern Lights (Unsplash).jpg",
+  "caption": "Northern lights over an Icelandic lake",
+  "q": "Northern lights over an Icelandic lake Iceland",
+  "found": {
+   "title": "File:Iceland lake Northern Lights (Unsplash).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Iceland_lake_Northern_Lights_%28Unsplash%29.jpg/960px-Iceland_lake_Northern_Lights_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6000,
+   "page": "https://commons.wikimedia.org/wiki/File:Iceland_lake_Northern_Lights_(Unsplash).jpg",
+   "author": "Vincent Guth vingtcent",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "hero1",
+  "file": "Iceland lake Northern Lights (Unsplash).jpg",
+  "caption": "Northern lights over an Icelandic lake",
+  "q": "Northern lights over an Icelandic lake Iceland",
+  "found": {
+   "title": "File:Iceland lake Northern Lights (Unsplash).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Iceland_lake_Northern_Lights_%28Unsplash%29.jpg/960px-Iceland_lake_Northern_Lights_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "mime": "image/jpeg",
+   "width": 6000,
+   "page": "https://commons.wikimedia.org/wiki/File:Iceland_lake_Northern_Lights_(Unsplash).jpg",
+   "author": "Vincent Guth vingtcent",
+   "license": "CC0"
+  }
+ },
+ {
+  "dest": "iceland",
+  "slot": "hero2",
   "file": "Gullfoss,_Iceland,_20230501_0940_3780.jpg",
   "caption": "Gullfoss waterfall",
   "q": "Gullfoss waterfall Iceland",
@@ -2689,23 +2721,7 @@
  },
  {
   "dest": "iceland",
-  "slot": "hero1",
-  "file": "Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg",
-  "caption": "Northern lights in Iceland",
-  "q": "Northern lights in Iceland Iceland",
-  "found": {
-   "title": "File:Aurora Borealis - Iceland - 2 Nov. 2013.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg/960px-Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 6016,
-   "page": "https://commons.wikimedia.org/wiki/File:Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg",
-   "author": "Francisco Diez from Toronto, Canada",
-   "license": "CC BY 2.0"
-  }
- },
- {
-  "dest": "iceland",
-  "slot": "hero2",
+  "slot": "hero3",
   "file": "Reynisfjara-66-Basalt-2018-gje.jpg",
   "caption": "Reynisfjara basalt columns",
   "q": "Reynisfjara basalt columns Iceland",
@@ -3148,166 +3164,6 @@
    "width": 1080,
    "page": "https://commons.wikimedia.org/wiki/File:Penang_airport_view.jpg",
    "author": "Ginson Lim",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "hero0",
-  "file": "Great_Wall_of_China_July_2006.JPG",
-  "caption": "Great Wall at Mutianyu",
-  "q": "Great Wall at Mutianyu China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Great Wall of China July 2006.JPG",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/960px-Great_Wall_of_China_July_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 2288,
-   "page": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_July_2006.JPG",
-   "author": "Velatrix",
-   "license": "CC0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "hero1",
-  "file": "Group_of_terracotta_warriors_at_Xian.jpg",
-  "caption": "Terracotta warriors in Xi'an",
-  "q": "Terracotta warriors in Xi'an China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Group of terracotta warriors at Xian.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Group_of_terracotta_warriors_at_Xian.jpg/960px-Group_of_terracotta_warriors_at_Xian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 1520,
-   "page": "https://commons.wikimedia.org/wiki/File:Group_of_terracotta_warriors_at_Xian.jpg",
-   "author": "No machine-readable author provided. Mr. Tickle assumed (based on copyright clai",
-   "license": "CC BY-SA 3.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "hero2",
-  "file": "1996_-248-7_Beijing_Forbidden_City_(5069074132).jpg",
-  "caption": "Forbidden City, Beijing",
-  "q": "Forbidden City, Beijing China (ending in Hong Kong)",
-  "found": {
-   "title": "File:1996 -248-7 Beijing Forbidden City (5069074132).jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/1996_-248-7_Beijing_Forbidden_City_%285069074132%29.jpg/960px-1996_-248-7_Beijing_Forbidden_City_%285069074132%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 1585,
-   "page": "https://commons.wikimedia.org/wiki/File:1996_-248-7_Beijing_Forbidden_City_(5069074132).jpg",
-   "author": "Dan Lundberg",
-   "license": "CC BY-SA 2.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day1",
-  "file": "Wangfujing_street,_Beijing.JPG",
-  "caption": "Wangfujing pedestrian street",
-  "q": "Wangfujing pedestrian street China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Wangfujing street, Beijing.JPG",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Wangfujing_street%2C_Beijing.JPG/960px-Wangfujing_street%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 2592,
-   "page": "https://commons.wikimedia.org/wiki/File:Wangfujing_street,_Beijing.JPG",
-   "author": "Nggsc",
-   "license": "CC BY-SA 3.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day2",
-  "file": "Chemin_de_ronde_muraille_long.JPG",
-  "caption": "Walkway on Mutianyu wall",
-  "q": "Walkway on Mutianyu wall China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Chemin de ronde muraille long.JPG",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Chemin_de_ronde_muraille_long.JPG/960px-Chemin_de_ronde_muraille_long.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 2272,
-   "page": "https://commons.wikimedia.org/wiki/File:Chemin_de_ronde_muraille_long.JPG",
-   "author": "Fabienkhan",
-   "license": "CC BY-SA 2.5"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day3",
-  "file": "20090528_Beijing_Forbidden_City_7913.jpg",
-  "caption": "Forbidden City halls",
-  "q": "Forbidden City halls China (ending in Hong Kong)",
-  "found": {
-   "title": "File:20090528 Beijing Forbidden City 7913.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/20090528_Beijing_Forbidden_City_7913.jpg/960px-20090528_Beijing_Forbidden_City_7913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 3008,
-   "page": "https://commons.wikimedia.org/wiki/File:20090528_Beijing_Forbidden_City_7913.jpg",
-   "author": "Jakub Hałun",
-   "license": "CC BY-SA 3.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day4",
-  "file": "Temple_of_Heaven,_Beijing,_China_-_010_edit.jpg",
-  "caption": "Hall of Prayer, Temple of Heaven",
-  "q": "Hall of Prayer, Temple of Heaven China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Temple of Heaven, Beijing, China - 010 edit.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Temple_of_Heaven%2C_Beijing%2C_China_-_010_edit.jpg/960px-Temple_of_Heaven%2C_Beijing%2C_China_-_010_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 9027,
-   "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven,_Beijing,_China_-_010_edit.jpg",
-   "author": "Maros M r a z (Maros)",
-   "license": "CC BY-SA 3.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day5",
-  "file": "Terracotta_pmorgan.jpg",
-  "caption": "Terracotta warriors up close",
-  "q": "Terracotta warriors up close China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Terracotta pmorgan.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Terracotta_pmorgan.jpg/960px-Terracotta_pmorgan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 2048,
-   "page": "https://commons.wikimedia.org/wiki/File:Terracotta_pmorgan.jpg",
-   "author": "Peter Morgan from Nomadic",
-   "license": "CC BY 2.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day6",
-  "file": "Xian_city_wall_inner_gate_looking_outside.jpg",
-  "caption": "Xi'an City Wall gate",
-  "q": "Xi'an City Wall gate China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Xian city wall inner gate looking outside.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Xian_city_wall_inner_gate_looking_outside.jpg/960px-Xian_city_wall_inner_gate_looking_outside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 1024,
-   "page": "https://commons.wikimedia.org/wiki/File:Xian_city_wall_inner_gate_looking_outside.jpg",
-   "author": "Richardelainechambers at English Wikipedia",
-   "license": "CC BY-SA 3.0"
-  }
- },
- {
-  "dest": "china",
-  "slot": "day7",
-  "file": "Hong_Kong_Harbour_Night_2019-06-11.jpg",
-  "caption": "Hong Kong harbour from the Peak",
-  "q": "Hong Kong harbour from the Peak China (ending in Hong Kong)",
-  "found": {
-   "title": "File:Hong Kong Harbour Night 2019-06-11.jpg",
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hong_Kong_Harbour_Night_2019-06-11.jpg/960px-Hong_Kong_Harbour_Night_2019-06-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "mime": "image/jpeg",
-   "width": 10439,
-   "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
-   "author": "Benh LIEU SONG (Flickr)",
    "license": "CC BY-SA 4.0"
   }
  }

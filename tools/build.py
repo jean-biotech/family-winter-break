@@ -6,7 +6,7 @@ NOTES = ROOT / "notes"
 BATCHES = ["europe", "asia", "hawaii", "na", "new-us", "new-europe", "new-other", "new-malaysia", "new-china"]
 # trips the family dropped (kept in the notes, left off the page)
 EXCLUDE = {"croatia", "puerto-rico", "japan", "singapore", "singapore-bangkok", "usvi", "rome",
-           "arizona-parks", "california-coast", "california-desert"}
+           "arizona-parks", "california-coast", "california-desert", "china"}
 
 
 def commons(photo):

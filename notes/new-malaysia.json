@@ -1,0 +1,232 @@
+[
+  {
+    "id": "malaysia",
+    "name": "Kuala Lumpur + Penang, Malaysia",
+    "region": "Asia",
+    "passport": true,
+    "warm": true,
+    "tagline": "Petronas skyline, Penang heritage and street food",
+    "whyParents": "Singapore-style food and skyline for less, plus George Town's colonial UNESCO streets.",
+    "fly": "~22h, 1 stop",
+    "costPP": {
+      "flights": 1550,
+      "flightsBasis": "Estimate. No nonstop from NYC/PHL. Cathay JFK-HKG-KUL out, PEN-HKG-JFK back (open jaw). Cathay route pages show NYC-Malaysia economy from ~$1,034 and NYC-KUL from ~$897 to $1,040 (Nov 2026 and early 2027 windows), no December fares listed. Cheapflights PHL-KUL December average ~$1,818. Mid-Dec peak typical ~$1,450 + ~$80 for a non-Light fare + ~$20 ETS train KL-Butterworth.",
+      "flightsVerified": false,
+      "lodging": 210,
+      "lodgingBasis": "KL Bukit Bintang 2BR serviced apartment ~$130/night all-in x3 + George Town heritage 2BR house ~$150/night all-in x3 = ~$840 / 4. AirROI KL Dec peak ADR ~$78 (all sizes); Kayak PARKROYAL Serviced Suites Dec avg ~$90; AirDNA George Town ADR ~$69 (trailing 12 months).",
+      "lodgingVerified": false,
+      "foodFun": 0,
+      "foodFunBasis": "Removed by family"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "Cathay Pacific",
+      "routing": "JFK-HKG-KUL Dec 12, land KUL Dec 13. Return PEN-HKG-JFK Dec 19 (CX634 PEN 13:00, seen operating 2026), home Dec 19.",
+      "aaMetal": false,
+      "hours": "~21 to 23h each way incl. Hong Kong connection",
+      "notes": "Cathay is oneworld (AA miles). Alts: Turkish via Istanbul, Qatar via Doha (check Middle East disruptions), Singapore Airlines via SIN. Capital One partners: Cathay Asia Miles, Turkish, KrisFlyer. No PHL nonstop to Asia."
+    },
+    "weather": {
+      "highF": 90,
+      "lowF": 75,
+      "daylight": "12h",
+      "precip": "KL: afternoon thunderstorms most days (~250 mm, 18-20 rain days). Penang drier (~140 mm, ~14 days). Monsoon hits east coast, not this route."
+    },
+    "stay": "KL: Bukit Bintang, walk to Jalan Alor and Pavilion. Penang: George Town heritage core, walk to street art and hawkers.",
+    "getAround": "KL: Grab, LRT and monorail. ETS Platinum train KL Sentral to Butterworth ~4h, then ferry to George Town. Grab in Penang. No car.",
+    "entry": "Visa-free up to 90 days; passport valid 6 months. Free MDAC online within 3 days before arrival; avoid fee sites.",
+    "events": [
+      "MetMalaysia: Northeast Monsoon runs Oct 27 2026 to Mar 2027, heaviest rain and rough seas on east coast and South China Sea side",
+      "Christmas decorations at Pavilion KL and KLCC malls (annual; 2026 dates not announced)",
+      "12.12 shopping sales on Dec 12"
+    ],
+    "pros": [
+      "Superb cheap street food, Penang especially",
+      "English widely spoken, easy Grab rides",
+      "Very affordable lodging and meals"
+    ],
+    "cons": [
+      "Hot, humid, ~90F with afternoon storms in KL",
+      "~22h each way, no nonstop",
+      "Two of seven days lost to flying"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Land KL, Petronas lights",
+        "plan": "Arrive KLIA Dec 13, Grab to Bukit Bintang. Evening KLCC Park fountain show under lit Petronas Towers.",
+        "eat": "Satay on Jalan Alor",
+        "photo": {
+          "file": "Petronas_Panorama_II.jpg",
+          "author": "Someformofhuman",
+          "license": "CC BY-SA 3.0 / GFDL",
+          "caption": "Petronas Towers at night"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Old KL + Chinatown",
+        "plan": "Merdeka Square, Sultan Abdul Samad Building, Central Market crafts, Petaling Street. Petronas Skybridge late afternoon.",
+        "eat": "Hokkien mee at Kim Lian Kee, Petaling Street",
+        "photo": {
+          "file": "Victorian_Fountain_and_Sultan_Abdul_Samad_Building_(18356307513).jpg",
+          "author": "Jorge Láscar",
+          "license": "CC BY 2.0",
+          "caption": "Merdeka Square, Sultan Abdul Samad Building"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Batu Caves + Thean Hou",
+        "plan": "Early Batu Caves (272 steps) before heat and storms, afternoon Thean Hou Temple, evening Pavilion Christmas decor.",
+        "eat": "Banana leaf rice in Brickfields",
+        "photo": {
+          "file": "Gombak_Selangor_Batu-Caves-01.jpg",
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "caption": "Murugan statue, Batu Caves"
+        }
+      },
+      {
+        "day": 4,
+        "title": "Train to Penang",
+        "plan": "Morning ETS Platinum KL Sentral to Butterworth (~4h), ferry to George Town, sunset Esplanade and City Hall walk.",
+        "eat": "Char kway teow on Lebuh Kimberley",
+        "photo": {
+          "file": "Penang_City_Hall.jpg",
+          "author": "Cmglee",
+          "license": "CC BY-SA 3.0",
+          "caption": "Penang City Hall, Esplanade"
+        }
+      },
+      {
+        "day": 5,
+        "title": "Penang Hill + Kek Lok Si",
+        "plan": "Funicular up Penang Hill for island views, then Kek Lok Si pagoda and Kuan Yin statue.",
+        "eat": "Air Itam asam laksa",
+        "photo": {
+          "file": "Ke_Lok_Si_Illuminations_01.JPG",
+          "author": "Flying Pharmacist",
+          "license": "CC BY-SA 3.0",
+          "caption": "Kek Lok Si lit at night"
+        }
+      },
+      {
+        "day": 6,
+        "title": "Street art + clan houses",
+        "plan": "Armenian Street murals, Khoo Kongsi clan temple, Chew Jetty stilt houses, Little India. Evening hawker crawl.",
+        "eat": "Nasi kandar at Line Clear",
+        "photo": {
+          "file": "Penang_Malaysia_Wisma-PCTH-01.jpg",
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "caption": "George Town heritage building"
+        }
+      },
+      {
+        "day": 7,
+        "title": "Fly home",
+        "plan": "Roti canai breakfast, Grab to Penang airport (~30 min). Cathay via Hong Kong, land JFK Dec 19 evening.",
+        "eat": "Roti canai at a kopitiam",
+        "photo": {
+          "file": "Penang_airport_view.jpg",
+          "author": "see Commons file page",
+          "license": "see Commons file page",
+          "caption": "Penang International Airport"
+        }
+      }
+    ],
+    "heroPhotos": [
+      {
+        "file": "Petronas_Towers_(18354601833).jpg",
+        "author": "Jorge Láscar",
+        "license": "CC BY 2.0",
+        "caption": "Petronas Twin Towers, Kuala Lumpur"
+      },
+      {
+        "file": "Thean_Hou_Temple_(18790758808).jpg",
+        "author": "Jorge Láscar",
+        "license": "CC BY 2.0",
+        "caption": "Thean Hou Temple, Kuala Lumpur"
+      },
+      {
+        "file": "The_Railway_from_above_in_the_mist,_Bukit_Bendera,_Penang.jpg",
+        "author": "Pro QueeNia",
+        "license": "CC BY-SA 4.0",
+        "caption": "Penang Hill funicular in mist"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Cathay NYC-Malaysia fares",
+        "url": "https://flights.cathaypacific.com/destinations/en_US/flights-from-new-york-to-malaysia"
+      },
+      {
+        "label": "Cathay NYC-Kuala Lumpur fares",
+        "url": "https://flights.cathaypacific.com/destinations/en_US/flights-from-new-york-to-kuala-lumpur"
+      },
+      {
+        "label": "Cheapflights PHL-KUL (Dec average)",
+        "url": "https://www.cheapflights.com/flights-to-kuala-lumpur-kul/philadelphia-pa/"
+      },
+      {
+        "label": "JAL NYC-KUL fares",
+        "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-kuala-lumpur"
+      },
+      {
+        "label": "Turkish NYC-KUL fares",
+        "url": "https://www.turkishairlines.com/en-us/flights-from-new-york-to-kuala-lumpur"
+      },
+      {
+        "label": "FlightStats CX634 Penang-Hong Kong",
+        "url": "https://www.flightstats.com/v2/flight-tracker/CX/634"
+      },
+      {
+        "label": "ETS KL Sentral-Butterworth timetable",
+        "url": "https://www.train36.com/ets-kl-sentral-to-butterworth.html"
+      },
+      {
+        "label": "State Dept Malaysia page",
+        "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Malaysia.html"
+      },
+      {
+        "label": "MDAC (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Malaysia_Digital_Arrival_Card"
+      },
+      {
+        "label": "NST: Northeast Monsoon from Oct 27 2026",
+        "url": "https://www.nst.com.my/amp/news/nation/2026/10/1562066/northeast-monsoon-begin-oct-27-bringing-3-5-episodes-heavy-rain"
+      },
+      {
+        "label": "KL December weather",
+        "url": "https://holiday-weather.com/kuala_lumpur/averages/december"
+      },
+      {
+        "label": "Penang December weather",
+        "url": "https://holiday-weather.com/penang/averages/december"
+      },
+      {
+        "label": "AirROI Kuala Lumpur STR data",
+        "url": "https://airroi.com/airbnb-data/malaysia/wilayah-persekutuan-kuala-lumpur/kuala-lumpur"
+      },
+      {
+        "label": "AirDNA George Town",
+        "url": "https://www.airdna.co/vacation-rental-data/app/my/pulau-pinang/george-town/overview"
+      },
+      {
+        "label": "Kayak PARKROYAL Serviced Suites KL",
+        "url": "https://www.kayak.com/Kuala-Lumpur-Hotels-PARKROYAL-Serviced-Suites-Kuala-Lumpur.362992.ksp"
+      }
+    ],
+    "unverified": [
+      "No dated Dec 12/19 2026 fare seen; $1,550 is a peak-season estimate",
+      "Cathay winter 2026/27 PEN-HKG and HKG-JFK timings not confirmed; fallback is MH/AirAsia PEN-KUL (~1h) to connect at KUL",
+      "ETS Platinum KL-Butterworth fare (~$20) not confirmed; check ktmb.com.my",
+      "Lodging: no 2BR December listing prices seen; based on market averages",
+      "MDAC official portal is via imi.gov.my; exact URL not confirmed (several fake fee sites exist)",
+      "2026 Christmas decor dates at Pavilion/KLCC not announced",
+      "Photo licenses for Penang_City_Hall.jpg, Gombak_Selangor_Batu-Caves-01.jpg, Penang_Malaysia_Wisma-PCTH-01.jpg and Petronas_Panorama_II.jpg are from mirrors, version not confirmed; Penang_airport_view.jpg author and license not found",
+      "Petronas Skybridge and Penang Hill funicular hours and prices not checked"
+    ]
+  }
+]

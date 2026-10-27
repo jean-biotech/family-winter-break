@@ -1,0 +1,761 @@
+{
+ "alaska": {
+  "name": "Anchorage + Fairbanks, Alaska",
+  "tagline": "Northern lights, hot springs, deep snow",
+  "whyParents": "Bucket-list aurora and a steaming outdoor hot spring, no passport and no jet lag.",
+  "stay": "Downtown Anchorage, then Fairbanks near Chena River: walkable, tour pickups",
+  "getAround": "Rent AWD midsize SUV (4 adults + bags), studded tires standard. Fly ANC-FAI rather than 6h winter drive.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "Aurora Winter Train runs weekends only: northbound Sat 8:30am Anchorage, southbound Sun 8:30am Fairbanks (season Sept 2026 to May 9 2027). Sat Dec 12 is arrival day, so it does not fit this week.",
+   "Midweek Aurora Winter Train trips only Feb to March, not December",
+   "Aurora season: long dark nights in mid-December, sightings weather dependent"
+  ],
+  "pros": [
+   "Best aurora odds in the US",
+   "Chena outdoor hot springs in snow",
+   "No passport, AA miles via Alaska Airlines"
+  ],
+  "cons": [
+   "Only 4 to 5 hours of daylight",
+   "Fairbanks often -10F to -30F",
+   "No nonstop, long travel days"
+  ],
+  "unverified": [
+   "All flight fares (no Dec 2026 fares found); AA PHL-ANC shows only Sept 2026 fares",
+   "Lodging prices are estimates",
+   "Weather and daylight figures are typical normals, not checked",
+   "Chena tour 2026 winter price ($215 to $235 seen on resellers)"
+  ],
+  "precip": "Dry cold, light snow; Anchorage milder (~24F/13F)",
+  "flightText": "American: Alaska/AA PHL-SEA-ANC, ANC-FAI hop, FAI-SEA-PHL. Alaska Airlines (oneworld, earns AA miles) likely best via SEA. Short ANC-FAI hop ~1h on Alaska Airlines.",
+  "itinerary": [
+   {
+    "title": "Arrive Anchorage",
+    "plan": "Land ANC, pick up SUV, check in downtown, early night.",
+    "eat": "Reindeer sausage at Snow City Cafe"
+   },
+   {
+    "title": "Turnagain Arm + Girdwood",
+    "plan": "Scenic Seward Highway drive, Alyeska Resort tram, Wildlife Conservation Center.",
+    "eat": "Seven Glaciers at Alyeska (top of tram)"
+   },
+   {
+    "title": "Native culture + Chugach views",
+    "plan": "Alaska Native Heritage Center, then Glen Alps overlook at golden hour.",
+    "eat": "Halibut at Simon and Seafort's"
+   },
+   {
+    "title": "Fly to Fairbanks",
+    "plan": "Morning hop ANC-FAI, Chena River walk, first aurora check after dark.",
+    "eat": "Thai at Lemongrass, Fairbanks"
+   },
+   {
+    "title": "Chena Hot Springs + aurora",
+    "plan": "Afternoon soak, Aurora Ice Museum, stay late for northern lights.",
+    "eat": "Chena Hot Springs Resort restaurant"
+   },
+   {
+    "title": "Museum + sled dogs",
+    "plan": "UA Museum of the North, afternoon dog sled ride, aurora night two.",
+    "eat": "Pike's Landing on the river"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Return SUV, FAI to PHL via Seattle.",
+    "eat": "Airport: Alaska Lounge snacks or Hot Licks ice cream earlier"
+   }
+  ]
+ },
+ "quebec-montreal": {
+  "name": "Quebec City + Montreal, Canada",
+  "tagline": "French Christmas markets, snowy old towns",
+  "whyParents": "Feels like a snowy French village at Christmas, with a short flight and scenic train.",
+  "stay": "Old Quebec inside walls, then Old Montreal: walkable, markets, charm",
+  "getAround": "No car needed. VIA Rail Montreal to Quebec ~3h 17m average; walk, taxis, Montreal Metro.",
+  "entry": "Valid US passport required. No eTA for US citizens (per secondary sources; check canada.ca).",
+  "events": [
+   "German Christmas Market, Quebec City: Nov 19 to Dec 23 2026, Thu to Sun (plus Dec 21 to 23), free, 5 sites (Bonjour Québec marks dates to be confirmed)",
+   "Grand Marché de Noël, Montreal Place des Festivals: ~Nov 13 2026 to Jan 3 2027, daily 11am to 10pm from Dec 9 (start date varies by source)",
+   "Village de Noël, Atwater Market Montreal: Nov 26 to Dec 24 2026, free"
+  ],
+  "pros": [
+   "Both Christmas markets open that week",
+   "Europe feel, 2 hour flight",
+   "Scenic train, no car needed"
+  ],
+  "cons": [
+   "Cold, icy, short days",
+   "Passport required",
+   "Quebec market closed Mon to Wed"
+  ],
+  "unverified": [
+   "AA PHL-YUL nonstop operating Dec 2026 and fare",
+   "No eTA for US citizens confirmed only by secondary sources",
+   "Montreal Grand Marché start date (Nov 13 vs Nov 20) and Quebec Dec 23 opening",
+   "Lodging, weather, daylight"
+  ],
+  "precip": "Frequent snow; icy sidewalks",
+  "flightText": "American: American PHL-YUL nonstop. Air Canada (Aeroplan, Capital One transfer partner) also flies PHL/EWR-YUL.",
+  "itinerary": [
+   {
+    "title": "Arrive + train north",
+    "plan": "Land YUL, VIA Rail to Quebec City, check in Old Quebec.",
+    "eat": "Tourtière at Aux Anciens Canadiens"
+   },
+   {
+    "title": "German Christmas Market",
+    "plan": "Sunday at the market, Château Frontenac, Dufferin Terrace toboggan slide.",
+    "eat": "Mulled wine and sausages at the market"
+   },
+   {
+    "title": "Petit Champlain + walls",
+    "plan": "Funicular to Petit Champlain, Place Royale, walk the city walls.",
+    "eat": "Le Lapin Sauté"
+   },
+   {
+    "title": "Montmorency Falls",
+    "plan": "Frozen falls cable car, Île d'Orléans cider and maple stops.",
+    "eat": "Sugar pie at Chocolaterie de l'Île d'Orléans"
+   },
+   {
+    "title": "Train to Montreal",
+    "plan": "Morning VIA Rail, Old Montreal, Notre-Dame Basilica.",
+    "eat": "Smoked meat at Schwartz's"
+   },
+   {
+    "title": "Montreal markets",
+    "plan": "Atwater Village de Noël, Mount Royal lookout, Place des Festivals market at night.",
+    "eat": "Bagels at St-Viateur"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Jean-Talon Market breakfast, YUL to PHL.",
+    "eat": "Poutine at La Banquise"
+   }
+  ]
+ },
+ "banff": {
+  "name": "Banff + Lake Louise, Alberta, Canada",
+  "tagline": "Rocky Mountain snow globe at Christmas",
+  "whyParents": "Postcard mountains, frozen lakes and a cozy Christmas market, all an easy drive from Calgary.",
+  "stay": "Downtown Banff Avenue: walk to market, restaurants, hot springs bus",
+  "getAround": "Rent midsize SUV with winter tires (request it; 4 adults + bags). YYC to Banff ~1h 30m. Park pass required.",
+  "entry": "Valid US passport required. No eTA for US citizens (per secondary sources; check canada.ca).",
+  "events": [
+   "Banff Christmas Market, Banff Train Station: Nov 19 to Dec 13 2026 over 4 weekends; final weekend Dec 11 to 13 overlaps arrival. Tickets via Showpass",
+   "Tree lighting and light show at the market every Fri, Sat, Sun at dusk"
+  ],
+  "pros": [
+   "Catch the market's final weekend",
+   "Stunning snowy mountain scenery",
+   "Hot springs, skating, gondola"
+  ],
+  "cons": [
+   "Passport required",
+   "Winter driving on mountain roads",
+   "Connection needed from PHL"
+  ],
+  "unverified": [
+   "Market hours on Dec 12-13 (sources differ: 10am to 8pm vs Sun 10am to 6pm)",
+   "Dec 2026 fares, lodging, park pass price",
+   "Ski area operating status mid-December",
+   "No eTA for US citizens confirmed only by secondary sources",
+   "Weather and daylight are typical values"
+  ],
+  "precip": "Regular light snow; cold snaps below 0F possible",
+  "flightText": "American: WestJet JFK-YYC nonstop. Air Canada via YYZ/YUL (Aeroplan transfer partner) is the main alternative.",
+  "itinerary": [
+   {
+    "title": "Arrive + drive to Banff",
+    "plan": "Land YYC, SUV with winter tires, drive to Banff, check in.",
+    "eat": "Bison chili at The Bison"
+   },
+   {
+    "title": "Christmas Market finale",
+    "plan": "Banff Gondola morning, market's last day at Banff Train Station.",
+    "eat": "Market raclette and glühwein"
+   },
+   {
+    "title": "Lake Louise",
+    "plan": "Skate the frozen lake, sleigh ride, Fairmont Chateau tea.",
+    "eat": "Afternoon tea at Fairmont Chateau Lake Louise"
+   },
+   {
+    "title": "Johnston Canyon icewalk",
+    "plan": "Guided icewalk to frozen falls on catwalks, Bow Valley Parkway.",
+    "eat": "Park Distillery, Banff"
+   },
+   {
+    "title": "Hot springs day",
+    "plan": "Cave and Basin site, Bow Falls, evening Banff Upper Hot Springs soak.",
+    "eat": "Fondue at Waldhaus"
+   },
+   {
+    "title": "Canmore or ski day",
+    "plan": "Ski Sunshine or Norquay, or Canmore shops and Grassi Lakes walk.",
+    "eat": "Crazyweed, Canmore"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Drive to YYC, fly via DFW.",
+    "eat": "Breakfast at Wild Flour Bakery"
+   }
+  ]
+ },
+ "vancouver-whistler": {
+  "name": "Vancouver + Whistler, BC, Canada",
+  "tagline": "City Christmas market meets alpine village",
+  "whyParents": "German-style market by the harbor, then a gondola-topped ski village on a gorgeous drive.",
+  "stay": "Vancouver Coal Harbour, then Whistler Village: walk to market, lifts",
+  "getAround": "Sea-to-Sky Highway ~2h; rent midsize SUV with winter tires, or take a shuttle bus. Transit fine in Vancouver.",
+  "entry": "Valid US passport required. No eTA for US citizens (per secondary sources; check canada.ca).",
+  "events": [
+   "Vancouver Christmas Market, Jack Poole Plaza: Nov 16 to Dec 24 2026 (per organizer announcement reported by Daily Hive; other listings say Nov 12)",
+   "Whistler Blackcomb targeting Nov 20 2026 opening for 2026-27 season (weather dependent)"
+  ],
+  "pros": [
+   "Big Christmas market plus ski village",
+   "Spectacular Sea-to-Sky drive",
+   "Food scene, Granville Island"
+  ],
+  "cons": [
+   "Vancouver rain likely",
+   "Passport required, no nonstop",
+   "Whistler lodging pricey in season"
+  ],
+  "unverified": [
+   "Market opening day (Nov 16 vs Nov 12) though Dec 12-18 is covered either way",
+   "Dec 2026 fares, lodging, shuttle bus options",
+   "No eTA for US citizens confirmed only by secondary sources",
+   "Weather and daylight are typical values"
+  ],
+  "precip": "Vancouver rainy most days; Whistler village ~30F with snow",
+  "flightText": "American: United EWR-YVR nonstop. Air Canada via YYZ/YUL (Aeroplan transfer partner) is the main alternative.",
+  "itinerary": [
+   {
+    "title": "Arrive Vancouver",
+    "plan": "Land YVR, Canada Line downtown, evening at the Christmas Market.",
+    "eat": "Market bratwurst and glühwein"
+   },
+   {
+    "title": "Stanley Park + Granville",
+    "plan": "Seawall walk or bike, Granville Island Public Market, Gastown.",
+    "eat": "Chowder at Go Fish"
+   },
+   {
+    "title": "North Shore",
+    "plan": "Capilano Suspension Bridge Canyon Lights, Grouse Mountain views.",
+    "eat": "Dim sum in Richmond or Chinatown"
+   },
+   {
+    "title": "Sea-to-Sky to Whistler",
+    "plan": "Drive Highway 99, stop Shannon Falls and Sea to Sky Gondola.",
+    "eat": "Araxi, Whistler Village"
+   },
+   {
+    "title": "Peak 2 Peak",
+    "plan": "Ride Peak 2 Peak gondola, ski or snowshoe, village lights at night.",
+    "eat": "Fondue at Bearfoot Bistro"
+   },
+   {
+    "title": "Whistler at leisure",
+    "plan": "Scandinave Spa, Audain Art Museum, village shops.",
+    "eat": "Crepes at Crepe Montagne"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Early drive to YVR (2h 30m), fly PHL.",
+    "eat": "Breakfast at Purebread, Whistler"
+   }
+  ]
+ },
+ "california-coast": {
+  "name": "San Francisco, Big Sur + Yosemite, California",
+  "tagline": "City, wild coast, snowy Yosemite Valley",
+  "whyParents": "Three Californias in one week: cable cars, Big Sur cliffs and Yosemite's granite walls dusted with snow.",
+  "stay": "Union Square (SF), Monterey near Cannery Row, Yosemite West cabin inside park",
+  "getAround": "SF on foot, cable car, ferry. Pick up full-size AWD SUV Day 3 and carry chains. Drives: SF-Monterey 2h, Monterey-Yosemite 4h, Yosemite-SFO 4h.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "SF Ballet Nutcracker, War Memorial Opera House, Dec 4 to 27, 2026",
+   "Bracebridge Dinner at The Ahwahnee, select December 2026 nights (listings conflict on exact dates); formal, sells out early",
+   "Highway 1 through Big Sur fully open since Jan 14, 2026 (Regent's Slide); storm closures still possible",
+   "Yosemite: Tioga Road and Glacier Point Road closed for winter; chains must be carried Nov to March, even with AWD"
+  ],
+  "pros": [
+   "Nonstop on American from Philly",
+   "Big Sur coast fully reopened in 2026",
+   "Quiet, snowy Yosemite Valley with few crowds"
+  ],
+  "cons": [
+   "Two 4 hour drives, chains may be required",
+   "Glacier Point and Tioga Road closed in winter",
+   "Coast can be rainy and gray"
+  ],
+  "unverified": [
+   "AA $419 Dec fare not tied to Dec 12 to 18; Main Cabin uplift estimated",
+   "Monterey hotel and Yosemite West all-in rates are estimates from Dec snapshots",
+   "Exact 2026 Bracebridge Dinner nights",
+   "Union Square ice rink 2026 season not announced",
+   "Chain control and storm closures change daily"
+  ],
+  "precip": "SF and Monterey: rain ~10 days/month. Yosemite Valley ~48F/26F, snow possible",
+  "flightText": "American: PHL-SFO nonstop (AA, several daily); home SFO-PHL nonstop. Pick an afternoon or red-eye return: Yosemite to SFO is ~4h. Alt: United EWR-SFO nonstop.",
+  "itinerary": [
+   {
+    "title": "Arrive SF + Ferry Building",
+    "plan": "Land SFO, BART or taxi downtown, Embarcadero stroll, Ferry Building market at dusk.",
+    "eat": "Hog Island oysters at the Ferry Building"
+   },
+   {
+    "title": "Alcatraz + cable cars",
+    "plan": "Morning Alcatraz ferry (book ahead), Powell-Mason cable car, Golden Gate Bridge walk at sunset.",
+    "eat": "Clam chowder in sourdough at Boudin"
+   },
+   {
+    "title": "Coast to Monterey",
+    "plan": "Pick up SUV, Highway 1 via Half Moon Bay, afternoon at Monterey Bay Aquarium.",
+    "eat": "Fish tacos on Cannery Row"
+   },
+   {
+    "title": "Big Sur day",
+    "plan": "Bixby Bridge, Pfeiffer Big Sur, McWay Falls overlook, back to Monterey by dark.",
+    "eat": "Lunch at Nepenthe above the sea"
+   },
+   {
+    "title": "Drive to Yosemite",
+    "plan": "Four hour drive inland, arrive Tunnel View for late light over the valley.",
+    "eat": "Pizza at Degnan's Kitchen, Yosemite Village"
+   },
+   {
+    "title": "Yosemite Valley",
+    "plan": "Lower Yosemite Fall loop, El Capitan meadow, ranger walk, cocoa at The Ahwahnee.",
+    "eat": "Dinner at The Ahwahnee Dining Room"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Early look at Yosemite Falls, drive 4h to SFO, afternoon flight to PHL.",
+    "eat": "In-N-Out on the way to SFO"
+   }
+  ]
+ },
+ "california-desert": {
+  "name": "Palm Springs, Joshua Tree + Death Valley, California",
+  "tagline": "Sunny desert, mountain tram, salt flats",
+  "whyParents": "Dry 70F days, mid-century Palm Springs, Joshua trees and Death Valley's colors at their most comfortable season.",
+  "stay": "Palm Springs Movie Colony home with pool, then Furnace Creek inside Death Valley",
+  "getAround": "Full-size SUV, pick up PSP, drop LAS (one-way fee ~$150 to $300). Drives: Joshua Tree 1h, Palm Springs to Furnace Creek ~4.5h, Furnace Creek to LAS 2h.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "Palm Springs Aerial Tramway on winter hours Oct 5, 2026 to May 27, 2027 (10am weekdays, 8am weekends)",
+   "Death Valley: Titus Canyon Road closed Oct 2, 2026 to about May 2027; Westside Road closed after Oct 2026 storms",
+   "Death Valley: South Badwater Road reopened Jan 31, 2026, with rough patches; Scotty's Castle still closed",
+   "Joshua Tree: no closures found for December 2026"
+  ],
+  "pros": [
+   "Warmest US mainland week, almost no rain",
+   "Nonstop both ways, no backtracking",
+   "Three very different deserts in one trip"
+  ],
+  "cons": [
+   "Long 4.5 hour drive to Death Valley",
+   "Fly from JFK, not Philly",
+   "Some Death Valley backroads closed by floods"
+  ],
+  "unverified": [
+   "Alaska and JetBlue fares not seen for exact Dec 12 and Dec 18 dates; Main Cabin uplift estimated",
+   "Palm Springs 2BR, Death Valley and Las Vegas December rates are estimates",
+   "One-way SUV drop fee PSP to LAS not quoted",
+   "Artist Drive status for December 2026"
+  ],
+  "precip": "Very dry, ~1 rain day/month. Death Valley ~65F/40F, Joshua Tree nights near freezing",
+  "flightText": "Alaska (oneworld, earns AA miles) out; JetBlue home: JFK-PSP nonstop (Alaska, ~daily in winter); home LAS-JFK nonstop (JetBlue or Delta). Delta also returns JFK-PSP in December. Philly option: PHL-PSP 1 stop on AA, home LAS-PHL AA nonstop.",
+  "itinerary": [
+   {
+    "title": "Arrive Palm Springs",
+    "plan": "Land PSP, pick up SUV, check in, sunset stroll on Palm Canyon Drive.",
+    "eat": "Dinner at Workshop Kitchen + Bar"
+   },
+   {
+    "title": "Tram + mid-century tour",
+    "plan": "Aerial Tramway to 8,500 ft snow, afternoon modernist homes drive, pool time.",
+    "eat": "Date shake at Shields, then Tropicale"
+   },
+   {
+    "title": "Joshua Tree day",
+    "plan": "Hidden Valley loop, Skull Rock, Keys View, Cholla Cactus Garden at golden hour.",
+    "eat": "Pie at Crossroads Cafe, Joshua Tree"
+   },
+   {
+    "title": "Drive to Death Valley",
+    "plan": "4.5 hour drive via Baker, Dante's View, Zabriskie Point at sunset.",
+    "eat": "Dinner at 1849 Buffet, The Ranch"
+   },
+   {
+    "title": "Badwater + Golden Canyon",
+    "plan": "Badwater salt flats, Devil's Golf Course, Golden Canyon hike, stargazing after dark.",
+    "eat": "Burgers at Last Kind Words Saloon"
+   },
+   {
+    "title": "Dunes, then Las Vegas",
+    "plan": "Sunrise at Mesquite Flat Dunes, Mosaic Canyon, drive 2h to Las Vegas, Strip lights.",
+    "eat": "Bellagio Patisserie, then Eiffel Tower Restaurant"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Return SUV at LAS, nonstop to JFK.",
+    "eat": "Breakfast at Eggslut, Cosmopolitan"
+   }
+  ]
+ },
+ "arizona-parks": {
+  "name": "Sedona + Grand Canyon, Arizona",
+  "tagline": "Red rocks, then the canyon in snow",
+  "whyParents": "Sedona's glowing red rocks and the Grand Canyon's South Rim, uncrowded in December, on an American nonstop.",
+  "stay": "West Sedona home with red-rock views, then Maswik Lodge steps from the rim",
+  "getAround": "Full-size AWD SUV from PHX. Drives: PHX-Sedona 2h, Sedona-Grand Canyon 2h15m, Grand Canyon-Phoenix 3.5 to 4h. Snow possible near Flagstaff.",
+  "entry": "US domestic: REAL ID or passport only.",
+  "events": [
+   "Tlaquepaque Festival of Lights, Sedona: traditionally the 2nd Saturday of December (would be Sat Dec 12, 2026), 6,000 luminarias; 2026 date not yet posted",
+   "Grand Canyon Railway Polar Express, Williams: nightly Nov 6, 2026 to Jan 3, 2027, 5:30 and 7:30pm",
+   "Grand Canyon North Rim closed for winter (its historic lodge burned in the 2025 Dragon Bravo Fire); South Rim open all year",
+   "Hermit Road open to private cars Dec to Feb unless snow closes it"
+  ],
+  "pros": [
+   "American nonstop from Philly to its PHX hub",
+   "Two icons, short drives, small crowds",
+   "Snow on the canyon, sun in Sedona"
+  ],
+  "cons": [
+   "Freezing canyon nights, icy rim trails",
+   "Snow can close roads for a day or two",
+   "North Rim closed, some Sedona trails fire-damaged"
+  ],
+  "unverified": [
+   "AA $327 Dec fare not tied to Dec 12 to 18; Main Cabin uplift estimated",
+   "Sedona, Maswik and Phoenix December all-in rates are estimates",
+   "2026 Festival of Lights date",
+   "Some Pocket Fire area trails (e.g. West Fork) may still be closed"
+  ],
+  "precip": "Mostly sunny. Grand Canyon South Rim ~43F/18F with snow possible; Phoenix ~67F",
+  "flightText": "American: PHL-PHX nonstop (AA, several daily); home PHX-PHL nonstop. Flagstaff (FLG) is closer but needs a connection via PHX or DFW and costs more.",
+  "itinerary": [
+   {
+    "title": "Arrive + Tlaquepaque",
+    "plan": "Land PHX, drive 2h to Sedona, Tlaquepaque village (Festival of Lights if Dec 12).",
+    "eat": "Dinner at El Rincon, Tlaquepaque"
+   },
+   {
+    "title": "Cathedral Rock + chapel",
+    "plan": "Red Rock Crossing walk under Cathedral Rock, Chapel of the Holy Cross, uptown shops.",
+    "eat": "Southwest dinner at Elote Cafe"
+   },
+   {
+    "title": "Jeep tour + sunset",
+    "plan": "Morning Pink Jeep tour, easy Bell Rock loop, sunset at Airport Mesa.",
+    "eat": "Mariposa Latin Grill at sunset"
+   },
+   {
+    "title": "To the Grand Canyon",
+    "plan": "Oak Creek Canyon drive via Flagstaff, check in Maswik, sunset at Mather Point.",
+    "eat": "Bison chili at Arizona Room"
+   },
+   {
+    "title": "Rim Trail + Hermit Road",
+    "plan": "Walk the Rim Trail, drive Hermit Road viewpoints, Hopi Point sunset.",
+    "eat": "Dinner at El Tovar Dining Room"
+   },
+   {
+    "title": "Desert View, then Phoenix",
+    "plan": "Desert View Drive to the Watchtower, then drive about 4h to Phoenix.",
+    "eat": "Pizzeria Bianco, downtown Phoenix"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Morning at Desert Botanical Garden, return SUV, afternoon nonstop to PHL.",
+    "eat": "Breakfast at Matt's Big Breakfast"
+   }
+  ]
+ },
+ "london": {
+  "name": "London, England",
+  "tagline": "Christmas lights, Winter Wonderland, Bath day trip",
+  "whyParents": "Classic London at Christmas, an easy AA nonstop from Philly, and Bath's market by train.",
+  "stay": "South Bank/Westminster: walk to sights and lights",
+  "getAround": "No car. Elizabeth line from Heathrow, Tube and buses with contactless card. GWR train Paddington to Bath ~1h 30m each way.",
+  "entry": "UK ETA required: GBP 20 (~$27) each via UK ETA app or GOV.UK, usually decided within 3 working days. Not Schengen; EES/ETIAS do not apply.",
+  "events": [
+   "Hyde Park Winter Wonderland: Nov 19 2026 to Jan 3 2027 (closed Dec 25), timed entry free to GBP 8.25",
+   "Christmas at Kew light trail: select dates Nov 13 2026 to Jan 3 2027, from 4:20pm, adults from GBP 29.50",
+   "Regent Street lights on since Nov 5 2026; Oxford Street switch-on date not announced",
+   "Bath Christmas Market: Nov 26 to Dec 13 2026, so Sun Dec 13 is its final day"
+  ],
+  "pros": [
+   "AA nonstop from PHL, no language barrier",
+   "Lights, markets and theatre at peak",
+   "Easy rail day trips"
+  ],
+  "cons": [
+   "Dark by 4pm, often damp",
+   "Pricey hotels and meals",
+   "ETA application needed for each person"
+  ],
+  "unverified": [
+   "No dated mid-Dec 2026 PHL-LHR fare seen; $1,000 is an estimate from a Nov 2026 aa.com fare and Kayak December averages.",
+   "Lodging is an estimate: no Dec 2026 hotel or 2BR rate seen. GBP converted at ~1.32 (early Oct 2026 rate).",
+   "AA PHL-LHR December 2026 frequency not confirmed from a schedule filing; Nov 2026 fares are on sale.",
+   "ETA fee and process from secondary sources (official gov.uk page not reachable here); confirm on gov.uk/eta.",
+   "Covent Garden and Oxford Street 2026 switch-on dates not announced.",
+   "Weather figures are climate normals, not checked this session."
+  ],
+  "precip": "drizzle ~11 days/month, snow rare",
+  "flightText": "American: PHL-LHR nonstop (AA, daily; Nov/Dec 2026 fares on sale). BA also flies PHL-LHR nonstop; BA Avios is a Capital One transfer partner. Arrive Heathrow T3.",
+  "itinerary": [
+   {
+    "title": "Arrive + Regent Street lights",
+    "plan": "Land LHR, Elizabeth line in, nap, evening walk under Regent Street and Covent Garden lights.",
+    "eat": "Fish and chips at Poppies, Soho"
+   },
+   {
+    "title": "Bath day trip",
+    "plan": "Train to Bath for the market's final day, Roman Baths, Royal Crescent. Back for dinner.",
+    "eat": "Sally Lunn bun at Sally Lunn's"
+   },
+   {
+    "title": "Westminster + South Bank",
+    "plan": "Westminster Abbey, Big Ben, Churchill War Rooms, London Eye at dusk.",
+    "eat": "Pie and mash at The Albert pub"
+   },
+   {
+    "title": "Tower + Borough Market",
+    "plan": "Crown Jewels at the Tower, walk Tower Bridge, lunch at Borough Market.",
+    "eat": "Borough Market stalls: raclette, Bread Ahead doughnuts"
+   },
+   {
+    "title": "Museum + Winter Wonderland",
+    "plan": "British Museum morning, Oxford Street shops, evening Winter Wonderland in Hyde Park.",
+    "eat": "Bratwurst and mulled wine at Winter Wonderland"
+   },
+   {
+    "title": "Kensington + Kew lights",
+    "plan": "V&A, Harrods food hall, then Christmas at Kew light trail (book ahead).",
+    "eat": "Afternoon tea at Harrods Tea Rooms"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Last coffee, Elizabeth line to Heathrow T3 for midday AA flight.",
+    "eat": "Full English at The Breakfast Club"
+   }
+  ]
+ },
+ "vienna-prague": {
+  "name": "Vienna, Austria + Prague, Czechia",
+  "tagline": "Two great Christmas-market capitals, linked by train",
+  "whyParents": "Old-world Europe at its most festive: palaces, cafes and markets in two cities.",
+  "stay": "Vienna Innere Stadt, then Prague Old Town: walk to markets",
+  "getAround": "No car. CAT or S-Bahn from VIE airport, U-Bahn and trams. Direct train Vienna Hbf to Prague hl.n. ~4h, about EUR 20 to 30 booked ahead.",
+  "entry": "Passport valid 3+ months past exit. Schengen, no visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Vienna Christkindlmarkt, Rathausplatz: Nov 13 to Dec 26 2026, 10am to 10pm",
+   "Schonbrunn Palace Christmas market: Nov 6 2026 to Jan 6 2027",
+   "Prague Old Town Square market: late Nov 2026 (opening reported Nov 20 to 30) to Jan 6 2027",
+   "Prague Wenceslas Square market: Nov 28 2026 to Jan 6 2027 (Visit Czechia)"
+  ],
+  "pros": [
+   "Two top Christmas-market cities",
+   "Scenic 4h train, no car",
+   "Prague is good value"
+  ],
+  "cons": [
+   "Coldest option, near freezing",
+   "No nonstop home from Prague",
+   "Markets very crowded evenings"
+  ],
+  "unverified": [
+   "No dated mid-Dec 2026 open-jaw fare seen; $1,050 is an estimate from Kayak Dec averages and an early-Dec AA PHL-PRG fare.",
+   "Austrian EWR-VIE daily in Dec 2026 is from a May 2026 AeroRoutes filing; Austrian said it is trimming some New York frequencies this winter.",
+   "Delta JFK-PRG nonstop appears summer-only; no Dec 2026 nonstop from Prague found.",
+   "Prague Old Town Square opening date varies by source (Nov 20 to 30); all agree it is open mid-Dec.",
+   "Spittelberg market 2026 dates not published; usually open through Dec 23.",
+   "Lodging is an estimate from listing and monthly-average data, not Dec 2026 quotes.",
+   "Weather figures are climate normals, not checked this session."
+  ],
+  "precip": "gray, light rain or snow ~8 days/month",
+  "flightText": "Austrian (Star Alliance): EWR-VIE nonstop (Austrian, 1 daily in Dec 2026); PRG-EWR 1 stop via VIE or FRA. AA option: PHL-VIE out, PRG-PHL back, 1 stop each way (often via LHR on BA, Avios transfer partner). AA PHL-VIE nonstop starts May 2027, too late.",
+  "itinerary": [
+   {
+    "title": "Arrive Vienna + Rathausplatz",
+    "plan": "Land VIE, CAT train to city, evening at the Rathausplatz market and lit park.",
+    "eat": "Punsch and Kasekrainer at the market"
+   },
+   {
+    "title": "Schonbrunn Palace",
+    "plan": "Palace tour, wintry gardens, Christmas market in the forecourt; Gloriette view.",
+    "eat": "Apple strudel at Cafe Residenz, Schonbrunn"
+   },
+   {
+    "title": "Old Town + coffeehouses",
+    "plan": "St. Stephen's Cathedral, Hofburg, Cafe Central, evening at Spittelberg crafts market.",
+    "eat": "Wiener schnitzel at Figlmuller"
+   },
+   {
+    "title": "Train to Prague",
+    "plan": "Morning Railjet to Prague (~4h), check in, Old Town Square market and tree.",
+    "eat": "Trdelnik and svarak at the market"
+   },
+   {
+    "title": "Prague Castle",
+    "plan": "Castle complex, St. Vitus Cathedral, Golden Lane; walk down through Mala Strana.",
+    "eat": "Svickova at Lokal Hradcany"
+   },
+   {
+    "title": "Charles Bridge + Wenceslas",
+    "plan": "Early Charles Bridge, Astronomical Clock on the hour, Wenceslas Square market.",
+    "eat": "Roast duck at U Fleku brewery"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Breakfast, taxi or bus to PRG for 1-stop flight home.",
+    "eat": "Kolache at Erhartova cukrarna"
+   }
+  ]
+ },
+ "iceland": {
+  "name": "Reykjavik + South Iceland",
+  "tagline": "Waterfalls, lagoons, northern lights, cozy Reykjavik",
+  "whyParents": "Short nonstop to another world: geysers, black sand beaches, warm lagoons, and a shot at the aurora.",
+  "stay": "Downtown Reykjavik near Laugavegur: walkable, tour pickups at the door",
+  "getAround": "No car: Flybus from KEF, guided minibus tours for Golden Circle, South Coast and aurora. Self-drive (4x4 SUV) means icy roads, 2.5h each way to Vik.",
+  "entry": "US passport valid 3+ months past departure. Schengen; EES biometric check on arrival. ETIAS not yet required.",
+  "events": [
+   "Yule Lads: first arrives the night of Dec 11 to 12, one more each night to Dec 24",
+   "Hjartatorg Christmas market weekends in December (2026 dates not yet posted)",
+   "Hafnarfjordur Christmas Village expected Dec 1 to 23 2026 (based on prior years)"
+  ],
+  "pros": [
+   "Under 6h nonstop from JFK or EWR",
+   "Warm geothermal lagoons in snowy darkness",
+   "Real chance of northern lights"
+  ],
+  "cons": [
+   "Only about 4 hours of daylight",
+   "Storms can cancel tours and close roads",
+   "Expensive food and drink"
+  ],
+  "unverified": [
+   "Icelandair JFK (vs EWR) frequency in December 2026 and exact flight times",
+   "Economy Standard fare for Dec 12 to 18 (only Economy Light 'from' fare seen)",
+   "Reykjavik 2BR December all-in rate",
+   "Blue Lagoon status: closed repeatedly during Reykjanes eruptions; check before booking, Sky Lagoon is the backup",
+   "2026 Christmas market dates in Reykjavik and Hafnarfjordur"
+  ],
+  "precip": "Rain, sleet or snow most days; strong wind common",
+  "flightText": "Icelandair: JFK-KEF nonstop (Icelandair; EWR-KEF also listed year-round). Out Sat Dec 12 evening, lands Sun ~6:30am; home Fri Dec 18 afternoon.. Book Economy Standard (bag + seat). Icelandair partners with Alaska Mileage Plan. United/Delta KEF routes are summer only. Bookable on Capital One Travel.",
+  "itinerary": [
+   {
+    "title": "Overnight flight",
+    "plan": "Sat evening JFK to Keflavik; sleep on board, land about 6:30am Sunday.",
+    "eat": "Dinner at JFK before boarding"
+   },
+   {
+    "title": "Reykjavik + Christmas lights",
+    "plan": "Flybus to town, nap, stroll Laugavegur and the Old Harbour under Christmas lights.",
+    "eat": "Lamb soup at Icelandic Street Food"
+   },
+   {
+    "title": "Golden Circle",
+    "plan": "Guided tour: Thingvellir rift, Strokkur geyser, Gullfoss. Aurora tour after dark if skies clear.",
+    "eat": "Tomato soup at Fridheimar greenhouse"
+   },
+   {
+    "title": "South Coast to Vik",
+    "plan": "Long guided day: Seljalandsfoss, Skogafoss, Reynisfjara black sand beach. Stay back from waves.",
+    "eat": "Fish and chips at Smidjan Brugghus, Vik"
+   },
+   {
+    "title": "Hallgrimskirkja + Sky Lagoon",
+    "plan": "Church tower view at sunrise (11am), Harpa, then sunset soak at Sky Lagoon.",
+    "eat": "Hot dog at Baejarins Beztu Pylsur"
+   },
+   {
+    "title": "Perlan + aurora night two",
+    "plan": "Perlan ice cave and glacier exhibit, Christmas market, backup northern lights tour.",
+    "eat": "Seafood at Messinn"
+   },
+   {
+    "title": "Blue Lagoon, fly home",
+    "plan": "Transfer with bags to Blue Lagoon (near airport), soak, then afternoon flight to JFK.",
+    "eat": "Lava Restaurant at Blue Lagoon"
+   }
+  ]
+ },
+ "costa-rica": {
+  "name": "Arenal + Manuel Antonio, Costa Rica",
+  "tagline": "Volcano, hot springs, sloths, Pacific beaches",
+  "whyParents": "Rainforest bridges, volcano hot springs and monkeys on the beach, about 5.5 hours nonstop.",
+  "stay": "La Fortuna town (volcano views), then Manuel Antonio hillside near park",
+  "getAround": "Rent full-size 4x4 SUV (Toyota Fortuner class) at SJO. Drives: SJO to La Fortuna ~3h, La Fortuna to Manuel Antonio ~4h, back to SJO ~3h.",
+  "entry": "US passport valid for the stay; no visa for tourism. Proof of onward ticket may be asked.",
+  "events": [
+   "Festival de la Luz parade in San Jose Sat Dec 12 2026 (new route, Plaza de la Democracia to Paseo Colon); itinerary heads to Arenal instead",
+   "Manuel Antonio National Park closed Tuesdays; timed tickets online only via SINAC, book ahead"
+  ],
+  "pros": [
+   "Warm, green, short nonstop",
+   "Sloths, monkeys, toucans almost guaranteed",
+   "Volcano hot springs and easy beaches"
+  ],
+  "cons": [
+   "Long drives on winding roads",
+   "Arenal clouds often hide the volcano",
+   "Pricey park entries and tours add up"
+  ],
+  "unverified": [
+   "Main Cabin fare for Dec 12 to 18 (only United 'from' and Kayak snippets seen)",
+   "United EWR-SJO and SJO-EWR exact December times; Day 7 drive assumes a midday departure",
+   "AA PHL-LIR running in Dec 2026 (one aggregator shows Saturdays from Dec 5)",
+   "December 2BR all-in rates in La Fortuna and Manuel Antonio",
+   "Manuel Antonio park hours (7am to 4pm vs 3pm)"
+  ],
+  "precip": "Dry season starting on Pacific coast; Arenal still has frequent showers",
+  "flightText": "United: EWR-SJO nonstop (United). Alt: JetBlue JFK-SJO nonstop (Dec 2026 one-ways from $202).. AA PHL-LIR nonstop is Saturday-only, so no Friday return. Delta JFK-LIR starts Dec 19, too late. AA via MIA is the 1-stop option.",
+  "itinerary": [
+   {
+    "title": "Land SJO, drive to Arenal",
+    "plan": "Pick up SUV, 3 hour scenic drive to La Fortuna, sunset volcano view.",
+    "eat": "Casado at Soda La Hormiga, La Fortuna"
+   },
+   {
+    "title": "Hanging bridges + volcano trails",
+    "plan": "Morning bird walk on Mistico Hanging Bridges, afternoon Arenal Volcano National Park lava trails.",
+    "eat": "Lunch at Mistico's Restaurante Puente Colgante"
+   },
+   {
+    "title": "Waterfall + hot springs",
+    "plan": "Hike 500 steps to La Fortuna Waterfall and swim, then evening at Tabacon hot springs.",
+    "eat": "Tabacon buffet dinner"
+   },
+   {
+    "title": "Drive to Manuel Antonio",
+    "plan": "About 4 hours to the Pacific coast (park closed today, Tuesday). Sunset on Playa Espadilla.",
+    "eat": "Sunset drinks at El Avion"
+   },
+   {
+    "title": "Manuel Antonio National Park",
+    "plan": "7am guided walk for sloths and monkeys, then swim at Playa Manuel Antonio.",
+    "eat": "Ceviche at Emilio's Cafe"
+   },
+   {
+    "title": "Wildlife + beach day",
+    "plan": "Sloth tour or catamaran snorkel cruise, lazy afternoon at the beach.",
+    "eat": "Seafood at Ronny's Place, Quepos"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Leave by 7am, 3 hour drive to SJO, return SUV, midday flight to Newark.",
+    "eat": "Gallo pinto breakfast to go"
+   }
+  ]
+ }
+}

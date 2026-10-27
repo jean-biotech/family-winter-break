@@ -64,7 +64,7 @@ def load():
         c["trip"] = c["flights"] + c["lodging"]
     fly = json.loads((NOTES / "display.json").read_text())
     # Asia trips leave Dec 12 and land a day or two later, so day 1 starts later
-    start = {"japan": 1, "thailand": 1, "south-vietnam": 1, "singapore": 2, "singapore-bangkok": 2}
+    start = {"japan": 1, "thailand": 1, "south-vietnam": 1, "singapore": 2, "singapore-bangkok": 2, "malaysia": 1, "china": 1}
     for d in dests:
         d["start"] = start.get(d["id"], 0)
         d["fly"] = d.pop("flyOverride", None) or fly.get(d["id"]) or d.get("fly") or d["flight"].get("hours", "")
@@ -72,6 +72,17 @@ def load():
         d["unverified"] = [u for u in d.get("unverified", [])
                            if not re.search(r"photo|search budget|Commons|author/license", u, re.I)]
     recs = json.loads((NOTES / "recs.json").read_text()) if (NOTES / "recs.json").exists() else []
+    # Vietnamese text (notes/vi-*.json, same shape as the English fields) for the language switch
+    vi = {}
+    for p in sorted(NOTES.glob("vi-[0-9]*.json")):
+        vi.update(json.loads(p.read_text()))
+    vi_recs = vi.pop("_recs", {})
+    for d in dests:
+        if d["id"] in vi:
+            d["vi"] = vi[d["id"]]
+    for r in recs:
+        if r["id"] in vi_recs:
+            r["vi"] = vi_recs[r["id"]]
     return dests, recs
 
 

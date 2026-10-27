@@ -93,7 +93,8 @@ th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-i
 th button:focus-visible { outline: 3px solid var(--accent); }
 th[aria-sort="ascending"] button::after { content: "\25B2"; font-size: 0.65rem; }
 th[aria-sort="descending"] button::after { content: "\25BC"; font-size: 0.65rem; }
-td.place { display: flex; gap: 10px; align-items: center; min-width: 200px; }
+td.place { min-width: 200px; }
+.pl { display: flex; gap: 10px; align-items: center; }
 td.place img, td.place .ph { width: 52px; height: 40px; object-fit: cover; border-radius: 6px; flex: none; background: var(--accent-soft); }
 td.place a { color: var(--ink); font-weight: 600; text-decoration: none; }
 td.place a:hover { text-decoration: underline; }
@@ -112,7 +113,8 @@ td.place small { display: block; color: var(--muted); font-weight: 400; }
   td.place small { display: none; }
   td:nth-child(3) { display: none; }
   td:last-child { text-align: right; font-size: 0.85rem; }
-  td:last-child small { display: none !important; }
+  td:last-child small, td:nth-child(2) small { display: none !important; }
+  td:last-child { white-space: nowrap; }
 }
 
 /* pills */
@@ -328,8 +330,8 @@ function card(d) {
 function row(d) {
   const c = d.costPP, w = d.weather, p = (d.heroPhotos || [])[0];
   return `<tr data-id="${esc(d.id)}">
-    <td class="place">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
-      <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a></td>
+    <td class="place"><div class="pl">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
+      <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a></div></td>
     <td class="num"><span class="big">${money(c.trip)}</span><small style="display:block;color:var(--muted)">${money(c.flights)} + ${money(c.lodging)}</small></td>
     <td class="num">${money(c.foodFun)}</td>
     <td><span class="pill ${d.warm ? "warm" : "cold"} num">${w.highF}&deg; / ${w.lowF}&deg;F</span></td>

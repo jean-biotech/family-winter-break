@@ -42,7 +42,7 @@ def load():
             if not fix:
                 continue
             seen = {x["url"] for x in d["sources"]}
-            d["sources"] += [x for x in fix.pop("sources", []) if x["url"] not in seen]
+            d["sources"] += [x for x in fix.pop("sources", []) if x["url"] not in seen and x["url"].startswith("http")]
             if "fly" in fix:
                 d["flyOverride"] = fix.pop("fly")
             for k in ("from", "routing", "airline"):

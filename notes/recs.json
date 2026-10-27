@@ -1,7 +1,22 @@
 [
-  {"id": "paris-alsace", "why": "Paris, which Mom and Dad love, plus Strasbourg and Colmar at the height of Christmas market season. American flies nonstop from Philly and fast trains do the rest, with no driving."},
-  {"id": "portugal", "why": "The easiest Europe week: mild 59°F days, American nonstop from Philly, and some of the best value food in Europe. Lisbon's hills and Porto's port cellars make two different cities."},
-  {"id": "quebec-montreal", "why": "Feels like old Europe under snow, with a short flight and the lowest cost here. Quebec's German Christmas market is open the weekend we arrive."},
-  {"id": "thailand", "why": "The Asia trip they are curious about, with temples, night markets and warm weather. Meals and hotels are very cheap; the 22 hour trip each way is the catch."},
-  {"id": "puerto-rico", "why": "Beach, rainforest and Old San Juan with no passport and a 4 hour American nonstop. The cheapest warm option by far."}
+ {
+  "id": "paris-alsace",
+  "why": "Paris, which Mom and Dad love, plus Strasbourg and Colmar at the height of Christmas market season. American flies nonstop from Philly and fast trains do the rest, with no driving."
+ },
+ {
+  "id": "portugal",
+  "why": "The easiest Europe week: mild 59°F days, American nonstop from Philly, and some of the best value food in Europe. Lisbon's hills and Porto's port cellars make two different cities."
+ },
+ {
+  "id": "quebec-montreal",
+  "why": "Feels like old Europe under snow, just a 1h 45m American nonstop to Montreal. Quebec's German Christmas market is open the weekend we arrive."
+ },
+ {
+  "id": "thailand",
+  "why": "The Asia trip they are curious about: temples, night markets and 88°F days. Hotels and meals are cheap once there; the catch is about 22 hours of travel each way."
+ },
+ {
+  "id": "puerto-rico",
+  "why": "Beach, rainforest and Old San Juan with no passport and a 4 hour American nonstop from Philly. The lowest cost trip on the list."
+ }
 ]

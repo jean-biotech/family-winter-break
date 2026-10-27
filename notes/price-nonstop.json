@@ -1,0 +1,286 @@
+{
+ "oahu": {
+  "flights": 900,
+  "flightsBasis": "NYC-HNL nonstop: Momondo United nonstop Dec 9-17 2026 $766; Kayak Delta nonstop early Dec $797 (checked Oct 27 2026). Mid-Dec Main Cabin ~$900, within ~$150 of AA PHL 1-stop (~$750)",
+  "flightsVerified": true,
+  "fly": "11h 45m nonstop",
+  "from": "JFK",
+  "routing": "Hawaiian/Alaska or Delta JFK-HNL nonstop, daily",
+  "airline": "Hawaiian (Alaska) or Delta",
+  "sources": [
+   {
+    "label": "Momondo NYC-HNL (United nonstop Dec 9-17 $766)",
+    "url": "https://www.momondo.com/flights/new-york-city/honolulu"
+   },
+   {
+    "label": "Kayak NYC-Hawaii (Delta nonstop $797)",
+    "url": "https://www.kayak.com/flight-routes/New-York-NYC/Hawaii-USHI"
+   },
+   {
+    "label": "InsideFlyer: Delta 767 JFK-HNL daily Aug 2026-Mar 2027",
+    "url": "https://www.insideflyer.com/posts/delta-adds-10-new-long-haul-767-routes/"
+   },
+   {
+    "label": "FlightConnections JFK-HNL",
+    "url": "https://www.flightconnections.com/flights-from-jfk-to-hnl"
+   }
+  ],
+  "alt": "AA PHL-HNL 1-stop Main Cabin ~$750. United EWR-HNL nonstop runs only about twice weekly per FlightConnections, so dates may not line up"
+ },
+ "maui": {
+  "flights": 800,
+  "flightsBasis": "No usable nonstop: United EWR-OGG is 1x weekly starting Dec 19 2026 (FlightsFrom), after the trip. AA PHL-OGG 1-stop Dec 15-22 2026 from $652, Dec month from $802 (aa.com); mid-Dec Main Cabin ~$800",
+  "flightsVerified": true,
+  "fly": "14.5h, 1 stop",
+  "from": "PHL",
+  "routing": "AA PHL-DFW/PHX/LAX-OGG, 1 stop",
+  "airline": "American",
+  "sources": [
+   {
+    "label": "FlightsFrom EWR-OGG (weekly from Dec 19 2026)",
+    "url": "https://www.flightsfrom.com/EWR-OGG"
+   },
+   {
+    "label": "Kayak NYC-Maui",
+    "url": "https://www.kayak.com/flight-routes/New-York-NYC/Maui-zzFUK"
+   }
+  ],
+  "alt": "Fly nonstop JFK-HNL (~$450 one way) and hop to OGG (~$90); not cheaper or faster than the AA 1-stop"
+ },
+ "big-island": {
+  "flights": 750,
+  "flightsBasis": "No nonstop from NYC/PHL to KOA. aa.com PHL-KOA Dec 10-21 2026 from $507; Axel AA Dec 8-15 2026 $618; mid-Dec Main Cabin ~$750",
+  "flightsVerified": true,
+  "fly": "14h, 1 stop",
+  "from": "PHL",
+  "routing": "AA PHL-PHX-KOA, 1 stop",
+  "airline": "American",
+  "sources": [
+   {
+    "label": "FlightConnections PHL routes",
+    "url": "https://www.flightconnections.com/flights-from-philadelphia-phl"
+   }
+  ],
+  "alt": "JFK-HNL nonstop + 40 min hop to KOA, ~$900 + ~$90"
+ },
+ "kauai": {
+  "flights": 820,
+  "flightsBasis": "No nonstop from NYC/PHL to LIH. Google Flights AA PHL-LIH Dec 7-21 2026 $668; holiday dates ~$1,074 (Axel); mid-Dec Main Cabin ~$820",
+  "flightsVerified": true,
+  "fly": "14.5h, 1 stop",
+  "from": "PHL",
+  "routing": "AA PHL-LAX/PHX-LIH, 1 stop",
+  "airline": "American",
+  "sources": [
+   {
+    "label": "Kayak PHL-LIH",
+    "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/Lihue-LIH"
+   },
+   {
+    "label": "Momondo PHL-LIH",
+    "url": "https://www.momondo.com/flights/philadelphia/lihue"
+   }
+  ],
+  "alt": "JFK-HNL nonstop + hop to LIH, ~$900 + ~$90"
+ },
+ "oahu-maui": {
+  "flights": 1010,
+  "flightsBasis": "Out JFK-HNL nonstop one way ~$450 (half of ~$900 mid-Dec RT); home OGG-PHL 1-stop AA one way ~$450 (no OGG-NYC nonstop on Dec 18; United EWR-OGG starts Dec 19 weekly); HNL-OGG hop ~$90 + $30 bag. Open jaw not priced directly",
+  "flightsVerified": false,
+  "fly": "12h nonstop out",
+  "from": "JFK",
+  "routing": "Hawaiian/Delta JFK-HNL nonstop; OGG-PHX/DFW-PHL on AA home",
+  "airline": "Hawaiian or Delta out, American home",
+  "sources": [
+   {
+    "label": "Momondo NYC-HNL",
+    "url": "https://www.momondo.com/flights/new-york-city/honolulu"
+   },
+   {
+    "label": "FlightsFrom EWR-OGG",
+    "url": "https://www.flightsfrom.com/EWR-OGG"
+   },
+   {
+    "label": "Kayak NYC-Maui",
+    "url": "https://www.kayak.com/flight-routes/New-York-NYC/Maui-zzFUK"
+   }
+  ],
+  "alt": "All AA 1-stop from PHL (in HNL, out OGG) ~$920 incl. hop"
+ },
+ "paris": {
+  "flights": 960,
+  "flightsBasis": "AA PHL-CDG nonstop Dec 2-9 2026 $786 (aa.com, early Dec, basic) and $903 one way Dec 17 (Helloaxel, Oct 20); aa.com calendar to 12/26/26 from $1,061-1,111. Mid-Dec Main Cabin ~$960",
+  "flightsVerified": true,
+  "fly": "7h 15m nonstop",
+  "from": "PHL",
+  "routing": "American PHL-CDG nonstop (AA754), daily",
+  "airline": "American",
+  "sources": [
+   {
+    "label": "AA PHL-Paris fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-paris"
+   },
+   {
+    "label": "FlightConnections PHL-CDG",
+    "url": "https://www.flightconnections.com/flights-from-phl-to-cdg"
+   }
+  ],
+  "alt": "Aer Lingus via DUB Dec 12-15 2026 $924 (1 stop); saves little"
+ },
+ "paris-alsace": {
+  "flights": 960,
+  "flightsBasis": "Same AA PHL-CDG nonstop RT as Paris (itinerary returns to Paris before flying home): Dec 2-9 2026 $786 basic, mid-Dec Main Cabin ~$960",
+  "flightsVerified": true,
+  "fly": "7h 15m nonstop",
+  "from": "PHL",
+  "routing": "American PHL-CDG nonstop RT; TGV to Strasbourg",
+  "airline": "American",
+  "sources": [
+   {
+    "label": "AA PHL-Paris fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-paris"
+   },
+   {
+    "label": "FlightConnections PHL-CDG",
+    "url": "https://www.flightconnections.com/flights-from-phl-to-cdg"
+   }
+  ],
+  "alt": "Aer Lingus 1-stop ~$924"
+ },
+ "portugal": {
+  "flights": 910,
+  "flightsBasis": "aa.com PHL-LIS 12/13/26-12/23/26 $739 (likely basic; other Dec dates $733-746) + ~$90 Main Cabin + ~$80 OPO-LIS connection since itinerary ends in Porto. AA PHL-LIS year-round (PHL newsroom)",
+  "flightsVerified": true,
+  "fly": "7h nonstop",
+  "from": "PHL",
+  "routing": "American PHL-LIS nonstop RT; TAP OPO-LIS to connect home",
+  "airline": "American (TAP connector)",
+  "sources": [
+   {
+    "label": "PHL: AA Lisbon year-round",
+    "url": "https://www.phl.org/newsroom/AA-International-Update"
+   },
+   {
+    "label": "FlightConnections PHL-LIS",
+    "url": "https://www.flightconnections.com/flights-from-phl-to-lis"
+   },
+   {
+    "label": "Idealo PHL-LIS",
+    "url": "https://flights.idealo.com/route/Philadelphia-PHL/Lisbon-LIS/"
+   }
+  ],
+  "alt": "Or train Porto-Lisbon on Dec 17 and fly LIS-PHL nonstop Dec 18 (~$830 flights + ~$40 train)"
+ },
+ "greece": {
+  "flights": 880,
+  "flightsBasis": "Emirates EWR-ATH nonstop Dec 7-14 2026 $811 (Kayak, Momondo); Kayak range $764-1,162; mid-Dec Economy ~$880. EK209/210 daily year-round. Delta JFK-ATH is seasonal (summer), AA PHL-ATH ends Oct 23 2026; no United NYC-ATH found",
+  "flightsVerified": true,
+  "fly": "9h nonstop",
+  "from": "EWR",
+  "routing": "Emirates EWR-ATH nonstop (EK210/EK209), daily",
+  "airline": "Emirates",
+  "sources": [
+   {
+    "label": "Skyscanner EK210 tracker",
+    "url": "https://www.skyscanner.jp/flight-tracker/emirates/ek210"
+   },
+   {
+    "label": "Travelocity EK210 info 2026/2027",
+    "url": "https://www.travelocity.com/lp/flights-info/ek/210/Emirates-210-flight-information"
+   },
+   {
+    "label": "InsideFlyer: Delta JFK-ATH seasonal",
+    "url": "https://www.insideflyer.com/posts/delta-adds-10-new-long-haul-767-routes/"
+   }
+  ],
+  "alt": "AA PHL-ATH 1-stop via Europe from $987"
+ },
+ "japan": {
+  "flights": 1350,
+  "flightsBasis": "JAL JFK-HND nonstop Dec 9-15 2026 from $942 (JAL route page); AA NYC-Tokyo Dec 2026 from $1,177 (aa.com). Teasers; mid-Dec Main Cabin nonstop ~$1,350 (ShopBack Dec 2026 JFK-Japan $1,195-1,745)",
+  "flightsVerified": true,
+  "fly": "14h nonstop",
+  "from": "JFK",
+  "routing": "American AA167 or JAL JFK-HND nonstop",
+  "airline": "American or JAL",
+  "sources": [
+   {
+    "label": "JAL JFK-HND route",
+    "url": "https://www.jal.co.jp/en/inter/route/hndjfk/"
+   },
+   {
+    "label": "ShopBack: cheapest month US to Japan 2026",
+    "url": "https://www.shopback.com/blog/travel/cheapest-month-fly-us-to-japan-2026"
+   }
+  ],
+  "alt": "1-stop from PHL via DFW/ORD saves ~$100 at most; nonstop recommended"
+ },
+ "singapore": {
+  "flights": 1450,
+  "flightsBasis": "SQ JFK-SIN nonstop has no economy. Main price is 1-stop economy: SQ via FRA or Cathay via HKG from $1,139-1,198 (Nov-early Dec 2026 windows); mid-Dec ~$1,450",
+  "flightsVerified": false,
+  "fly": "23h, 1 stop",
+  "from": "JFK",
+  "routing": "Cathay JFK-HKG-SIN or JAL JFK-HND-SIN, 1 stop economy",
+  "airline": "Cathay Pacific or JAL",
+  "sources": [
+   {
+    "label": "Monde du Voyage SQ NYC-SIN premium one way late Dec 2026 $951",
+    "url": "https://www.monde-du-voyage.com/en/singapore/flight/departure-united-states/departure-new-york/singapore-airlines/"
+   },
+   {
+    "label": "Upgraded Points SQ premium economy NYC-SIN $1,066 deal (expired)",
+    "url": "https://upgradedpoints.com/news/deal-alert-new-york-to-singapore-in-premium-economy-for-1319-round-trip"
+   }
+  ],
+  "alt": "SQ Premium Economy nonstop EWR/JFK-SIN (~18h30m) ~$2,100 RT mid-Dec (one way seen $951 late Dec 2026; past sales $1,066-1,500): ~$650 more than 1-stop economy"
+ },
+ "singapore-bangkok": {
+  "flights": 1650,
+  "flightsBasis": "Open jaw NYC-SIN / BKK-NYC 1-stop economy est ~$1,500 (SQ/Cathay NYC-SIN from ~$1,139-1,198; JAL NYC-BKK Dec 2026 from $1,297) + SIN-BKK one way w/ bag ~$150. Open jaw not seen",
+  "flightsVerified": false,
+  "fly": "23h, 1 stop",
+  "from": "JFK",
+  "routing": "Cathay or JAL JFK-SIN 1 stop; BKK-HND/HKG-JFK home",
+  "airline": "Cathay Pacific or JAL",
+  "sources": [
+   {
+    "label": "Monde du Voyage SQ NYC-SIN premium",
+    "url": "https://www.monde-du-voyage.com/en/singapore/flight/departure-united-states/departure-new-york/singapore-airlines/"
+   }
+  ],
+  "alt": "SQ Premium Economy nonstop out (~$1,050 one way) + BKK 1-stop economy home (~$750) + SIN-BKK ~$150 = ~$1,950"
+ },
+ "thailand": {
+  "flights": 1550,
+  "flightsBasis": "No nonstop. JAL NYC-BKK Dec 8 2026-Jan 14 2027 from $1,297; EVA JFK-BKK Nov 18-Dec 6 2026 from $1,361; mid-Dec ~$1,490 + BKK-CNX ~$60 (prior check, unchanged)",
+  "flightsVerified": true,
+  "fly": "22h, 1 stop",
+  "from": "JFK",
+  "routing": "JAL JFK-HND-BKK, 1 stop",
+  "airline": "JAL",
+  "sources": [
+   {
+    "label": "Prior check: notes/price-asia.json",
+    "url": "notes/price-asia.json"
+   }
+  ],
+  "alt": "EVA JFK-TPE-BKK or Qatar via DOH similar price"
+ },
+ "south-vietnam": {
+  "flights": 1475,
+  "flightsBasis": "No nonstop. JAL NYC-SGN Dec 2026 from $1,093; Korean Air Dec 2026 from $1,117; mid-Dec ~$1,350 + domestic legs ~$125 (prior check, unchanged)",
+  "flightsVerified": true,
+  "fly": "22h, 1 stop",
+  "from": "JFK",
+  "routing": "JAL JFK-HND-SGN, 1 stop",
+  "airline": "JAL",
+  "sources": [
+   {
+    "label": "Prior check: notes/price-asia.json",
+    "url": "notes/price-asia.json"
+   }
+  ],
+  "alt": "Korean Air via ICN or Cathay via HKG similar price"
+ }
+}

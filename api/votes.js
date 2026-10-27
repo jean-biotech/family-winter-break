@@ -1,5 +1,6 @@
 // Family vote API (Vercel serverless function).
 // Stores each person's top 5 in Upstash Redis (Vercel Storage > Upstash, free tier).
+// One vote per person; once saved it cannot be changed (clear the key in Upstash to reset).
 // Privacy rule: never return anyone's individual ranking. Before everyone has voted,
 // only "who has voted" is returned; after all 4 have voted, only the combined points.
 
@@ -68,7 +69,10 @@ module.exports = async (req, res) => {
       const valid = Array.isArray(ranking) && ranking.length === 5 &&
         new Set(ranking).size === 5 && ranking.every(id => typeof id === "string" && /^[a-z0-9-]{1,40}$/.test(id));
       if (!valid) return res.status(400).json({ error: "A vote needs 5 different trips." });
-      await redis(["HSET", KEY, voter, JSON.stringify(ranking)]);
+      // one vote per person, final: HSETNX only writes if this person has not voted yet,
+      // so a second device (or anyone else) cannot vote again as them
+      const added = await redis(["HSETNX", KEY, voter, JSON.stringify(ranking)]);
+      if (!added) return res.status(409).json({ error: "already_voted", ...(await summary()) });
     } else if (req.method !== "GET") {
       return res.status(405).json({ error: "Use GET or POST." });
     }

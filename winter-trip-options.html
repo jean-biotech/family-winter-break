@@ -353,6 +353,9 @@ body.locked { overflow: hidden; }
 @media (prefers-reduced-motion: no-preference) { .tbtn.nudge { animation: nudge 1.6s ease-in-out 2; } }
 @keyframes nudge { 0%, 100% { transform: none; } 50% { transform: scale(1.06); } }
 .votedrow span.yes { font-weight: 800; }
+
+.tbtn.primary.confirming { background: var(--warm); border-color: var(--warm); }
+.who button:disabled { opacity: 0.55; cursor: not-allowed; }
 </style>
 </head>
 <body>
@@ -483,6 +486,8 @@ const STR = {
     hintPick: 'Tap "Add to my top 5" on a trip to add it here.', hintDone: "Submit again any time to change your vote.", hintOrder: "Use the arrows to put them in order, then submit.",
     stPick: "Tap Add on the trips you like", stDone: "Your ranking is in", stReady: "Put them in order, then Submit", stRank: n => `${n} picked. Tap See & rank to order them`,
     rankTip: "Your picks are saved here. Tap to see and rank them.",
+    confirm: "Tap again to confirm (final)", alreadyVoted: "This person has already voted. Each person can vote only once.",
+    gateVoted: "Already voted \u2713", gateYou: "You voted \u2713", hintLocked: "Your vote is final. You can still look through the trips.", votedTitle: name => `${name} \u2713 voted`,
     submit: "Submit", update: "Update", list: n => `See & rank (${n})`, close: "Done", saving: "Saving your vote...",
     saved: left => `Vote saved. Waiting on ${left} more ${left === 1 ? "person" : "people"}.`, savedAll: "Vote saved. Everyone has voted! See the family result at the top.",
     added: (name, n) => `Added ${name} as #${n}.`, removed: name => `Removed ${name}.`,
@@ -526,6 +531,8 @@ const STR = {
     hintPick: "Bấm \"Thêm vào top 5\" ở một chuyến để thêm vào đây.", hintDone: "Có thể gửi lại bất cứ lúc nào để đổi phiếu.", hintOrder: "Dùng mũi tên để sắp xếp thứ tự, rồi bấm Gửi.",
     stPick: "Bấm Thêm ở những chuyến bạn thích", stDone: "Đã gửi bảng xếp hạng", stReady: "Sắp xếp thứ tự, rồi bấm Gửi", stRank: n => `Đã chọn ${n}. Bấm Xếp hạng để sắp thứ tự`,
     rankTip: "Các chuyến bạn chọn được lưu ở đây. Bấm để xem và xếp hạng.",
+    confirm: "Bấm lần nữa để xác nhận (không đổi được)", alreadyVoted: "Người này đã bình chọn rồi. Mỗi người chỉ được bình chọn một lần.",
+    gateVoted: "Đã bình chọn \u2713", gateYou: "Bạn đã bình chọn \u2713", hintLocked: "Phiếu của bạn đã chốt. Bạn vẫn có thể xem các chuyến đi.", votedTitle: name => `${name} \u2713 đã chọn`,
     submit: "Gửi", update: "Cập nhật", list: n => `Xếp hạng (${n})`, close: "Xong", saving: "Đang lưu phiếu...",
     saved: left => `Đã lưu phiếu. Còn chờ ${left} người nữa.`, savedAll: "Đã lưu phiếu. Cả nhà đã bình chọn xong! Xem kết quả ở trên cùng.",
     added: (name, n) => `Đã thêm ${name}, hạng ${n}.`, removed: name => `Đã bỏ ${name}.`,
@@ -847,18 +854,24 @@ async function api(method, body) {
     r = await fetch(VOTE_API, { method, headers: body ? { "Content-Type": "application/json" } : {}, body: body ? JSON.stringify(body) : undefined });
   } catch { throw new Error(T("connErr")); }
   const out = await r.json().catch(() => ({}));
+  if (r.status === 409) throw Object.assign(new Error(T("alreadyVoted")), { data: out });
   if (!r.ok) throw new Error(LANG === "en" && out.error ? out.error : T("notConnected"));
   return out;
 }
 
+const votedHere = () => store.get("votedAs");
+const locked = () => !!(V.me && V.server?.voted?.[V.me]);
 function renderGate() {
   const voted = V.server?.voted || {};
-  $("#who").innerHTML = PEOPLE.map(id =>
-    `<button type="button" data-who="${id}" class="${voted[id] ? "done" : ""}">${label(id)}<small>${voted[id] ? T("voted") : T("notVoted")}</small></button>`).join("");
+  $("#who").innerHTML = PEOPLE.map(id => {
+    const mine = voted[id] && votedHere() === id, blocked = voted[id] && !mine;
+    return `<button type="button" data-who="${id}" class="${voted[id] ? "done" : ""}" ${blocked ? "disabled" : ""}>${label(id)}<small>${mine ? T("gateYou") : voted[id] ? T("gateVoted") : T("notVoted")}</small></button>`;
+  }).join("");
 }
 function openGate() { renderGate(); $("#gate").hidden = false; $("#who button")?.focus(); }
 $("#who").addEventListener("click", e => {
-  const id = e.target.closest("[data-who]")?.dataset.who; if (!id) return;
+  const b = e.target.closest("[data-who]"); if (!b || b.disabled) return;
+  const id = b.dataset.who;
   V.me = id; store.set("me", id);
   V.list = (store.get("list:" + id) || []).filter(x => byId[x]);
   V.open = V.list.length > 0;
@@ -877,6 +890,7 @@ function showRankTip() {
 function saveList() { store.set("list:" + V.me, V.list); }
 function toggleTrip(id) {
   if (!V.me) return openGate();
+  if (locked()) return;
   const i = V.list.indexOf(id);
   if (i >= 0) { V.list.splice(i, 1); setStatus(T("removed", shortName(byId[id]))); }
   else if (V.list.length < 5) {
@@ -890,7 +904,7 @@ document.addEventListener("click", e => {
   if (id) { e.preventDefault(); toggleTrip(id); }
 });
 $("#mylist").addEventListener("click", e => {
-  const b = e.target.closest("button[data-act]"); if (!b) return;
+  const b = e.target.closest("button[data-act]"); if (!b || locked()) return;
   const i = +b.dataset.i, act = b.dataset.act;
   if (act === "up" && i > 0) [V.list[i - 1], V.list[i]] = [V.list[i], V.list[i - 1]];
   if (act === "down" && i < V.list.length - 1) [V.list[i + 1], V.list[i]] = [V.list[i], V.list[i + 1]];
@@ -899,14 +913,24 @@ $("#mylist").addEventListener("click", e => {
 });
 $("#trayToggle").addEventListener("click", () => { V.open = !V.open; $("#rankTip").hidden = true; renderVote(); });
 $("#submitVote").addEventListener("click", async () => {
-  if (V.list.length !== 5 || V.saving) return;
+  if (V.list.length !== 5 || V.saving || locked()) return;
+  if (!V.confirm) {
+    V.confirm = true; $("#submitVote").textContent = T("confirm"); $("#submitVote").classList.add("confirming");
+    clearTimeout(V.confirmT); V.confirmT = setTimeout(() => { V.confirm = false; renderVote(); }, 6000);
+    return;
+  }
+  V.confirm = false; clearTimeout(V.confirmT);
   V.saving = true; setStatus(T("saving"));
   try {
     V.server = await api("POST", { voter: V.me, ranking: V.list });
+    store.set("votedAs", V.me);
     const left = PEOPLE.filter(id => !V.server.voted[id]).length;
     setStatus(left ? T("saved", left) : T("savedAll"));
     V.open = false;
-  } catch (err) { setStatus(err.message, true); }
+  } catch (err) {
+    if (err.data?.voted) V.server = err.data;
+    setStatus(err.message, true);
+  }
   V.saving = false; renderVote(); renderFamily();
 });
 function setStatus(t, err) { const s = $("#voteStatus"); s.textContent = t; s.classList.toggle("err", !!err); V.autoStatus = false; }
@@ -919,7 +943,7 @@ function syncAddButtons() {
   $("#myTopBtn").hidden = !V.me;
   if (V.me) $("#myTopBtn").textContent = T("myTop", V.list.length);
   document.querySelectorAll("[data-add]").forEach(b => {
-    b.hidden = !V.me;
+    b.hidden = !V.me || locked();
     const i = V.list.indexOf(b.dataset.add), full = V.list.length >= 5;
     b.classList.toggle("in", i >= 0);
     b.disabled = i < 0 && full;
@@ -938,14 +962,16 @@ function renderVote() {
   $("#startVote").hidden = !!V.me;
   syncAddButtons();
   if (!V.me) return;
-  const n = V.list.length, done = V.server?.voted?.[V.me];
-  $("#trayTitle").textContent = T("trayTitle", label(V.me), n);
-  $("#trayHint").textContent = n < 5 ? T("hintPick") : done ? T("hintDone") : T("hintOrder");
+  const n = V.list.length, done = locked();
+  $("#trayTitle").textContent = done ? T("votedTitle", label(V.me)) : T("trayTitle", label(V.me), n);
+  $("#trayHint").textContent = done ? T("hintLocked") : n < 5 ? T("hintPick") : T("hintOrder");
+  $("#submitVote").hidden = done;
+  $("#submitVote").classList.toggle("confirming", !!V.confirm);
   if (!$("#voteStatus").textContent || V.autoStatus) {
     setStatus(n === 0 ? T("stPick") : n < 5 ? T("stRank", n) : done ? T("stDone") : T("stReady")); V.autoStatus = true;
   }
   $("#submitVote").disabled = n !== 5 || V.saving;
-  $("#submitVote").textContent = done ? T("update") : T("submit");
+  $("#submitVote").textContent = V.confirm ? T("confirm") : T("submit");
   $("#trayToggle").textContent = V.open ? T("close") : T("list", n);
   $("#trayToggle").classList.toggle("nudge", n > 0 && !V.open && !done);
   $("#trayToggle").setAttribute("aria-expanded", V.open);
@@ -953,7 +979,7 @@ function renderVote() {
   $("#mylist").innerHTML = n ? V.list.map((id, i) => `<li>
       <span class="rk">${i + 1}</span>
       <span class="nm">${esc(L(byId[id], "name"))}<small>${money(byId[id].costPP.trip)} &middot; ${temp1(byId[id].weather.highF)}</small></span>
-      <span class="ctl">
+      <span class="ctl" ${done ? "hidden" : ""}>
         <button type="button" data-act="up" data-i="${i}" aria-label="${T("up")}" ${i === 0 ? "disabled" : ""}>&#9650;</button>
         <button type="button" data-act="down" data-i="${i}" aria-label="${T("down")}" ${i === n - 1 ? "disabled" : ""}>&#9660;</button>
         <button type="button" data-act="remove" data-i="${i}" aria-label="${T("remove")}">&#10005;</button>
@@ -980,6 +1006,7 @@ function renderFamily() {
 async function loadVotes() {
   try { V.server = await api("GET"); V.err = null; }
   catch (err) { V.err = location.protocol === "file:" ? "fileCopy" : (err.message === T("connErr") ? "connErr" : "notConnected"); }
+  if (V.me && V.server?.voted?.[V.me] && votedHere() !== V.me) { V.me = null; store.set("me", null); openGate(); }
   renderFamily(); renderVote(); if (!$("#gate").hidden) renderGate();
 }
 

@@ -199,7 +199,7 @@ footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
 <body>
 <header class="top wrap">
   <h1>Winter Break 2026</h1>
-  <p class="sub"><b>Sat Dec 12 to Fri Dec 18</b> &middot; 4 of us &middot; all prices per person</p>
+  <p class="sub"><b>Sat Dec 12 to Fri Dec 18</b> &middot; Mom, Dad, Emily &amp; Jennifer &middot; all prices per person</p>
   <div class="jump"><a href="#compare">Compare all</a><a href="#trips">See each trip</a><a href="#picks">Our top 5</a></div>
 </header>
 
@@ -288,7 +288,7 @@ function card(d) {
     <div class="dbody">
       <div class="dhead"><h3>${esc(d.name)}</h3><span class="tag">${esc(d.tagline)}</span></div>
       <div class="facts">
-        <div class="fact"><div class="k">Flights + stay</div><div class="v num">${money(c.trip)}</div><div class="s">per person, about</div></div>
+        <div class="fact"><div class="k">Flights + stay</div><div class="v num">${money(c.trip)}</div><div class="s">${money(c.flights)} flight + ${money(c.lodging)} stay, each</div></div>
         <div class="fact"><div class="k">Food &amp; fun</div><div class="v num">${money(c.foodFun)}</div><div class="s">per person, for the week</div></div>
         <div class="fact"><div class="k">Weather</div><div class="v num">${w.highF}&deg; / ${w.lowF}&deg;F</div><div class="s">${esc(w.daylight)} of daylight</div></div>
         <div class="fact"><div class="k">Passport</div><div class="v">${d.passport ? "Yes" : "Not needed"}</div><div class="s">Flight ${esc(d.fly)} from ${esc(d.flight.from)}</div></div>
@@ -309,7 +309,7 @@ function card(d) {
           <div class="cost"><h5>Cost per person</h5>
             <table><tbody>
               <tr><td>Flights</td><td class="num">${money(c.flights)}</td><td>${tick(c.flightsVerified)}</td></tr>
-              <tr><td>Stay (split 4 ways)</td><td class="num">${money(c.lodging)}</td><td>${tick(c.lodgingVerified)}</td></tr>
+              <tr><td>Stay (rental split 4 ways)</td><td class="num">${money(c.lodging)}</td><td>${tick(c.lodgingVerified)}</td></tr>
               <tr><td>Food &amp; fun</td><td class="num">${money(c.foodFun)}</td><td><span class="unv">estimate</span></td></tr>
             </tbody></table>
             <p style="margin-top:6px">${esc(c.flightsBasis)} ${esc(c.lodgingBasis)}</p>
@@ -330,7 +330,7 @@ function row(d) {
   return `<tr data-id="${esc(d.id)}">
     <td class="place">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
       <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a></td>
-    <td class="num big">${money(c.trip)}</td>
+    <td class="num"><span class="big">${money(c.trip)}</span><small style="display:block;color:var(--muted)">${money(c.flights)} + ${money(c.lodging)}</small></td>
     <td class="num">${money(c.foodFun)}</td>
     <td><span class="pill ${d.warm ? "warm" : "cold"} num">${w.highF}&deg; / ${w.lowF}&deg;F</span></td>
     <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? "Passport" : "No passport"}</span></td>
@@ -395,7 +395,7 @@ $("#picklist").innerHTML = DATA.recs.map((r, i) => {
       <p style="margin-top:6px">${esc(r.why)}</p></div>
   </a>`;
 }).join("");
-$("#foot").innerHTML = `Prices are per person for 4 adults, researched Oct 27, 2026, and will move. "Checked" means we found a real fare or listing; "estimate" means a typical price. Photos from Wikimedia Commons, credited on each image.`;
+$("#foot").innerHTML = `Prices are per person: round-trip flight each, plus the rental split 4 ways (a bedroom for Mom and Dad, one for Emily and Jennifer), researched Oct 27, 2026, and will move. "Checked" means we found a real fare or listing; "estimate" means a typical price. Photos from Wikimedia Commons, credited on each image.`;
 apply();
 </script>
 </body>

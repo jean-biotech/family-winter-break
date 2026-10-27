@@ -32,6 +32,17 @@ def load():
         p = NOTES / f"{b}.json"
         if p.exists():
             dests += json.loads(p.read_text())
+    for b in BATCHES:
+        pp = NOTES / f"price-{b}.json"
+        if not pp.exists():
+            continue
+        for d in dests:
+            fix = json.loads(pp.read_text()).get(d["id"])
+            if fix:
+                src = fix.pop("sources", [])
+                d["costPP"].update(fix)
+                seen = {x["url"] for x in d["sources"]}
+                d["sources"] += [x for x in src if x["url"] not in seen]
     for d in dests:
         for ph in d.get("heroPhotos", []):
             commons(ph)

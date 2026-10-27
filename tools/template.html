@@ -141,7 +141,8 @@ figure .credit {
 figure .credit a { color: #fff; }
 figure.broken img { display: none; }
 figure.broken::after { content: attr(data-cap); position: absolute; inset: 0; display: grid; place-items: center; color: var(--accent); font-weight: 600; padding: 12px; text-align: center; }
-.dbody { padding: 20px clamp(16px, 3vw, 28px) 24px; display: grid; gap: 18px; }
+.dbody { padding: 20px clamp(16px, 3vw, 28px) 24px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.dbody > * { min-width: 0; }
 .dhead { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; align-items: baseline; }
 .dhead h3 { font-size: clamp(1.6rem, 4vw, 2.1rem); }
 .tag { color: var(--muted); font-size: 1rem; }
@@ -156,6 +157,21 @@ figure.broken::after { content: attr(data-cap); position: absolute; inset: 0; di
 /* itinerary */
 .itin h4, .more h4 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 10px; }
 .days { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 1fr); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+@media (max-width: 640px) {
+  .filters { position: static; padding-block: 8px; }
+  .days { grid-auto-columns: 82%; margin-inline: -4px; padding-inline: 4px; }
+  .dbody { padding: 16px 14px 18px; gap: 14px; }
+  .dhead h3 { font-size: 1.55rem; }
+  .facts { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .facts .fact:first-child { grid-column: 1 / -1; }
+  .fact .v { font-size: 1.1rem; }
+  .dbody .addbtn { justify-self: stretch; padding: 12px 16px; font-size: 1rem; }
+  .mosaic { height: 230px; }
+  .why { font-size: 0.98rem; }
+  header.top { padding-block: 20px 4px; }
+  section { padding-block: 20px 4px; }
+  .tbtn { padding: 10px 12px; }
+}
 @media (min-width: 900px) { .days { grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); overflow: visible; } }
 .day { scroll-snap-align: start; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: var(--surface); }
 .day figure { aspect-ratio: 4 / 3; }
@@ -197,7 +213,7 @@ details[open] > summary::before { content: "\2212"; }
 footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
 
 /* voting: who's viewing gate, add buttons, my-top-5 tray, family result */
-body.voting { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+body.voting { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
 .gate { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; background: color-mix(in srgb, var(--ink) 55%, transparent);
   padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
 .gatebox { background: var(--surface); border-radius: 18px; padding: 24px; width: min(440px, 100%); display: grid; gap: 14px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
@@ -219,9 +235,12 @@ body.voting { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
   padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
 .trayin { max-width: 1120px; margin: 0 auto; display: grid; gap: 10px; }
 .traybar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.traybar b { font-family: var(--display); font-weight: 400; font-size: 1.2rem; }
-.traybar b { flex: 1; min-width: 0; }
-.traybar .grow { order: 9; flex-basis: 100%; color: var(--muted); font-size: 0.9rem; }
+.traybar { flex-wrap: nowrap; }
+.trayhead { flex: 1; min-width: 0; display: grid; }
+.trayhead b { font-family: var(--display); font-weight: 400; font-size: 1.15rem; line-height: 1.2; }
+.trayhead .status { font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.traymore { display: grid; gap: 8px; }
+.traymore .grow { margin: 0; color: var(--muted); font-size: 0.88rem; }
 .tbtn { font: 700 0.9rem var(--body); border-radius: 10px; padding: 9px 14px; cursor: pointer; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); }
 .tbtn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
 .tbtn:disabled { opacity: 0.45; cursor: not-allowed; }
@@ -261,7 +280,7 @@ body.voting { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
 <section class="wrap" style="padding-block: 8px 16px">
   <div class="family" id="family" aria-live="polite">
     <h2>Family vote</h2>
-    <p>Everyone picks their own top 5. Picks stay private: you only see who has voted, and the combined family ranking shows up once all 4 are in.</p>
+    <p>Pick your own top 5. Picks stay private: the family ranking appears once all 4 have voted.</p>
     <div class="votedrow" id="votedrow"></div>
     <button type="button" class="addbtn" id="startVote" hidden>Pick your name to vote</button>
     <ol class="results" id="results" hidden></ol>
@@ -280,15 +299,17 @@ body.voting { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
 <div class="tray" id="tray" hidden>
   <div class="trayin">
     <div class="traybar">
-      <b id="trayTitle">My top 5</b>
-      <span class="grow" id="trayHint"></span>
-      <button type="button" class="tbtn" id="trayToggle" aria-expanded="false">Show list</button>
-      <button type="button" class="tbtn primary" id="submitVote" disabled>Submit my vote</button>
+      <div class="trayhead">
+        <b id="trayTitle">My top 5</b>
+        <span class="status" id="voteStatus" role="status"></span>
+      </div>
+      <button type="button" class="tbtn" id="trayToggle" aria-expanded="false">List</button>
+      <button type="button" class="tbtn primary" id="submitVote" disabled>Submit</button>
     </div>
-    <ol class="mylist" id="mylist" hidden></ol>
-    <div class="traybar" style="justify-content:space-between">
-      <span class="status" id="voteStatus" role="status"></span>
-      <button type="button" class="linkbtn" id="switchWho">Not you? Switch</button>
+    <div class="traymore" id="trayMore" hidden>
+      <p class="grow" id="trayHint"></p>
+      <ol class="mylist" id="mylist"></ol>
+      <button type="button" class="linkbtn" id="switchWho">Not you? Switch person</button>
     </div>
   </div>
 </div>
@@ -320,7 +341,7 @@ body.voting { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
 
   <section id="trips" class="wrap">
     <h2>The trips</h2>
-    <p class="hint">Swipe the days sideways on a phone. Flight, hotel area and sources are under "Trip details".</p>
+    <p class="hint">Swipe the days sideways. Flights, hotel area and sources are under each trip.</p>
     <div id="cards"></div>
   </section>
 
@@ -385,7 +406,7 @@ function card(d) {
       <p class="why"><b>Why Mom &amp; Dad would love it:</b> ${esc(d.whyParents)}</p>
       <div class="itin"><h4>The week, day by day${d.start ? ` <span style="text-transform:none;letter-spacing:0;color:var(--warm)">(leave Dec 12, land ${DATES[d.start].slice(4)}; home ${DATES[d.start + 6].slice(4)})</span>` : ""}</h4><div class="days">${days}</div></div>
       <details>
-        <summary>Trip details: flights, where to stay, getting around</summary>
+        <summary>Flights, where to stay, getting around</summary>
         <div class="grid2">
           <div><h5>Flights</h5><p>${esc(d.flight.airline)}: ${esc(d.flight.routing)}${d.flight.notes ? ". " + esc(d.flight.notes) : ""}</p></div>
           <div><h5>Where to stay</h5><p>${esc(d.stay)}</p></div>
@@ -563,13 +584,14 @@ function renderVote() {
   syncAddButtons();
   if (!V.me) return;
   const n = V.list.length, done = V.server?.voted?.[V.me];
-  $("#trayTitle").textContent = `${label(V.me)}'s top 5`;
-  $("#trayHint").textContent = n < 5 ? `${n} of 5 picked. Tap "Add to my top 5" on a trip.` : done ? "Picked 5. Submit again to change your vote." : "Picked 5. Use the arrows to order them, then submit.";
+  $("#trayTitle").textContent = `${label(V.me)}'s top 5: ${n} of 5`;
+  $("#trayHint").textContent = n < 5 ? `Tap "Add to my top 5" on a trip to add it here.` : done ? "Submit again any time to change your vote." : "Use the arrows to put them in order, then submit.";
+  if (!$("#voteStatus").textContent) setStatus(n < 5 ? "Tap Add on the trips you like" : done ? "Your vote is in" : "Ready to submit");
   $("#submitVote").disabled = n !== 5 || V.saving;
-  $("#submitVote").textContent = done ? "Update my vote" : "Submit my vote";
-  $("#trayToggle").textContent = V.open ? "Hide list" : `Show list (${n})`;
+  $("#submitVote").textContent = done ? "Update" : "Submit";
+  $("#trayToggle").textContent = V.open ? "Close" : "List";
   $("#trayToggle").setAttribute("aria-expanded", V.open);
-  $("#mylist").hidden = !V.open;
+  $("#trayMore").hidden = !V.open;
   $("#mylist").innerHTML = n ? V.list.map((id, i) => `<li>
       <span class="rk">${i + 1}</span>
       <span class="nm">${esc(byId[id].name)}<small>${money(byId[id].costPP.trip)} &middot; ${byId[id].weather.highF}&deg;F</small></span>

@@ -1,0 +1,741 @@
+[
+ {
+  "id": "paris",
+  "name": "Paris, France",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Christmas markets, lit boulevards, Versailles day trip",
+  "whyParents": "Their favorite city, dressed for Christmas, with Versailles an easy train ride away.",
+  "costPP": {
+   "flights": 820,
+   "flightsBasis": "aa.com snapshot Oct 2026: PHL-CDG RT $786 for Dec 2-9 2026; mid-Dec dates likely a bit higher",
+   "flightsVerified": false,
+   "lodging": 600,
+   "lodgingBasis": "3BR apartment ~$400/night x 6 nights split 4 ways (estimate)",
+   "lodgingVerified": false,
+   "foodFun": 600,
+   "foodFunBasis": "~$90/day food + metro, plus Versailles ticket and RER"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-CDG nonstop (AA; fares on sale for Dec 2026)",
+   "aaMetal": true,
+   "hours": "7h 15m",
+   "notes": "Alt: Air France or Delta JFK-CDG nonstop; Air France bookable with Capital One miles via Flying Blue."
+  },
+  "weather": {
+   "highF": 46,
+   "lowF": 37,
+   "daylight": "8h 15m",
+   "precip": "drizzle ~10 days/month, snow rare"
+  },
+  "stay": "Le Marais (3e/4e): walkable, central, great food",
+  "getAround": "Metro and RER plus walking; no car. RER C to Versailles (~40 min). Taxi or RER B from CDG.",
+  "entry": "Passport valid 3+ months past exit. No visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Tuileries Christmas market: Nov 14 2026 to Jan 3 2027 (Sortiraparis; lineup not yet announced)",
+   "La Défense Christmas market: Nov 12 to Dec 31 2026, ~300 chalets plus ice rink",
+   "Galeries Lafayette: Castelbajac-designed windows and dome tree unveiled mid-Nov 2026; rooftop rink from Nov 24 2026",
+   "Schengen 90/180 rule: max 90 days in any 180-day window; this trip uses 6 to 7 days."
+  ],
+  "pros": [
+   "AA nonstop from PHL",
+   "Markets and store windows at peak",
+   "Easy day trips by train"
+  ],
+  "cons": [
+   "Short gray days, often damp",
+   "Pricey lodging in December",
+   "Crowds at Lafayette and markets"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive + Seine stroll",
+    "plan": "Land CDG, check in, walk the Seine at dusk, see Eiffel Tower sparkle on the hour.",
+    "eat": "Onion soup at Au Pied de Cochon",
+    "photo": null
+   },
+   {
+    "day": 2,
+    "title": "Louvre + Tuileries market",
+    "plan": "Morning Louvre (book ahead), afternoon Tuileries Christmas market, mulled wine, Ferris wheel.",
+    "eat": "Vin chaud and crêpes at the market",
+    "photo": {
+     "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+     "author": "Unknown (released to public domain by its author)",
+     "license": "Public domain",
+     "caption": "Tuileries from the big wheel"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Windows + Opéra",
+    "plan": "Galeries Lafayette tree and rooftop, Printemps windows, Palais Garnier tour.",
+    "eat": "Lunch at Galeries Lafayette Le Gourmet",
+    "photo": null
+   },
+   {
+    "day": 4,
+    "title": "Versailles day trip",
+    "plan": "RER C to Versailles; palace, Hall of Mirrors, wintry gardens. Back by dark.",
+    "eat": "Ore, Alain Ducasse café inside the palace",
+    "photo": null
+   },
+   {
+    "day": 5,
+    "title": "Notre-Dame + Latin Quarter",
+    "plan": "Reopened Notre-Dame, Sainte-Chapelle, Shakespeare and Company, Luxembourg Garden.",
+    "eat": "Steak frites at Le Relais de l'Entrecôte",
+    "photo": null
+   },
+   {
+    "day": 6,
+    "title": "Montmartre + Champs lights",
+    "plan": "Sacré-Cœur and artists' square; evening Champs-Élysées lights to Arc de Triomphe.",
+    "eat": "Dinner at Le Consulat, Montmartre",
+    "photo": null
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Breakfast pastries, RER B or taxi to CDG for afternoon AA flight.",
+    "eat": "Croissants from Du Pain et des Idées",
+    "photo": null
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+    "author": "Unknown (released to public domain by its author)",
+    "license": "Public domain",
+    "caption": "Tuileries from the big wheel"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Sortiraparis: Tuileries market 2026",
+    "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/46357-tuileries-christmas-market-2026-dates-for-the-gourmet-fair"
+   },
+   {
+    "label": "Sortiraparis: La Défense market 2026",
+    "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/46516-the-giant-la-defense-christmas-market-2026-dates-and-stalls-to-reserve"
+   },
+   {
+    "label": "Sortiraparis: Galeries Lafayette 2026",
+    "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/46482-christmas-2026-at-galeries-lafayette-the-theme-and-the-unveiling-date-of-the-window-displays"
+   },
+   {
+    "label": "aa.com PHL-Paris fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-paris"
+   },
+   {
+    "label": "EY: EES fully operational Apr 10 2026",
+    "url": "https://taxnews.ey.com/news/2026-0949-eus-entry-exit-system-fully-operational-as-of-10-april-2026"
+   },
+   {
+    "label": "EU ETIAS official page",
+    "url": "https://travel-europe.europa.eu/etias_de"
+   },
+   {
+    "label": "TPG: ETIAS pushed to 2027 (FT report)",
+    "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   }
+  ],
+  "unverified": [
+   "AA PHL-CDG December frequency not confirmed from a schedule filing; Dec 2026 fares are on sale on aa.com, so it appears to operate.",
+   "Exact Galeries Lafayette unveiling day 2026 not found.",
+   "Tuileries 2026 dates from one outlet only.",
+   "Lodging and food are estimates.",
+   "Reims/Champagne alternative to Versailles not priced.",
+   "ETIAS: official EU site still says Q4 2026 with no date announced; FT/TPG report slip to 2027. Either way it is not live and not required as of Oct 27 2026; no official 2027 date found.",
+   "Photos: Commons search access ran out after one query (search budget exhausted, Commons/c.enwp.org fetch blocked). Day photos set to null; need a follow-up photo pass.",
+   "Weather figures are climate normals from general knowledge, not checked this session."
+  ]
+ },
+ {
+  "id": "paris-alsace",
+  "name": "Paris + Strasbourg and Colmar, France",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Paris plus France's most famous Christmas markets",
+  "whyParents": "Paris sparkle plus storybook Alsace villages, Europe's classic Christmas market capital, linked by fast TGV.",
+  "costPP": {
+   "flights": 820,
+   "flightsBasis": "aa.com snapshot Oct 2026: PHL-CDG RT $786 for Dec 2-9 2026",
+   "flightsVerified": false,
+   "lodging": 525,
+   "lodgingBasis": "Paris 3BR ~$400/night x3 + Strasbourg 3BR ~$300/night x3, split 4 ways (estimate)",
+   "lodgingVerified": false,
+   "foodFun": 680,
+   "foodFunBasis": "~$90/day food, plus TGV Paris-Strasbourg RT ~$120 and Colmar train"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-CDG nonstop (AA; fares on sale for Dec 2026)",
+   "aaMetal": true,
+   "hours": "7h 15m",
+   "notes": "TGV from CDG airport station direct to Strasbourg also possible. Alt: Air France via Flying Blue."
+  },
+  "weather": {
+   "highF": 41,
+   "lowF": 31,
+   "daylight": "8h 15m",
+   "precip": "cold, frequent gray days, some snow possible in Alsace"
+  },
+  "stay": "Paris: Le Marais. Strasbourg: Grande Île, steps from markets",
+  "getAround": "TGV Paris Est to Strasbourg ~1h50; TER Strasbourg to Colmar ~30 min. Walk and tram locally; no car.",
+  "entry": "Passport valid 3+ months past exit. No visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Strasbourg Christkindelsmärik: opens Fri Nov 27 2026; close expected Dec 24 (end date not yet official)",
+   "Colmar Christmas markets: Nov 23 to Dec 29 2026 (six markets)",
+   "Paris Tuileries market Nov 14 2026 to Jan 3 2027; La Défense Nov 12 to Dec 31 2026",
+   "Schengen 90/180 rule: max 90 days in any 180-day window; this trip uses 6 to 7 days."
+  ],
+  "pros": [
+   "Best Christmas markets in France",
+   "Fast, scenic trains, no driving",
+   "Mix of big city and villages"
+  ],
+  "cons": [
+   "Strasbourg market weekends very crowded",
+   "Coldest option in this batch",
+   "Two hotel moves in a week"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Paris",
+    "plan": "Land CDG, settle in Marais, evening Seine walk and Eiffel sparkle.",
+    "eat": "Bistro dinner at Chez Janou",
+    "photo": null
+   },
+   {
+    "day": 2,
+    "title": "Louvre + Tuileries market",
+    "plan": "Louvre morning, Tuileries Christmas market, Galeries Lafayette tree before dinner.",
+    "eat": "Vin chaud and raclette at the market",
+    "photo": {
+     "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+     "author": "Unknown (released to public domain by its author)",
+     "license": "Public domain",
+     "caption": "Tuileries from the big wheel"
+    }
+   },
+   {
+    "day": 3,
+    "title": "TGV to Strasbourg",
+    "plan": "Morning TGV; afternoon Place Kléber giant tree and Place Broglie Christkindelsmärik.",
+    "eat": "Tarte flambée at Maison Kammerzell",
+    "photo": null
+   },
+   {
+    "day": 4,
+    "title": "Strasbourg old town",
+    "plan": "Cathedral and astronomical clock, Petite France canals, boat tour, evening markets.",
+    "eat": "Choucroute at Au Pont Saint-Martin",
+    "photo": null
+   },
+   {
+    "day": 5,
+    "title": "Colmar day trip",
+    "plan": "Train to Colmar; Little Venice, six markets, half-timbered streets lit at dusk.",
+    "eat": "Bredele cookies and Alsace riesling",
+    "photo": null
+   },
+   {
+    "day": 6,
+    "title": "Back to Paris",
+    "plan": "Morning TGV to Paris; afternoon Montmartre, evening Champs-Élysées lights.",
+    "eat": "Dinner at Le Consulat, Montmartre",
+    "photo": null
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "RER B or taxi to CDG for AA flight home.",
+    "eat": "Pastries from Du Pain et des Idées",
+    "photo": null
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
+    "author": "Unknown (released to public domain by its author)",
+    "license": "Public domain",
+    "caption": "Tuileries from the big wheel"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Strasbourg 2026 opening Nov 27",
+    "url": "https://onivapp.com/blog/marche-de-noel-strasbourg-2026"
+   },
+   {
+    "label": "Colmar markets 2026 dates",
+    "url": "https://ultimatechristmasmarkets.com/france/colmar-christmas-market/"
+   },
+   {
+    "label": "Official Strasbourg Noël site",
+    "url": "https://noel.strasbourg.eu/"
+   },
+   {
+    "label": "aa.com PHL-Paris fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-paris"
+   },
+   {
+    "label": "EY: EES fully operational Apr 10 2026",
+    "url": "https://taxnews.ey.com/news/2026-0949-eus-entry-exit-system-fully-operational-as-of-10-april-2026"
+   },
+   {
+    "label": "EU ETIAS official page",
+    "url": "https://travel-europe.europa.eu/etias_de"
+   },
+   {
+    "label": "TPG: ETIAS pushed to 2027 (FT report)",
+    "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   }
+  ],
+  "unverified": [
+   "Strasbourg 2026 closing date not yet published (2025 ended Dec 24).",
+   "TGV ~1h50 and Colmar ~30 min times from general knowledge/aggregators; fares estimated.",
+   "AA PHL-CDG December frequency not confirmed from a schedule filing.",
+   "Lodging and food are estimates.",
+   "ETIAS: official EU site still says Q4 2026 with no date announced; FT/TPG report slip to 2027. Either way it is not live and not required as of Oct 27 2026; no official 2027 date found.",
+   "Photos: Commons search access ran out after one query (search budget exhausted, Commons/c.enwp.org fetch blocked). Day photos set to null; need a follow-up photo pass.",
+   "Weather figures are climate normals from general knowledge, not checked this session."
+  ]
+ },
+ {
+  "id": "portugal",
+  "name": "Lisbon + Porto, Portugal",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Mild weather, festive lights, port and pastries",
+  "whyParents": "Europe's mildest winter capital, cheap and charming, with port cellars and a scenic train north.",
+  "costPP": {
+   "flights": 760,
+   "flightsBasis": "aa.com snapshots Oct 2026: PHL-LIS RT $764 (Nov 11-18) and $771 (Oct 28-Nov 4); no Dec fare seen",
+   "flightsVerified": false,
+   "lodging": 310,
+   "lodgingBasis": "Lisbon 3BR ~$220/night x4 + Porto 3BR ~$180/night x2, split 4 ways (estimate)",
+   "lodgingVerified": false,
+   "foodFun": 460,
+   "foodFunBasis": "~$70/day food and transit, plus Alfa Pendular ~€36 and Sintra tickets"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-LIS nonstop (AA, operates through winter; 787-9 to Dec 1, then 787-8)",
+   "aaMetal": true,
+   "hours": "6h 50m",
+   "notes": "Return from Porto via TAP connection in Lisbon. Alt: TAP EWR/JFK-LIS nonstop (TAP Miles&Go via Capital One)."
+  },
+  "weather": {
+   "highF": 59,
+   "lowF": 47,
+   "daylight": "9h 25m",
+   "precip": "rainy season, ~10 wet days/month"
+  },
+  "stay": "Lisbon: Chiado/Baixa, flat and central. Porto: Ribeira",
+  "getAround": "Walk, trams and metro; Uber cheap. Alfa Pendular Lisbon to Porto ~2h40, €35.70. Train to Sintra 40 min.",
+  "entry": "Passport valid 3+ months past exit. No visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Wonderland Lisboa, Parque Eduardo VII: press reports Nov 27 2026 opening (organizer unconfirmed); 2025 ran Nov 28 to Jan 4, free entry",
+   "Lisbon Christmas lights: 2026 switch-on date not yet announced",
+   "Schengen 90/180 rule: max 90 days in any 180-day window; this trip uses 6 to 7 days."
+  ],
+  "pros": [
+   "Mildest weather in this batch",
+   "AA nonstop from PHL",
+   "Lowest lodging and food costs"
+  ],
+  "cons": [
+   "Rainy month, hilly cobbles slippery",
+   "Sintra palaces can be foggy",
+   "Open-jaw return adds a connection"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Lisbon",
+    "plan": "Land LIS, check in Chiado, stroll Rua Augusta to Praça do Comércio tree.",
+    "eat": "Bifana sandwich at O Trevo",
+    "photo": null
+   },
+   {
+    "day": 2,
+    "title": "Alfama + castle",
+    "plan": "Tram 28, São Jorge Castle views, Alfama lanes, evening fado.",
+    "eat": "Fado dinner at Clube de Fado",
+    "photo": null
+   },
+   {
+    "day": 3,
+    "title": "Belém",
+    "plan": "Jerónimos Monastery, Belém Tower, MAAT riverside; Wonderland Lisboa at night.",
+    "eat": "Pastéis de Belém, warm with cinnamon",
+    "photo": null
+   },
+   {
+    "day": 4,
+    "title": "Sintra day trip",
+    "plan": "Train to Sintra; Pena Palace and Quinta da Regaleira.",
+    "eat": "Travesseiros at Piriquita",
+    "photo": null
+   },
+   {
+    "day": 5,
+    "title": "Train to Porto",
+    "plan": "Alfa Pendular north; afternoon Ribeira and Dom Luís I bridge at sunset.",
+    "eat": "Francesinha at Café Santiago",
+    "photo": null
+   },
+   {
+    "day": 6,
+    "title": "Port cellars",
+    "plan": "Livraria Lello, São Bento tiles, cross to Gaia for port tasting.",
+    "eat": "Port tasting at Graham's Lodge",
+    "photo": null
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Porto to Lisbon connection, then AA LIS-PHL.",
+    "eat": "Pastel de nata at Manteigaria",
+    "photo": null
+   }
+  ],
+  "heroPhotos": [],
+  "sources": [
+   {
+    "label": "AA PHL-LIS winter aircraft swaps",
+    "url": "https://aviationa2z.com/index.php/2026/03/10/american-airlines-overhauls-winter-2026-schedule/"
+   },
+   {
+    "label": "aa.com PHL-Lisbon fares",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-lisbon"
+   },
+   {
+    "label": "CP 2026 fares (Portugal News)",
+    "url": "https://www.theportugalnews.com/news/2025-12-23/train-ticket-price-increase/935215"
+   },
+   {
+    "label": "Wonderland Lisboa coverage",
+    "url": "https://lisboasecreta.co/en/wonderland-lisbon-fourth-best-christmas-market-europe/"
+   },
+   {
+    "label": "EY: EES fully operational Apr 10 2026",
+    "url": "https://taxnews.ey.com/news/2026-0949-eus-entry-exit-system-fully-operational-as-of-10-april-2026"
+   },
+   {
+    "label": "EU ETIAS official page",
+    "url": "https://travel-europe.europa.eu/etias_de"
+   },
+   {
+    "label": "TPG: ETIAS pushed to 2027 (FT report)",
+    "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   }
+  ],
+  "unverified": [
+   "AA PHL-LIS Dec 2-Jan 4 aircraft/frequency inferred from swap filings (787-9 to Dec 1, A321XLR from Jan 5).",
+   "Wonderland Lisboa 2026 dates not confirmed by organizer.",
+   "No AA December PHL-LIS fare seen; flight cost estimated.",
+   "Porto-Lisbon same-day connection pricing not checked.",
+   "Lodging and food are estimates.",
+   "ETIAS: official EU site still says Q4 2026 with no date announced; FT/TPG report slip to 2027. Either way it is not live and not required as of Oct 27 2026; no official 2027 date found.",
+   "Photos: Commons search access ran out after one query (search budget exhausted, Commons/c.enwp.org fetch blocked). Day photos set to null; need a follow-up photo pass.",
+   "Weather figures are climate normals from general knowledge, not checked this session."
+  ]
+ },
+ {
+  "id": "greece",
+  "name": "Athens, Greece",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Acropolis without crowds, Delphi and Sounion",
+  "whyParents": "Ancient wonders with almost no lines, mild sunny days, and great food at low prices.",
+  "costPP": {
+   "flights": 750,
+   "flightsBasis": "Kayak: NYC-ATH one-stop Dec 3-9 RT $632 (Air Serbia); Dec average $773 to $982",
+   "flightsVerified": false,
+   "lodging": 270,
+   "lodgingBasis": "3BR apartment ~$180/night x 6 nights split 4 ways (estimate)",
+   "lodgingVerified": false,
+   "foodFun": 500,
+   "foodFunBasis": "~$65/day food, plus Acropolis tickets and Delphi tour or rental car"
+  },
+  "flight": {
+   "from": "EWR",
+   "airline": "Emirates",
+   "routing": "EWR-ATH nonstop (Emirates EK210, daily year-round)",
+   "aaMetal": false,
+   "hours": "9h 10m",
+   "notes": "AA PHL-ATH ends Oct 23 2026; no AA nonstop in Dec. AA option: connect via LHR/MAD with oneworld partners."
+  },
+  "weather": {
+   "highF": 59,
+   "lowF": 46,
+   "daylight": "9h 35m",
+   "precip": "some rain ~10 days/month, many sunny days"
+  },
+  "stay": "Plaka or Koukaki: walk to Acropolis",
+  "getAround": "Metro from airport, walk the center. Delphi ~2h30 by car: midsize sedan or tour. Sounion ~1h15 coastal drive.",
+  "entry": "Passport valid 3+ months past exit. No visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Syntagma Square Christmas tree: lit late Nov (Nov 28 2024, Nov 27 2025); 2026 date not yet found",
+   "Islands mostly shut in December: ferries reduced, most island hotels and tavernas closed",
+   "Schengen 90/180 rule: max 90 days in any 180-day window; this trip uses 6 to 7 days."
+  ],
+  "pros": [
+   "Acropolis nearly empty in December",
+   "Mild and often sunny",
+   "Cheapest food in batch"
+  ],
+  "cons": [
+   "No AA nonstop in December",
+   "Islands largely closed",
+   "Delphi needs a car or tour"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Athens",
+    "plan": "Land ATH, metro to Plaka, evening stroll under the lit Acropolis.",
+    "eat": "Souvlaki at Kostas, Agia Irini Square",
+    "photo": null
+   },
+   {
+    "day": 2,
+    "title": "Acropolis",
+    "plan": "Early Acropolis visit, then Acropolis Museum and Areopagus Hill sunset.",
+    "eat": "Dinner at Mani Mani, Koukaki",
+    "photo": null
+   },
+   {
+    "day": 3,
+    "title": "Agora + Syntagma",
+    "plan": "Ancient Agora, Monastiraki market, Syntagma tree, evening guard change.",
+    "eat": "Loukoumades at Lukumades",
+    "photo": null
+   },
+   {
+    "day": 4,
+    "title": "Delphi day trip",
+    "plan": "Tour or drive to Delphi: oracle sanctuary, museum, lunch in Arachova.",
+    "eat": "Lunch in Arachova village tavern",
+    "photo": null
+   },
+   {
+    "day": 5,
+    "title": "Cape Sounion",
+    "plan": "Morning National Garden, afternoon coastal drive to Temple of Poseidon sunset.",
+    "eat": "Seafood at a Sounion taverna",
+    "photo": null
+   },
+   {
+    "day": 6,
+    "title": "Panathenaic + Lycabettus",
+    "plan": "Panathenaic Stadium, Plaka shops, funicular up Lycabettus for city lights.",
+    "eat": "Mezze at Klimataria, live music",
+    "photo": null
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Metro to airport for Emirates EWR flight (afternoon departure).",
+    "eat": "Bougatsa breakfast at Bougatsadiko",
+    "photo": null
+   }
+  ],
+  "heroPhotos": [],
+  "sources": [
+   {
+    "label": "AA PHL-ATH cut to Oct 23 2026",
+    "url": "https://www.traveldailynews.com/aviation/american-airlines-extends-edinburgh-philadelphia-route-into-winter/"
+   },
+   {
+    "label": "Kayak NYC-Athens December",
+    "url": "https://www.kayak.com/flight-routes/United-States-US0/Athens-Eleftherios-V--ATH.December.M12.ksp"
+   },
+   {
+    "label": "Emirates EWR-ATH launch (year-round)",
+    "url": "https://metroairportnews.com/?p=2501"
+   },
+   {
+    "label": "Syntagma tree 2025",
+    "url": "https://en.protothema.gr/2025/11/26/tomorrow-athens-lights-its-christmas-tree-at-syntagma-square/"
+   },
+   {
+    "label": "EY: EES fully operational Apr 10 2026",
+    "url": "https://taxnews.ey.com/news/2026-0949-eus-entry-exit-system-fully-operational-as-of-10-april-2026"
+   },
+   {
+    "label": "EU ETIAS official page",
+    "url": "https://travel-europe.europa.eu/etias_de"
+   },
+   {
+    "label": "TPG: ETIAS pushed to 2027 (FT report)",
+    "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   }
+  ],
+  "unverified": [
+   "Emirates EWR-ATH Dec 2026 schedule from an unofficial aggregator (EK210 daily, ~9h10m).",
+   "Delta JFK-ATH and United EWR-ATH December service unclear (reports say Delta runs into early Dec only).",
+   "Syntagma 2026 lighting date and Athens Christmas events not found.",
+   "Lodging, food and car/tour costs are estimates.",
+   "ETIAS: official EU site still says Q4 2026 with no date announced; FT/TPG report slip to 2027. Either way it is not live and not required as of Oct 27 2026; no official 2027 date found.",
+   "Photos: Commons search access ran out after one query (search budget exhausted, Commons/c.enwp.org fetch blocked). Day photos set to null; need a follow-up photo pass.",
+   "Weather figures are climate normals from general knowledge, not checked this session."
+  ]
+ },
+ {
+  "id": "croatia",
+  "name": "Zagreb + Dubrovnik, Croatia",
+  "region": "Europe",
+  "passport": true,
+  "warm": false,
+  "tagline": "Award-winning Advent, then quiet Dubrovnik walls",
+  "whyParents": "Zagreb's famous Advent market plus Dubrovnik's walls with no cruise crowds.",
+  "costPP": {
+   "flights": 900,
+   "flightsBasis": "Kayak: ZAG-JFK December RT average $880; plus ZAG-DBV hop or open-jaw ~$100 (estimate)",
+   "flightsVerified": false,
+   "lodging": 225,
+   "lodgingBasis": "Zagreb 3BR ~$150/night x3 + Dubrovnik 3BR ~$150/night x3, split 4 ways (estimate)",
+   "lodgingVerified": false,
+   "foodFun": 420,
+   "foodFunBasis": "~$60/day food, plus Plitvice tour and Dubrovnik walls ticket"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL to ZAG one-stop via European hub (no US-Croatia nonstops in winter)",
+   "aaMetal": false,
+   "hours": "~12h with connection",
+   "notes": "AA PHL-DBV and United EWR-DBV/SPU are summer only. Lufthansa/Croatia Airlines via FRA/MUC; Air France via CDG (Flying Blue)."
+  },
+  "weather": {
+   "highF": 41,
+   "lowF": 30,
+   "daylight": "8h 45m",
+   "precip": "Zagreb cold, snow possible; Dubrovnik ~56F, rainy"
+  },
+  "stay": "Zagreb: Donji Grad near Zrinjevac. Dubrovnik: inside or near Old Town",
+  "getAround": "Walk and tram in Zagreb; fly ZAG-DBV ~1h. Plitvice by tour or compact SUV. Dubrovnik Old Town on foot.",
+  "entry": "Passport valid 3+ months past exit. No visa, 90/180 days. EES biometrics live since Apr 10 2026; ETIAS not yet required.",
+  "events": [
+   "Advent in Zagreb: Nov 28 2026 to Jan 7 2027 (City of Zagreb via tportal)",
+   "Off-season honesty: Dubrovnik and Split are quiet in December; many restaurants, Lokrum island and some tours closed",
+   "Schengen 90/180 rule: max 90 days in any 180-day window; this trip uses 6 to 7 days."
+  ],
+  "pros": [
+   "Zagreb Advent is top-rated in Europe",
+   "No crowds in Dubrovnik",
+   "Cheapest lodging in batch"
+  ],
+  "cons": [
+   "No nonstop flights; longest travel",
+   "Coast is sleepy, some places shut",
+   "Dubrovnik winter flights are sparse"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Zagreb",
+    "plan": "Land ZAG via Europe hub, check in, evening Zrinjevac Advent lights.",
+    "eat": "Fritule doughnuts and kuhano vino",
+    "photo": null
+   },
+   {
+    "day": 2,
+    "title": "Zagreb Upper Town",
+    "plan": "Funicular, St Mark's Church, Strossmayer promenade Advent, Ban Jelačić Square.",
+    "eat": "Štrukli at La Štruk",
+    "photo": null
+   },
+   {
+    "day": 3,
+    "title": "Plitvice Lakes",
+    "plan": "Day tour to Plitvice Lakes (winter routes; snow possible); back for markets.",
+    "eat": "Lamb or trout near the park",
+    "photo": null
+   },
+   {
+    "day": 4,
+    "title": "Fly to Dubrovnik",
+    "plan": "Morning flight ZAG-DBV; afternoon Stradun and Old Town Christmas stalls.",
+    "eat": "Black risotto at Lucín Kantun",
+    "photo": null
+   },
+   {
+    "day": 5,
+    "title": "City walls",
+    "plan": "Walk the full walls, Fort Lovrijenac, sunset from Buža bar if open.",
+    "eat": "Seafood at Proto",
+    "photo": null
+   },
+   {
+    "day": 6,
+    "title": "Cable car + Ston",
+    "plan": "Cable car up Srđ (weather permitting); afternoon Ston walls and oysters.",
+    "eat": "Ston oysters at Bakus",
+    "photo": null
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Morning DBV flight to FRA/MUC/ZAG, connect to US.",
+    "eat": "Breakfast burek in Old Town",
+    "photo": null
+   }
+  ],
+  "heroPhotos": [],
+  "sources": [
+   {
+    "label": "tportal: Advent u Zagrebu 2026",
+    "url": "https://www.tportal.hr/vijesti/clanak/tko-ce-sudjelovati-na-adventu-u-zagrebu-raspisan-drugi-krug-natjecaja-20260727"
+   },
+   {
+    "label": "Kayak Zagreb-JFK fares",
+    "url": "https://www.kayak.com/flight-routes/Zagreb-Franjo-Tuman-ZAG/New-York-John-F-Kennedy-Intl-JFK"
+   },
+   {
+    "label": "Croatia seeks more US nonstops",
+    "url": "https://www.croatiaweek.com/croatia-targets-more-nonstop-us-flights-by-2026/"
+   },
+   {
+    "label": "Discover Airlines FRA-DBV year-round",
+    "url": "https://www.croatiaweek.com/discover-airlines-to-operate-year-round-flights-to-dubrovnik-for-first-time/"
+   },
+   {
+    "label": "EY: EES fully operational Apr 10 2026",
+    "url": "https://taxnews.ey.com/news/2026-0949-eus-entry-exit-system-fully-operational-as-of-10-april-2026"
+   },
+   {
+    "label": "EU ETIAS official page",
+    "url": "https://travel-europe.europa.eu/etias_de"
+   },
+   {
+    "label": "TPG: ETIAS pushed to 2027 (FT report)",
+    "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   }
+  ],
+  "unverified": [
+   "Dubrovnik winter 2026/27 schedule not published; FRA/MUC links based on 2025/26 plans.",
+   "ZAG-DBV December flight frequency not checked.",
+   "Dubrovnik December closures (Lokrum, cable car hours, restaurants) not checked this session.",
+   "No AA fare for December found.",
+   "Lodging and food are estimates.",
+   "ETIAS: official EU site still says Q4 2026 with no date announced; FT/TPG report slip to 2027. Either way it is not live and not required as of Oct 27 2026; no official 2027 date found.",
+   "Photos: Commons search access ran out after one query (search budget exhausted, Commons/c.enwp.org fetch blocked). Day photos set to null; need a follow-up photo pass.",
+   "Weather figures are climate normals from general knowledge, not checked this session."
+  ]
+ }
+]

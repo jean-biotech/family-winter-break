@@ -1,0 +1,986 @@
+[
+ {
+  "id": "oahu",
+  "name": "Oahu (Honolulu + Waikiki), Hawaii",
+  "region": "US",
+  "passport": false,
+  "warm": true,
+  "tagline": "Waikiki beaches, Pearl Harbor, North Shore surf",
+  "whyParents": "Easy first Hawaii trip: walkable beach town, deep WWII history, big-wave surf season on the North Shore.",
+  "costPP": {
+   "flights": 720,
+   "flightsBasis": "AA one-stop PHL-HNL via DFW/PHX/LAX/ORD; aa.com shows PHL-HNL round trip from $658 (other months); mid-Dec estimate $650 to $800",
+   "flightsVerified": false,
+   "lodging": 600,
+   "lodgingBasis": "Waikiki 2BR condo ~$400/night all-in x 6 nights = ~$2,400 split 4 ways (2 hotel rooms at Oahu ADR ~$264 = ~$900 pp)",
+   "lodgingVerified": false,
+   "foodFun": 800,
+   "foodFunBasis": "~$85/day food, Kualoa/Hanauma fees, 3-day SUV ~$500 total + Waikiki parking ~$50/night"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-DFW-HNL or PHL-PHX-HNL (AA, one stop); no AA nonstop PHL-HNL found",
+   "aaMetal": true,
+   "hours": "~14h 30m incl. connection",
+   "notes": "Alt: Hawaiian/Alaska JFK-HNL nonstop (~11h, daily per aggregators; Dec unverified). Book JFK-HNL on Alaska or with Capital One Travel."
+  },
+  "weather": {
+   "highF": 80,
+   "lowF": 67,
+   "daylight": "10h 50m",
+   "precip": "short passing showers, wetter on windward side; big North Shore surf"
+  },
+  "stay": "Waikiki (Kuhio Ave side): walk to beach, food, no car needed",
+  "getAround": "Walk/TheBus/Uber in Honolulu. Rent a full-size SUV or minivan 3 days for North Shore and windward coast.",
+  "entry": "US domestic: no passport. REAL ID or passport for TSA.",
+  "events": [
+   "Honolulu Marathon: Sun Dec 13 2026, 5am start Ala Moana Blvd, finish Kapiolani Park; Waikiki road closures that morning",
+   "Kalakaua Merrie Mile: Sat Dec 12 2026, 7am, Monsarrat Ave (marathon weekend)",
+   "Honolulu City Lights: opened Sat Dec 5 2026; tree and displays at Honolulu Hale through the holidays (end date unverified)",
+   "North Shore big-wave season: Waimea Bay surf contests possible if swell is large (dates set by swell)"
+  ],
+  "pros": [
+   "Most flights and cheapest lodging in Hawaii",
+   "Walkable Waikiki, car only needed some days",
+   "Pearl Harbor and Iolani Palace history"
+  ],
+  "cons": [
+   "Waikiki busy; marathon crowds Dec 12-13",
+   "Long travel day, about 14 hours each way",
+   "Hanauma Bay needs advance online reservations"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive + Waikiki sunset",
+    "plan": "Land HNL, check in Waikiki condo, stroll Kalakaua Ave and the beach at sunset.",
+    "eat": "Poke bowl at Ono Seafood",
+    "photo": {
+     "file": "1999_-_Waikiki_Beach_Honolulu_Hawaï.jpg",
+     "author": "US CDC",
+     "license": "Public domain",
+     "caption": "Waikiki Beach, Honolulu"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Diamond Head sunrise hike",
+    "plan": "Reserved early slot up Diamond Head, then Kapahulu and Kapiolani Park. Watch marathon finish if Dec 13.",
+    "eat": "Malasadas at Leonard's Bakery",
+    "photo": {
+     "file": "Diamond_Head_crater_aerial_Jan_2022.png",
+     "author": "RL0919",
+     "license": "unverified (see Commons file page)",
+     "caption": "Diamond Head crater from above"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Pearl Harbor",
+    "plan": "Book USS Arizona Memorial timed tickets; add Battleship Missouri. Afternoon Iolani Palace and City Lights.",
+    "eat": "Plate lunch at Rainbow Drive-In",
+    "photo": {
+     "file": "USS_Arizona_memorial_from_waterline.jpg",
+     "author": "National Park Service",
+     "license": "Public domain",
+     "caption": "USS Arizona Memorial"
+    }
+   },
+   {
+    "day": 4,
+    "title": "North Shore day",
+    "plan": "Pick up SUV. Haleiwa town, Waimea Bay big surf, turtles at Laniakea, Sunset Beach.",
+    "eat": "Garlic shrimp at Giovanni's truck",
+    "photo": {
+     "file": "A183,_Oahu,_Hawaii,_USA,_Waimea_Bay,_2007.JPG",
+     "author": "Brian W. Schaller",
+     "license": "CC BY-NC-SA 4.0",
+     "caption": "Surfer at Waimea Bay"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Windward coast + Kualoa",
+    "plan": "Kualoa Ranch valley tour, Kailua and Lanikai beaches, Pali Lookout drive back.",
+    "eat": "Shave ice at Island Snow, Kailua",
+    "photo": {
+     "file": "Kualoa_Ranch.jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "unverified (see Commons file page)",
+     "caption": "Kualoa Ranch valley"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Hanauma Bay snorkel",
+    "plan": "Reserved morning snorkel at Hanauma Bay, then Makapuu lighthouse trail views. Last Waikiki sunset.",
+    "eat": "Loco moco at Rainbow Drive-In",
+    "photo": {
+     "file": "Hanauma_Bay_1937.PNG",
+     "author": "US federal government (NOAA sanctuary history)",
+     "license": "Public domain",
+     "caption": "Hanauma Bay from above"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Beach morning, return car, afternoon or red-eye flight to PHL.",
+    "eat": "Spam musubi from a local market",
+    "photo": {
+     "file": "Daimond_Head_Crater_(42421947950).jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "unverified (see Commons file page)",
+     "caption": "Last look at Diamond Head"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Waikiki_Beach_(2024)-L1004709.jpg",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "caption": "Waikiki toward Diamond Head"
+   },
+   {
+    "file": "USS_Arizona_Memorial_(aerial_view).jpg",
+    "author": "unverified (see Commons file page)",
+    "license": "unverified (see Commons file page)",
+    "caption": "USS Arizona Memorial aerial"
+   },
+   {
+    "file": "Diamond_Head.jpg",
+    "author": "unverified (see Commons file page)",
+    "license": "unverified (see Commons file page)",
+    "caption": "Diamond Head from the sea"
+   }
+  ],
+  "sources": [
+   {
+    "label": "AA PHL-HNL fare page",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-honolulu"
+   },
+   {
+    "label": "FlightStats HA830 HNL-JFK",
+    "url": "https://www.flightstats.com/v2/flight-details/HA/830"
+   },
+   {
+    "label": "Honolulu Marathon 2026",
+    "url": "https://www.honolulumarathon.org/events/honolulu-marathon"
+   },
+   {
+    "label": "Honolulu Marathon guide",
+    "url": "https://www.hawaii-guide.com/blog/honolulu-marathon-guide"
+   },
+   {
+    "label": "Honolulu City Lights FAQ",
+    "url": "https://www.honolulucitylights.org/faq"
+   },
+   {
+    "label": "Waikiki 2BR condo listing",
+    "url": "https://www.to-hawaii.com/vacationrentals/heart-of-waikiki-2-bedrom-condo/125350936"
+   },
+   {
+    "label": "HTA hotel ADR by island (May 2026)",
+    "url": "https://www.hawaii-guide.com/blog/hawaii-post-labor-day-hotel-rates-2026"
+   },
+   {
+    "label": "Hawaii rental car prices 2026",
+    "url": "https://hawaiitravelwithkids.com/hawaii-car-rental-mistakes/"
+   }
+  ],
+  "unverified": [
+   "No live Dec 12-18 2026 fares seen; AA fares are estimates from aa.com route-page snapshots (PHL-HNL round trip from $658, other months).",
+   "No American nonstop PHL-HNL found in any airline/airport source; AA hubs to Hawaii (DFW, PHX, LAX, ORD) are the realistic connections.",
+   "Hawaiian/Alaska JFK-HNL nonstop (HA/AS 830) seen only on schedule aggregators for spring 2026; December 2026 operation not confirmed.",
+   "Lodging and rental car prices are estimates from 2025-26 listing snapshots and HTA averages, not live Dec 2026 quotes.",
+   "Weather figures are typical December climate, not a forecast.",
+   "Web search budget ran out before every photo's author/license could be checked; entries marked 'unverified' need a check on the Commons file page.",
+   "City Lights display end date for 2026",
+   "Merrie Mile date from one guide only"
+  ]
+ },
+ {
+  "id": "maui",
+  "name": "Maui, Hawaii",
+  "region": "US",
+  "passport": false,
+  "warm": true,
+  "tagline": "Haleakala sunrise, Road to Hana, whale season",
+  "whyParents": "Classic Hawaii scenery: volcano sunrise, waterfall drive, calm snorkel coves, first humpback whales of season.",
+  "costPP": {
+   "flights": 780,
+   "flightsBasis": "AA one-stop PHL-OGG via DFW/PHX/LAX; typical mid-Dec range $700 to $900. New AA ORD-OGG daily from Dec 17 2026 helps the return",
+   "flightsVerified": false,
+   "lodging": 675,
+   "lodgingBasis": "Kihei 2BR condo ~$450/night all-in x 6 = ~$2,700 split 4 ways (Maui hotel ADR ~$494/room)",
+   "lodgingVerified": false,
+   "foodFun": 950,
+   "foodFunBasis": "~$95/day food, Molokini boat ~$150, Haleakala sunrise reservation + park fee, 6-day full-size SUV ~$1,000 split 4"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-DFW-OGG or PHL-LAX-OGG (AA, one stop); return OGG-ORD-PHL possible (AA ORD-OGG daily from Dec 17 2026)",
+   "aaMetal": true,
+   "hours": "~14h 30m incl. connection",
+   "notes": "Alt: Hawaiian/Alaska JFK-HNL nonstop + short interisland hop to OGG."
+  },
+  "weather": {
+   "highF": 80,
+   "lowF": 64,
+   "daylight": "10h 55m",
+   "precip": "dry in Kihei/Wailea, showers in Hana; Haleakala summit near freezing at dawn"
+  },
+  "stay": "Kihei: cheaper condos, calm beaches, central location",
+  "getAround": "Car essential. Full-size SUV or minivan for 4 adults + bags; Road to Hana is narrow, drive slowly.",
+  "entry": "US domestic: no passport. REAL ID or passport for TSA.",
+  "events": [
+   "Lahaina: Front Street scheduled to reopen to vehicles Aug 1 2026 with some businesses back; many lots still empty; respect fenced areas",
+   "Lahaina Harbor dredging Jun to Dec 2026; harbor not fully reopened, book boats from Maalaea",
+   "Humpback whale season starting (Dec to Apr)",
+   "American Airlines Chicago-Kahului daily nonstop launches Dec 17 2026"
+  ],
+  "pros": [
+   "Most dramatic scenery of the four islands",
+   "Calm, sunny South Maui beaches",
+   "Early whale season boat trips"
+  ],
+  "cons": [
+   "Pricier lodging than Oahu",
+   "Lahaina still rebuilding after 2023 fire",
+   "Car needed every day"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive + Kihei beach",
+    "plan": "Land OGG, pick up SUV, groceries, sunset at Kamaole Beach III.",
+    "eat": "Fish tacos at Coconut's Fish Cafe",
+    "photo": {
+     "file": "Haleakala_aerial.jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "unverified (see Commons file page)",
+     "caption": "Haleakala rising over Maui"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Haleakala sunrise",
+    "plan": "3am drive with sunrise reservation; short Sliding Sands walk; Kula lunch on the way down.",
+    "eat": "Kula Lodge breakfast",
+    "photo": {
+     "file": "Sunrise_from_Holua_Cabin.jpg",
+     "author": "National Park Service",
+     "license": "Public domain",
+     "caption": "Sunrise in Haleakala crater"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Road to Hana",
+    "plan": "Early start: Twin Falls, Waianapanapa (reservation), Wailua Falls; turn back before dark.",
+    "eat": "Banana bread at Aunty Sandy's",
+    "photo": {
+     "file": "Wailua_Falls,_Hana,_HI(2).jpg",
+     "author": "Ekrem Canli",
+     "license": "CC BY-SA 4.0",
+     "caption": "Wailua Falls, Road to Hana"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Molokini + whales",
+    "plan": "Morning snorkel boat from Maalaea to Molokini, watch for early humpbacks. Afternoon nap.",
+    "eat": "Huli huli chicken roadside",
+    "photo": {
+     "file": "Haleakalā,_Peak_Shadow.jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "unverified (see Commons file page)",
+     "caption": "Haleakala casting its shadow"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Iao Valley + stargazing",
+    "plan": "Iao Valley State Monument, Wailuku lunch, then Haleakala summit sunset and stars.",
+    "eat": "Saimin at Sam Sato's",
+    "photo": {
+     "file": "Haleakala_Observatory_Maui_(45015823284).jpg",
+     "author": "dronepicr",
+     "license": "CC BY 2.0",
+     "caption": "Haleakala summit observatories"
+    }
+   },
+   {
+    "day": 6,
+    "title": "West Maui + Lahaina",
+    "plan": "Respectful drive past reopened Front Street, Kaanapali beach walk, Kapalua coastal trail.",
+    "eat": "Kimo's, Front Street, if reopened",
+    "photo": {
+     "file": "Nene_Goose_Haleakala_5.jpg",
+     "author": "Dennisg009",
+     "license": "CC0 1.0",
+     "caption": "Nene goose, Maui"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Paia breakfast, Hookipa turtles, return car, fly OGG.",
+    "eat": "Paia Bowls acai",
+    "photo": {
+     "file": "Venus_at_dawn_from_Mount_Haleakala_east_Maui_Hawaii_(15337438899).jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "unverified (see Commons file page)",
+     "caption": "Dawn over east Maui"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Haleakala_crater_(1).jpg",
+    "author": "Navin75",
+    "license": "CC BY-SA 2.0",
+    "caption": "Haleakala crater trail"
+   },
+   {
+    "file": "A_view_of_crater_in_Haleakala_National_Park.jpg",
+    "author": "unverified (see Commons file page)",
+    "license": "unverified (see Commons file page)",
+    "caption": "Haleakala crater view"
+   },
+   {
+    "file": "Wailua_Falls,_Hana,_HI(2).jpg",
+    "author": "Ekrem Canli",
+    "license": "CC BY-SA 4.0",
+    "caption": "Wailua Falls, Road to Hana"
+   }
+  ],
+  "sources": [
+   {
+    "label": "AA PHL-HNL fare page",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-honolulu"
+   },
+   {
+    "label": "AeroRoutes: AA ORD-OGG NW26",
+    "url": "https://www.aeroroutes.com/eng/260127-aanw26ordogg"
+   },
+   {
+    "label": "Maui Now: Front Street Aug 1 2026",
+    "url": "https://mauinow.com/2026/07/18/lahainas-front-street-scheduled-to-reopen-on-aug-1-2026/"
+   },
+   {
+    "label": "HPR: Lahaina 3 years after fire",
+    "url": "https://www.hawaiipublicradio.org/local-news/2026-08-05/photos-lahainas-restoration-efforts-3-years-after-the-maui-fires"
+   },
+   {
+    "label": "Lahaina visitor guide 2026",
+    "url": "https://www.hawaii-guide.com/maui/towns/lahaina-town"
+   },
+   {
+    "label": "HTA hotel ADR by island (May 2026)",
+    "url": "https://www.hawaii-guide.com/blog/hawaii-post-labor-day-hotel-rates-2026"
+   },
+   {
+    "label": "Hawaii rental car prices 2026",
+    "url": "https://hawaiitravelwithkids.com/hawaii-car-rental-mistakes/"
+   }
+  ],
+  "unverified": [
+   "No live Dec 12-18 2026 fares seen; AA fares are estimates from aa.com route-page snapshots (PHL-HNL round trip from $658, other months).",
+   "No American nonstop PHL-HNL found in any airline/airport source; AA hubs to Hawaii (DFW, PHX, LAX, ORD) are the realistic connections.",
+   "Hawaiian/Alaska JFK-HNL nonstop (HA/AS 830) seen only on schedule aggregators for spring 2026; December 2026 operation not confirmed.",
+   "Lodging and rental car prices are estimates from 2025-26 listing snapshots and HTA averages, not live Dec 2026 quotes.",
+   "Weather figures are typical December climate, not a forecast.",
+   "Web search budget ran out before every photo's author/license could be checked; entries marked 'unverified' need a check on the Commons file page.",
+   "Whether Front Street actually reopened Aug 1 2026 and which restaurants are open",
+   "Day 1, 4 and 6 photos are general Maui/Haleakala views (no Kihei, Molokini or Lahaina file verified in time); swap if possible"
+  ]
+ },
+ {
+  "id": "big-island",
+  "name": "Big Island: Kona + Volcano, Hawaii",
+  "region": "US",
+  "passport": false,
+  "warm": true,
+  "tagline": "Live volcano, black sand, Kona coffee",
+  "whyParents": "See an active volcano, swim with turtles and manta rays, tour Kona coffee farms; most varied island.",
+  "costPP": {
+   "flights": 800,
+   "flightsBasis": "AA one-stop PHL-KOA via PHX (daily PHX-KOA) or LAX; typical mid-Dec $700 to $950",
+   "flightsVerified": false,
+   "lodging": 425,
+   "lodgingBasis": "Kona 2BR condo ~$300/night x 4 + Volcano 2BR cottage ~$250/night x 2 = ~$1,700 split 4 ways",
+   "lodgingVerified": false,
+   "foodFun": 850,
+   "foodFunBasis": "~$80/day food, Volcanoes park vehicle fee, manta night snorkel ~$150, 6-day full-size SUV ~$1,000 split 4"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-PHX-KOA (AA, one stop; PHX-KOA daily per schedule data)",
+   "aaMetal": true,
+   "hours": "~14h incl. connection",
+   "notes": "Alt: JFK-HNL nonstop (Hawaiian/Alaska) + 45 min hop to KOA or Hilo."
+  },
+  "weather": {
+   "highF": 81,
+   "lowF": 67,
+   "daylight": "10h 55m",
+   "precip": "Kona dry and sunny; Volcano village ~65F high, ~50F nights, misty rain; Hilo wet"
+  },
+  "stay": "Kailua-Kona condo for sun, Volcano village cottage for lava",
+  "getAround": "Car essential, long drives (Kona to Volcano ~2.5h). Full-size SUV or minivan for 4 adults + bags.",
+  "entry": "US domestic: no passport. REAL ID or passport for TSA.",
+  "events": [
+   "Kilauea: episodic summit lava fountains continue; episode 55 on Oct 17 2026 reached ~700 ft after a 2-month pause. Another episode during the trip is possible, not guaranteed",
+   "Fountain episodes can close parts of Volcanoes National Park and bring ashfall; check USGS HVO daily",
+   "Kailua-Kona Christmas Parade: usually 2nd Saturday of Dec (Dec 14 2024, Dec 13 2025), likely Sat Dec 12 2026 (unverified)"
+  ],
+  "pros": [
+   "Chance to see live lava glow",
+   "Turtles, manta rays, black sand",
+   "Cheapest lodging of the islands"
+  ],
+  "cons": [
+   "Lots of driving between sides",
+   "Lava activity is unpredictable",
+   "Volcano area is cool and rainy"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Kona",
+    "plan": "Land KOA, pick up SUV, settle in Kailua-Kona, sunset walk on Alii Drive.",
+    "eat": "Fish and chips at Splasher's Grill",
+    "photo": {
+     "file": "Ali'i_Drive,_Kailua-Kona,_Hawaii_(4548895483).jpg",
+     "author": "Ken Lund",
+     "license": "CC BY-SA 2.0",
+     "caption": "Alii Drive seawall, Kona"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Kealakekua Bay snorkel",
+    "plan": "Boat or guided kayak to Captain Cook Monument reef. Evening manta ray night snorkel.",
+    "eat": "Kona coffee + malasadas at Holuakoa",
+    "photo": {
+     "file": "Captain_Cook's_Monument_kayak_snorkeling_Big_island_Hawaii_(31337970747).jpg",
+     "author": "dronepicr",
+     "license": "CC BY 2.0",
+     "caption": "Kayaks at Captain Cook Monument"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Place of Refuge + coffee",
+    "plan": "Puuhonua o Honaunau historic park, Two Step snorkel, Kona coffee farm tour.",
+    "eat": "Kalua pork plate at Da Poke Shack",
+    "photo": {
+     "file": "Puuhonua_o_Honaunau_page_banner.jpg",
+     "author": "Footwarrior",
+     "license": "CC BY-SA 3.0",
+     "caption": "Puuhonua o Honaunau shoreline"
+    }
+   },
+   {
+    "day": 4,
+    "title": "South Point to Volcano",
+    "plan": "Drive south; turtles at Punaluu black sand beach; check in Volcano; night crater glow if active.",
+    "eat": "Punaluu Bake Shop sweet bread",
+    "photo": {
+     "file": "Punaluu_Black_Sand_Beach,_Hawaii,_USA6.jpg",
+     "author": "Diego Delso",
+     "license": "CC BY-SA 3.0",
+     "caption": "Punaluu black sand beach"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Volcanoes National Park",
+    "plan": "Kilauea overlooks, Nahuku lava tube, Chain of Craters Road to sea arch.",
+    "eat": "Volcano House lunch over the caldera",
+    "photo": {
+     "file": "Halemaumau_Crater,_Kīlauea_Caldera,_Hawaiʻi_Volcanoes_National_Park,_Hawaii_(4528764695).jpg",
+     "author": "Ken Lund",
+     "license": "CC BY-SA 2.0",
+     "caption": "Halemaumau crater, Kilauea"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Hilo + Maunakea",
+    "plan": "Hilo farmers market, Akaka Falls, Saddle Road to Maunakea Visitor Station stars, back to Kona.",
+    "eat": "Loco moco at Cafe 100, Hilo",
+    "photo": {
+     "file": "Subaru_Telescope._Mauna_Kea_Summit_(503947)_(21404240034).jpg",
+     "author": "Bob Linsdell",
+     "license": "CC BY 4.0",
+     "caption": "Maunakea summit telescopes"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Last beach swim, coffee to pack, return SUV, fly KOA.",
+    "eat": "Shave ice on Alii Drive",
+    "photo": {
+     "file": "Ali'i_Drive,_Kailua-Kona,_Hawaii_(2)_(4549537774).jpg",
+     "author": "Ken Lund",
+     "license": "CC BY-SA 2.0",
+     "caption": "Kailua-Kona waterfront"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Halema'uma'u_Crater_in_Kilauea_volcano,_Hawaii..jpg",
+    "author": "unverified (see Commons file page)",
+    "license": "CC BY-SA 3.0",
+    "caption": "Halemaumau crater glow"
+   },
+   {
+    "file": "Green_turtle_at_Black_Sand_Beach.jpg",
+    "author": "Brocken Inaglory",
+    "license": "unverified (see Commons file page)",
+    "caption": "Green turtle at Punaluu"
+   },
+   {
+    "file": "Captain_Cook_Monument._Kealakekua_Bay,_Captain_Cook_(504562)_(24000465856).jpg",
+    "author": "Bob Linsdell",
+    "license": "CC BY 2.0",
+    "caption": "Kealakekua Bay monument"
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS HVO episode 55 chronology",
+    "url": "https://www.usgs.gov/observatories/hvo/news/photo-video-chronology-kilauea-summit-episode-55-0"
+   },
+   {
+    "label": "USGS Oct 17 2026 episode 55 image",
+    "url": "https://www.usgs.gov/media/images/october-17-2026-episode-55-lava-fountain-and-flows-kilauea-summit"
+   },
+   {
+    "label": "PHX-KOA AA schedule",
+    "url": "https://www.directflights.com/PHX-KOA"
+   },
+   {
+    "label": "Kona Christmas Parade",
+    "url": "https://www.coraltreeresidencecollection.com/events-big-island/kailua-kona-christmas-parade-kailua-kona/"
+   },
+   {
+    "label": "AA PHL-HNL fare page",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-honolulu"
+   },
+   {
+    "label": "HTA hotel ADR by island (May 2026)",
+    "url": "https://www.hawaii-guide.com/blog/hawaii-post-labor-day-hotel-rates-2026"
+   },
+   {
+    "label": "Hawaii rental car prices 2026",
+    "url": "https://hawaiitravelwithkids.com/hawaii-car-rental-mistakes/"
+   }
+  ],
+  "unverified": [
+   "No live Dec 12-18 2026 fares seen; AA fares are estimates from aa.com route-page snapshots (PHL-HNL round trip from $658, other months).",
+   "No American nonstop PHL-HNL found in any airline/airport source; AA hubs to Hawaii (DFW, PHX, LAX, ORD) are the realistic connections.",
+   "Hawaiian/Alaska JFK-HNL nonstop (HA/AS 830) seen only on schedule aggregators for spring 2026; December 2026 operation not confirmed.",
+   "Lodging and rental car prices are estimates from 2025-26 listing snapshots and HTA averages, not live Dec 2026 quotes.",
+   "Weather figures are typical December climate, not a forecast.",
+   "Web search budget ran out before every photo's author/license could be checked; entries marked 'unverified' need a check on the Commons file page.",
+   "AA Dallas-Kona seasonal return for winter 2026-27 not confirmed",
+   "Kona Christmas Parade 2026 date",
+   "No forecast exists for next Kilauea episode"
+  ]
+ },
+ {
+  "id": "kauai",
+  "name": "Kauai, Hawaii",
+  "region": "US",
+  "passport": false,
+  "warm": true,
+  "tagline": "Na Pali cliffs, Waimea Canyon, quiet beaches",
+  "whyParents": "Greenest, calmest island: dramatic cliffs by boat, canyon views, monk seals on the beach, little traffic.",
+  "costPP": {
+   "flights": 800,
+   "flightsBasis": "AA one-stop PHL-LIH via LAX (or PHX); typical mid-Dec $700 to $950",
+   "flightsVerified": false,
+   "lodging": 640,
+   "lodgingBasis": "Poipu 2BR condo ~$425/night all-in x 6 = ~$2,550 split 4 ways (Kauai hotel ADR ~$409/room)",
+   "lodgingVerified": false,
+   "foodFun": 900,
+   "foodFunBasis": "~$85/day food, Na Pali boat tour ~$200, kayak ~$80, 6-day full-size SUV ~$1,000 split 4"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-LAX-LIH (AA, one stop); LIH nonstops limited, check PHX/DFW",
+   "aaMetal": true,
+   "hours": "~14h 30m incl. connection",
+   "notes": "Alt: JFK-HNL nonstop (Hawaiian/Alaska) + 35 min hop to LIH."
+  },
+  "weather": {
+   "highF": 78,
+   "lowF": 66,
+   "daylight": "10h 50m",
+   "precip": "wettest island in Dec; south shore (Poipu) sunniest; north shore rain and big surf"
+  },
+  "stay": "Poipu: sunniest coast, beaches, monk seals",
+  "getAround": "Car essential; one main highway. Full-size SUV or minivan for 4 adults + bags.",
+  "entry": "US domestic: no passport. REAL ID or passport for TSA.",
+  "events": [
+   "Lights on Rice Parade, Lihue: Fri Dec 4 2026 (before trip); Kauai Festival of Lights displays usually up through New Year (2026 run unverified)",
+   "North Shore winter surf: Na Pali boat tours may be rerouted or canceled in big swell"
+  ],
+  "pros": [
+   "Na Pali Coast is world class",
+   "Least crowded, slow pace",
+   "Poipu sun with monk seal sightings"
+  ],
+  "cons": [
+   "Rainiest island in December",
+   "Fewer flight options to LIH",
+   "Boat tours weather dependent"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive + Poipu Beach",
+    "plan": "Land LIH, pick up SUV, 30 min to Poipu, sunset at Poipu Beach Park.",
+    "eat": "Fish tacos at Da Crack, Koloa",
+    "photo": {
+     "file": "An_endangered_Hawaiian_Monk_Seal_resting_on_Poipu_Beach_in_Kauai.jpg",
+     "author": "Ashley Lee",
+     "license": "CC BY 4.0",
+     "caption": "Monk seal on Poipu Beach"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Waimea Canyon",
+    "plan": "Drive up Waimea Canyon to Kalalau Lookout; stop in Waimea town on the way back.",
+    "eat": "Shave ice at JoJo's, Waimea",
+    "photo": {
+     "file": "Waimea_Canyon,_Kauaʻi.jpg",
+     "author": "Frank Schulenburg",
+     "license": "CC BY-SA 4.0",
+     "caption": "Waimea Canyon lookout"
+    }
+   },
+   {
+    "day": 3,
+    "title": "Na Pali by boat",
+    "plan": "Morning catamaran from Port Allen along Na Pali sea caves; snorkel if calm.",
+    "eat": "Plate lunch at Ishihara Market",
+    "photo": {
+     "file": "Na_Pali_Coast_Kauai_Hawaii_(32406276598).jpg",
+     "author": "dronepicr",
+     "license": "CC BY 2.0",
+     "caption": "Na Pali Coast cliffs"
+    }
+   },
+   {
+    "day": 4,
+    "title": "North Shore + Hanalei",
+    "plan": "Kilauea Point lighthouse, Hanalei Bay pier, Tunnels/Haena views (Haena park needs reservation).",
+    "eat": "Hanalei Bread Company",
+    "photo": {
+     "file": "Sunset_at_Hanalei_Pier_on_the_island_of_Kauai.jpg",
+     "author": "Debbie Tee",
+     "license": "CC BY-SA 4.0",
+     "caption": "Hanalei Pier at sunset"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Wailua River",
+    "plan": "Guided Wailua River kayak to Secret Falls or boat to Fern Grotto; Wailua Falls overlook.",
+    "eat": "Poke at Pono Market, Kapaa",
+    "photo": {
+     "file": "Wailua_Falls,_Kauai.JPG",
+     "author": "Alejandro Bárcenas",
+     "license": "CC BY-SA 2.5",
+     "caption": "Wailua Falls"
+    }
+   },
+   {
+    "day": 6,
+    "title": "South shore slow day",
+    "plan": "Mahaulepu coastal walk, Spouting Horn, Allerton or McBryde garden tour, Koloa town.",
+    "eat": "Merriman's Fish House, Poipu",
+    "photo": {
+     "file": "Spouting_horn_blowhole_Kauai_Hawaii.jpg",
+     "author": "Ron Clausen",
+     "license": "CC BY-SA 4.0",
+     "caption": "Spouting Horn blowhole"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Beach morning, return SUV at LIH, fly home.",
+    "eat": "Hamura Saimin, Lihue",
+    "photo": {
+     "file": "Hawaiian_monk_seal_close-up_(Neomonachus_schauinslandi).jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "CC BY-SA 4.0",
+     "caption": "Monk seal close-up"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Na_Pali_Coast,_Kauai,_Hawaii.jpg",
+    "author": "Jeff Kubina",
+    "license": "CC BY-SA 2.0",
+    "caption": "Na Pali Coast"
+   },
+   {
+    "file": "Waipoo_Falls_and_Waimea_Canyon_(33588353776).jpg",
+    "author": "Deb Nystrom",
+    "license": "CC BY 2.0",
+    "caption": "Waipoo Falls, Waimea Canyon"
+   },
+   {
+    "file": "Hanalei_Pier_Kauai.jpg",
+    "author": "Ralf Beier",
+    "license": "CC BY 3.0",
+    "caption": "Hanalei Pier and bay"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Kauai Festival of Lights guide",
+    "url": "https://www.hawaii-guide.com/blog/kauai-festival-of-lights-guide"
+   },
+   {
+    "label": "How to fly to Hawaii (routes)",
+    "url": "https://thepointsguy.com/guide/how-to-fly-hawaii/"
+   },
+   {
+    "label": "AA PHL-HNL fare page",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-honolulu"
+   },
+   {
+    "label": "HTA hotel ADR by island (May 2026)",
+    "url": "https://www.hawaii-guide.com/blog/hawaii-post-labor-day-hotel-rates-2026"
+   },
+   {
+    "label": "Hawaii rental car prices 2026",
+    "url": "https://hawaiitravelwithkids.com/hawaii-car-rental-mistakes/"
+   }
+  ],
+  "unverified": [
+   "No live Dec 12-18 2026 fares seen; AA fares are estimates from aa.com route-page snapshots (PHL-HNL round trip from $658, other months).",
+   "No American nonstop PHL-HNL found in any airline/airport source; AA hubs to Hawaii (DFW, PHX, LAX, ORD) are the realistic connections.",
+   "Hawaiian/Alaska JFK-HNL nonstop (HA/AS 830) seen only on schedule aggregators for spring 2026; December 2026 operation not confirmed.",
+   "Lodging and rental car prices are estimates from 2025-26 listing snapshots and HTA averages, not live Dec 2026 quotes.",
+   "Weather figures are typical December climate, not a forecast.",
+   "Web search budget ran out before every photo's author/license could be checked; entries marked 'unverified' need a check on the Commons file page.",
+   "AA LIH nonstop gateways for Dec 2026 (LAX assumed)",
+   "Festival of Lights 2026 dates and location"
+  ]
+ },
+ {
+  "id": "oahu-maui",
+  "name": "Oahu + Maui combo, Hawaii",
+  "region": "US",
+  "passport": false,
+  "warm": true,
+  "tagline": "Two islands: Waikiki history, Maui scenery",
+  "whyParents": "Best of both: Pearl Harbor and Waikiki, then Haleakala sunrise and Road to Hana.",
+  "costPP": {
+   "flights": 870,
+   "flightsBasis": "AA open-jaw PHL-HNL, OGG-PHL est. $750 to $800 + interisland HNL-OGG ~$70 to $100 (Southwest from $69 one way, 2026 snapshot) + $30 bag",
+   "flightsVerified": false,
+   "lodging": 640,
+   "lodgingBasis": "Waikiki 2BR ~$400 x 3 nights + Kihei 2BR ~$450 x 3 nights = ~$2,550 split 4 ways",
+   "lodgingVerified": false,
+   "foodFun": 850,
+   "foodFunBasis": "~$90/day food, Haleakala fees, Pearl Harbor, SUV on Maui 3 days ~$500 + Oahu 1 day ~$150 split 4"
+  },
+  "flight": {
+   "from": "PHL",
+   "airline": "American",
+   "routing": "PHL-DFW-HNL out; OGG-ORD-PHL back (AA ORD-OGG daily from Dec 17 2026) or OGG-DFW-PHL; HNL-OGG on Southwest or Hawaiian",
+   "aaMetal": true,
+   "hours": "~14h 30m each way + 40 min hop",
+   "notes": "Interisland: Southwest or Hawaiian, ~40 min, many daily. Interisland bag fees rose Apr 9 2026 ($30 first bag)."
+  },
+  "weather": {
+   "highF": 80,
+   "lowF": 66,
+   "daylight": "10h 50m",
+   "precip": "mostly sunny leeward sides, passing showers; Haleakala summit near freezing at dawn"
+  },
+  "stay": "Waikiki condo 3 nights, then Kihei condo 3 nights",
+  "getAround": "Oahu: walk/Uber, 1-day car. Maui: full-size SUV or minivan for 4 adults + bags.",
+  "entry": "US domestic: no passport. REAL ID or passport for TSA.",
+  "events": [
+   "Honolulu Marathon: Sun Dec 13 2026; Waikiki road closures early morning",
+   "Honolulu City Lights at Honolulu Hale (opened Dec 5 2026)",
+   "Lahaina Front Street scheduled reopening Aug 1 2026; harbor dredging through Dec 2026",
+   "Humpback whale season starting on Maui"
+  ],
+  "pros": [
+   "Two very different islands in a week",
+   "City culture plus wild scenery",
+   "Open-jaw ticket avoids backtracking"
+  ],
+  "cons": [
+   "Packing up mid-trip",
+   "Extra flight and bag fees",
+   "Only 3 days per island"
+  ],
+  "itinerary": [
+   {
+    "day": 1,
+    "title": "Arrive Waikiki",
+    "plan": "Land HNL, check in Waikiki, sunset beach walk.",
+    "eat": "Poke at Ono Seafood",
+    "photo": {
+     "file": "1999_-_Waikiki_Beach_Honolulu_Hawaï.jpg",
+     "author": "US CDC",
+     "license": "Public domain",
+     "caption": "Waikiki Beach, Honolulu"
+    }
+   },
+   {
+    "day": 2,
+    "title": "Pearl Harbor + Diamond Head",
+    "plan": "USS Arizona Memorial timed tickets; afternoon Diamond Head hike (reserved slot).",
+    "eat": "Rainbow Drive-In plate lunch",
+    "photo": {
+     "file": "USS_Arizona_memorial_from_waterline.jpg",
+     "author": "National Park Service",
+     "license": "Public domain",
+     "caption": "USS Arizona Memorial"
+    }
+   },
+   {
+    "day": 3,
+    "title": "North Shore",
+    "plan": "Rental car day: Haleiwa, Waimea Bay surf, turtles at Laniakea, Kualoa views.",
+    "eat": "Giovanni's garlic shrimp",
+    "photo": {
+     "file": "A183,_Oahu,_Hawaii,_USA,_Waimea_Bay,_2007.JPG",
+     "author": "Brian W. Schaller",
+     "license": "CC BY-NC-SA 4.0",
+     "caption": "Surfer at Waimea Bay"
+    }
+   },
+   {
+    "day": 4,
+    "title": "Fly to Maui",
+    "plan": "Morning hop HNL-OGG, pick up SUV, Kihei condo, Kamaole beach sunset.",
+    "eat": "Coconut's Fish Cafe tacos",
+    "photo": {
+     "file": "Haleakala_aerial.jpg",
+     "author": "unverified (see Commons file page)",
+     "license": "unverified (see Commons file page)",
+     "caption": "Haleakala rising over Maui"
+    }
+   },
+   {
+    "day": 5,
+    "title": "Haleakala sunrise",
+    "plan": "Sunrise reservation, short crater walk, Kula farms and lunch.",
+    "eat": "Kula Lodge breakfast",
+    "photo": {
+     "file": "Sunrise_from_Holua_Cabin.jpg",
+     "author": "National Park Service",
+     "license": "Public domain",
+     "caption": "Sunrise in Haleakala crater"
+    }
+   },
+   {
+    "day": 6,
+    "title": "Road to Hana",
+    "plan": "Early start: waterfalls, Waianapanapa black sand (reservation), Wailua Falls; back before dark.",
+    "eat": "Aunty Sandy's banana bread",
+    "photo": {
+     "file": "Wailua_Falls,_Hana,_HI(2).jpg",
+     "author": "Ekrem Canli",
+     "license": "CC BY-SA 4.0",
+     "caption": "Wailua Falls, Road to Hana"
+    }
+   },
+   {
+    "day": 7,
+    "title": "Fly home",
+    "plan": "Paia breakfast, Hookipa turtles, return SUV, fly OGG.",
+    "eat": "Paia Bowls acai",
+    "photo": {
+     "file": "Haleakala_crater_(1).jpg",
+     "author": "Navin75",
+     "license": "CC BY-SA 2.0",
+     "caption": "Haleakala crater trail"
+    }
+   }
+  ],
+  "heroPhotos": [
+   {
+    "file": "Waikiki_Beach_(2024)-L1004709.jpg",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "caption": "Waikiki toward Diamond Head"
+   },
+   {
+    "file": "Diamond_Head_Tuff_Cone_in_Oahu_Hawaii_USA.jpg",
+    "author": "unverified (see Commons file page)",
+    "license": "unverified (see Commons file page)",
+    "caption": "Diamond Head, Oahu"
+   },
+   {
+    "file": "Haleakala_Observatory_2017.jpg",
+    "author": "unverified (see Commons file page)",
+    "license": "unverified (see Commons file page)",
+    "caption": "Haleakala summit, Maui"
+   }
+  ],
+  "sources": [
+   {
+    "label": "AA PHL-HNL fare page",
+    "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-honolulu"
+   },
+   {
+    "label": "Southwest HNL-OGG fares",
+    "url": "https://www.southwest.com/routes/flights-from-honolulu-to-kahului"
+   },
+   {
+    "label": "Interisland fare/bag fee guide",
+    "url": "https://www.lovebigisland.com/inter-island-flights"
+   },
+   {
+    "label": "AeroRoutes: AA ORD-OGG NW26",
+    "url": "https://www.aeroroutes.com/eng/260127-aanw26ordogg"
+   },
+   {
+    "label": "Honolulu Marathon 2026",
+    "url": "https://www.honolulumarathon.org/events/honolulu-marathon"
+   },
+   {
+    "label": "Maui Now: Front Street",
+    "url": "https://mauinow.com/2026/07/18/lahainas-front-street-scheduled-to-reopen-on-aug-1-2026/"
+   },
+   {
+    "label": "HTA hotel ADR by island (May 2026)",
+    "url": "https://www.hawaii-guide.com/blog/hawaii-post-labor-day-hotel-rates-2026"
+   }
+  ],
+  "unverified": [
+   "No live Dec 12-18 2026 fares seen; AA fares are estimates from aa.com route-page snapshots (PHL-HNL round trip from $658, other months).",
+   "No American nonstop PHL-HNL found in any airline/airport source; AA hubs to Hawaii (DFW, PHX, LAX, ORD) are the realistic connections.",
+   "Hawaiian/Alaska JFK-HNL nonstop (HA/AS 830) seen only on schedule aggregators for spring 2026; December 2026 operation not confirmed.",
+   "Lodging and rental car prices are estimates from 2025-26 listing snapshots and HTA averages, not live Dec 2026 quotes.",
+   "Weather figures are typical December climate, not a forecast.",
+   "Web search budget ran out before every photo's author/license could be checked; entries marked 'unverified' need a check on the Commons file page.",
+   "Open-jaw AA pricing not seen; interisland fare snapshot is from summer 2026 dates",
+   "Day 7 photo is a general Haleakala view"
+  ]
+ }
+]

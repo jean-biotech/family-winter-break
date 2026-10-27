@@ -1,0 +1,361 @@
+[
+  {
+    "id": "japan",
+    "name": "Tokyo, Hakone + Kyoto, Japan",
+    "region": "Asia",
+    "passport": true,
+    "warm": false,
+    "tagline": "Neon Tokyo, Fuji views, temple Kyoto",
+    "whyParents": "Spotless, safe, superb food and trains; Tokyo winter light displays feel like a Paris Christmas.",
+    "costPP": {
+      "flights": 1400,
+      "flightsBasis": "Estimate. JAL site showed NYC-Tokyo economy ~$1,837 (Nov 10 to Dec 9 dates); Cheapflights Dec average ~$1,192 (data from Mar 2026). Mid-Dec AA/JAL nonstop typically $1,200 to $1,600.",
+      "flightsVerified": false,
+      "lodging": 440,
+      "lodgingBasis": "Tokyo 3BR apartment ~$250/night x3, Hakone ryokan 2 rooms ~$500 x1, Kyoto machiya ~$250/night x2; ~$1,750 total split 4 ways",
+      "lodgingVerified": false,
+      "foodFun": 550,
+      "foodFunBasis": "~$60/day food and sights x7, plus ~$130 Tokyo-Hakone-Kyoto trains (Shinkansen)"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "American",
+      "routing": "JFK-HND nonstop (AA167, Boeing 787-9, reviewed flying Sept 2026); return Haneda-JFK same day",
+      "aaMetal": true,
+      "hours": "~14h out, ~13h back",
+      "notes": "JAL (oneworld, AA joint venture) also flies JFK-HND nonstop. No Asia nonstops from PHL: connect via JFK or DFW (AA DFW-HND daily from Oct 25 2026). Lose ~1 day each way to travel and date line."
+    },
+    "weather": { "highF": 54, "lowF": 39, "daylight": "9h 45m", "precip": "dry and sunny, rain ~5 days/month, snow rare in Tokyo/Kyoto" },
+    "stay": "Tokyo: Ginza/Tokyo Station area, walk to Marunouchi lights. Kyoto: Gion, temples on foot.",
+    "getAround": "Metro and JR trains; Shinkansen Tokyo-Kyoto ~2h15m. Ship big bags ahead by takkyubin. No car needed.",
+    "entry": "Visa-free up to 90 days. JESTA e-authorization not until fiscal 2028. Passport valid for stay.",
+    "events": [
+      "Marunouchi Illumination: 2025 season ran Nov 13 to Feb 15 (free); 2026 dates not yet confirmed",
+      "Roppongi Hills Keyakizaka Illumination: 2025 ran Nov 4 to Dec 25, 5 to 11pm (free); 2026 dates not yet confirmed",
+      "Tokyo Midtown Christmas lights: 2025 ran Nov 13 to Dec 25; 2026 not yet confirmed"
+    ],
+    "pros": ["AA flies nonstop JFK-Haneda", "Very safe, easy trains, amazing food", "Winter illuminations and clear Fuji views"],
+    "cons": ["Coldest Asia option, ~50F days", "Pricier flights than SE Asia", "Two of seven days lost to flying"],
+    "itinerary": [
+      { "day": 1, "title": "Land Haneda, Shibuya lights", "plan": "Leave JFK Dec 12, land Haneda Dec 13 afternoon. Check in, evening stroll Shibuya crossing.", "eat": "Ichiran ramen",
+        "photo": { "file": "Shibuya_crossing_night.jpg", "author": "Hide1228", "license": "CC BY-SA 4.0", "caption": "Shibuya crossing at night" } },
+      { "day": 2, "title": "Asakusa + Marunouchi lights", "plan": "Senso-ji temple and Nakamise street, Sumida river walk, dusk at Marunouchi illuminations.", "eat": "Tempura at Daikokuya, Asakusa",
+        "photo": { "file": "SensojiPagoda1468.jpg", "author": "Fg2", "license": "Public domain", "caption": "Senso-ji pagoda, Asakusa" } },
+      { "day": 3, "title": "Meiji Shrine + Roppongi", "plan": "Meiji Shrine, Harajuku, Shibuya Sky view, evening Roppongi Keyakizaka lights with Tokyo Tower.", "eat": "Tonkatsu at Maisen, Omotesando",
+        "photo": { "file": "Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg", "author": "Benh LIEU SONG", "license": "CC BY-SA 2.0", "caption": "Shibuya Scramble Crossing" } },
+      { "day": 4, "title": "Hakone loop + onsen", "plan": "Romancecar to Hakone, ropeway over Owakudani, Lake Ashi boat, Fuji views, overnight ryokan.", "eat": "Ryokan kaiseki dinner",
+        "photo": { "file": "Hakone_Volcano_20121110.jpg", "author": "Batholith", "license": "Public domain (per secondary source)", "caption": "Lake Ashi and Hakone peaks" } },
+      { "day": 5, "title": "Shinkansen to Kyoto", "plan": "Bullet train from Odawara to Kyoto. Afternoon Fushimi Inari torii trail, fewer crowds late.", "eat": "Kitsune udon near Fushimi Inari",
+        "photo": { "file": "20131016_25_Kyoto_-_Fushimi_Inari-Taisha_(10563132855).jpg", "author": "Sjaak Kempe", "license": "CC BY 2.0", "caption": "Fushimi Inari torii gates" } },
+      { "day": 6, "title": "Arashiyama + Golden Pavilion", "plan": "Early Arashiyama bamboo grove, Tenryu-ji garden, then Kinkaku-ji. Evening Gion lanes.", "eat": "Yudofu (tofu hot pot) in Arashiyama",
+        "photo": { "file": "Sagano_Bamboo_Forest_at_Arashimaya.jpg", "author": "Ray in Manila", "license": "CC BY 2.0", "caption": "Arashiyama bamboo grove" } },
+      { "day": 7, "title": "Train to Tokyo, fly home", "plan": "Morning Shinkansen to Tokyo (Fuji on right side), Haneda evening flight, land JFK same day.", "eat": "Ekiben bento box on the train",
+        "photo": { "file": "Mount_Fuji_and_Bullet_Train_view_location.jpg", "author": "Manishprabhunejapan", "license": "CC BY-SA 4.0", "caption": "Fuji from the bullet train" } }
+    ],
+    "heroPhotos": [
+      { "file": "Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg", "author": "Basile Morin", "license": "CC BY-SA 4.0 (not confirmed)", "caption": "Fushimi Inari lantern path" },
+      { "file": "Kinkaku-ji,_Kyoto,_Japan,_2004.jpg", "author": "Ellywa", "license": "CC BY-SA 3.0", "caption": "Kinkaku-ji Golden Pavilion" },
+      { "file": "Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg", "author": "Martin Falbisoner (not confirmed)", "license": "CC BY-SA 4.0 (not confirmed)", "caption": "Kiyomizu-dera, Kyoto" }
+    ],
+    "sources": [
+      { "label": "AA JFK-HND 787-9 review (Sept 2026)", "url": "https://www.milesmate.io/blog/aa-787-flagship-business-jfk-hnd-review" },
+      { "label": "AA winter 2026 schedule (DFW-HND)", "url": "https://aviationa2z.com/index.php/2026/03/10/american-airlines-overhauls-winter-2026-schedule/" },
+      { "label": "JAL NYC-Tokyo fares", "url": "https://www.jal.co.jp/arl/en/jfk/index.html" },
+      { "label": "Tokyo illuminations 2025-26", "url": "https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-tokyo_train_station/article-a0000611/" },
+      { "label": "Winter illumination guide", "url": "https://jw-webmagazine.com/tips/tokyo-winter-illumination-guide" },
+      { "label": "JESTA delayed to FY2028", "url": "https://yourmileagemayvary.com/2026/03/26/japan-is-changing-entry-rules-for-americans-but-not-right-away" }
+    ],
+    "unverified": [
+      "December 2026 fares (no live Dec 12 to 19 quote found; Google Flights/aa.com not reachable)",
+      "AA JFK-HND operating exact Dec 12 and 19 dates (route active Sept 2026; Dec schedule not seen)",
+      "2026-27 illumination dates for Marunouchi, Roppongi, Midtown (only 2025 dates found)",
+      "Lodging rates are typical estimates, not live quotes",
+      "License of Hakone_Volcano_20121110.jpg and Torii_path... photo; author/license of Kiyomizu-dera photo"
+    ]
+  },
+  {
+    "id": "thailand",
+    "name": "Bangkok + Chiang Mai, Thailand",
+    "region": "Asia",
+    "passport": true,
+    "warm": true,
+    "tagline": "Golden temples, street food, cool northern hills",
+    "whyParents": "The Thailand they are curious about: grand palaces, gentle elephants, warm dry weather, very low costs.",
+    "costPP": {
+      "flights": 1350,
+      "flightsBasis": "Estimate. JAL site showed NYC-Bangkok $1,297 (Dec 6 to Jan 14); EVA $1,375 (Jan). Mid-Dec ~$1,300 plus ~$50 BKK-CNX domestic.",
+      "flightsVerified": false,
+      "lodging": 160,
+      "lodgingBasis": "Bangkok 3BR condo ~$120/night x3, Chiang Mai 3BR house ~$90/night x3; ~$630 total split 4 ways",
+      "lodgingVerified": false,
+      "foodFun": 300,
+      "foodFunBasis": "~$40/day food, temples, tuk-tuks; elephant sanctuary ~$70"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "Japan Airlines (oneworld, book via AA)",
+      "routing": "JFK-HND-BKK on JAL, AA codeshare; or Cathay JFK-HKG-BKK; or Qatar JFK-DOH-BKK",
+      "aaMetal": false,
+      "hours": "~22h with one stop",
+      "notes": "No AA metal to Thailand. Cathay (Asia Miles) and Qatar (via BA Avios) are Capital One transfer options. BKK-CNX ~1h10m on Thai/AirAsia."
+    },
+    "weather": { "highF": 88, "lowF": 70, "daylight": "11h 20m", "precip": "dry season, rain ~1 to 2 days/month; Chiang Mai nights ~60F" },
+    "stay": "Bangkok: Riverside/Silom, boats to temples. Chiang Mai: Old City, walk everywhere.",
+    "getAround": "BTS Skytrain, river boats, Grab cars (book XL for 4 + bags). Fly BKK-Chiang Mai. No self-drive needed.",
+    "entry": "Visa-free 30 days (cut from 60 on Sept 15 2026). Free TDAC online within 3 days before arrival.",
+    "events": [
+      "No specific festival verified for Dec 12 to 18 2026; peak dry, cool season",
+      "Chiang Mai Night Bazaar runs nightly"
+    ],
+    "pros": ["Lowest daily costs of any option", "Warm, dry, sunny in December", "Huge variety: temples, food, elephants"],
+    "cons": ["~22h each way, one connection", "Bangkok heat and traffic tiring", "No AA nonstop; partner airlines only"],
+    "itinerary": [
+      { "day": 1, "title": "Land Bangkok, river dusk", "plan": "Leave Dec 12, land Dec 13. Check in, sunset river boat past Wat Arun.", "eat": "Pad thai at Thipsamai",
+        "photo": { "file": "Bangkok_along_the_Chao_Phraya_and_Wat_Arun_(14881669620).jpg", "author": "Clay Gilliland", "license": "CC BY-SA 2.0", "caption": "Chao Phraya and Wat Arun" } },
+      { "day": 2, "title": "Grand Palace + Wat Pho", "plan": "Early Grand Palace and Emerald Buddha (cover shoulders, knees), Wat Pho, ferry to Wat Arun.", "eat": "Tom yum goong at Krua Apsorn",
+        "photo": { "file": "Grand_Palace_Bangkok,_Thailand.jpg", "author": "Andy Marchand", "license": "CC BY-SA 3.0", "caption": "Grand Palace, Bangkok" } },
+      { "day": 3, "title": "Floating market + Chinatown", "plan": "Morning Damnoen Saduak floating market by car, evening Yaowarat Chinatown street food.", "eat": "Crispy pork and fish maw soup on Yaowarat",
+        "photo": { "file": "Ratchaburi_Damnoen_Saduak_Floating_Market_2.jpg", "author": "Niwat Tantayanusorn", "license": "CC BY-SA (version not confirmed)", "caption": "Damnoen Saduak floating market" } },
+      { "day": 4, "title": "Fly to Chiang Mai", "plan": "Morning flight north. Old City temples: Wat Chedi Luang and Wat Phra Singh.", "eat": "Khao soi at Khao Soi Khun Yai",
+        "photo": { "file": "Wat_Chedi_Luang_Assembly_Hall,_Chiang_Mai,_Thailand_-_Diliff.jpg", "author": "Diliff", "license": "CC BY-SA (version not confirmed)", "caption": "Wat Chedi Luang hall" } },
+      { "day": 5, "title": "Doi Suthep views", "plan": "Grab up to Doi Suthep temple, city views, then Nimman cafes and a Thai massage.", "eat": "Northern sausage at Huen Phen",
+        "photo": { "file": "Panoramic_view_of_Chiang_Mai_City.jpg", "author": "Supanut Arunoprayote", "license": "CC BY 4.0", "caption": "Chiang Mai from Doi Suthep" } },
+      { "day": 6, "title": "Elephants + Night Bazaar", "plan": "Ethical no-riding elephant sanctuary half day, evening Night Bazaar shopping.", "eat": "Mango sticky rice at the bazaar",
+        "photo": { "file": "Chiang_Mai_Sunday_Night_Market_1.jpg", "author": "Christophe95", "license": "CC BY-SA 4.0", "caption": "Chiang Mai night market" } },
+      { "day": 7, "title": "Fly home", "plan": "Morning temple walk, fly CNX-BKK or via Tokyo; land NYC Dec 19 same day.", "eat": "Jok rice porridge breakfast",
+        "photo": { "file": "Chiang-Mai_Thailand_Wat-Chedi-Luang-stupa-02.jpg", "author": "Uwe Aranas", "license": "CC BY-SA (version not confirmed)", "caption": "Wat Chedi Luang stupa" } }
+    ],
+    "heroPhotos": [
+      { "file": "Wat_Phra_Kaew_outside_view.jpg", "author": "Ahoerstemeier", "license": "CC BY-SA 3.0", "caption": "Wat Phra Kaew, Bangkok" },
+      { "file": "Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_37.jpg", "author": "Diego Delso", "license": "CC BY-SA (version not confirmed)", "caption": "Wat Arun, Temple of Dawn" }
+    ],
+    "sources": [
+      { "label": "Bangkok Post: 30-day visa-free from Sept 15", "url": "https://www.bangkokpost.com/thailand/general/3311970/30day-visafree-stays-to-take-effect-on-sept-15" },
+      { "label": "Thai embassy: TDAC", "url": "https://abuja.thaiembassy.org/en/content/thailand-digital-arrival-card-tdac" },
+      { "label": "JAL NYC-Bangkok fares", "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-bangkok" },
+      { "label": "EVA NYC-Thailand fares", "url": "https://flights.evaair.com/en-us/flights-from-new-york-to-thailand" },
+      { "label": "Cathay NYC-Thailand fares", "url": "https://flights.cathaypacific.com/destinations/en_US/flights-from-new-york-to-thailand" }
+    ],
+    "unverified": [
+      "Mid-December 2026 fares (no Dec 12 to 19 quote found)",
+      "30-day stay: confirmed by Bangkok Post headline, gazette text not read directly",
+      "Lodging and domestic flight costs are typical estimates",
+      "Weather figures are climate averages",
+      "License versions for Diliff, Uwe Aranas, Diego Delso and Damnoen Saduak photos"
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "region": "Asia",
+    "passport": true,
+    "warm": true,
+    "tagline": "Garden city, hawker feasts, tropical Christmas",
+    "whyParents": "Spotless, safe, English-speaking; Christmas lights at Gardens by the Bay and Orchard Road in tropical warmth.",
+    "costPP": {
+      "flights": 1350,
+      "flightsBasis": "Estimate. Air Canada page showed JFK-SIN $1,244 (Dec 29 to Jan 12); SQ EWR-SIN showed $2,628 (Dec 22 holiday dates) and $1,453 (late Oct). Mid-Dec one-stop ~$1,300; SQ nonstop likely $1,500+.",
+      "flightsVerified": false,
+      "lodging": 700,
+      "lodgingBasis": "2 hotel rooms ~$230/night each x6 nights (~$2,800) split 4 ways; private short-term rentals restricted in Singapore",
+      "lodgingVerified": false,
+      "foodFun": 420,
+      "foodFunBasis": "~$60/day: cheap hawker meals, but Gardens domes, Sentosa, Wonderland tickets add up"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "Singapore Airlines",
+      "routing": "JFK-SIN nonstop (SQ23 daily, 10:15pm, ~19h); EWR-SIN also nonstop, frequency unclear",
+      "aaMetal": false,
+      "hours": "~19h nonstop",
+      "notes": "Longest flights in the world. oneworld alt: JAL JFK-HND-SIN or Cathay JFK-HKG-SIN (~24h). KrisFlyer and Asia Miles are Capital One transfer partners."
+    },
+    "weather": { "highF": 86, "lowF": 75, "daylight": "12h 10m", "precip": "monsoon season: short heavy showers most afternoons, ~19 rain days/month" },
+    "stay": "Marina Bay or Clarke Quay, walk to Gardens and river.",
+    "getAround": "MRT trains and buses everywhere; Grab cars cheap for 4. No car needed.",
+    "entry": "Visa-free up to 90 days. Free SG Arrival Card online within 3 days before arrival.",
+    "events": [
+      "Christmas Wonderland, Gardens by the Bay: 2025 ran Nov 29 to Jan 1, 5:30 to 11pm; 2026 dates not yet announced",
+      "Orchard Road Christmas on A Great Street: 2025 lit Nov 8 to Jan 1; 2026 dates not yet announced"
+    ],
+    "pros": ["Nonstop flight, no connection stress", "Ultra safe, clean, English spoken", "Hawker food is cheap and excellent"],
+    "cons": ["Hotels are expensive, few rentals", "Hot, humid, daily rain showers", "Small: 6 nights is plenty"],
+    "itinerary": [
+      { "day": 1, "title": "Land Dec 14, Marina Bay", "plan": "Leave JFK Dec 12 night, land Dec 14 dawn. Nap, evening Spectra light show at Marina Bay.", "eat": "Satay at Lau Pa Sat's Satay Street",
+        "photo": { "file": "Marina_Bay_Sands_Night_Panorama.jpg", "author": "Lanneixi", "license": "CC BY-SA 4.0", "caption": "Marina Bay Sands at night" } },
+      { "day": 2, "title": "Gardens + Christmas Wonderland", "plan": "Supertree Grove skywalk, Garden Rhapsody light show, then Christmas Wonderland.", "eat": "Chilli crab at Jumbo Seafood",
+        "photo": { "file": "Supertree_Grove,_Gardens_by_the_Bay,_Singapore_-_20120712-02.jpg", "author": "Shiny Things", "license": "CC BY 2.0", "caption": "Supertree Grove" } },
+      { "day": 3, "title": "Cloud Forest + Flower Dome", "plan": "Cool off in Cloud Forest waterfall dome and Flower Dome, then riverside Clarke Quay.", "eat": "Hainanese chicken rice at Tian Tian, Maxwell",
+        "photo": { "file": "Cloud_Forest,_Gardens_by_the_Bay,_Singapore_-_20120617-05.jpg", "author": "Allie Caulfield", "license": "CC BY 2.0", "caption": "Cloud Forest dome" } },
+      { "day": 4, "title": "Chinatown + Little India", "plan": "Buddha Tooth Relic Temple, Chinatown shophouses, then colorful Little India and Kampong Glam.", "eat": "Roti prata at Zam Zam",
+        "photo": { "file": "Little_India_Singapore._(8069697671).jpg", "author": "Unknown (Flickr upload)", "license": "CC0", "caption": "Little India street scene" } },
+      { "day": 5, "title": "Sentosa island", "plan": "Cable car to Sentosa, S.E.A. Aquarium, beach time at Siloso, sunset drinks.", "eat": "Laksa at 328 Katong",
+        "photo": { "file": "S.E.A._Aquarium,_Sentosa_Cove_(12472841174).jpg", "author": "KimonBerlin", "license": "CC BY-SA 2.0", "caption": "S.E.A. Aquarium, Sentosa" } },
+      { "day": 6, "title": "Botanic Gardens + Orchard", "plan": "Botanic Gardens orchids, ArtScience Museum, evening Orchard Road Christmas lights.", "eat": "Afternoon tea at Raffles Hotel",
+        "photo": { "file": "ArtScience_Museum,_Marina_Bay_Sands,_Singapore.jpg", "author": "Basile Morin", "license": "CC BY-SA 4.0 (not confirmed)", "caption": "ArtScience Museum, Marina Bay" } },
+      { "day": 7, "title": "Jewel Changi, fly home", "plan": "Early Jewel Rain Vortex waterfall, midday SQ24 nonstop, land JFK Dec 19 evening.", "eat": "Kaya toast at Ya Kun",
+        "photo": { "file": "At_Jewel_Changi,_Singapore_2023_36.jpg", "author": "Mike Peel", "license": "CC BY-SA 4.0", "caption": "Jewel Rain Vortex" } }
+    ],
+    "heroPhotos": [
+      { "file": "Marina_Bay_Sands_and_marine_area.jpg", "author": "ペウゲオト", "license": "CC BY-SA 3.0", "caption": "Marina Bay skyline" },
+      { "file": "2016_Singapur,_Downtown_Core,_Marina_Bay_Sands_(04).jpg", "author": "Marcin Konsek", "license": "CC BY-SA 4.0 (not confirmed)", "caption": "Marina Bay Sands" }
+    ],
+    "sources": [
+      { "label": "Christmas at Gardens by the Bay", "url": "https://www.singapore-tickets.com/gardens-by-the-bay-tickets/christmas/" },
+      { "label": "Orchard Road Christmas 2025", "url": "https://expatliving.sg/event/christmas-on-a-great-street-2025-sg60-edition/" },
+      { "label": "SG Arrival Card for US citizens", "url": "https://visainfoguide.com/us-visa/singapore/sg-arrival-card" },
+      { "label": "Air Canada NYC-SIN fares", "url": "https://www.aircanada.com/en-us/flights-from-new-york-to-singapore-state" },
+      { "label": "SQ Newark-SIN fares", "url": "https://www.singaporeair.com/en-us/flights-from-new-york-newark-to-singapore-sg" },
+      { "label": "SQ23 schedule", "url": "https://www.skyscanner.com/flight-tracker/singapore-airlines/sq23" }
+    ],
+    "unverified": [
+      "2026 dates for Christmas Wonderland and Orchard Road lights (only 2025 dates found; both usually run late Nov to Jan 1)",
+      "Mid-December 2026 fares; SQ nonstop price for Dec 12 to 19",
+      "Newark SQ21 frequency in winter 2026",
+      "SG Arrival Card and 90-day stay confirmed only via secondary sites, not ica.gov.sg",
+      "Short-term private rental restriction (from general knowledge, not re-checked)",
+      "Hotel rates are typical estimates; Day 1 timing assumes SQ23 Dec 12 departure lands Dec 14 early morning",
+      "Licenses for Basile Morin and Marcin Konsek photos; Cloud Forest author credit seen secondhand"
+    ]
+  },
+  {
+    "id": "south-vietnam",
+    "name": "Ho Chi Minh City, Mekong + Phu Quoc, Vietnam",
+    "region": "Asia",
+    "passport": true,
+    "warm": true,
+    "tagline": "Saigon buzz, river markets, island beach",
+    "whyParents": "French colonial Saigon meets floating markets and a warm beach finish, all at very low prices.",
+    "costPP": {
+      "flights": 1300,
+      "flightsBasis": "Estimate. Cheapflights NYC-SGN average ~$967; Jetcost EWR-SGN from $1,120. No Dec 2026 quote found. Mid-Dec ~$1,200 plus ~$60 SGN/Can Tho-Phu Quoc domestic.",
+      "flightsVerified": false,
+      "lodging": 165,
+      "lodgingBasis": "HCMC 3BR apartment ~$100/night x3, Can Tho 2 hotel rooms ~$60 x1, Phu Quoc villa ~$150/night x2; ~$660 split 4 ways",
+      "lodgingVerified": false,
+      "foodFun": 330,
+      "foodFunBasis": "~$40/day food and sights, plus Mekong tour and $25 e-visa"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "Japan Airlines (oneworld, book via AA)",
+      "routing": "JFK-HND-SGN on JAL; or Cathay JFK-HKG-SGN; or Qatar JFK-DOH-SGN",
+      "aaMetal": false,
+      "hours": "~22h with one stop",
+      "notes": "No US nonstop to Saigon. Return from Phu Quoc via SGN. Cathay Asia Miles and Avios (for Qatar) via Capital One."
+    },
+    "weather": { "highF": 89, "lowF": 73, "daylight": "11h 35m", "precip": "dry season starts, rain ~5 days/month in HCMC; central Vietnam (Hoi An) is rainy and flood-prone in Dec, so skipped" },
+    "stay": "District 1 near Dong Khoi, walk to colonial sights.",
+    "getAround": "Grab cars (7-seat for 4 + bags), private car to Mekong, short flight to Phu Quoc. Do not self-drive.",
+    "entry": "E-visa required: $25, up to 90 days, apply at evisa.gov.vn ~1 week ahead.",
+    "events": [
+      "No specific festival verified for Dec 12 to 18 2026; Christmas decorations line District 1 streets in mid-December (typical, not verified)"
+    ],
+    "pros": ["Cheapest food and lodging in batch", "Warm, mostly dry in the south", "Beach finish on Phu Quoc"],
+    "cons": ["E-visa paperwork required", "Chaotic motorbike traffic in Saigon", "~22h travel, one connection each way"],
+    "itinerary": [
+      { "day": 1, "title": "Land Saigon, rooftop", "plan": "Leave Dec 12, land Dec 13. Rest, evening rooftop bar over the Saigon River.", "eat": "Pho at Pho Hoa Pasteur",
+        "photo": { "file": "Saigonnightskyline.jpg", "author": "Hanukikanker", "license": "CC BY-SA 3.0 / GFDL", "caption": "Saigon skyline at night" } },
+      { "day": 2, "title": "Colonial Saigon", "plan": "Notre-Dame Cathedral exterior, Central Post Office, War Remnants Museum, Ben Thanh Market.", "eat": "Banh mi at Banh Mi Huynh Hoa",
+        "photo": { "file": "HCM-City_Kathedrale.JPG", "author": "Andre Lettau", "license": "CC BY-SA 3.0", "caption": "Saigon Notre-Dame Cathedral" } },
+      { "day": 3, "title": "Cu Chi tunnels", "plan": "Half-day Cu Chi tunnels tour, afternoon pool, evening street food tour by scooter taxi.", "eat": "Broken rice (com tam) at Com Tam Ba Ghien",
+        "photo": { "file": "VietnamCuChiTunnels.jpg", "author": "Kevyn Jacobs", "license": "Public domain", "caption": "Cu Chi tunnel entrance" } },
+      { "day": 4, "title": "Drive to the Mekong", "plan": "Morning Post Office photo stop, private car to Can Tho (~3.5h) with orchard and boat stops.", "eat": "Elephant ear fish in rice paper",
+        "photo": { "file": "Clock_and_exterior_of_Saigon_Central_Post_Office.JPG", "author": "Prenn", "license": "CC BY-SA (version not confirmed)", "caption": "Saigon Central Post Office" } },
+      { "day": 5, "title": "Floating market, fly island", "plan": "Dawn boat to Cai Rang floating market, then short flight to Phu Quoc, beach sunset.", "eat": "Hu tieu noodle soup on a boat",
+        "photo": { "file": "CanThoFloatingMarket.jpg", "author": "Doron", "license": "CC BY-SA 3.0 / GFDL", "caption": "Can Tho floating market" } },
+      { "day": 6, "title": "Phu Quoc beach day", "plan": "Sao Beach swim, Hon Thom sea cable car, sunset seafood at Duong Dong night market.", "eat": "Grilled squid and Phu Quoc fish sauce",
+        "photo": { "file": "Phu_Quoc.jpg", "author": "Unknown (own work, 2009)", "license": "Not confirmed", "caption": "Phu Quoc island coast" } },
+      { "day": 7, "title": "Fly home", "plan": "Morning swim, fly PQC-SGN, connect home; land NYC Dec 19.", "eat": "Vietnamese iced coffee (ca phe sua da)",
+        "photo": { "file": "Phu_Quoc_airport.jpg", "author": "Joe Gatling", "license": "CC BY 2.0", "caption": "Phu Quoc airport" } }
+    ],
+    "heroPhotos": [
+      { "file": "Áo_dài_(26282428400).jpg", "author": "Unknown (Flickr upload)", "license": "CC BY 2.0", "caption": "Ao dai by Saigon cathedral" },
+      { "file": "Lascar_Saigon_Notre-Dame_Basilica_(4607355479).jpg", "author": "Jorge Láscar", "license": "CC BY 2.0", "caption": "Saigon colonial landmark" }
+    ],
+    "sources": [
+      { "label": "Vietnam e-visa for US citizens", "url": "https://tanvanlang.com/en/vietnam-visa-for-us-citizens/" },
+      { "label": "E-visa tips 2026", "url": "https://intentionaltravelers.com/vietnam-evisa-application-tips/" },
+      { "label": "Cheapflights NYC-SGN", "url": "https://www.cheapflights.com/flights-to-ho-chi-minh-city/new-york" },
+      { "label": "Jetcost EWR-SGN", "url": "https://us.jetcost.com/en/flights/new-york-city-newark/ho-chi-minh-city-tan-son-nhut/EWR-SGN" },
+      { "label": "Phu Quoc cable car", "url": "https://phuquocislandguide.com/what-to-do-on-phu-quoc-island/phu-quoc-cable-car/" }
+    ],
+    "unverified": [
+      "Any December 2026 fare (none found); domestic Can Tho-Phu Quoc flight schedule",
+      "E-visa details from secondary sites, not evisa.gov.vn directly",
+      "Notre-Dame Cathedral may still be under restoration (not checked)",
+      "Weather figures are climate averages",
+      "Author/license of Phu_Quoc.jpg and Ao dai hero photo; Lascar file description says it shows City Hall; Prenn license version"
+    ]
+  },
+  {
+    "id": "singapore-bangkok",
+    "name": "Singapore + Bangkok combo",
+    "region": "Asia",
+    "passport": true,
+    "warm": true,
+    "tagline": "Two Asian capitals parents are curious about",
+    "whyParents": "Covers both places that intrigue them: polished Singapore, then golden-temple Bangkok, linked by a 2h flight.",
+    "costPP": {
+      "flights": 1430,
+      "flightsBasis": "Estimate. Open-jaw NYC-SIN, BKK-NYC ~$1,350 (SIN Dec fares ~$1,244, BKK ~$1,297 seen for other Dec dates) plus ~$80 SIN-BKK one-way.",
+      "flightsVerified": false,
+      "lodging": 465,
+      "lodgingBasis": "Singapore 2 hotel rooms ~$500/night x3 plus Bangkok 3BR condo ~$120/night x3; ~$1,860 split 4 ways",
+      "lodgingVerified": false,
+      "foodFun": 350,
+      "foodFunBasis": "~$50/day: pricier in Singapore, cheap in Bangkok"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "Singapore Airlines out, JAL or Cathay home",
+      "routing": "JFK-SIN nonstop SQ23; SIN-BKK ~2h25m (SQ, Thai, Scoot); BKK-HND-JFK on JAL (AA codeshare) or BKK-HKG-JFK Cathay",
+      "aaMetal": false,
+      "hours": "~19h out, ~20h back",
+      "notes": "Book as multi-city. All-oneworld version: JAL via Tokyo both ways. KrisFlyer, Asia Miles, Avios transfer from Capital One."
+    },
+    "weather": { "highF": 87, "lowF": 74, "daylight": "11h 30m to 12h 10m", "precip": "Singapore: afternoon showers most days; Bangkok: dry season, rain rare" },
+    "stay": "Singapore: Marina Bay or Clarke Quay. Bangkok: Riverside, boats to temples.",
+    "getAround": "Singapore MRT; Bangkok BTS, river boats, Grab XL cars for 4 + bags. No car rental.",
+    "entry": "Both visa-free for US (SG 90 days, TH 30 days). File SG Arrival Card and Thai TDAC online, free.",
+    "events": [
+      "Gardens by the Bay Christmas Wonderland: 2025 ran Nov 29 to Jan 1; 2026 dates not yet announced",
+      "Orchard Road Christmas lights: 2025 ran Nov 8 to Jan 1; 2026 dates not yet announced"
+    ],
+    "pros": ["Sees both places parents want", "Nonstop out, dry Bangkok weather", "Bangkok half keeps costs down"],
+    "cons": ["Extra flight and hotel change", "Only 3 nights each city", "Two arrival cards to file"],
+    "itinerary": [
+      { "day": 1, "title": "Land Dec 14, Marina Bay", "plan": "Leave JFK Dec 12 night, land early Dec 14. Rest, evening Marina Bay waterfront and light show.", "eat": "Satay at Lau Pa Sat",
+        "photo": { "file": "Marina_Bay_Sands,_Singapore,_August_2023.jpg", "author": "Ralff Nestor Nacor", "license": "CC BY-SA (version not confirmed)", "caption": "Marina Bay Sands" } },
+      { "day": 2, "title": "Gardens + Wonderland", "plan": "Cloud Forest and Supertrees by day, Christmas Wonderland and Garden Rhapsody at night.", "eat": "Chilli crab at Jumbo Seafood",
+        "photo": { "file": "Marina_Bay_Sands_from_Gardens_By_The_Bay.jpg", "author": "Not confirmed", "license": "Not confirmed", "caption": "Marina Bay from the Gardens" } },
+      { "day": 3, "title": "Hawkers + Orchard lights", "plan": "Chinatown and Maxwell hawker centre, Little India, evening Orchard Road Christmas lights.", "eat": "Chicken rice at Tian Tian",
+        "photo": { "file": "Telok_Ayer_Market_6,_Jan_06.JPG", "author": "Not confirmed", "license": "Not confirmed", "caption": "Lau Pa Sat hawker hall" } },
+      { "day": 4, "title": "Fly to Bangkok", "plan": "Morning flight to Bangkok, check in by river, evening Yaowarat Chinatown food crawl.", "eat": "Seafood at T&K, Yaowarat",
+        "photo": { "file": "Bangkok_Yaowarat1.jpg", "author": "Not confirmed", "license": "CC BY-SA 4.0", "caption": "Yaowarat Road, Chinatown" } },
+      { "day": 5, "title": "Grand Palace + Wat Pho", "plan": "Early Grand Palace (cover shoulders, knees), Wat Pho reclining Buddha, foot massage there.", "eat": "Pad thai at Thipsamai",
+        "photo": { "file": "Bangkok_WatPho3.jpg", "author": "Sayompoo Setabhrahmana", "license": "CC BY-SA (version not confirmed)", "caption": "Wat Pho, Bangkok" } },
+      { "day": 6, "title": "Floating market + river", "plan": "Morning Damnoen Saduak floating market, sunset dinner cruise on the Chao Phraya.", "eat": "Boat noodles at the market",
+        "photo": { "file": "Ratchaburi_Damnoen_Saduak_Floating_Market_3.jpg", "author": "Niwat Tantayanusorn", "license": "CC BY-SA (version not confirmed)", "caption": "Floating market boats" } },
+      { "day": 7, "title": "Wat Arun, fly home", "plan": "Ferry to Wat Arun at opening, then fly home via Tokyo or Hong Kong; land Dec 19.", "eat": "Mango sticky rice",
+        "photo": { "file": "Chao_Phraya_-_Wat_Arun.JPG", "author": "Éclusette", "license": "Not confirmed", "caption": "Wat Arun from the river" } }
+    ],
+    "heroPhotos": [
+      { "file": "104_Ramakien_Murals_(9148225737).jpg", "author": "Not confirmed (Flickr upload)", "license": "CC BY 2.0", "caption": "Grand Palace Ramakien murals" },
+      { "file": "Aerial_view_of_the_Civic_District,_Singapore_-_20110224.jpg", "author": "Not confirmed", "license": "Not confirmed", "caption": "Singapore Civic District" }
+    ],
+    "sources": [
+      { "label": "Christmas at Gardens by the Bay", "url": "https://www.singapore-tickets.com/gardens-by-the-bay-tickets/christmas/" },
+      { "label": "Bangkok Post: Thai 30-day visa-free", "url": "https://www.bangkokpost.com/thailand/general/3311970/30day-visafree-stays-to-take-effect-on-sept-15" },
+      { "label": "SG Arrival Card", "url": "https://blog.wego.com/singapore-arrival-card/" },
+      { "label": "Air Canada NYC-SIN fares", "url": "https://www.aircanada.com/en-us/flights-from-new-york-to-singapore-state" },
+      { "label": "JAL NYC-Bangkok fares", "url": "https://www.jal.co.jp/flights/en-us/flights-from-new-york-to-bangkok" }
+    ],
+    "unverified": [
+      "Open-jaw and SIN-BKK fares for Dec 12 to 19 (estimates only)",
+      "2026 Christmas Wonderland and Orchard Road dates",
+      "Hotel and condo rates are typical estimates",
+      "Authors/licenses for several photos marked Not confirmed (search budget ran out before checking)"
+    ]
+  }
+]

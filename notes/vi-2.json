@@ -1,0 +1,761 @@
+{
+ "alaska": {
+  "name": "Anchorage + Fairbanks, Alaska",
+  "tagline": "Bắc cực quang, suối nước nóng, tuyết dày",
+  "whyParents": "Ngắm bắc cực quang đáng mơ ước và ngâm suối nước nóng ngoài trời bốc hơi nghi ngút, không cần hộ chiếu, không bị lệch múi giờ.",
+  "stay": "Trung tâm Anchorage, sau đó Fairbanks gần sông Chena: đi bộ được, có xe đón đi tour",
+  "getAround": "Thuê SUV cỡ trung AWD (4 người lớn + hành lý), lốp đinh là tiêu chuẩn. Bay ANC-FAI thay vì lái 6 tiếng giữa mùa đông.",
+  "entry": "Nội địa Mỹ: chỉ cần REAL ID hoặc hộ chiếu.",
+  "events": [
+   "Tàu Aurora Winter Train chỉ chạy cuối tuần: chiều đi lên phía bắc thứ Bảy 8:30 sáng từ Anchorage, chiều về phía nam Chủ nhật 8:30 sáng từ Fairbanks (mùa từ 9/2026 đến 9/5/2027). Thứ Bảy 12/12 là ngày đến nên tuần này không kịp đi.",
+   "Tàu Aurora Winter Train chạy giữa tuần chỉ từ tháng 2 đến tháng 3, không có vào tháng 12",
+   "Mùa bắc cực quang: giữa tháng 12 đêm dài và tối, thấy được hay không tùy thời tiết"
+  ],
+  "pros": [
+   "Cơ hội thấy bắc cực quang cao nhất nước Mỹ",
+   "Suối nước nóng ngoài trời Chena giữa tuyết",
+   "Không cần hộ chiếu, tích dặm AA qua Alaska Airlines"
+  ],
+  "cons": [
+   "Chỉ có 4 đến 5 tiếng ánh sáng ban ngày",
+   "Fairbanks thường -10F đến -30F",
+   "Không có chuyến bay thẳng, ngày đi đường dài"
+  ],
+  "unverified": [
+   "Tất cả giá vé máy bay (chưa thấy giá tháng 12/2026); AA PHL-ANC chỉ hiện giá tháng 9/2026",
+   "Giá chỗ ở là ước tính",
+   "Số liệu thời tiết và giờ ban ngày là mức trung bình thường gặp, chưa kiểm tra",
+   "Giá tour Chena mùa đông 2026 ($215 đến $235 thấy trên trang bán lại)"
+  ],
+  "precip": "Lạnh khô, tuyết nhẹ; Anchorage dịu hơn (~24F/13F)",
+  "flightText": "American: Alaska/AA PHL-SEA-ANC, chặng ngắn ANC-FAI, FAI-SEA-PHL. Alaska Airlines (oneworld, tích dặm AA) có lẽ tốt nhất qua SEA. Chặng ngắn ANC-FAI ~1 tiếng với Alaska Airlines.",
+  "itinerary": [
+   {
+    "title": "Đến Anchorage",
+    "plan": "Hạ cánh ANC, nhận xe SUV, nhận phòng ở trung tâm, đi ngủ sớm.",
+    "eat": "Xúc xích tuần lộc ở Snow City Cafe"
+   },
+   {
+    "title": "Turnagain Arm + Girdwood",
+    "plan": "Lái xe ngắm cảnh trên xa lộ Seward, đi cáp treo Alyeska Resort, Wildlife Conservation Center.",
+    "eat": "Seven Glaciers ở Alyeska (trên đỉnh cáp treo)"
+   },
+   {
+    "title": "Văn hóa bản địa + cảnh núi Chugach",
+    "plan": "Alaska Native Heritage Center, sau đó ra điểm ngắm Glen Alps lúc hoàng hôn.",
+    "eat": "Cá bơn halibut ở Simon and Seafort's"
+   },
+   {
+    "title": "Bay đến Fairbanks",
+    "plan": "Bay chặng ngắn ANC-FAI buổi sáng, đi dạo bờ sông Chena, tối ra xem bắc cực quang lần đầu.",
+    "eat": "Món Thái ở Lemongrass, Fairbanks"
+   },
+   {
+    "title": "Suối nước nóng Chena + bắc cực quang",
+    "plan": "Ngâm suối buổi chiều, Aurora Ice Museum, ở lại khuya chờ bắc cực quang.",
+    "eat": "Nhà hàng của Chena Hot Springs Resort"
+   },
+   {
+    "title": "Bảo tàng + chó kéo xe",
+    "plan": "UA Museum of the North, chiều đi xe chó kéo, đêm thứ hai ngắm bắc cực quang.",
+    "eat": "Pike's Landing bên bờ sông"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Trả xe SUV, bay FAI về PHL qua Seattle.",
+    "eat": "Sân bay: đồ ăn nhẹ ở Alaska Lounge hoặc ăn kem Hot Licks trước đó"
+   }
+  ]
+ },
+ "quebec-montreal": {
+  "name": "Thành phố Quebec + Montreal, Canada",
+  "tagline": "Chợ Giáng Sinh kiểu Pháp, phố cổ phủ tuyết",
+  "whyParents": "Cảm giác như một ngôi làng Pháp phủ tuyết mùa Giáng Sinh, bay ngắn và đi tàu ngắm cảnh.",
+  "stay": "Phố cổ Quebec trong tường thành, sau đó phố cổ Montreal: đi bộ được, có chợ, rất đẹp",
+  "getAround": "Không cần xe. Tàu VIA Rail từ Montreal đến Quebec trung bình ~3 tiếng 17 phút; đi bộ, taxi, tàu điện ngầm Montreal.",
+  "entry": "Cần hộ chiếu Mỹ còn hạn. Công dân Mỹ không cần eTA (theo nguồn thứ cấp; kiểm tra canada.ca).",
+  "events": [
+   "Chợ Giáng Sinh Đức, thành phố Quebec: 19/11 đến 23/12/2026, thứ Năm đến Chủ nhật (thêm 21 đến 23/12), miễn phí, 5 địa điểm (Bonjour Québec ghi ngày còn chờ xác nhận)",
+   "Grand Marché de Noël, Place des Festivals ở Montreal: ~13/11/2026 đến 3/1/2027, mỗi ngày 11 giờ sáng đến 10 giờ tối từ 9/12 (ngày khai mạc khác nhau tùy nguồn)",
+   "Village de Noël, chợ Atwater Montreal: 26/11 đến 24/12/2026, miễn phí"
+  ],
+  "pros": [
+   "Cả hai chợ Giáng Sinh đều mở tuần đó",
+   "Cảm giác như châu Âu, bay 2 tiếng",
+   "Tàu ngắm cảnh, không cần xe"
+  ],
+  "cons": [
+   "Lạnh, đường đóng băng, ngày ngắn",
+   "Cần hộ chiếu",
+   "Chợ Quebec đóng cửa thứ Hai đến thứ Tư"
+  ],
+  "unverified": [
+   "Chuyến bay thẳng AA PHL-YUL có chạy tháng 12/2026 không và giá vé",
+   "Việc công dân Mỹ không cần eTA chỉ được xác nhận qua nguồn thứ cấp",
+   "Ngày khai mạc Grand Marché Montreal (13/11 hay 20/11) và việc chợ Quebec mở ngày 23/12",
+   "Chỗ ở, thời tiết, giờ ban ngày"
+  ],
+  "precip": "Tuyết rơi thường xuyên; vỉa hè trơn băng",
+  "flightText": "American: American bay thẳng PHL-YUL. Air Canada (Aeroplan, đối tác chuyển điểm của Capital One) cũng bay PHL/EWR-YUL.",
+  "itinerary": [
+   {
+    "title": "Đến nơi + đi tàu lên phía bắc",
+    "plan": "Hạ cánh YUL, đi VIA Rail đến thành phố Quebec, nhận phòng ở phố cổ Quebec.",
+    "eat": "Bánh thịt tourtière ở Aux Anciens Canadiens"
+   },
+   {
+    "title": "Chợ Giáng Sinh Đức",
+    "plan": "Chủ nhật đi chợ, Château Frontenac, trượt máng tuyết trên Dufferin Terrace.",
+    "eat": "Rượu vang nóng và xúc xích ở chợ"
+   },
+   {
+    "title": "Petit Champlain + tường thành",
+    "plan": "Đi cáp kéo xuống Petit Champlain, Place Royale, đi bộ quanh tường thành.",
+    "eat": "Le Lapin Sauté"
+   },
+   {
+    "title": "Thác Montmorency",
+    "plan": "Đi cáp treo ngắm thác đóng băng, ghé đảo Île d'Orléans thử rượu táo và siro phong.",
+    "eat": "Bánh đường sugar pie ở Chocolaterie de l'Île d'Orléans"
+   },
+   {
+    "title": "Đi tàu đến Montreal",
+    "plan": "Tàu VIA Rail buổi sáng, phố cổ Montreal, Vương cung thánh đường Notre-Dame.",
+    "eat": "Thịt hun khói ở Schwartz's"
+   },
+   {
+    "title": "Các chợ Montreal",
+    "plan": "Village de Noël ở Atwater, điểm ngắm cảnh núi Mount Royal, tối đi chợ Place des Festivals.",
+    "eat": "Bánh bagel ở St-Viateur"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ăn sáng ở chợ Jean-Talon, bay YUL về PHL.",
+    "eat": "Poutine ở La Banquise"
+   }
+  ]
+ },
+ "banff": {
+  "name": "Banff + hồ Louise, Alberta, Canada",
+  "tagline": "Núi Rocky như quả cầu tuyết mùa Giáng Sinh",
+  "whyParents": "Núi non đẹp như bưu thiếp, hồ đóng băng và chợ Giáng Sinh ấm cúng, lái xe từ Calgary rất dễ.",
+  "stay": "Đại lộ Banff ở trung tâm: đi bộ ra chợ, nhà hàng, xe buýt đi suối nước nóng",
+  "getAround": "Thuê SUV cỡ trung có lốp mùa đông (phải yêu cầu; 4 người lớn + hành lý). YYC đến Banff ~1 tiếng 30 phút. Cần vé vào công viên.",
+  "entry": "Cần hộ chiếu Mỹ còn hạn. Công dân Mỹ không cần eTA (theo nguồn thứ cấp; kiểm tra canada.ca).",
+  "events": [
+   "Chợ Giáng Sinh Banff, ga tàu Banff: 19/11 đến 13/12/2026 trong 4 cuối tuần; cuối tuần cuối cùng 11 đến 13/12 trùng ngày đến. Mua vé qua Showpass",
+   "Thắp đèn cây thông và trình diễn ánh sáng ở chợ mỗi thứ Sáu, thứ Bảy, Chủ nhật lúc chạng vạng"
+  ],
+  "pros": [
+   "Kịp cuối tuần cuối cùng của chợ",
+   "Cảnh núi tuyết tuyệt đẹp",
+   "Suối nước nóng, trượt băng, cáp treo"
+  ],
+  "cons": [
+   "Cần hộ chiếu",
+   "Lái xe mùa đông trên đường núi",
+   "Phải nối chuyến từ PHL"
+  ],
+  "unverified": [
+   "Giờ mở chợ ngày 12-13/12 (các nguồn khác nhau: 10 giờ sáng đến 8 giờ tối, hoặc Chủ nhật 10 giờ sáng đến 6 giờ chiều)",
+   "Giá vé máy bay tháng 12/2026, chỗ ở, giá vé vào công viên",
+   "Tình trạng hoạt động của khu trượt tuyết giữa tháng 12",
+   "Việc công dân Mỹ không cần eTA chỉ được xác nhận qua nguồn thứ cấp",
+   "Thời tiết và giờ ban ngày là số liệu thường gặp"
+  ],
+  "precip": "Tuyết nhẹ thường xuyên; có thể có đợt lạnh dưới 0F",
+  "flightText": "American: WestJet bay thẳng JFK-YYC. Air Canada qua YYZ/YUL (đối tác chuyển điểm Aeroplan) là lựa chọn thay thế chính.",
+  "itinerary": [
+   {
+    "title": "Đến nơi + lái xe đến Banff",
+    "plan": "Hạ cánh YYC, nhận SUV có lốp mùa đông, lái đến Banff, nhận phòng.",
+    "eat": "Chili bò rừng ở The Bison"
+   },
+   {
+    "title": "Ngày cuối chợ Giáng Sinh",
+    "plan": "Sáng đi cáp treo Banff Gondola, ngày cuối của chợ ở ga tàu Banff.",
+    "eat": "Phô mai raclette và rượu vang nóng glühwein ở chợ"
+   },
+   {
+    "title": "Hồ Louise",
+    "plan": "Trượt băng trên hồ đóng băng, đi xe trượt ngựa kéo, uống trà ở Fairmont Chateau.",
+    "eat": "Trà chiều ở Fairmont Chateau Lake Louise"
+   },
+   {
+    "title": "Đi bộ trên băng ở hẻm núi Johnston",
+    "plan": "Đi bộ có hướng dẫn trên lối đi treo đến thác đóng băng, đường Bow Valley Parkway.",
+    "eat": "Park Distillery, Banff"
+   },
+   {
+    "title": "Ngày suối nước nóng",
+    "plan": "Di tích Cave and Basin, thác Bow, tối ngâm ở Banff Upper Hot Springs.",
+    "eat": "Lẩu fondue ở Waldhaus"
+   },
+   {
+    "title": "Canmore hoặc ngày trượt tuyết",
+    "plan": "Trượt tuyết ở Sunshine hoặc Norquay, hoặc dạo phố Canmore và đi bộ đến hồ Grassi.",
+    "eat": "Crazyweed, Canmore"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Lái xe đến YYC, bay qua DFW.",
+    "eat": "Ăn sáng ở Wild Flour Bakery"
+   }
+  ]
+ },
+ "vancouver-whistler": {
+  "name": "Vancouver + Whistler, BC, Canada",
+  "tagline": "Chợ Giáng Sinh thành phố và làng núi",
+  "whyParents": "Chợ kiểu Đức bên bến cảng, rồi đến làng trượt tuyết có cáp treo, đường lái xe cực đẹp.",
+  "stay": "Coal Harbour ở Vancouver, sau đó làng Whistler: đi bộ ra chợ, cáp treo",
+  "getAround": "Xa lộ Sea-to-Sky ~2 tiếng; thuê SUV cỡ trung có lốp mùa đông, hoặc đi xe buýt đưa đón. Ở Vancouver đi phương tiện công cộng là được.",
+  "entry": "Cần hộ chiếu Mỹ còn hạn. Công dân Mỹ không cần eTA (theo nguồn thứ cấp; kiểm tra canada.ca).",
+  "events": [
+   "Chợ Giáng Sinh Vancouver, Jack Poole Plaza: 16/11 đến 24/12/2026 (theo thông báo của ban tổ chức do Daily Hive đưa tin; nơi khác ghi 12/11)",
+   "Whistler Blackcomb dự kiến mở cửa ngày 20/11/2026 cho mùa 2026-27 (tùy thời tiết)"
+  ],
+  "pros": [
+   "Chợ Giáng Sinh lớn cộng làng trượt tuyết",
+   "Đường Sea-to-Sky ngoạn mục",
+   "Ăn uống phong phú, đảo Granville"
+  ],
+  "cons": [
+   "Vancouver dễ có mưa",
+   "Cần hộ chiếu, không có chuyến bay thẳng",
+   "Chỗ ở Whistler đắt vào mùa cao điểm"
+  ],
+  "unverified": [
+   "Ngày khai mạc chợ (16/11 hay 12/11), dù sao 12-18/12 cũng nằm trong thời gian mở",
+   "Giá vé máy bay tháng 12/2026, chỗ ở, các lựa chọn xe buýt đưa đón",
+   "Việc công dân Mỹ không cần eTA chỉ được xác nhận qua nguồn thứ cấp",
+   "Thời tiết và giờ ban ngày là số liệu thường gặp"
+  ],
+  "precip": "Vancouver mưa hầu hết các ngày; làng Whistler ~30F có tuyết",
+  "flightText": "American: United bay thẳng EWR-YVR. Air Canada qua YYZ/YUL (đối tác chuyển điểm Aeroplan) là lựa chọn thay thế chính.",
+  "itinerary": [
+   {
+    "title": "Đến Vancouver",
+    "plan": "Hạ cánh YVR, đi tàu Canada Line vào trung tâm, tối đi chợ Giáng Sinh.",
+    "eat": "Xúc xích bratwurst và rượu vang nóng glühwein ở chợ"
+   },
+   {
+    "title": "Công viên Stanley + Granville",
+    "plan": "Đi bộ hoặc đạp xe dọc Seawall, chợ Granville Island Public Market, khu Gastown.",
+    "eat": "Súp chowder ở Go Fish"
+   },
+   {
+    "title": "North Shore",
+    "plan": "Đèn Canyon Lights ở cầu treo Capilano, ngắm cảnh núi Grouse.",
+    "eat": "Dim sum ở Richmond hoặc phố Tàu"
+   },
+   {
+    "title": "Sea-to-Sky đến Whistler",
+    "plan": "Lái xa lộ 99, dừng ở thác Shannon và cáp treo Sea to Sky Gondola.",
+    "eat": "Araxi, làng Whistler"
+   },
+   {
+    "title": "Peak 2 Peak",
+    "plan": "Đi cáp treo Peak 2 Peak, trượt tuyết hoặc đi giày tuyết, tối ngắm đèn trong làng.",
+    "eat": "Lẩu fondue ở Bearfoot Bistro"
+   },
+   {
+    "title": "Thong thả ở Whistler",
+    "plan": "Scandinave Spa, bảo tàng Audain Art Museum, dạo cửa hàng trong làng.",
+    "eat": "Bánh crepe ở Crepe Montagne"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Lái xe sớm đến YVR (2 tiếng 30 phút), bay về PHL.",
+    "eat": "Ăn sáng ở Purebread, Whistler"
+   }
+  ]
+ },
+ "california-coast": {
+  "name": "San Francisco, Big Sur + Yosemite, California",
+  "tagline": "Thành phố, bờ biển hoang sơ, thung lũng Yosemite phủ tuyết",
+  "whyParents": "Ba nét California trong một tuần: xe điện cáp, vách đá Big Sur và những vách đá granite Yosemite phủ tuyết.",
+  "stay": "Union Square (SF), Monterey gần Cannery Row, nhà gỗ Yosemite West trong công viên",
+  "getAround": "Ở SF đi bộ, xe điện cáp, phà. Ngày 3 nhận SUV AWD cỡ lớn và mang theo xích lốp. Lái xe: SF-Monterey 2 tiếng, Monterey-Yosemite 4 tiếng, Yosemite-SFO 4 tiếng.",
+  "entry": "Nội địa Mỹ: chỉ cần REAL ID hoặc hộ chiếu.",
+  "events": [
+   "Vở ba lê Kẹp Hạt Dẻ (Nutcracker) của SF Ballet, War Memorial Opera House, 4 đến 27/12/2026",
+   "Bracebridge Dinner ở The Ahwahnee, một số tối tháng 12/2026 (các nguồn ghi ngày không khớp); trang phục lịch sự, hết vé sớm",
+   "Xa lộ 1 qua Big Sur thông hoàn toàn từ 14/1/2026 (đoạn Regent's Slide); vẫn có thể đóng đường khi có bão",
+   "Yosemite: đường Tioga và đường Glacier Point đóng cửa mùa đông; phải mang xích lốp từ tháng 11 đến tháng 3, kể cả xe AWD"
+  ],
+  "pros": [
+   "American bay thẳng từ Philly",
+   "Bờ biển Big Sur mở lại hoàn toàn năm 2026",
+   "Thung lũng Yosemite yên tĩnh, phủ tuyết, ít khách"
+  ],
+  "cons": [
+   "Hai lần lái xe 4 tiếng, có thể phải gắn xích lốp",
+   "Glacier Point và đường Tioga đóng cửa mùa đông",
+   "Bờ biển có thể mưa và âm u"
+  ],
+  "unverified": [
+   "Giá vé AA $419 tháng 12 không gắn với ngày 12 đến 18/12; phụ phí Main Cabin là ước tính",
+   "Giá trọn gói khách sạn Monterey và Yosemite West là ước tính từ dữ liệu tháng 12",
+   "Các tối chính xác của Bracebridge Dinner năm 2026",
+   "Mùa sân trượt băng Union Square 2026 chưa công bố",
+   "Quy định xích lốp và việc đóng đường do bão thay đổi hằng ngày"
+  ],
+  "precip": "SF và Monterey: mưa ~10 ngày/tháng. Thung lũng Yosemite ~48F/26F, có thể có tuyết",
+  "flightText": "American: bay thẳng PHL-SFO (AA, nhiều chuyến mỗi ngày); về nhà bay thẳng SFO-PHL. Nên chọn chuyến về buổi chiều hoặc bay đêm: Yosemite đến SFO mất ~4 tiếng. Lựa chọn khác: United bay thẳng EWR-SFO.",
+  "itinerary": [
+   {
+    "title": "Đến SF + Ferry Building",
+    "plan": "Hạ cánh SFO, đi BART hoặc taxi vào trung tâm, dạo Embarcadero, chợ Ferry Building lúc chạng vạng.",
+    "eat": "Hàu Hog Island ở Ferry Building"
+   },
+   {
+    "title": "Alcatraz + xe điện cáp",
+    "plan": "Sáng đi phà ra Alcatraz (đặt trước), đi xe điện cáp Powell-Mason, đi bộ trên cầu Cổng Vàng lúc hoàng hôn.",
+    "eat": "Súp nghêu trong bánh mì chua ở Boudin"
+   },
+   {
+    "title": "Theo bờ biển đến Monterey",
+    "plan": "Nhận SUV, đi xa lộ 1 qua Half Moon Bay, chiều thăm thủy cung Monterey Bay Aquarium.",
+    "eat": "Taco cá ở Cannery Row"
+   },
+   {
+    "title": "Ngày ở Big Sur",
+    "plan": "Cầu Bixby, Pfeiffer Big Sur, điểm ngắm thác McWay, về Monterey trước khi trời tối.",
+    "eat": "Ăn trưa ở Nepenthe nhìn ra biển"
+   },
+   {
+    "title": "Lái xe đến Yosemite",
+    "plan": "Lái bốn tiếng vào đất liền, đến Tunnel View ngắm nắng chiều trên thung lũng.",
+    "eat": "Pizza ở Degnan's Kitchen, Yosemite Village"
+   },
+   {
+    "title": "Thung lũng Yosemite",
+    "plan": "Vòng đi bộ thác Lower Yosemite Fall, đồng cỏ El Capitan, đi bộ cùng kiểm lâm, uống ca cao ở The Ahwahnee.",
+    "eat": "Ăn tối ở The Ahwahnee Dining Room"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Sáng sớm ngắm thác Yosemite, lái 4 tiếng đến SFO, chuyến bay chiều về PHL.",
+    "eat": "In-N-Out trên đường đến SFO"
+   }
+  ]
+ },
+ "california-desert": {
+  "name": "Palm Springs, Joshua Tree + Thung lũng Chết (Death Valley), California",
+  "tagline": "Sa mạc nắng ấm, cáp treo lên núi, cánh đồng muối",
+  "whyParents": "Ngày khô ráo 70F, Palm Springs phong cách giữa thế kỷ 20, cây Joshua và sắc màu Death Valley vào mùa dễ chịu nhất.",
+  "stay": "Nhà có hồ bơi ở khu Movie Colony, Palm Springs, sau đó Furnace Creek trong Death Valley",
+  "getAround": "SUV cỡ lớn, nhận ở PSP, trả ở LAS (phí một chiều ~$150 đến $300). Lái xe: Joshua Tree 1 tiếng, Palm Springs đến Furnace Creek ~4,5 tiếng, Furnace Creek đến LAS 2 tiếng.",
+  "entry": "Nội địa Mỹ: chỉ cần REAL ID hoặc hộ chiếu.",
+  "events": [
+   "Cáp treo Palm Springs Aerial Tramway chạy giờ mùa đông 5/10/2026 đến 27/5/2027 (10 giờ sáng ngày thường, 8 giờ sáng cuối tuần)",
+   "Death Valley: đường Titus Canyon đóng từ 2/10/2026 đến khoảng tháng 5/2027; đường Westside đóng sau bão tháng 10/2026",
+   "Death Valley: đường South Badwater mở lại 31/1/2026, có đoạn xấu; Scotty's Castle vẫn đóng cửa",
+   "Joshua Tree: không thấy thông báo đóng cửa nào cho tháng 12/2026"
+  ],
+  "pros": [
+   "Tuần ấm nhất trong lục địa Mỹ, gần như không mưa",
+   "Bay thẳng cả hai chiều, không phải đi lại đường cũ",
+   "Ba sa mạc rất khác nhau trong một chuyến"
+  ],
+  "cons": [
+   "Lái xe dài 4,5 tiếng đến Death Valley",
+   "Bay từ JFK, không phải Philly",
+   "Một số đường phụ ở Death Valley đóng do lũ"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé Alaska và JetBlue cho đúng ngày 12/12 và 18/12; phụ phí Main Cabin là ước tính",
+   "Giá tháng 12 cho nhà 2 phòng ngủ ở Palm Springs, Death Valley và Las Vegas là ước tính",
+   "Chưa có báo giá phí trả SUV một chiều PSP đến LAS",
+   "Tình trạng đường Artist Drive tháng 12/2026"
+  ],
+  "precip": "Rất khô, ~1 ngày mưa/tháng. Death Valley ~65F/40F, đêm ở Joshua Tree gần mức đóng băng",
+  "flightText": "Đi Alaska (oneworld, tích dặm AA); về JetBlue: bay thẳng JFK-PSP (Alaska, ~mỗi ngày vào mùa đông); về nhà bay thẳng LAS-JFK (JetBlue hoặc Delta). Delta cũng bay lại JFK-PSP vào tháng 12. Lựa chọn từ Philly: PHL-PSP 1 điểm dừng với AA, về nhà LAS-PHL bay thẳng AA.",
+  "itinerary": [
+   {
+    "title": "Đến Palm Springs",
+    "plan": "Hạ cánh PSP, nhận SUV, nhận phòng, dạo Palm Canyon Drive lúc hoàng hôn.",
+    "eat": "Ăn tối ở Workshop Kitchen + Bar"
+   },
+   {
+    "title": "Cáp treo + tham quan kiến trúc giữa thế kỷ",
+    "plan": "Đi Aerial Tramway lên vùng tuyết ở độ cao 8,500 ft, chiều lái xe xem nhà kiến trúc hiện đại, thư giãn ở hồ bơi.",
+    "eat": "Sinh tố chà là ở Shields, sau đó Tropicale"
+   },
+   {
+    "title": "Ngày ở Joshua Tree",
+    "plan": "Vòng Hidden Valley, Skull Rock, Keys View, vườn xương rồng Cholla lúc hoàng hôn.",
+    "eat": "Bánh pie ở Crossroads Cafe, Joshua Tree"
+   },
+   {
+    "title": "Lái xe đến Death Valley",
+    "plan": "Lái 4,5 tiếng qua Baker, Dante's View, Zabriskie Point lúc hoàng hôn.",
+    "eat": "Ăn tối ở 1849 Buffet, The Ranch"
+   },
+   {
+    "title": "Badwater + Golden Canyon",
+    "plan": "Cánh đồng muối Badwater, Devil's Golf Course, đi bộ Golden Canyon, tối ngắm sao.",
+    "eat": "Burger ở Last Kind Words Saloon"
+   },
+   {
+    "title": "Đồi cát, rồi Las Vegas",
+    "plan": "Ngắm bình minh ở đồi cát Mesquite Flat, Mosaic Canyon, lái 2 tiếng đến Las Vegas, ngắm đèn trên đại lộ Strip.",
+    "eat": "Bellagio Patisserie, sau đó Eiffel Tower Restaurant"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Trả SUV ở LAS, bay thẳng về JFK.",
+    "eat": "Ăn sáng ở Eggslut, Cosmopolitan"
+   }
+  ]
+ },
+ "arizona-parks": {
+  "name": "Sedona + Grand Canyon, Arizona",
+  "tagline": "Đá đỏ, rồi hẻm núi phủ tuyết",
+  "whyParents": "Những khối đá đỏ rực rỡ ở Sedona và vành Nam Grand Canyon, tháng 12 vắng khách, bay thẳng với American.",
+  "stay": "Nhà ở West Sedona nhìn ra đá đỏ, sau đó Maswik Lodge cách vành hẻm núi vài bước",
+  "getAround": "SUV AWD cỡ lớn từ PHX. Lái xe: PHX-Sedona 2 tiếng, Sedona-Grand Canyon 2 tiếng 15 phút, Grand Canyon-Phoenix 3,5 đến 4 tiếng. Có thể có tuyết gần Flagstaff.",
+  "entry": "Nội địa Mỹ: chỉ cần REAL ID hoặc hộ chiếu.",
+  "events": [
+   "Lễ hội Ánh sáng Tlaquepaque, Sedona: theo truyền thống vào thứ Bảy thứ 2 của tháng 12 (tức thứ Bảy 12/12/2026), 6,000 đèn luminaria; ngày năm 2026 chưa công bố",
+   "Tàu Polar Express của Grand Canyon Railway, Williams: mỗi tối từ 6/11/2026 đến 3/1/2027, 5:30 và 7:30 tối",
+   "Vành Bắc Grand Canyon đóng cửa mùa đông (khách sạn lịch sử ở đó bị cháy trong vụ cháy rừng Dragon Bravo năm 2025); vành Nam mở quanh năm",
+   "Đường Hermit cho xe riêng đi từ tháng 12 đến tháng 2, trừ khi đóng vì tuyết"
+  ],
+  "pros": [
+   "American bay thẳng từ Philly đến trạm chính PHX",
+   "Hai danh thắng, lái xe ngắn, ít khách",
+   "Tuyết trên hẻm núi, nắng ở Sedona"
+  ],
+  "cons": [
+   "Đêm ở hẻm núi lạnh cóng, đường mòn trên vành trơn băng",
+   "Tuyết có thể làm đóng đường một hai ngày",
+   "Vành Bắc đóng cửa, một số đường mòn ở Sedona bị cháy hư hại"
+  ],
+  "unverified": [
+   "Giá vé AA $327 tháng 12 không gắn với ngày 12 đến 18/12; phụ phí Main Cabin là ước tính",
+   "Giá trọn gói tháng 12 ở Sedona, Maswik và Phoenix là ước tính",
+   "Ngày Lễ hội Ánh sáng năm 2026",
+   "Một số đường mòn vùng cháy Pocket Fire (vd. West Fork) có thể vẫn đóng"
+  ],
+  "precip": "Phần lớn nắng. Vành Nam Grand Canyon ~43F/18F, có thể có tuyết; Phoenix ~67F",
+  "flightText": "American: bay thẳng PHL-PHX (AA, nhiều chuyến mỗi ngày); về nhà bay thẳng PHX-PHL. Flagstaff (FLG) gần hơn nhưng phải nối chuyến qua PHX hoặc DFW và đắt hơn.",
+  "itinerary": [
+   {
+    "title": "Đến nơi + Tlaquepaque",
+    "plan": "Hạ cánh PHX, lái 2 tiếng đến Sedona, làng Tlaquepaque (Lễ hội Ánh sáng nếu là 12/12).",
+    "eat": "Ăn tối ở El Rincon, Tlaquepaque"
+   },
+   {
+    "title": "Cathedral Rock + nhà nguyện",
+    "plan": "Đi bộ Red Rock Crossing dưới chân Cathedral Rock, nhà nguyện Chapel of the Holy Cross, dạo phố uptown.",
+    "eat": "Bữa tối kiểu Tây Nam ở Elote Cafe"
+   },
+   {
+    "title": "Tour xe Jeep + hoàng hôn",
+    "plan": "Sáng đi tour Pink Jeep, vòng đi bộ dễ quanh Bell Rock, ngắm hoàng hôn ở Airport Mesa.",
+    "eat": "Mariposa Latin Grill lúc hoàng hôn"
+   },
+   {
+    "title": "Đến Grand Canyon",
+    "plan": "Lái qua hẻm Oak Creek Canyon và Flagstaff, nhận phòng Maswik, ngắm hoàng hôn ở Mather Point.",
+    "eat": "Chili bò rừng ở Arizona Room"
+   },
+   {
+    "title": "Rim Trail + đường Hermit",
+    "plan": "Đi bộ Rim Trail, lái xe qua các điểm ngắm trên đường Hermit, hoàng hôn ở Hopi Point.",
+    "eat": "Ăn tối ở El Tovar Dining Room"
+   },
+   {
+    "title": "Desert View, rồi Phoenix",
+    "plan": "Đi đường Desert View Drive đến tháp Watchtower, sau đó lái khoảng 4 tiếng về Phoenix.",
+    "eat": "Pizzeria Bianco, trung tâm Phoenix"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Sáng thăm vườn Desert Botanical Garden, trả SUV, chuyến bay thẳng buổi chiều về PHL.",
+    "eat": "Ăn sáng ở Matt's Big Breakfast"
+   }
+  ]
+ },
+ "london": {
+  "name": "London, Anh",
+  "tagline": "Đèn Giáng Sinh, Winter Wonderland, đi Bath trong ngày",
+  "whyParents": "London cổ điển mùa Giáng Sinh, AA bay thẳng từ Philly rất tiện, và đi tàu đến chợ Bath.",
+  "stay": "South Bank/Westminster: đi bộ đến các điểm tham quan và khu đèn",
+  "getAround": "Không cần xe. Tàu Elizabeth line từ Heathrow, tàu điện ngầm và xe buýt bằng thẻ không chạm. Tàu GWR từ Paddington đến Bath ~1 tiếng 30 phút mỗi chiều.",
+  "entry": "Cần UK ETA: GBP 20 (~$27) mỗi người qua ứng dụng UK ETA hoặc GOV.UK, thường có kết quả trong 3 ngày làm việc. Không thuộc Schengen; không áp dụng EES/ETIAS.",
+  "events": [
+   "Hyde Park Winter Wonderland: 19/11/2026 đến 3/1/2027 (đóng cửa 25/12), vào theo khung giờ, miễn phí đến GBP 8.25",
+   "Đường đèn Christmas at Kew: một số ngày từ 13/11/2026 đến 3/1/2027, từ 4:20 chiều, người lớn từ GBP 29.50",
+   "Đèn Regent Street đã bật từ 5/11/2026; ngày bật đèn Oxford Street chưa công bố",
+   "Chợ Giáng Sinh Bath: 26/11 đến 13/12/2026, nên Chủ nhật 13/12 là ngày cuối"
+  ],
+  "pros": [
+   "AA bay thẳng từ PHL, không có rào cản ngôn ngữ",
+   "Đèn, chợ và nhà hát vào lúc đẹp nhất",
+   "Dễ đi tàu tham quan trong ngày"
+  ],
+  "cons": [
+   "Trời tối lúc 4 giờ chiều, thường ẩm ướt",
+   "Khách sạn và ăn uống đắt",
+   "Mỗi người phải xin ETA"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé PHL-LHR có ngày cụ thể giữa tháng 12/2026; $1,000 là ước tính dựa trên giá aa.com tháng 11/2026 và mức trung bình tháng 12 của Kayak.",
+   "Chỗ ở là ước tính: chưa thấy giá khách sạn hay nhà 2 phòng ngủ tháng 12/2026. GBP quy đổi theo ~1.32 (tỷ giá đầu tháng 10/2026).",
+   "Tần suất AA PHL-LHR tháng 12/2026 chưa được xác nhận từ lịch bay đăng ký; vé tháng 11/2026 đang bán.",
+   "Phí và thủ tục ETA lấy từ nguồn thứ cấp (không vào được trang gov.uk chính thức); xác nhận trên gov.uk/eta.",
+   "Ngày bật đèn Covent Garden và Oxford Street năm 2026 chưa công bố.",
+   "Số liệu thời tiết là mức khí hậu trung bình, chưa kiểm tra lần này."
+  ],
+  "precip": "mưa phùn ~11 ngày/tháng, hiếm có tuyết",
+  "flightText": "American: bay thẳng PHL-LHR (AA, mỗi ngày; vé tháng 11/12 năm 2026 đang bán). BA cũng bay thẳng PHL-LHR; BA Avios là đối tác chuyển điểm của Capital One. Đến nhà ga T3 Heathrow.",
+  "itinerary": [
+   {
+    "title": "Đến nơi + đèn Regent Street",
+    "plan": "Hạ cánh LHR, đi Elizabeth line vào thành phố, ngủ một giấc, tối đi dạo dưới đèn Regent Street và Covent Garden.",
+    "eat": "Cá chiên khoai tây ở Poppies, Soho"
+   },
+   {
+    "title": "Đi Bath trong ngày",
+    "plan": "Đi tàu đến Bath dự ngày cuối của chợ, nhà tắm La Mã Roman Baths, Royal Crescent. Về ăn tối.",
+    "eat": "Bánh Sally Lunn ở Sally Lunn's"
+   },
+   {
+    "title": "Westminster + South Bank",
+    "plan": "Tu viện Westminster, tháp Big Ben, Churchill War Rooms, vòng quay London Eye lúc chạng vạng.",
+    "eat": "Bánh pie và khoai nghiền ở quán The Albert"
+   },
+   {
+    "title": "Tháp London + chợ Borough",
+    "plan": "Xem vương miện hoàng gia ở Tháp London, đi bộ qua Tower Bridge, ăn trưa ở chợ Borough.",
+    "eat": "Các quầy ở chợ Borough: phô mai raclette, bánh donut Bread Ahead"
+   },
+   {
+    "title": "Bảo tàng + Winter Wonderland",
+    "plan": "Sáng thăm British Museum, mua sắm Oxford Street, tối đi Winter Wonderland ở Hyde Park.",
+    "eat": "Xúc xích bratwurst và rượu vang nóng ở Winter Wonderland"
+   },
+   {
+    "title": "Kensington + đèn Kew",
+    "plan": "Bảo tàng V&A, khu ẩm thực Harrods, sau đó đường đèn Christmas at Kew (đặt trước).",
+    "eat": "Trà chiều ở Harrods Tea Rooms"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ly cà phê cuối, đi Elizabeth line đến Heathrow T3 cho chuyến bay AA buổi trưa.",
+    "eat": "Bữa sáng kiểu Anh đầy đủ ở The Breakfast Club"
+   }
+  ]
+ },
+ "vienna-prague": {
+  "name": "Viên, Áo + Praha, Séc",
+  "tagline": "Hai thủ đô chợ Giáng Sinh nổi tiếng, nối nhau bằng tàu",
+  "whyParents": "Châu Âu cổ kính vào lúc rộn ràng nhất: cung điện, quán cà phê và chợ ở hai thành phố.",
+  "stay": "Khu Innere Stadt ở Viên, sau đó phố cổ Praha: đi bộ ra chợ",
+  "getAround": "Không cần xe. Tàu CAT hoặc S-Bahn từ sân bay VIE, tàu điện ngầm U-Bahn và xe điện. Tàu thẳng từ Vienna Hbf đến Prague hl.n. ~4 tiếng, khoảng EUR 20 đến 30 nếu đặt trước.",
+  "entry": "Hộ chiếu còn hạn hơn 3 tháng sau ngày rời đi. Khối Schengen, miễn thị thực, 90/180 ngày. Kiểm tra sinh trắc học EES áp dụng từ 10/4/2026; chưa cần ETIAS.",
+  "events": [
+   "Chợ Christkindlmarkt Viên, Rathausplatz: 13/11 đến 26/12/2026, 10 giờ sáng đến 10 giờ tối",
+   "Chợ Giáng Sinh cung điện Schonbrunn: 6/11/2026 đến 6/1/2027",
+   "Chợ quảng trường phố cổ Praha: cuối tháng 11/2026 (khai mạc khoảng 20 đến 30/11) đến 6/1/2027",
+   "Chợ quảng trường Wenceslas Praha: 28/11/2026 đến 6/1/2027 (Visit Czechia)"
+  ],
+  "pros": [
+   "Hai thành phố chợ Giáng Sinh hàng đầu",
+   "Tàu 4 tiếng ngắm cảnh, không cần xe",
+   "Praha giá cả phải chăng"
+  ],
+  "cons": [
+   "Lựa chọn lạnh nhất, gần mức đóng băng",
+   "Không có chuyến bay thẳng về nhà từ Praha",
+   "Chợ rất đông vào buổi tối"
+  ],
+  "unverified": [
+   "Chưa thấy giá vé khứ hồi khác điểm có ngày cụ thể giữa tháng 12/2026; $1,050 là ước tính dựa trên mức trung bình tháng 12 của Kayak và giá AA PHL-PRG đầu tháng 12.",
+   "Chuyến Austrian EWR-VIE mỗi ngày tháng 12/2026 lấy từ dữ liệu AeroRoutes tháng 5/2026; Austrian nói sẽ cắt bớt một số chuyến New York mùa đông này.",
+   "Chuyến bay thẳng Delta JFK-PRG có vẻ chỉ chạy mùa hè; không thấy chuyến bay thẳng nào từ Praha tháng 12/2026.",
+   "Ngày khai mạc chợ quảng trường phố cổ Praha khác nhau tùy nguồn (20 đến 30/11); tất cả đều cho biết chợ mở giữa tháng 12.",
+   "Ngày chợ Spittelberg 2026 chưa công bố; thường mở đến 23/12.",
+   "Chỗ ở là ước tính từ tin đăng và dữ liệu trung bình tháng, không phải báo giá tháng 12/2026.",
+   "Số liệu thời tiết là mức khí hậu trung bình, chưa kiểm tra lần này."
+  ],
+  "precip": "âm u, mưa nhẹ hoặc tuyết ~8 ngày/tháng",
+  "flightText": "Austrian (Star Alliance): bay thẳng EWR-VIE (Austrian, 1 chuyến mỗi ngày tháng 12/2026); PRG-EWR 1 điểm dừng qua VIE hoặc FRA. Lựa chọn AA: đi PHL-VIE, về PRG-PHL, mỗi chiều 1 điểm dừng (thường qua LHR với BA, đối tác chuyển điểm Avios). AA bay thẳng PHL-VIE bắt đầu từ 5/2027, quá muộn.",
+  "itinerary": [
+   {
+    "title": "Đến Viên + Rathausplatz",
+    "plan": "Hạ cánh VIE, đi tàu CAT vào thành phố, tối đi chợ Rathausplatz và công viên lên đèn.",
+    "eat": "Rượu punsch và xúc xích phô mai Kasekrainer ở chợ"
+   },
+   {
+    "title": "Cung điện Schonbrunn",
+    "plan": "Tham quan cung điện, vườn mùa đông, chợ Giáng Sinh ở sân trước; ngắm cảnh từ Gloriette.",
+    "eat": "Bánh táo cuộn strudel ở Cafe Residenz, Schonbrunn"
+   },
+   {
+    "title": "Phố cổ + quán cà phê",
+    "plan": "Nhà thờ St. Stephen, cung điện Hofburg, Cafe Central, tối đi chợ thủ công Spittelberg.",
+    "eat": "Thịt bê chiên schnitzel kiểu Viên ở Figlmuller"
+   },
+   {
+    "title": "Đi tàu đến Praha",
+    "plan": "Sáng đi tàu Railjet đến Praha (~4 tiếng), nhận phòng, chợ và cây thông ở quảng trường phố cổ.",
+    "eat": "Bánh ống trdelnik và rượu vang nóng svarak ở chợ"
+   },
+   {
+    "title": "Lâu đài Praha",
+    "plan": "Quần thể lâu đài, nhà thờ St. Vitus, Ngõ Vàng (Golden Lane); đi bộ xuống qua khu Mala Strana.",
+    "eat": "Bò sốt kem svickova ở Lokal Hradcany"
+   },
+   {
+    "title": "Cầu Charles + Wenceslas",
+    "plan": "Sáng sớm ra cầu Charles, xem đồng hồ thiên văn điểm giờ, chợ quảng trường Wenceslas.",
+    "eat": "Vịt quay ở nhà máy bia U Fleku"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Ăn sáng, đi taxi hoặc xe buýt đến PRG cho chuyến bay 1 điểm dừng về nhà.",
+    "eat": "Bánh kolache ở Erhartova cukrarna"
+   }
+  ]
+ },
+ "iceland": {
+  "name": "Reykjavik + miền Nam Iceland",
+  "tagline": "Thác nước, hồ nước nóng, bắc cực quang, Reykjavik ấm cúng",
+  "whyParents": "Bay thẳng ngắn đến một thế giới khác: mạch nước phun, bãi cát đen, hồ nước nóng, và cơ hội thấy bắc cực quang.",
+  "stay": "Trung tâm Reykjavik gần phố Laugavegur: đi bộ được, xe tour đón tận cửa",
+  "getAround": "Không cần xe: xe Flybus từ KEF, tour xe nhỏ có hướng dẫn đi Golden Circle, bờ biển phía Nam và xem bắc cực quang. Tự lái (SUV 4x4) là gặp đường đóng băng, 2,5 tiếng mỗi chiều đến Vik.",
+  "entry": "Hộ chiếu Mỹ còn hạn hơn 3 tháng sau ngày rời đi. Khối Schengen; kiểm tra sinh trắc học EES khi nhập cảnh. Chưa cần ETIAS.",
+  "events": [
+   "Yule Lads (các chú lùn Giáng Sinh): chú đầu tiên đến đêm 11 rạng sáng 12/12, mỗi đêm thêm một chú đến 24/12",
+   "Chợ Giáng Sinh Hjartatorg vào các cuối tuần tháng 12 (ngày năm 2026 chưa công bố)",
+   "Làng Giáng Sinh Hafnarfjordur dự kiến 1 đến 23/12/2026 (dựa trên các năm trước)"
+  ],
+  "pros": [
+   "Bay thẳng dưới 6 tiếng từ JFK hoặc EWR",
+   "Hồ nước nóng địa nhiệt ấm áp giữa tuyết và bóng tối",
+   "Cơ hội thật sự thấy bắc cực quang"
+  ],
+  "cons": [
+   "Chỉ có khoảng 4 tiếng ánh sáng ban ngày",
+   "Bão có thể làm hủy tour và đóng đường",
+   "Đồ ăn thức uống đắt"
+  ],
+  "unverified": [
+   "Tần suất chuyến Icelandair từ JFK (so với EWR) tháng 12/2026 và giờ bay chính xác",
+   "Giá vé Economy Standard cho 12 đến 18/12 (chỉ thấy giá 'từ' của Economy Light)",
+   "Giá trọn gói nhà 2 phòng ngủ ở Reykjavik tháng 12",
+   "Tình trạng Blue Lagoon: đã đóng cửa nhiều lần khi núi lửa Reykjanes phun trào; kiểm tra trước khi đặt, Sky Lagoon là phương án dự phòng",
+   "Ngày chợ Giáng Sinh 2026 ở Reykjavik và Hafnarfjordur"
+  ],
+  "precip": "Mưa, mưa tuyết hoặc tuyết hầu hết các ngày; gió mạnh là chuyện thường",
+  "flightText": "Icelandair: bay thẳng JFK-KEF (Icelandair; EWR-KEF cũng có quanh năm). Đi tối thứ Bảy 12/12, hạ cánh Chủ nhật ~6:30 sáng; về chiều thứ Sáu 18/12. Đặt hạng Economy Standard (có hành lý + chọn ghế). Icelandair là đối tác của Alaska Mileage Plan. Các tuyến KEF của United/Delta chỉ chạy mùa hè. Đặt được trên Capital One Travel.",
+  "itinerary": [
+   {
+    "title": "Chuyến bay đêm",
+    "plan": "Tối thứ Bảy bay từ JFK đến Keflavik; ngủ trên máy bay, hạ cánh khoảng 6:30 sáng Chủ nhật.",
+    "eat": "Ăn tối ở JFK trước khi lên máy bay"
+   },
+   {
+    "title": "Reykjavik + đèn Giáng Sinh",
+    "plan": "Đi Flybus vào thành phố, ngủ một giấc, dạo phố Laugavegur và Bến Cảng Cũ dưới ánh đèn Giáng Sinh.",
+    "eat": "Súp thịt cừu ở Icelandic Street Food"
+   },
+   {
+    "title": "Golden Circle",
+    "plan": "Tour có hướng dẫn: khe nứt Thingvellir, mạch nước phun Strokkur, thác Gullfoss. Tối đi tour bắc cực quang nếu trời quang.",
+    "eat": "Súp cà chua ở nhà kính Fridheimar"
+   },
+   {
+    "title": "Bờ biển phía Nam đến Vik",
+    "plan": "Ngày tour dài có hướng dẫn: thác Seljalandsfoss, thác Skogafoss, bãi cát đen Reynisfjara. Đứng xa sóng.",
+    "eat": "Cá chiên khoai tây ở Smidjan Brugghus, Vik"
+   },
+   {
+    "title": "Hallgrimskirkja + Sky Lagoon",
+    "plan": "Ngắm cảnh từ tháp nhà thờ lúc bình minh (11 giờ sáng), Harpa, rồi ngâm mình ở Sky Lagoon lúc hoàng hôn.",
+    "eat": "Xúc xích hot dog ở Baejarins Beztu Pylsur"
+   },
+   {
+    "title": "Perlan + đêm bắc cực quang thứ hai",
+    "plan": "Hang băng và triển lãm sông băng ở Perlan, chợ Giáng Sinh, tour bắc cực quang dự phòng.",
+    "eat": "Hải sản ở Messinn"
+   },
+   {
+    "title": "Blue Lagoon, bay về nhà",
+    "plan": "Mang theo hành lý đi xe đưa đón đến Blue Lagoon (gần sân bay), ngâm mình, rồi chuyến bay chiều về JFK.",
+    "eat": "Lava Restaurant ở Blue Lagoon"
+   }
+  ]
+ },
+ "costa-rica": {
+  "name": "Arenal + Manuel Antonio, Costa Rica",
+  "tagline": "Núi lửa, suối nước nóng, con lười, bãi biển Thái Bình Dương",
+  "whyParents": "Cầu treo trong rừng mưa, suối nước nóng dưới chân núi lửa và khỉ trên bãi biển, bay thẳng khoảng 5,5 tiếng.",
+  "stay": "Thị trấn La Fortuna (nhìn ra núi lửa), sau đó sườn đồi Manuel Antonio gần công viên",
+  "getAround": "Thuê SUV 4x4 cỡ lớn (loại Toyota Fortuner) ở SJO. Lái xe: SJO đến La Fortuna ~3 tiếng, La Fortuna đến Manuel Antonio ~4 tiếng, về SJO ~3 tiếng.",
+  "entry": "Hộ chiếu Mỹ còn hạn trong thời gian ở; du lịch không cần thị thực. Có thể bị hỏi vé chiều về hoặc đi tiếp.",
+  "events": [
+   "Diễu hành Festival de la Luz ở San Jose thứ Bảy 12/12/2026 (lộ trình mới, từ Plaza de la Democracia đến Paseo Colon); lịch trình thì đi Arenal thay vì xem diễu hành",
+   "Vườn quốc gia Manuel Antonio đóng cửa thứ Ba; vé theo khung giờ chỉ bán online qua SINAC, đặt trước"
+  ],
+  "pros": [
+   "Ấm áp, xanh mát, bay thẳng ngắn",
+   "Gần như chắc chắn thấy con lười, khỉ, chim toucan",
+   "Suối nước nóng núi lửa và bãi biển dễ đi"
+  ],
+  "cons": [
+   "Lái xe đường dài, quanh co",
+   "Mây ở Arenal thường che núi lửa",
+   "Vé vào công viên và tour đắt, cộng lại nhiều"
+  ],
+  "unverified": [
+   "Giá vé Main Cabin cho 12 đến 18/12 (chỉ thấy giá 'từ' của United và trích đoạn Kayak)",
+   "Giờ bay chính xác tháng 12 của United EWR-SJO và SJO-EWR; lịch lái xe ngày 7 giả định chuyến bay giữa trưa",
+   "AA PHL-LIR có chạy tháng 12/2026 không (một trang tổng hợp ghi thứ Bảy từ 5/12)",
+   "Giá trọn gói nhà 2 phòng ngủ tháng 12 ở La Fortuna và Manuel Antonio",
+   "Giờ mở cửa vườn Manuel Antonio (7 giờ sáng đến 4 giờ chiều hay 3 giờ chiều)"
+  ],
+  "precip": "Mùa khô bắt đầu ở bờ biển Thái Bình Dương; Arenal vẫn hay có mưa rào",
+  "flightText": "United: bay thẳng EWR-SJO (United). Lựa chọn khác: JetBlue bay thẳng JFK-SJO (vé một chiều tháng 12/2026 từ $202). AA bay thẳng PHL-LIR chỉ có thứ Bảy, nên không về được thứ Sáu. Delta JFK-LIR bắt đầu 19/12, quá muộn. AA qua MIA là lựa chọn 1 điểm dừng.",
+  "itinerary": [
+   {
+    "title": "Hạ cánh SJO, lái xe đến Arenal",
+    "plan": "Nhận SUV, lái 3 tiếng ngắm cảnh đến La Fortuna, ngắm núi lửa lúc hoàng hôn.",
+    "eat": "Cơm phần casado ở Soda La Hormiga, La Fortuna"
+   },
+   {
+    "title": "Cầu treo + đường mòn núi lửa",
+    "plan": "Sáng đi bộ ngắm chim trên cầu treo Mistico, chiều đi đường mòn dung nham ở Vườn quốc gia núi lửa Arenal.",
+    "eat": "Ăn trưa ở Restaurante Puente Colgante của Mistico"
+   },
+   {
+    "title": "Thác nước + suối nước nóng",
+    "plan": "Leo 500 bậc xuống thác La Fortuna và bơi, rồi tối ngâm suối nước nóng Tabacon.",
+    "eat": "Ăn tối buffet ở Tabacon"
+   },
+   {
+    "title": "Lái xe đến Manuel Antonio",
+    "plan": "Khoảng 4 tiếng đến bờ biển Thái Bình Dương (hôm nay thứ Ba công viên đóng cửa). Hoàng hôn ở bãi Playa Espadilla.",
+    "eat": "Uống nước ngắm hoàng hôn ở El Avion"
+   },
+   {
+    "title": "Vườn quốc gia Manuel Antonio",
+    "plan": "7 giờ sáng đi bộ có hướng dẫn tìm con lười và khỉ, sau đó tắm biển ở Playa Manuel Antonio.",
+    "eat": "Gỏi cá ceviche ở Emilio's Cafe"
+   },
+   {
+    "title": "Ngày động vật hoang dã + bãi biển",
+    "plan": "Tour xem con lười hoặc du thuyền catamaran lặn ống thở, chiều thong thả trên bãi biển.",
+    "eat": "Hải sản ở Ronny's Place, Quepos"
+   },
+   {
+    "title": "Bay về nhà",
+    "plan": "Rời đi trước 7 giờ sáng, lái 3 tiếng đến SJO, trả SUV, chuyến bay trưa về Newark.",
+    "eat": "Cơm đậu gallo pinto ăn sáng mang theo"
+   }
+  ]
+ }
+}

@@ -58,6 +58,7 @@ def main():
     # house style: no em dashes anywhere
     out = out.replace("—", ", ").replace("–", "-")
     (ROOT / "winter-trip-options.html").write_text(out)
+    (ROOT / "index.html").write_text(out)  # so GitHub Pages serves it at the site root
     print(f"built {len(dests)} destinations, {sum(len(d.get('itinerary', [])) + len(d.get('heroPhotos', [])) for d in dests)} photos")
 
 

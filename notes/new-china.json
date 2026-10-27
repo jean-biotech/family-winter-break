@@ -1,0 +1,183 @@
+[
+  {
+    "id": "china",
+    "name": "Beijing + Xi'an, China (ending in Hong Kong)",
+    "region": "Asia",
+    "passport": true,
+    "warm": false,
+    "tagline": "Great Wall, Terracotta Army, Hong Kong finale",
+    "whyParents": "Walk a near-empty Great Wall, see the Forbidden City and Terracotta Army, then end with Hong Kong's harbour lights.",
+    "fly": "~19h, 1 stop (Seoul) out; 16h nonstop home from Hong Kong",
+    "costPP": {
+      "flights": 1650,
+      "flightsBasis": "Estimate for open jaw: Korean Air JFK-ICN-PEK out Dec 12 + Cathay XIY-HKG Dec 18 and HKG-JFK nonstop Dec 19 (~$1,550 Main/standard economy), plus Beijing-Xi'an G-train 2nd class ~CNY 578 (~$80). Seen: Korean Air JFK-PEK RT from $1,020 to $1,328 for Dec 2026 dates; Cathay NYC-HKG RT from $1,053. Nonstop: Air China JFK-PEK runs 5x weekly (JFK 02:05, lands 06:40 next day), but no flight lands Dec 13 and a round trip needs the L visa; est ~$1,200 to $1,400 RT plus ~$140 to $250 visa costs.",
+      "flightsVerified": false,
+      "lodging": 400,
+      "lodgingBasis": "2 hotel rooms (Airbnb no longer lists mainland China stays for this; hotels handle required police registration): Beijing 3 nights x 2 x ~$125 (4-star, Wangfujing) + Xi'an 2 nights x 2 x ~$95 + Hong Kong 1 night x 2 x ~$230 = ~$1,590 / 4. Estimate; no Dec 2026 data seen.",
+      "lodgingVerified": false,
+      "foodFun": 0,
+      "foodFunBasis": "Removed from site"
+    },
+    "flight": {
+      "from": "JFK",
+      "airline": "Korean Air out, Cathay Pacific home",
+      "routing": "Out Sat Dec 12: KE82 JFK 13:00 to Seoul ICN 17:45 Sun, evening KE flight to Beijing PEK (lands ~9pm Dec 13). Home: CX947 Xi'an 15:50 to Hong Kong 19:05 Fri Dec 18; CX840 HKG 16:30 to JFK ~7:30pm Sat Dec 19.",
+      "aaMetal": false,
+      "hours": "~14h45m + 2h out; 3h15m + ~16h home",
+      "notes": "Open jaw ending in Hong Kong is what makes the trip visa-free. Cathay is oneworld (earn AA miles) and a Capital One transfer partner. Cheaper visa-free alternative: Korean Air both ways, home Xi'an-Seoul-JFK (Korea also counts as a third country). Air China nonstop JFK-PEK (5x weekly, 747-8) would land Mon Dec 14."
+    },
+    "weather": {
+      "highF": 37,
+      "lowF": 19,
+      "daylight": "~9h 25m (Beijing sunrise ~7:25am, sunset ~4:50pm)",
+      "precip": "Dry, sunny, windy; snow rare. Xi'an ~42F/27F, Hong Kong ~68F/59F"
+    },
+    "stay": "Beijing Wangfujing (walk to Forbidden City), Xi'an inside city wall, Hong Kong Tsim Sha Tsui (harbour views)",
+    "getAround": "Metro and DiDi rides in cities; private driver to Mutianyu (~1.5h each way); G-train Beijing West to Xi'an North ~4h10m to 5h.",
+    "entry": "Visa-free 240-hour transit: enter from US/Korea, exit to Hong Kong, onward ticket required. Round trip needs L visa ($140).",
+    "events": [
+      "Low season: no Chinese holidays Dec 13 to 19, thin crowds at the Wall",
+      "Hong Kong Symphony of Lights harbour show nightly at 8pm",
+      "Forbidden City closed Mondays (Dec 14); tickets release 7 days ahead, passport required"
+    ],
+    "pros": [
+      "Great Wall nearly empty in winter",
+      "Terracotta Army plus a 200 mph bullet train",
+      "No visa needed with the Hong Kong exit"
+    ],
+    "cons": [
+      "Visa ($140 + center fee) unless exiting via Hong Kong",
+      "Bitter cold: Beijing highs ~37F, lows ~19F",
+      "Google blocked; set up Alipay and roaming eSIM first"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Beijing (Sun Dec 13)",
+        "plan": "Land via Seoul ~9pm, taxi or driver to Wangfujing hotel (~45 min). Sleep.",
+        "eat": "Late snack at the hotel or a Wangfujing noodle shop",
+        "photo": {
+          "file": "Wangfujing_street,_Beijing.JPG",
+          "author": "Nggsc",
+          "license": "CC BY-SA 3.0",
+          "caption": "Wangfujing pedestrian street"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Great Wall at Mutianyu",
+        "plan": "Private driver early. Cable car up, walk restored towers, toboggan down if open (riders 60+ may be refused).",
+        "eat": "Trout lunch in Mutianyu village",
+        "photo": {
+          "file": "Chemin_de_ronde_muraille_long.JPG",
+          "author": "Fabien Dany",
+          "license": "CC BY-SA 2.5",
+          "caption": "Walkway on Mutianyu wall"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Forbidden City + Jingshan",
+        "plan": "Forbidden City (book 7 days ahead, bring passports), climb Jingshan Park for the view, hutong walk.",
+        "eat": "Peking duck at Siji Minfu",
+        "photo": {
+          "file": "20090528_Beijing_Forbidden_City_7913.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 3.0",
+          "caption": "Forbidden City halls"
+        }
+      },
+      {
+        "day": 4,
+        "title": "Temple of Heaven, train to Xi'an",
+        "plan": "Early Temple of Heaven with locals doing tai chi, then G-train to Xi'an (~4.5h). Evening Muslim Quarter.",
+        "eat": "Roujiamo and biangbiang noodles, Muslim Quarter",
+        "photo": {
+          "file": "Temple_of_Heaven,_Beijing,_China_-_010_edit.jpg",
+          "author": "Maros Mraz (edit: Thegreenj)",
+          "license": "CC BY-SA 3.0",
+          "caption": "Hall of Prayer, Temple of Heaven"
+        }
+      },
+      {
+        "day": 5,
+        "title": "Terracotta Army",
+        "plan": "Driver or guide to the Terracotta Warriors (~1h). Pits 1 to 3 plus museum, back for evening.",
+        "eat": "Dumpling banquet at De Fa Chang",
+        "photo": {
+          "file": "Terracotta_pmorgan.jpg",
+          "author": "Peter Morgan",
+          "license": "CC BY 2.0",
+          "caption": "Terracotta warriors up close"
+        }
+      },
+      {
+        "day": 6,
+        "title": "City Wall bikes, fly to Hong Kong",
+        "plan": "Bike the Xi'an City Wall in the morning, 3:50pm flight to Hong Kong, evening harbour stroll.",
+        "eat": "Cantonese dinner in Tsim Sha Tsui",
+        "photo": {
+          "file": "Xian_city_wall_inner_gate_looking_outside.jpg",
+          "author": "Richard Chambers",
+          "license": "CC BY-SA 3.0",
+          "caption": "Xi'an City Wall gate"
+        }
+      },
+      {
+        "day": 7,
+        "title": "Hong Kong morning, fly home",
+        "plan": "Star Ferry and Peak Tram views, airport by 1:30pm, 4:30pm nonstop lands JFK same evening.",
+        "eat": "Dim sum at Tim Ho Wan",
+        "photo": {
+          "file": "Hong_Kong_Harbour_Night_2019-06-11.jpg",
+          "author": "Benh LIEU SONG",
+          "license": "CC BY-SA 2.0",
+          "caption": "Hong Kong harbour from the Peak"
+        }
+      }
+    ],
+    "heroPhotos": [
+      {
+        "file": "Great_Wall_of_China_July_2006.JPG",
+        "author": "Nicolas Perrault III",
+        "license": "CC0",
+        "caption": "Great Wall at Mutianyu"
+      },
+      {
+        "file": "Group_of_terracotta_warriors_at_Xian.jpg",
+        "author": "Mr. Tickle",
+        "license": "GFDL / CC BY-SA",
+        "caption": "Terracotta warriors in Xi'an"
+      },
+      {
+        "file": "1996_-248-7_Beijing_Forbidden_City_(5069074132).jpg",
+        "author": "Dan Lundberg",
+        "license": "CC BY-SA 2.0",
+        "caption": "Forbidden City, Beijing"
+      }
+    ],
+    "sources": [
+      { "label": "MTR: 240-hour transit, HK/Macao/Taiwan count as onward regions", "url": "https://www.highspeed.mtr.com.hk/en/latest-news/240-hr-visa-freetransit-policy.html" },
+      { "label": "Shanghai gov: 240-hour transit policy (2026)", "url": "https://english.shanghai.gov.cn/en-VisaLatest/20260709/d70a1231ba4641ff9a024e53751ad480.html" },
+      { "label": "Shanghai gov: 57 countries as of Aug 20 2026", "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20260820/bcaad9737db44e6ab788dfd785832b6b.html" },
+      { "label": "Chinese Embassy: US visa fee $140 through Dec 31 2026", "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/notice/202412/t20241227_11519914.htm" },
+      { "label": "Korean Air NYC-Beijing fares (Dec 2026)", "url": "https://www.koreanair.com/flights/en-us/flights-from-new-york-to-beijing" },
+      { "label": "Cathay NYC-Hong Kong fares", "url": "https://flights.cathaypacific.com/destinations/en_CH/flights-from-new-york-to-hong-kong" },
+      { "label": "Air China CA982 schedule (FlightStats)", "url": "https://www.flightstats.com/v2/flight-details/CA/982" },
+      { "label": "Beijing-Xi'an train times and fares", "url": "https://www.wanderinchina.com/transport/intercity/beijing-xian/" },
+      { "label": "Mutianyu 2026: cable car, toboggan, winter hours", "url": "https://www.wanderinchina.com/destinations/beijing/great-wall/mutianyu-great-wall/" },
+      { "label": "Alipay for foreigners 2026", "url": "https://www.wanderinchina.com/survival-guide/payment/alipay/" },
+      { "label": "Beijing December weather", "url": "https://weatherspark.com/m/131055/12/Average-Weather-in-December-in-Beijing-China" }
+    ],
+    "unverified": [
+      "All fares are estimates; no dated Dec 12/19 2026 open-jaw fare seen",
+      "Korean Air evening ICN-PEK connection time on Dec 13 (trackers show ~18:40 to 20:50)",
+      "Air China JFK-PEK winter 2026 frequency (5x weekly per summer data); proposed US ban on Chinese airlines using Russian airspace could change it",
+      "240-hour rule details from secondary sources plus MTR page; confirm with China's National Immigration Administration before booking",
+      "Visa application center service fee (one source totals ~$252 with service fee)",
+      "Mutianyu toboggan winter operation and the reported 60+ age limit",
+      "Hotel rates for December 2026",
+      "Commons photo authors/licenses seen only via mirrors"
+    ]
+  }
+]

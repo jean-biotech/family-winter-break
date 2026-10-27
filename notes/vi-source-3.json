@@ -1,0 +1,144 @@
+{
+ "malaysia": {
+  "name": "Kuala Lumpur + Penang, Malaysia",
+  "tagline": "Petronas skyline, Penang heritage and street food",
+  "whyParents": "Singapore-style food and skyline for less, plus George Town's colonial UNESCO streets.",
+  "stay": "KL: Bukit Bintang, walk to Jalan Alor and Pavilion. Penang: George Town heritage core, walk to street art and hawkers.",
+  "getAround": "KL: Grab, LRT and monorail. ETS Platinum train KL Sentral to Butterworth ~4h, then ferry to George Town. Grab in Penang. No car.",
+  "entry": "Visa-free up to 90 days; passport valid 6 months. Free MDAC online within 3 days before arrival; avoid fee sites.",
+  "events": [
+   "MetMalaysia: Northeast Monsoon runs Oct 27 2026 to Mar 2027, heaviest rain and rough seas on east coast and South China Sea side",
+   "Christmas decorations at Pavilion KL and KLCC malls (annual; 2026 dates not announced)",
+   "12.12 shopping sales on Dec 12"
+  ],
+  "pros": [
+   "Superb cheap street food, Penang especially",
+   "English widely spoken, easy Grab rides",
+   "Very affordable lodging and meals"
+  ],
+  "cons": [
+   "Hot, humid, ~90F with afternoon storms in KL",
+   "~22h each way, no nonstop",
+   "Two of seven days lost to flying"
+  ],
+  "unverified": [
+   "No dated Dec 12/19 2026 fare seen; $1,550 is a peak-season estimate",
+   "Cathay winter 2026/27 PEN-HKG and HKG-JFK timings not confirmed; fallback is MH/AirAsia PEN-KUL (~1h) to connect at KUL",
+   "ETS Platinum KL-Butterworth fare (~$20) not confirmed; check ktmb.com.my",
+   "Lodging: no 2BR December listing prices seen; based on market averages",
+   "MDAC official portal is via imi.gov.my; exact URL not confirmed (several fake fee sites exist)",
+   "2026 Christmas decor dates at Pavilion/KLCC not announced",
+   "Petronas Skybridge and Penang Hill funicular hours and prices not checked"
+  ],
+  "precip": "KL: afternoon thunderstorms most days (~250 mm, 18-20 rain days). Penang drier (~140 mm, ~14 days). Monsoon hits east coast, not this route.",
+  "flightText": "Cathay Pacific: JFK-HKG-KUL Dec 12, land KUL Dec 13. Return PEN-HKG-JFK Dec 19 (CX634 PEN 13:00, seen operating 2026), home Dec 19.. Cathay is oneworld (AA miles). Alts: Turkish via Istanbul, Qatar via Doha (check Middle East disruptions), Singapore Airlines via SIN. Capital One partners: Cathay Asia Miles, Turkish, KrisFlyer. No PHL nonstop to Asia.",
+  "itinerary": [
+   {
+    "title": "Land KL, Petronas lights",
+    "plan": "Arrive KLIA Dec 13, Grab to Bukit Bintang. Evening KLCC Park fountain show under lit Petronas Towers.",
+    "eat": "Satay on Jalan Alor"
+   },
+   {
+    "title": "Old KL + Chinatown",
+    "plan": "Merdeka Square, Sultan Abdul Samad Building, Central Market crafts, Petaling Street. Petronas Skybridge late afternoon.",
+    "eat": "Hokkien mee at Kim Lian Kee, Petaling Street"
+   },
+   {
+    "title": "Batu Caves + Thean Hou",
+    "plan": "Early Batu Caves (272 steps) before heat and storms, afternoon Thean Hou Temple, evening Pavilion Christmas decor.",
+    "eat": "Banana leaf rice in Brickfields"
+   },
+   {
+    "title": "Train to Penang",
+    "plan": "Morning ETS Platinum KL Sentral to Butterworth (~4h), ferry to George Town, sunset Esplanade and City Hall walk.",
+    "eat": "Char kway teow on Lebuh Kimberley"
+   },
+   {
+    "title": "Penang Hill + Kek Lok Si",
+    "plan": "Funicular up Penang Hill for island views, then Kek Lok Si pagoda and Kuan Yin statue.",
+    "eat": "Air Itam asam laksa"
+   },
+   {
+    "title": "Street art + clan houses",
+    "plan": "Armenian Street murals, Khoo Kongsi clan temple, Chew Jetty stilt houses, Little India. Evening hawker crawl.",
+    "eat": "Nasi kandar at Line Clear"
+   },
+   {
+    "title": "Fly home",
+    "plan": "Roti canai breakfast, Grab to Penang airport (~30 min). Cathay via Hong Kong, land JFK Dec 19 evening.",
+    "eat": "Roti canai at a kopitiam"
+   }
+  ]
+ },
+ "china": {
+  "name": "Beijing + Xi'an, China (ending in Hong Kong)",
+  "tagline": "Great Wall, Terracotta Army, Hong Kong finale",
+  "whyParents": "Walk a near-empty Great Wall, see the Forbidden City and Terracotta Army, then end with Hong Kong's harbour lights.",
+  "stay": "Beijing Wangfujing (walk to Forbidden City), Xi'an inside city wall, Hong Kong Tsim Sha Tsui (harbour views)",
+  "getAround": "Metro and DiDi rides in cities; private driver to Mutianyu (~1.5h each way); G-train Beijing West to Xi'an North ~4h10m to 5h.",
+  "entry": "Visa-free 240-hour transit: enter from US/Korea, exit to Hong Kong, onward ticket required. Round trip needs L visa ($140).",
+  "events": [
+   "Low season: no Chinese holidays Dec 13 to 19, thin crowds at the Wall",
+   "Hong Kong Symphony of Lights harbour show nightly at 8pm",
+   "Forbidden City closed Mondays (Dec 14); tickets release 7 days ahead, passport required"
+  ],
+  "pros": [
+   "Great Wall nearly empty in winter",
+   "Terracotta Army plus a 200 mph bullet train",
+   "No visa needed with the Hong Kong exit"
+  ],
+  "cons": [
+   "Visa ($140 + center fee) unless exiting via Hong Kong",
+   "Bitter cold: Beijing highs ~37F, lows ~19F",
+   "Google blocked; set up Alipay and roaming eSIM first"
+  ],
+  "unverified": [
+   "All fares are estimates; no dated Dec 12/19 2026 open-jaw fare seen",
+   "Korean Air evening ICN-PEK connection time on Dec 13 (trackers show ~18:40 to 20:50)",
+   "Air China JFK-PEK winter 2026 frequency (5x weekly per summer data); proposed US ban on Chinese airlines using Russian airspace could change it",
+   "240-hour rule details from secondary sources plus MTR page; confirm with China's National Immigration Administration before booking",
+   "Visa application center service fee (one source totals ~$252 with service fee)",
+   "Mutianyu toboggan winter operation and the reported 60+ age limit",
+   "Hotel rates for December 2026"
+  ],
+  "precip": "Dry, sunny, windy; snow rare. Xi'an ~42F/27F, Hong Kong ~68F/59F",
+  "flightText": "Korean Air out, Cathay Pacific home: Out Sat Dec 12: KE82 JFK 13:00 to Seoul ICN 17:45 Sun, evening KE flight to Beijing PEK (lands ~9pm Dec 13). Home: CX947 Xi'an 15:50 to Hong Kong 19:05 Fri Dec 18; CX840 HKG 16:30 to JFK ~7:30pm Sat Dec 19.. Open jaw ending in Hong Kong is what makes the trip visa-free. Cathay is oneworld (earn AA miles) and a Capital One transfer partner. Cheaper visa-free alternative: Korean Air both ways, home Xi'an-Seoul-JFK (Korea also counts as a third country). Air China nonstop JFK-PEK (5x weekly, 747-8) would land Mon Dec 14.",
+  "itinerary": [
+   {
+    "title": "Arrive Beijing (Sun Dec 13)",
+    "plan": "Land via Seoul ~9pm, taxi or driver to Wangfujing hotel (~45 min). Sleep.",
+    "eat": "Late snack at the hotel or a Wangfujing noodle shop"
+   },
+   {
+    "title": "Great Wall at Mutianyu",
+    "plan": "Private driver early. Cable car up, walk restored towers, toboggan down if open (riders 60+ may be refused).",
+    "eat": "Trout lunch in Mutianyu village"
+   },
+   {
+    "title": "Forbidden City + Jingshan",
+    "plan": "Forbidden City (book 7 days ahead, bring passports), climb Jingshan Park for the view, hutong walk.",
+    "eat": "Peking duck at Siji Minfu"
+   },
+   {
+    "title": "Temple of Heaven, train to Xi'an",
+    "plan": "Early Temple of Heaven with locals doing tai chi, then G-train to Xi'an (~4.5h). Evening Muslim Quarter.",
+    "eat": "Roujiamo and biangbiang noodles, Muslim Quarter"
+   },
+   {
+    "title": "Terracotta Army",
+    "plan": "Driver or guide to the Terracotta Warriors (~1h). Pits 1 to 3 plus museum, back for evening.",
+    "eat": "Dumpling banquet at De Fa Chang"
+   },
+   {
+    "title": "City Wall bikes, fly to Hong Kong",
+    "plan": "Bike the Xi'an City Wall in the morning, 3:50pm flight to Hong Kong, evening harbour stroll.",
+    "eat": "Cantonese dinner in Tsim Sha Tsui"
+   },
+   {
+    "title": "Hong Kong morning, fly home",
+    "plan": "Star Ferry and Peak Tram views, airport by 1:30pm, 4:30pm nonstop lands JFK same evening.",
+    "eat": "Dim sum at Tim Ho Wan"
+   }
+  ]
+ }
+}

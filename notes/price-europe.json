@@ -1,0 +1,76 @@
+{
+  "paris": {
+    "flights": 960,
+    "flightsBasis": "PHL-Paris mid-Dec: Momondo Dec 12-15 2026 Aer Lingus $924 and Dec 11-15 Iberia $886 (1-stop); AA nonstop Dec 2-9 $786 (early Dec, basic) and $903 one-way Dec 17 (Helloaxel, checked Oct 20). Typical mid-Dec AA nonstop Main Cabin ~$960",
+    "flightsVerified": true,
+    "lodging": 720,
+    "lodgingBasis": "$480/night all-in x 6 nights / 4. Marais 2BR listings EUR 273 to 600/night (one Dec 2026 from-rate GBP 565); Kayak Paris Dec avg C$363 all types; ~EUR 350 listed +25% fees at 1.12 USD/EUR",
+    "lodgingVerified": true,
+    "foodFun": 950,
+    "foodFunBasis": "~$105/day food x 7 ($730); Louvre, Versailles passport, Garnier, Sainte-Chapelle ~$130; metro week pass, RER C, RER B/taxi to CDG ~$90",
+    "sources": [
+      {"label": "Momondo PHL-Paris (Dec 11-15, Dec 12-15 2026 fares)", "url": "https://www.momondo.com/flights/philadelphia/paris"},
+      {"label": "Helloaxel PHL-CDG AA nonstop Dec 2026 fares", "url": "https://helloaxel.com/en/flights/from-philadelphia-to-paris-cdg"},
+      {"label": "aa.com PHL-Paris fares (Dec 2-9 2026 $786)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-paris"},
+      {"label": "Marais 2BR, Dec 2026 rate", "url": "https://excellenceluxuryvillas.com/townhouse-apartment-rentals/paris/le-marais/appartement-calvairien-le-marais/"},
+      {"label": "Urban Flat 76, Marais 2BR", "url": "https://www.urbanflatinparis.com/en/rentals/apartment-paris-urban-flat-76-pretty-2-bedroom-flat-in-le-marais-351840.html"},
+      {"label": "Kayak Paris vacation rentals by month", "url": "https://www.ca.kayak.com/Paris-Vacation-Rentals.36014.rental.ksp"},
+      {"label": "ECB EUR/USD reference rate (1.1188 on Oct 26 2026)", "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"}
+    ]
+  },
+  "paris-alsace": {
+    "flights": 960,
+    "flightsBasis": "Same PHL-CDG RT as Paris: Momondo Dec 12-15 2026 $924 (Aer Lingus), AA nonstop Dec 2-9 $786 basic; mid-Dec AA Main Cabin ~$960",
+    "flightsVerified": true,
+    "lodging": 615,
+    "lodgingBasis": "Paris 2BR $480/night all-in x 3 + Strasbourg Grande Ile 2BR $340/night all-in x 3 = $2,460 / 4. HomeToGo Strasbourg Dec avg $314/night; market-season avg EUR 249 (2025 report)",
+    "lodgingVerified": true,
+    "foodFun": 1050,
+    "foodFunBasis": "~$100/day food x 7 ($700); TGV Paris-Strasbourg RT ~$180; TER Colmar RT ~$30; Louvre, cathedral clock/platform, boat tour ~$85; Paris metro, CDG transfers, Strasbourg tram ~$75",
+    "sources": [
+      {"label": "Momondo PHL-Paris Dec 2026 fares", "url": "https://www.momondo.com/flights/philadelphia/paris"},
+      {"label": "aa.com PHL-Paris fares", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-paris"},
+      {"label": "HomeToGo Strasbourg Christmas markets rentals", "url": "https://www.home-to-go.ca/strasbourg/christmas-markets/"},
+      {"label": "ShortTermRentalz: Christmas destination rental rates", "url": "https://shorttermrentalz.com/news/demand-for-holiday-rentals-rises-across-europes-top-christmas-travel-destinations/"},
+      {"label": "Marais 2BR, Dec 2026 rate", "url": "https://excellenceluxuryvillas.com/townhouse-apartment-rentals/paris/le-marais/appartement-calvairien-le-marais/"},
+      {"label": "ECB EUR/USD reference rate", "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"}
+    ]
+  },
+  "portugal": {
+    "flights": 910,
+    "flightsBasis": "aa.com PHL-LIS 12/13/26-12/23/26 $739 (other Dec dates $733 to $746, lowest fare likely basic) + ~$90 Main Cabin + ~$80 OPO-LIS leg for Porto return; Ratepunk Dec 8-22 $869, median ~$850",
+    "flightsVerified": true,
+    "lodging": 355,
+    "lodgingBasis": "Lisbon Chiado/Baixa 2BR $250/night all-in x 4 + Porto Ribeira 2BR $210/night all-in x 2 = $1,420 / 4. Kayak Lisbon Dec weeknight avg $116 (C$148), Porto Dec weeknight avg $218; Baixa listing EUR 89 to 119 thru Dec 22 2026",
+    "lodgingVerified": true,
+    "foodFun": 800,
+    "foodFunBasis": "~$75/day food x 7 ($525); castle, Jeronimos, fado dinner, Pena + Regaleira, Lello, port tasting ~$225; Alfa Pendular EUR 35.70 ($40); trams, metro, Uber, Sintra train ~$50",
+    "sources": [
+      {"label": "aa.com PHL-Lisbon fares (12/13-12/23/26 $739)", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-lisbon"},
+      {"label": "aa.com PHL-Portugal fares", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-portugal"},
+      {"label": "Ratepunk PHL-LIS (Dec 8-22 $869)", "url": "https://www.ratepunk.com/flights-from-to/PHL/LIS/cheap-flights-from-philadelphia-to-lisbon"},
+      {"label": "Kayak Lisbon vacation rentals by month", "url": "https://www.kayak.com/Lisbon-Vacation-Rentals.2172.rental.ksp"},
+      {"label": "Kayak Porto rentals by month", "url": "https://KAYAK.com.au/Porto-Holiday-Rentals.15957.rental.ksp"},
+      {"label": "Carob Apartment Baixa, Dec 2026 rates", "url": "https://www.warmrental.com/carob-apartment-baixa-lisbon/l.4628"},
+      {"label": "ECB EUR/USD reference rate", "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"}
+    ]
+  },
+  "greece": {
+    "flights": 880,
+    "flightsBasis": "Emirates EWR-ATH nonstop Dec 7-14 2026 $811 (Kayak and Momondo); Kayak EWR-ATH range $764 to $1,162; AA PHL-ATH Dec 2026 from $987 (1-stop). Mid-Dec typical ~$880",
+    "flightsVerified": true,
+    "lodging": 325,
+    "lodgingBasis": "$215/night all-in x 6 nights / 4. Plaka 2BR from $198/night, Plaka apartments avg $197 (Booking.com); Expedia Athens Dec base $136; Kayak Plaka hotels Dec avg $130 (low season)",
+    "lodgingVerified": true,
+    "foodFun": 780,
+    "foodFunBasis": "~$70/day food x 7 ($490); Acropolis, museum, Agora, Delphi, Sounion, stadium, funicular ~$145; 1/4 of 2-day full-size SUV rental + gas + tolls ~$80; airport metro and taxis ~$50",
+    "sources": [
+      {"label": "Momondo EWR-Athens (Emirates Dec 7-14 $811)", "url": "https://www.momondo.com/flights/newark-liberty-intl-ewr/athens"},
+      {"label": "Kayak EWR-ATH route", "url": "https://www.kayak.com/flight-routes/Newark-EWR/Athens-Eleftherios-V--ATH"},
+      {"label": "aa.com PHL-Athens fares", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-athens"},
+      {"label": "Booking.com Plaka apartments", "url": "https://www.booking.com/apartments/city/gr/plaka.en-gb.html"},
+      {"label": "Expedia Athens vacation rentals price trend", "url": "https://www.expedia.com/Athens-Vacation-Rentals.d178231.Travel-Guide-VacationRentals"},
+      {"label": "Kayak Plaka hotels", "url": "https://www.kayak.com/Athens-Hotels_Plaka.N217677.24560.hotel.ksp"}
+    ]
+  }
+}

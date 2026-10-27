@@ -15,6 +15,13 @@ def commons(photo):
     base = "https://upload.wikimedia.org/wikipedia/commons"
     photo["src"] = f"{base}/thumb/{h[0]}/{h[:2]}/{q}/960px-{q}"
     photo["orig"] = f"{base}/{h[0]}/{h[:2]}/{q}"
+    for k in ("author", "license"):
+        if re.search(r"see commons|unverified|not confirmed|unknown", photo.get(k) or "", re.I):
+            photo[k] = ""
+    if not photo["author"] and not photo["license"]:
+        photo["author"], photo["license"] = "Wikimedia Commons", "see file page"
+    photo["author"] = photo["author"] or "Wikimedia Commons"
+    photo["license"] = photo["license"] or "see file page"
     photo["page"] = f"https://commons.wikimedia.org/wiki/File:{q}"
     return photo
 
@@ -33,6 +40,12 @@ def load():
                 commons(day["photo"])
         c = d["costPP"]
         c["trip"] = c["flights"] + c["lodging"]
+    fly = json.loads((NOTES / "display.json").read_text())
+    for d in dests:
+        d["fly"] = fly.get(d["id"], d["flight"].get("hours", ""))
+        # drop notes about our own research process; keep real open questions
+        d["unverified"] = [u for u in d.get("unverified", [])
+                           if not re.search(r"photo|search budget|Commons|author/license", u, re.I)]
     recs = json.loads((NOTES / "recs.json").read_text()) if (NOTES / "recs.json").exists() else []
     return dests, recs
 

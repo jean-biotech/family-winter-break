@@ -1,0 +1,417 @@
+[
+  {
+    "id": "alaska",
+    "name": "Anchorage + Fairbanks, Alaska",
+    "region": "US",
+    "passport": false,
+    "warm": false,
+    "tagline": "Northern lights, hot springs, deep snow",
+    "whyParents": "Bucket-list aurora and a steaming outdoor hot spring, no passport and no jet lag.",
+    "costPP": {
+      "flights": 800,
+      "flightsBasis": "Estimate: PHL-ANC in, FAI-PHL out (1 stop, Alaska/AA via SEA or DFW) ~$650 plus ANC-FAI hop ~$150. Kayak says December PHL-FAI averages ~$851 RT. No Dec 2026 fare seen.",
+      "flightsVerified": false,
+      "lodging": 400,
+      "lodgingBasis": "3BR home ~$270/night total, 6 nights, split 4 ways (estimate, 3 nights each city)",
+      "lodgingVerified": false,
+      "foodFun": 650,
+      "foodFunBasis": "~$70/day food plus Chena aurora tour ~$215 to $235 and AWD SUV share"
+    },
+    "flight": {
+      "from": "PHL",
+      "airline": "American",
+      "routing": "PHL-DFW-ANC or PHL-SEA-ANC (1 stop); home FAI-SEA-PHL. No AA PHL-ANC nonstop found for Dec 2026.",
+      "aaMetal": false,
+      "hours": "~11h with 1 stop",
+      "notes": "Alaska Airlines (oneworld, earns AA miles) likely best via SEA. Short ANC-FAI hop ~1h on Alaska Airlines."
+    },
+    "weather": { "highF": 2, "lowF": -15, "daylight": "Fairbanks ~3h 45m, Anchorage ~5h 30m", "precip": "Dry cold, light snow; Anchorage milder (~24F/13F)" },
+    "stay": "Downtown Anchorage, then Fairbanks near Chena River: walkable, tour pickups",
+    "getAround": "Rent AWD midsize SUV (4 adults + bags), studded tires standard. Fly ANC-FAI rather than 6h winter drive.",
+    "entry": "US domestic: REAL ID or passport only.",
+    "events": [
+      "Aurora Winter Train runs weekends only: northbound Sat 8:30am Anchorage, southbound Sun 8:30am Fairbanks (season Sept 2026 to May 9 2027). Sat Dec 12 is arrival day, so it does not fit this week.",
+      "Midweek Aurora Winter Train trips only Feb to March, not December",
+      "Aurora season: long dark nights in mid-December, sightings weather dependent"
+    ],
+    "pros": ["Best aurora odds in the US", "Chena outdoor hot springs in snow", "No passport, AA miles via Alaska Airlines"],
+    "cons": ["Only 4 to 5 hours of daylight", "Fairbanks often -10F to -30F", "No nonstop, long travel days"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive Anchorage", "plan": "Land ANC, pick up SUV, check in downtown, early night.", "eat": "Reindeer sausage at Snow City Cafe",
+        "photo": { "file": "Anchorage_Skyline_in_Winter_-_Hotel_Captain_Cook_-_Anchorage_Alaska.jpg", "author": "Will Buckner", "license": "CC BY 2.0", "caption": "Downtown Anchorage winter sunset" } },
+      { "day": 2, "title": "Turnagain Arm + Girdwood", "plan": "Scenic Seward Highway drive, Alyeska Resort tram, Wildlife Conservation Center.", "eat": "Seven Glaciers at Alyeska (top of tram)",
+        "photo": { "file": "Turnagain_Arm_and_Kenai_Mountains_(1).jpg", "author": "Anchorage Adventurers Meetup hiker (Flickr upload bot; verify)", "license": "unverified", "caption": "Turnagain Arm and Kenai Mountains" } },
+      { "day": 3, "title": "Native culture + Chugach views", "plan": "Alaska Native Heritage Center, then Glen Alps overlook at golden hour.", "eat": "Halibut at Simon and Seafort's",
+        "photo": { "file": "Alaska_Native_Heritage_Center_across_Lake_Tiulana.jpg", "author": "unverified", "license": "CC BY-SA (version unverified)", "caption": "Heritage Center across Lake Tiulana" } },
+      { "day": 4, "title": "Fly to Fairbanks", "plan": "Morning hop ANC-FAI, Chena River walk, first aurora check after dark.", "eat": "Thai at Lemongrass, Fairbanks",
+        "photo": { "file": "Chena_River_in_winter.jpg", "author": "unverified", "license": "unverified", "caption": "Frozen Chena River" } },
+      { "day": 5, "title": "Chena Hot Springs + aurora", "plan": "Afternoon soak, Aurora Ice Museum, stay late for northern lights.", "eat": "Chena Hot Springs Resort restaurant",
+        "photo": { "file": "Polarlicht.jpg", "author": "US Air Force, Senior Airman Joshua Strang", "license": "Public domain", "caption": "Aurora over Bear Lake, Eielson" } },
+      { "day": 6, "title": "Museum + sled dogs", "plan": "UA Museum of the North, afternoon dog sled ride, aurora night two.", "eat": "Pike's Landing on the river",
+        "photo": { "file": "Fairbanks_winter_panorama.JPG", "author": "unverified", "license": "unverified", "caption": "Fairbanks winter panorama" } },
+      { "day": 7, "title": "Fly home", "plan": "Return SUV, FAI to PHL via Seattle.", "eat": "Airport: Alaska Lounge snacks or Hot Licks ice cream earlier",
+        "photo": { "file": "Aurora2.jpg", "author": "Jan Curtis, Geophysical Institute, Univ. of Alaska", "license": "CC BY-SA 4.0", "caption": "Purple aurora over Alaska" } }
+    ],
+    "heroPhotos": [
+      { "file": "Auroraborealissm.jpg", "author": "NOAA", "license": "Public domain", "caption": "Aurora near Anchorage" },
+      { "file": "Glen_Alps,_Chugach_Mountains,_Alaska_(5491475819).jpg", "author": "unverified (Flickr import)", "license": "unverified", "caption": "Chugach Mountains from Glen Alps" }
+    ],
+    "sources": [
+      { "label": "Aurora Winter Train 2026-27 weekends", "url": "https://thealaskastory.com/all-aboard-the-aurora-winter-train-is-back-on-track-for-weekend-adventures/" },
+      { "label": "Alaska Railroad route page", "url": "https://www.alaskatrain.com/routes/aurora-winter-train/" },
+      { "label": "Chena aurora tour price", "url": "https://www.alaskatravel.com/fairbanks/chena-hot-springs-northern-lights-tour/" },
+      { "label": "Kayak PHL-FAI fares", "url": "https://www.kayak.com/flight-routes/Philadelphia-PHL/Fairbanks-FAI" },
+      { "label": "AA PHL-ANC fare page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-anchorage" }
+    ],
+    "unverified": [
+      "All flight fares (no Dec 2026 fares found); AA PHL-ANC shows only Sept 2026 fares",
+      "Lodging prices are estimates",
+      "Weather and daylight figures are typical normals, not checked",
+      "Chena tour 2026 winter price ($215 to $235 seen on resellers)",
+      "Authors/licenses marked unverified on several photos; Commons pages could not be opened (fetch blocked)"
+    ]
+  },
+  {
+    "id": "usvi",
+    "name": "St. Thomas + St. John, US Virgin Islands",
+    "region": "Caribbean",
+    "passport": false,
+    "warm": true,
+    "tagline": "Turquoise bays, national park, no passport",
+    "whyParents": "World-class beaches and easy snorkeling in a US territory, with a nonstop from Philly.",
+    "costPP": {
+      "flights": 650,
+      "flightsBasis": "Estimate: AA PHL-STT nonstop. AA route page shows RT from ~$586 for spring 2026 dates; December peak likely higher. No Dec 2026 fare seen.",
+      "flightsVerified": false,
+      "lodging": 700,
+      "lodgingBasis": "2 to 3BR villa ~$450/night total, 6 nights (3 St. Thomas, 3 St. John), split 4 ways (estimate)",
+      "lodgingVerified": false,
+      "foodFun": 650,
+      "foodFunBasis": "~$90/day food (islands are pricey) plus ferries and Jeep share"
+    },
+    "flight": {
+      "from": "PHL",
+      "airline": "American",
+      "routing": "PHL-STT nonstop (AA, only nonstop carrier; frequency daily vs few weekly unclear)",
+      "aaMetal": true,
+      "hours": "~4h",
+      "notes": "Backup: JFK-STT nonstop (AA and Delta listed), or via MIA/CLT on AA."
+    },
+    "weather": { "highF": 84, "lowF": 75, "daylight": "~11h 15m", "precip": "Brief showers some days, sunny dry season start" },
+    "stay": "Red Hook, St. Thomas, then Cruz Bay, St. John: ferries, beaches, dining",
+    "getAround": "Rent a Jeep or small SUV for 4 (drive on LEFT). Passenger ferry Red Hook to Cruz Bay ~20 min; car barge also runs.",
+    "entry": "US territory: no passport for US citizens; bring REAL ID. US customs check when flying home.",
+    "events": [
+      "No specific Dec 12-18 2026 events verified"
+    ],
+    "pros": ["Nonstop from PHL on AA", "Trunk Bay snorkel trail", "Two-thirds of St. John is national park"],
+    "cons": ["Expensive food and villas", "Left-side driving on steep roads", "Flight frequency unconfirmed"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive St. Thomas", "plan": "Land STT, pick up Jeep, sunset in Charlotte Amalie harbor.", "eat": "Conch fritters at Gladys' Cafe",
+        "photo": { "file": "Charlotte_Amalie.jpg", "author": "JuanPDP", "license": "CC BY-SA 2.5", "caption": "Charlotte Amalie, St. Thomas" } },
+      { "day": 2, "title": "Old town + Magens Bay", "plan": "99 Steps and historic town morning, Magens Bay beach afternoon.", "eat": "Fish tacos at Magens Bay snack bar",
+        "photo": { "file": "Charlotte_Amalie_Post_Office.JPG", "author": "Smallbones", "license": "unverified (own work)", "caption": "Historic Charlotte Amalie" } },
+      { "day": 3, "title": "Ferry to St. John", "plan": "Red Hook ferry to Cruz Bay, Trunk Bay underwater snorkel trail.", "eat": "Lime Inn, Cruz Bay",
+        "photo": { "file": "St_John_Trunk_Bay_3.jpg", "author": "Fred Hsu", "license": "unverified", "caption": "Trunk Bay beach" } },
+      { "day": 4, "title": "Annaberg + Maho Bay", "plan": "Sugar mill ruins, then sea turtles at Maho Bay.", "eat": "Maho Crossroads beach bar",
+        "photo": { "file": "Annaberg_sugar_plantation_ruins.jpg", "author": "Historic American Buildings Survey (Library of Congress)", "license": "Public domain", "caption": "Annaberg sugar mill ruins" } },
+      { "day": 5, "title": "Reef Bay hike", "plan": "NPS Reef Bay trail to petroglyphs, easy afternoon swim.", "eat": "The Longboard, Cruz Bay",
+        "photo": { "file": "Virgin_Islands_National_Park_Reef_Bay.jpg", "author": "unverified", "license": "unverified", "caption": "Reef Bay, national park" } },
+      { "day": 6, "title": "Cinnamon Bay + Cruz Bay", "plan": "Cinnamon Bay paddleboard, evening stroll and shopping in Cruz Bay.", "eat": "Extra Virgin Taverna",
+        "photo": { "file": "St_John_Cruz_Bay_1.jpg", "author": "unverified", "license": "unverified", "caption": "Cruz Bay harbor" } },
+      { "day": 7, "title": "Fly home", "plan": "Morning ferry to Red Hook, drive to STT, fly PHL.", "eat": "Breakfast at Sun Dog Cafe",
+        "photo": { "file": "St._John,_U.S._Virgin_Islands.jpg", "author": "unverified", "license": "unverified", "caption": "St. John coastline" } }
+    ],
+    "heroPhotos": [
+      { "file": "StJohnTrunkBay.jpg", "author": "Ben Whitney", "license": "Public domain", "caption": "Trunk Bay, St. John" }
+    ],
+    "sources": [
+      { "label": "AA PHL-STT route page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-st-thomas" },
+      { "label": "FlightConnections PHL-STT", "url": "https://www.FlightConnections.com/flights-from-phl-to-stt" },
+      { "label": "flightsfrom PHL-STT", "url": "https://www.flightsfrom.com/PHL-STT" },
+      { "label": "JFK-STT direct flights", "url": "https://www.directflights.com/STT-JFK" }
+    ],
+    "unverified": [
+      "AA PHL-STT December 2026 frequency (sources say daily, 5x weekly, or 1 weekly)",
+      "All fares and villa prices",
+      "Weather and daylight are typical values",
+      "Several photo authors/licenses; Commons pages could not be opened"
+    ]
+  },
+  {
+    "id": "puerto-rico",
+    "name": "San Juan + El Yunque + Vieques, Puerto Rico",
+    "region": "Caribbean",
+    "passport": false,
+    "warm": true,
+    "tagline": "Forts, rainforest, glowing bay, no passport",
+    "whyParents": "European-feel old city with Spanish forts, plus rainforest and beaches, short AA nonstop.",
+    "costPP": {
+      "flights": 380,
+      "flightsBasis": "Estimate: Expedia cached AA nonstop PHL-SJU Dec 7-13 at ~$303 RT; Cheapflights says December is priciest month. No Dec 2026 fare seen.",
+      "flightsVerified": false,
+      "lodging": 450,
+      "lodgingBasis": "2 to 3BR apartment ~$300/night total, 6 nights (4 Old San Juan, 2 Vieques), split 4 ways (estimate)",
+      "lodgingVerified": false,
+      "foodFun": 500,
+      "foodFunBasis": "~$65/day food plus car share, ferry, bio bay kayak tour"
+    },
+    "flight": {
+      "from": "PHL",
+      "airline": "American",
+      "routing": "PHL-SJU nonstop (AA)",
+      "aaMetal": true,
+      "hours": "~4h",
+      "notes": "Also nonstops from JFK/EWR on several carriers."
+    },
+    "weather": { "highF": 84, "lowF": 73, "daylight": "~11h", "precip": "Quick passing showers; El Yunque rains most days" },
+    "stay": "Old San Juan: walkable, forts, restaurants, Christmas lights",
+    "getAround": "Walk Old San Juan; rent midsize SUV for El Yunque and Ceiba ferry. Ceiba-Vieques ferry ~$24.50 RT for visitors (unverified).",
+    "entry": "US territory: no passport for US citizens; REAL ID needed.",
+    "events": [
+      "El Yunque PR-191 corridor: free, no reservations required (USFS page updated Feb 27 2026)",
+      "La Mina Trail and Big Tree Trail reported closed as of Aug 2026",
+      "Holiday season in Old San Juan; no specific Dec 12-18 2026 event dates verified"
+    ],
+    "pros": ["Cheap short AA nonstop", "Old San Juan feels European", "Rainforest and bio bay in one week"],
+    "cons": ["Ferry to Vieques can be unreliable", "Key El Yunque trails closed", "Busy holiday crowds in San Juan"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive + Old San Juan", "plan": "Land SJU, check in, sunset walk to the El Morro lighthouse lawn.", "eat": "Mofongo at El Jibarito",
+        "photo": { "file": "Faro_del_Morro_(San_Juan,_Puerto_Rico).jpg", "author": "Tomás Fano", "license": "CC BY-SA 2.0", "caption": "El Morro lighthouse" } },
+      { "day": 2, "title": "El Morro fort", "plan": "Tour Castillo San Felipe del Morro, blue cobblestone streets, Paseo de la Princesa.", "eat": "Café El Punto",
+        "photo": { "file": "USA-2016-Puerto_Rico-San_Juan-Castillo_San_Felipe_del_Morro_10.jpg", "author": "Godot13 (Andrew Shiva)", "license": "CC BY-SA 4.0 (verify)", "caption": "Castillo San Felipe del Morro" } },
+      { "day": 3, "title": "El Yunque + Luquillo", "plan": "La Coca Falls, Yokahú Tower, then Luquillo beach kiosks.", "eat": "Kioskos de Luquillo, alcapurrias",
+        "photo": null },
+      { "day": 4, "title": "Ferry to Vieques", "plan": "Drive to Ceiba, morning ferry, settle in Esperanza, malecón stroll.", "eat": "Duffy's, Esperanza",
+        "photo": { "file": "Cliffs_around_Esperanza,_Vieques,_Puerto_Rico.jpg", "author": "Steven Isaacson", "license": "CC BY-SA 2.0", "caption": "Esperanza cliffs, Vieques" } },
+      { "day": 5, "title": "Wild beaches + bio bay", "plan": "Caracas and Pata Prieta beaches, night kayak on Mosquito Bay.", "eat": "El Quenepo, Esperanza",
+        "photo": { "file": "Vieques_National_Wildlife_Refuge_Caracas_Beach.jpg", "author": "Susan Morse, USFWS", "license": "Public domain", "caption": "Caracas Beach, Vieques" } },
+      { "day": 6, "title": "Back to San Juan", "plan": "Ferry back, Castillo San Cristóbal tunnels, evening plaza Christmas lights.", "eat": "Marmalade, Old San Juan",
+        "photo": { "file": "Castillo_San_Cristóbal_(Fort_San_Cristóbal)_(5421515622).jpg", "author": "Jorge Láscar", "license": "CC BY 2.0", "caption": "Castillo San Cristóbal walls" } },
+      { "day": 7, "title": "Fly home", "plan": "Coffee and last stroll, SJU to PHL.", "eat": "La Bombonera pastries (verify open)",
+        "photo": { "file": "View_from_Castillo_de_San_Cristóbal.jpg", "author": "unverified", "license": "CC BY 2.0", "caption": "Old San Juan from fort" } }
+    ],
+    "heroPhotos": [
+      { "file": "Castillo_San_Cristóbal_(Fort_San_Cristóbal)_(5421525904).jpg", "author": "Jorge Láscar", "license": "CC BY 2.0", "caption": "Fort San Cristóbal" },
+      { "file": "Vieques_Bio_Bay_NR.jpg", "author": "unverified", "license": "unverified", "caption": "Mosquito Bay, Vieques" }
+    ],
+    "sources": [
+      { "label": "AA PHL-SJU route page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-san-juan" },
+      { "label": "Expedia PHL-SJU fares", "url": "https://www.expedia.com/lp/flights/phl/sju/philadelphia-to-san-juan" },
+      { "label": "El Yunque conditions (USFS)", "url": "https://fs.usda.gov/r08/elyunque/conditions" },
+      { "label": "El Yunque trail closures 2026", "url": "https://hikewithryan.com/el-yunque-hiking/" },
+      { "label": "Vieques ferry July 2026 schedule", "url": "https://www.puertoricoferry.com/wp-content/uploads/2026/06/Julio-2026-Itinerario-Oficial-Vieques.pdf" }
+    ],
+    "unverified": [
+      "Dec 2026 PHL-SJU fare (only cached Dec sample ~$303)",
+      "Ferry December 2026 schedule and visitor fare",
+      "Lodging prices, weather, daylight",
+      "No Commons photo found for El Yunque (Day 3 photo missing); some authors/licenses unverified"
+    ]
+  },
+  {
+    "id": "quebec-montreal",
+    "name": "Quebec City + Montreal, Canada",
+    "region": "Canada",
+    "passport": true,
+    "warm": false,
+    "tagline": "French Christmas markets, snowy old towns",
+    "whyParents": "Feels like a snowy French village at Christmas, with a short flight and scenic train.",
+    "costPP": {
+      "flights": 380,
+      "flightsBasis": "Estimate: PHL-YUL RT ~$350 to $400 in mid-December; no Dec 2026 fare seen.",
+      "flightsVerified": false,
+      "lodging": 380,
+      "lodgingBasis": "2BR apartment ~$250/night total, 6 nights (4 Quebec City, 2 Montreal), split 4 ways (estimate)",
+      "lodgingVerified": false,
+      "foodFun": 450,
+      "foodFunBasis": "~$60/day food plus VIA Rail (~$33 to $51 Escape fare each way) and museums"
+    },
+    "flight": {
+      "from": "PHL",
+      "airline": "American",
+      "routing": "PHL-YUL nonstop (AA/regional) if running Dec 2026; otherwise via CLT or JFK",
+      "aaMetal": true,
+      "hours": "~1h 45m",
+      "notes": "Air Canada (Aeroplan, Capital One transfer partner) also flies PHL/EWR-YUL."
+    },
+    "weather": { "highF": 25, "lowF": 10, "daylight": "~8h 40m", "precip": "Frequent snow; icy sidewalks" },
+    "stay": "Old Quebec inside walls, then Old Montreal: walkable, markets, charm",
+    "getAround": "No car needed. VIA Rail Montreal to Quebec ~3h 17m average; walk, taxis, Montreal Metro.",
+    "entry": "Valid US passport required. No eTA for US citizens (per secondary sources; check canada.ca).",
+    "events": [
+      "German Christmas Market, Quebec City: Nov 19 to Dec 23 2026, Thu to Sun (plus Dec 21 to 23), free, 5 sites (Bonjour Québec marks dates to be confirmed)",
+      "Grand Marché de Noël, Montreal Place des Festivals: ~Nov 13 2026 to Jan 3 2027, daily 11am to 10pm from Dec 9 (start date varies by source)",
+      "Village de Noël, Atwater Market Montreal: Nov 26 to Dec 24 2026, free"
+    ],
+    "pros": ["Both Christmas markets open that week", "Europe feel, 2 hour flight", "Scenic train, no car needed"],
+    "cons": ["Cold, icy, short days", "Passport required", "Quebec market closed Mon to Wed"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive + train north", "plan": "Land YUL, VIA Rail to Quebec City, check in Old Quebec.", "eat": "Tourtière at Aux Anciens Canadiens",
+        "photo": null },
+      { "day": 2, "title": "German Christmas Market", "plan": "Sunday at the market, Château Frontenac, Dufferin Terrace toboggan slide.", "eat": "Mulled wine and sausages at the market",
+        "photo": null },
+      { "day": 3, "title": "Petit Champlain + walls", "plan": "Funicular to Petit Champlain, Place Royale, walk the city walls.", "eat": "Le Lapin Sauté",
+        "photo": null },
+      { "day": 4, "title": "Montmorency Falls", "plan": "Frozen falls cable car, Île d'Orléans cider and maple stops.", "eat": "Sugar pie at Chocolaterie de l'Île d'Orléans",
+        "photo": null },
+      { "day": 5, "title": "Train to Montreal", "plan": "Morning VIA Rail, Old Montreal, Notre-Dame Basilica.", "eat": "Smoked meat at Schwartz's",
+        "photo": null },
+      { "day": 6, "title": "Montreal markets", "plan": "Atwater Village de Noël, Mount Royal lookout, Place des Festivals market at night.", "eat": "Bagels at St-Viateur",
+        "photo": null },
+      { "day": 7, "title": "Fly home", "plan": "Jean-Talon Market breakfast, YUL to PHL.", "eat": "Poutine at La Banquise",
+        "photo": null }
+    ],
+    "heroPhotos": [],
+    "sources": [
+      { "label": "Quebec German Christmas Market", "url": "https://www.quebec-cite.com/fr/quoi-faire/evenements/marche-de-noel-allemand/" },
+      { "label": "Bonjour Québec market listing", "url": "https://www.bonjourquebec.com/fr/repertoire/evenements/marche-de-noel-allemand-de-quebec/0sx5" },
+      { "label": "Montreal Grand Marché de Noël", "url": "https://sortirauquebec.com/en/listing/christmas-and-holiday-markets/grand-marche-de-noel-de-montreal/" },
+      { "label": "Atwater Village de Noël", "url": "https://www.bonjourquebec.com/en/listing/events/village-de-noel-de-montreal/0r72" },
+      { "label": "VIA Rail Montreal-Quebec", "url": "https://viarail.ca/en/trains/ontario-and-quebec/montreal-quebec-city" }
+    ],
+    "unverified": [
+      "AA PHL-YUL nonstop operating Dec 2026 and fare",
+      "No eTA for US citizens confirmed only by secondary sources",
+      "Montreal Grand Marché start date (Nov 13 vs Nov 20) and Quebec Dec 23 opening",
+      "Lodging, weather, daylight",
+      "No Commons photos found before search budget ran out (all photos missing)"
+    ]
+  },
+  {
+    "id": "banff",
+    "name": "Banff + Lake Louise, Alberta, Canada",
+    "region": "Canada",
+    "passport": true,
+    "warm": false,
+    "tagline": "Rocky Mountain snow globe at Christmas",
+    "whyParents": "Postcard mountains, frozen lakes and a cozy Christmas market, all an easy drive from Calgary.",
+    "costPP": {
+      "flights": 550,
+      "flightsBasis": "Estimate: AA PHL-DFW-YYC (~7h) RT; AA page shows $509 to $994 for other 2026 months. No Dec 2026 fare seen.",
+      "flightsVerified": false,
+      "lodging": 450,
+      "lodgingBasis": "2BR condo in Banff or Canmore ~$300/night total, 6 nights, split 4 ways (estimate)",
+      "lodgingVerified": false,
+      "foodFun": 550,
+      "foodFunBasis": "~$65/day food plus SUV share, gondola, hot springs, park pass"
+    },
+    "flight": {
+      "from": "PHL",
+      "airline": "American",
+      "routing": "PHL-DFW-YYC (AA, 1 stop); no PHL-YYC nonstop found",
+      "aaMetal": true,
+      "hours": "~7h with 1 stop",
+      "notes": "Air Canada via YYZ/YUL (Aeroplan transfer partner) is the main alternative."
+    },
+    "weather": { "highF": 26, "lowF": 7, "daylight": "~7h 50m", "precip": "Regular light snow; cold snaps below 0F possible" },
+    "stay": "Downtown Banff Avenue: walk to market, restaurants, hot springs bus",
+    "getAround": "Rent midsize SUV with winter tires (request it; 4 adults + bags). YYC to Banff ~1h 30m. Park pass required.",
+    "entry": "Valid US passport required. No eTA for US citizens (per secondary sources; check canada.ca).",
+    "events": [
+      "Banff Christmas Market, Banff Train Station: Nov 19 to Dec 13 2026 over 4 weekends; final weekend Dec 11 to 13 overlaps arrival. Tickets via Showpass",
+      "Tree lighting and light show at the market every Fri, Sat, Sun at dusk"
+    ],
+    "pros": ["Catch the market's final weekend", "Stunning snowy mountain scenery", "Hot springs, skating, gondola"],
+    "cons": ["Passport required", "Winter driving on mountain roads", "Connection needed from PHL"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive + drive to Banff", "plan": "Land YYC, SUV with winter tires, drive to Banff, check in.", "eat": "Bison chili at The Bison",
+        "photo": null },
+      { "day": 2, "title": "Christmas Market finale", "plan": "Banff Gondola morning, market's last day at Banff Train Station.", "eat": "Market raclette and glühwein",
+        "photo": null },
+      { "day": 3, "title": "Lake Louise", "plan": "Skate the frozen lake, sleigh ride, Fairmont Chateau tea.", "eat": "Afternoon tea at Fairmont Chateau Lake Louise",
+        "photo": null },
+      { "day": 4, "title": "Johnston Canyon icewalk", "plan": "Guided icewalk to frozen falls on catwalks, Bow Valley Parkway.", "eat": "Park Distillery, Banff",
+        "photo": null },
+      { "day": 5, "title": "Hot springs day", "plan": "Cave and Basin site, Bow Falls, evening Banff Upper Hot Springs soak.", "eat": "Fondue at Waldhaus",
+        "photo": null },
+      { "day": 6, "title": "Canmore or ski day", "plan": "Ski Sunshine or Norquay, or Canmore shops and Grassi Lakes walk.", "eat": "Crazyweed, Canmore",
+        "photo": null },
+      { "day": 7, "title": "Fly home", "plan": "Drive to YYC, fly via DFW.", "eat": "Breakfast at Wild Flour Bakery",
+        "photo": null }
+    ],
+    "heroPhotos": [],
+    "sources": [
+      { "label": "Banff Christmas Market (official)", "url": "https://www.banfflakelouise.com/christmas/banff-christmas-market" },
+      { "label": "Market 2026 details", "url": "https://www.travelpirates.com/captains-log/banff-christmas-market-2026" },
+      { "label": "Showpass tickets", "url": "https://www.showpass.com/2026-banff-christmas-market/" },
+      { "label": "Priceline PHL-YYC routing", "url": "https://www.priceline.com/flight-routes/en-us/PHL/YYC/flights-from-philadelphia-to-calgary.ssp" },
+      { "label": "AA PHL-YYC fares", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-calgary" }
+    ],
+    "unverified": [
+      "Market hours on Dec 12-13 (sources differ: 10am to 8pm vs Sun 10am to 6pm)",
+      "Dec 2026 fares, lodging, park pass price",
+      "Ski area operating status mid-December",
+      "No eTA for US citizens confirmed only by secondary sources",
+      "Weather and daylight are typical values",
+      "No Commons photos found before search budget ran out (all photos missing)"
+    ]
+  },
+  {
+    "id": "vancouver-whistler",
+    "name": "Vancouver + Whistler, BC, Canada",
+    "region": "Canada",
+    "passport": true,
+    "warm": false,
+    "tagline": "City Christmas market meets alpine village",
+    "whyParents": "German-style market by the harbor, then a gondola-topped ski village on a gorgeous drive.",
+    "costPP": {
+      "flights": 550,
+      "flightsBasis": "Estimate: AA PHL-YVR 1 stop RT; no AA nonstop. No Dec 2026 fare seen.",
+      "flightsVerified": false,
+      "lodging": 550,
+      "lodgingBasis": "Vancouver 2BR ~$280/night x3 plus Whistler 2BR condo ~$450/night x3, split 4 ways (estimate)",
+      "lodgingVerified": false,
+      "foodFun": 600,
+      "foodFunBasis": "~$75/day food plus Peak 2 Peak gondola, market entry, car or bus share"
+    },
+    "flight": {
+      "from": "PHL",
+      "airline": "American",
+      "routing": "PHL-DFW/ORD-YVR (AA, 1 stop); no AA PHL-YVR nonstop found",
+      "aaMetal": true,
+      "hours": "~8h with 1 stop",
+      "notes": "Air Canada via YYZ/YUL (Aeroplan transfer partner) is the main alternative."
+    },
+    "weather": { "highF": 44, "lowF": 35, "daylight": "~8h 10m", "precip": "Vancouver rainy most days; Whistler village ~30F with snow" },
+    "stay": "Vancouver Coal Harbour, then Whistler Village: walk to market, lifts",
+    "getAround": "Sea-to-Sky Highway ~2h; rent midsize SUV with winter tires, or take a shuttle bus. Transit fine in Vancouver.",
+    "entry": "Valid US passport required. No eTA for US citizens (per secondary sources; check canada.ca).",
+    "events": [
+      "Vancouver Christmas Market, Jack Poole Plaza: Nov 16 to Dec 24 2026 (per organizer announcement reported by Daily Hive; other listings say Nov 12)",
+      "Whistler Blackcomb targeting Nov 20 2026 opening for 2026-27 season (weather dependent)"
+    ],
+    "pros": ["Big Christmas market plus ski village", "Spectacular Sea-to-Sky drive", "Food scene, Granville Island"],
+    "cons": ["Vancouver rain likely", "Passport required, no nonstop", "Whistler lodging pricey in season"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive Vancouver", "plan": "Land YVR, Canada Line downtown, evening at the Christmas Market.", "eat": "Market bratwurst and glühwein",
+        "photo": null },
+      { "day": 2, "title": "Stanley Park + Granville", "plan": "Seawall walk or bike, Granville Island Public Market, Gastown.", "eat": "Chowder at Go Fish",
+        "photo": null },
+      { "day": 3, "title": "North Shore", "plan": "Capilano Suspension Bridge Canyon Lights, Grouse Mountain views.", "eat": "Dim sum in Richmond or Chinatown",
+        "photo": null },
+      { "day": 4, "title": "Sea-to-Sky to Whistler", "plan": "Drive Highway 99, stop Shannon Falls and Sea to Sky Gondola.", "eat": "Araxi, Whistler Village",
+        "photo": null },
+      { "day": 5, "title": "Peak 2 Peak", "plan": "Ride Peak 2 Peak gondola, ski or snowshoe, village lights at night.", "eat": "Fondue at Bearfoot Bistro",
+        "photo": null },
+      { "day": 6, "title": "Whistler at leisure", "plan": "Scandinave Spa, Audain Art Museum, village shops.", "eat": "Crepes at Crepe Montagne",
+        "photo": null },
+      { "day": 7, "title": "Fly home", "plan": "Early drive to YVR (2h 30m), fly PHL.", "eat": "Breakfast at Purebread, Whistler",
+        "photo": null }
+    ],
+    "heroPhotos": [],
+    "sources": [
+      { "label": "Vancouver Christmas Market 2026", "url": "https://dailyhive.com/vancouver/vancouver-christmas-market-2026" },
+      { "label": "Market European village 2026", "url": "https://curiocity.com/vancouver-christmas-market-european-village-2026/" },
+      { "label": "Whistler Nov 20 2026 opening", "url": "https://www.whistler.com/blog/post/2025/10/07/whistlerblackcomb/" },
+      { "label": "AA PHL-YVR fares", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-vancouver" }
+    ],
+    "unverified": [
+      "Market opening day (Nov 16 vs Nov 12) though Dec 12-18 is covered either way",
+      "Dec 2026 fares, lodging, shuttle bus options",
+      "No eTA for US citizens confirmed only by secondary sources",
+      "Weather and daylight are typical values",
+      "No Commons photos found before search budget ran out (all photos missing)"
+    ]
+  }
+]

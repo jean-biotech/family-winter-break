@@ -123,7 +123,9 @@
         "photo": { "file": "St._John,_U.S._Virgin_Islands.jpg", "author": "unverified", "license": "unverified", "caption": "St. John coastline" } }
     ],
     "heroPhotos": [
-      { "file": "StJohnTrunkBay.jpg", "author": "Ben Whitney", "license": "Public domain", "caption": "Trunk Bay, St. John" }
+      { "file": "StJohnTrunkBay.jpg", "author": "Ben Whitney", "license": "Public domain", "caption": "Trunk Bay, St. John" },
+      { "file": "Magens Bay, St. Thomas, USVI.jpg", "author": "See Commons", "license": "CC BY 2.0", "caption": "Magens Bay, St. Thomas" },
+      { "file": "Cinnamon and Whistling Cays from Cinnamon, 2011.jpg", "author": "See Commons", "license": "See Commons", "caption": "Cinnamon Bay cays, St. John" }
     ],
     "sources": [
       { "label": "AA PHL-STT route page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-st-thomas" },
@@ -181,7 +183,7 @@
       { "day": 2, "title": "El Morro fort", "plan": "Tour Castillo San Felipe del Morro, blue cobblestone streets, Paseo de la Princesa.", "eat": "Café El Punto",
         "photo": { "file": "USA-2016-Puerto_Rico-San_Juan-Castillo_San_Felipe_del_Morro_10.jpg", "author": "Godot13 (Andrew Shiva)", "license": "CC BY-SA 4.0 (verify)", "caption": "Castillo San Felipe del Morro" } },
       { "day": 3, "title": "El Yunque + Luquillo", "plan": "La Coca Falls, Yokahú Tower, then Luquillo beach kiosks.", "eat": "Kioskos de Luquillo, alcapurrias",
-        "photo": null },
+        "photo": { "file": "La Coca Falls, El Yunque National Forest.jpg", "author": "Jami430", "license": "CC BY-SA 4.0", "caption": "La Coca Falls, El Yunque" } },
       { "day": 4, "title": "Ferry to Vieques", "plan": "Drive to Ceiba, morning ferry, settle in Esperanza, malecón stroll.", "eat": "Duffy's, Esperanza",
         "photo": { "file": "Cliffs_around_Esperanza,_Vieques,_Puerto_Rico.jpg", "author": "Steven Isaacson", "license": "CC BY-SA 2.0", "caption": "Esperanza cliffs, Vieques" } },
       { "day": 5, "title": "Wild beaches + bio bay", "plan": "Caracas and Pata Prieta beaches, night kayak on Mosquito Bay.", "eat": "El Quenepo, Esperanza",
@@ -193,7 +195,8 @@
     ],
     "heroPhotos": [
       { "file": "Castillo_San_Cristóbal_(Fort_San_Cristóbal)_(5421525904).jpg", "author": "Jorge Láscar", "license": "CC BY 2.0", "caption": "Fort San Cristóbal" },
-      { "file": "Vieques_Bio_Bay_NR.jpg", "author": "unverified", "license": "unverified", "caption": "Mosquito Bay, Vieques" }
+      { "file": "Vieques_Bio_Bay_NR.jpg", "author": "unverified", "license": "unverified", "caption": "Mosquito Bay, Vieques" },
+      { "file": "Top of El Yunque, from the Yokahú Tower, an observation tower built in 1963.jpg", "author": "Harvey Barrison", "license": "See Commons", "caption": "El Yunque from Yokahú Tower" }
     ],
     "sources": [
       { "label": "AA PHL-SJU route page", "url": "https://www.aa.com/en-us/flights-from-philadelphia-to-san-juan" },
@@ -248,21 +251,25 @@
     "cons": ["Cold, icy, short days", "Passport required", "Quebec market closed Mon to Wed"],
     "itinerary": [
       { "day": 1, "title": "Arrive + train north", "plan": "Land YUL, VIA Rail to Quebec City, check in Old Quebec.", "eat": "Tourtière at Aux Anciens Canadiens",
-        "photo": null },
+        "photo": { "file": "Québec, Gare du Palais1.jpg", "author": "Claude Boucher", "license": "See Commons", "caption": "Gare du Palais, Quebec City" } },
       { "day": 2, "title": "German Christmas Market", "plan": "Sunday at the market, Château Frontenac, Dufferin Terrace toboggan slide.", "eat": "Mulled wine and sausages at the market",
-        "photo": null },
+        "photo": { "file": "Château Frontenac et terrasse Dufferin (hiver).JPG", "author": "Carogeraud", "license": "See Commons", "caption": "Frontenac and Dufferin Terrace, winter" } },
       { "day": 3, "title": "Petit Champlain + walls", "plan": "Funicular to Petit Champlain, Place Royale, walk the city walls.", "eat": "Le Lapin Sauté",
-        "photo": null },
+        "photo": { "file": "Rue du Petit-Champlain at night in Quebec City.jpg", "author": "See Commons", "license": "See Commons", "caption": "Rue du Petit-Champlain at night" } },
       { "day": 4, "title": "Montmorency Falls", "plan": "Frozen falls cable car, Île d'Orléans cider and maple stops.", "eat": "Sugar pie at Chocolaterie de l'Île d'Orléans",
-        "photo": null },
+        "photo": { "file": "Chute Montmorency-hiver.JPG", "author": "Gilbert Bochenek", "license": "See Commons", "caption": "Montmorency Falls in winter" } },
       { "day": 5, "title": "Train to Montreal", "plan": "Morning VIA Rail, Old Montreal, Notre-Dame Basilica.", "eat": "Smoked meat at Schwartz's",
-        "photo": null },
+        "photo": { "file": "Notre-Dame Basilica Interior, Montreal, Canada - Diliff.jpg", "author": "Diliff", "license": "See Commons", "caption": "Notre-Dame Basilica interior, Montreal" } },
       { "day": 6, "title": "Montreal markets", "plan": "Atwater Village de Noël, Mount Royal lookout, Place des Festivals market at night.", "eat": "Bagels at St-Viateur",
-        "photo": null },
+        "photo": { "file": "Montreal skyline from Mount Royal (8391101951).jpg", "author": "See Commons", "license": "CC BY 2.0", "caption": "Montreal from Mount Royal, winter" } },
       { "day": 7, "title": "Fly home", "plan": "Jean-Talon Market breakfast, YUL to PHL.", "eat": "Poutine at La Banquise",
-        "photo": null }
+        "photo": { "file": "Jean-Talon Market.jpg", "author": "See Commons", "license": "See Commons", "caption": "Jean-Talon Market, Montreal" } }
     ],
-    "heroPhotos": [],
+    "heroPhotos": [
+      { "file": "Château Frontenac after a freezing rain day in Quebec city.jpg", "author": "See Commons", "license": "See Commons", "caption": "Château Frontenac after freezing rain" },
+      { "file": "Chute Montmorency Pain de sucre.jpg", "author": "Pierre cb", "license": "See Commons", "caption": "Montmorency Falls ice cone" },
+      { "file": "Kondiaronk Belvedere, Montreal city, Canada.jpg", "author": "Wilfredor", "license": "CC0", "caption": "Kondiaronk Belvedere in winter" }
+    ],
     "sources": [
       { "label": "Quebec German Christmas Market", "url": "https://www.quebec-cite.com/fr/quoi-faire/evenements/marche-de-noel-allemand/" },
       { "label": "Bonjour Québec market listing", "url": "https://www.bonjourquebec.com/fr/repertoire/evenements/marche-de-noel-allemand-de-quebec/0sx5" },
@@ -316,21 +323,25 @@
     "cons": ["Passport required", "Winter driving on mountain roads", "Connection needed from PHL"],
     "itinerary": [
       { "day": 1, "title": "Arrive + drive to Banff", "plan": "Land YYC, SUV with winter tires, drive to Banff, check in.", "eat": "Bison chili at The Bison",
-        "photo": null },
+        "photo": { "file": "Mist Over Banff Avenue (Unsplash).jpg", "author": "Tj Holowaychuk", "license": "CC0", "caption": "Banff Avenue in winter mist" } },
       { "day": 2, "title": "Christmas Market finale", "plan": "Banff Gondola morning, market's last day at Banff Train Station.", "eat": "Market raclette and glühwein",
-        "photo": null },
+        "photo": { "file": "Banff at Night from Sulphur Mountain (15952057279).jpg", "author": "See Commons", "license": "See Commons", "caption": "Banff at night from Sulphur Mountain" } },
       { "day": 3, "title": "Lake Louise", "plan": "Skate the frozen lake, sleigh ride, Fairmont Chateau tea.", "eat": "Afternoon tea at Fairmont Chateau Lake Louise",
-        "photo": null },
+        "photo": { "file": "Lake Louis, Banff National Park, Canadian Rockies.jpg", "author": "See Commons", "license": "See Commons", "caption": "Lake Louise in winter" } },
       { "day": 4, "title": "Johnston Canyon icewalk", "plan": "Guided icewalk to frozen falls on catwalks, Bow Valley Parkway.", "eat": "Park Distillery, Banff",
-        "photo": null },
+        "photo": { "file": "Ice Climbers on Frozen Waterfall - Johnston Canyon (15634069953).jpg", "author": "See Commons", "license": "See Commons", "caption": "Frozen falls, Johnston Canyon" } },
       { "day": 5, "title": "Hot springs day", "plan": "Cave and Basin site, Bow Falls, evening Banff Upper Hot Springs soak.", "eat": "Fondue at Waldhaus",
-        "photo": null },
+        "photo": { "file": "Banff Upper Hot Springs.JPG", "author": "Vigorous action", "license": "See Commons", "caption": "Banff Upper Hot Springs pool" } },
       { "day": 6, "title": "Canmore or ski day", "plan": "Ski Sunshine or Norquay, or Canmore shops and Grassi Lakes walk.", "eat": "Crazyweed, Canmore",
-        "photo": null },
+        "photo": { "file": "Sunshine Village 06.jpg", "author": "See Commons", "license": "See Commons", "caption": "Sunshine Village ski area" } },
       { "day": 7, "title": "Fly home", "plan": "Drive to YYC, fly via DFW.", "eat": "Breakfast at Wild Flour Bakery",
-        "photo": null }
+        "photo": { "file": "DSC0015 Sunrise Vermilion Lake Banff National Park, AB in winter.jpg", "author": "See Commons", "license": "See Commons", "caption": "Vermilion Lakes winter sunrise" } }
     ],
-    "heroPhotos": [],
+    "heroPhotos": [
+      { "file": "Lake Louise Winter - panoramio (1).jpg", "author": "See Commons", "license": "See Commons", "caption": "Lake Louise in winter" },
+      { "file": "A frozen Lake Louise - Banff - panoramio.jpg", "author": "See Commons", "license": "See Commons", "caption": "Frozen Lake Louise" },
+      { "file": "View of Cascade Mountain from Banff, Alberta in winter.jpg", "author": "See Commons", "license": "See Commons", "caption": "Cascade Mountain over snowy Banff" }
+    ],
     "sources": [
       { "label": "Banff Christmas Market (official)", "url": "https://www.banfflakelouise.com/christmas/banff-christmas-market" },
       { "label": "Market 2026 details", "url": "https://www.travelpirates.com/captains-log/banff-christmas-market-2026" },
@@ -385,21 +396,25 @@
     "cons": ["Vancouver rain likely", "Passport required, no nonstop", "Whistler lodging pricey in season"],
     "itinerary": [
       { "day": 1, "title": "Arrive Vancouver", "plan": "Land YVR, Canada Line downtown, evening at the Christmas Market.", "eat": "Market bratwurst and glühwein",
-        "photo": null },
+        "photo": { "file": "Vancouver skyline stanley park.jpg", "author": "Tomas Hellberg", "license": "CC BY 2.0", "caption": "Vancouver skyline at night" } },
       { "day": 2, "title": "Stanley Park + Granville", "plan": "Seawall walk or bike, Granville Island Public Market, Gastown.", "eat": "Chowder at Go Fish",
-        "photo": null },
+        "photo": { "file": "Stanley Park National Historic Site of Canada - Seawall at Sunset.jpg", "author": "See Commons", "license": "See Commons", "caption": "Stanley Park Seawall at sunset" } },
       { "day": 3, "title": "North Shore", "plan": "Capilano Suspension Bridge Canyon Lights, Grouse Mountain views.", "eat": "Dim sum in Richmond or Chinatown",
-        "photo": null },
+        "photo": { "file": "Capilano Suspension Bridge 2012 Winter (6845992546).jpg", "author": "See Commons", "license": "See Commons", "caption": "Capilano Suspension Bridge in winter" } },
       { "day": 4, "title": "Sea-to-Sky to Whistler", "plan": "Drive Highway 99, stop Shannon Falls and Sea to Sky Gondola.", "eat": "Araxi, Whistler Village",
-        "photo": null },
+        "photo": { "file": "Sea to Sky Gondola 01.jpg", "author": "See Commons", "license": "See Commons", "caption": "Sea to Sky Gondola, Squamish" } },
       { "day": 5, "title": "Peak 2 Peak", "plan": "Ride Peak 2 Peak gondola, ski or snowshoe, village lights at night.", "eat": "Fondue at Bearfoot Bistro",
-        "photo": null },
+        "photo": { "file": "Peak 2 Peak Gondola Tower 4.JPG", "author": "See Commons", "license": "See Commons", "caption": "Peak 2 Peak Gondola tower" } },
       { "day": 6, "title": "Whistler at leisure", "plan": "Scandinave Spa, Audain Art Museum, village shops.", "eat": "Crepes at Crepe Montagne",
-        "photo": null },
+        "photo": { "file": "Inukshuk at Village Entrance, Whistler.JPG", "author": "See Commons", "license": "CC BY 3.0", "caption": "Inukshuk at Whistler Village" } },
       { "day": 7, "title": "Fly home", "plan": "Early drive to YVR (2h 30m), fly PHL.", "eat": "Breakfast at Purebread, Whistler",
-        "photo": null }
+        "photo": { "file": "Vancouver (BC, Canada), Skyline -- 2022 -- 2080-92.jpg", "author": "Dietmar Rabich", "license": "CC BY-SA 4.0", "caption": "Vancouver skyline from Stanley Park" } }
     ],
-    "heroPhotos": [],
+    "heroPhotos": [
+      { "file": "Whistler Panorama -2007.jpg", "author": "Dylan DiLecce", "license": "See Commons", "caption": "Whistler and Blackcomb in snow" },
+      { "file": "Whistler Panorama 1.jpg", "author": "See Commons", "license": "See Commons", "caption": "Panorama from Whistler Roundhouse" },
+      { "file": "Grouse Mountain in Winter - Flickr - Jaykhuang.jpg", "author": "Jaykhuang", "license": "See Commons", "caption": "Grouse Mountain in winter" }
+    ],
     "sources": [
       { "label": "Vancouver Christmas Market 2026", "url": "https://dailyhive.com/vancouver/vancouver-christmas-market-2026" },
       { "label": "Market European village 2026", "url": "https://curiocity.com/vancouver-christmas-market-european-village-2026/" },

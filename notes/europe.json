@@ -56,7 +56,12 @@
     "title": "Arrive + Seine stroll",
     "plan": "Land CDG, check in, walk the Seine at dusk, see Eiffel Tower sparkle on the hour.",
     "eat": "Onion soup at Au Pied de Cochon",
-    "photo": null
+    "photo": {
+     "file": "Eiffel Tower and Pont Alexandre III at night.jpg",
+     "author": "See Commons",
+     "license": "CC BY-SA 2.0",
+     "caption": "Eiffel Tower over the Seine"
+    }
    },
    {
     "day": 2,
@@ -75,43 +80,80 @@
     "title": "Windows + Opéra",
     "plan": "Galeries Lafayette tree and rooftop, Printemps windows, Palais Garnier tour.",
     "eat": "Lunch at Galeries Lafayette Le Gourmet",
-    "photo": null
+    "photo": {
+     "file": "Galerie Lafayette Haussmann Dome.jpg",
+     "author": "See Commons",
+     "license": "CC BY-SA",
+     "caption": "Galeries Lafayette dome at Christmas"
+    }
    },
    {
     "day": 4,
     "title": "Versailles day trip",
     "plan": "RER C to Versailles; palace, Hall of Mirrors, wintry gardens. Back by dark.",
     "eat": "Ore, Alain Ducasse café inside the palace",
-    "photo": null
+    "photo": {
+     "file": "Chateau Versailles Galerie des Glaces.jpg",
+     "author": "Myrabella",
+     "license": "CC BY-SA 3.0",
+     "caption": "Versailles Hall of Mirrors"
+    }
    },
    {
     "day": 5,
     "title": "Notre-Dame + Latin Quarter",
     "plan": "Reopened Notre-Dame, Sainte-Chapelle, Shakespeare and Company, Luxembourg Garden.",
     "eat": "Steak frites at Le Relais de l'Entrecôte",
-    "photo": null
+    "photo": {
+     "file": "Notre-Dame de Paris Winter.jpg",
+     "author": "Nicolas von Kospoth",
+     "license": "CC BY-SA 2.5",
+     "caption": "Notre-Dame in winter"
+    }
    },
    {
     "day": 6,
     "title": "Montmartre + Champs lights",
     "plan": "Sacré-Cœur and artists' square; evening Champs-Élysées lights to Arc de Triomphe.",
     "eat": "Dinner at Le Consulat, Montmartre",
-    "photo": null
+    "photo": {
+     "file": "Sacre Coeur, Paris August 2014.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Sacré-Cœur atop Montmartre"
+    }
    },
    {
     "day": 7,
     "title": "Fly home",
     "plan": "Breakfast pastries, RER B or taxi to CDG for afternoon AA flight.",
     "eat": "Croissants from Du Pain et des Idées",
-    "photo": null
+    "photo": {
+     "file": "Jet bridge, Paris-Charles de Gaulle Airport, Roissy (SIAE2156).jpg",
+     "author": "Matti Blume",
+     "license": "CC BY-SA 4.0",
+     "caption": "Gates at CDG Terminal 2"
+    }
    }
   ],
   "heroPhotos": [
    {
-    "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
-    "author": "Unknown (released to public domain by its author)",
-    "license": "Public domain",
-    "caption": "Tuileries from the big wheel"
+    "file": "Eiffel Tower at Night.jpg",
+    "author": "See Commons",
+    "license": "Free Art License",
+    "caption": "Eiffel Tower from Trocadéro"
+   },
+   {
+    "file": "Avenue des Champs-Élysées en heure bleue.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Champs-Élysées at blue hour"
+   },
+   {
+    "file": "Esplanade des Invalides snow-covered 2.jpg",
+    "author": "BomBom",
+    "license": "CC BY-SA 3.0",
+    "caption": "Invalides under rare snow"
    }
   ],
   "sources": [
@@ -142,6 +184,10 @@
    {
     "label": "TPG: ETIAS pushed to 2027 (FT report)",
     "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   },
+   {
+    "label": "EU delegation to the US: ETIAS status",
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en"
    }
   ],
   "unverified": [
@@ -212,7 +258,12 @@
     "title": "Arrive Paris",
     "plan": "Land CDG, settle in Marais, evening Seine walk and Eiffel sparkle.",
     "eat": "Bistro dinner at Chez Janou",
-    "photo": null
+    "photo": {
+     "file": "Eiffel Tower and Pont Alexandre III at night.jpg",
+     "author": "See Commons",
+     "license": "CC BY-SA 2.0",
+     "caption": "Eiffel Tower over the Seine"
+    }
    },
    {
     "day": 2,
@@ -231,43 +282,80 @@
     "title": "TGV to Strasbourg",
     "plan": "Morning TGV; afternoon Place Kléber giant tree and Place Broglie Christkindelsmärik.",
     "eat": "Tarte flambée at Maison Kammerzell",
-    "photo": null
+    "photo": {
+     "file": "Sapin, place Kléber (Strasbourg) (2).jpg",
+     "author": "Gzen92",
+     "license": "CC BY-SA 4.0",
+     "caption": "Giant tree, Place Kléber"
+    }
    },
    {
     "day": 4,
     "title": "Strasbourg old town",
     "plan": "Cathedral and astronomical clock, Petite France canals, boat tour, evening markets.",
     "eat": "Choucroute at Au Pont Saint-Martin",
-    "photo": null
+    "photo": {
+     "file": "Petite France Strasbourg.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Petite France canals, Strasbourg"
+    }
    },
    {
     "day": 5,
     "title": "Colmar day trip",
     "plan": "Train to Colmar; Little Venice, six markets, half-timbered streets lit at dusk.",
     "eat": "Bredele cookies and Alsace riesling",
-    "photo": null
+    "photo": {
+     "file": "Petite Venise depuis le pont de la rue des Écoles (Colmar) (8).jpg",
+     "author": "Gzen92",
+     "license": "See Commons",
+     "caption": "Colmar's Little Venice"
+    }
    },
    {
     "day": 6,
     "title": "Back to Paris",
     "plan": "Morning TGV to Paris; afternoon Montmartre, evening Champs-Élysées lights.",
     "eat": "Dinner at Le Consulat, Montmartre",
-    "photo": null
+    "photo": {
+     "file": "Champs Elysees Night 30 Nov 19.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Champs-Élysées holiday lights"
+    }
    },
    {
     "day": 7,
     "title": "Fly home",
     "plan": "RER B or taxi to CDG for AA flight home.",
     "eat": "Pastries from Du Pain et des Idées",
-    "photo": null
+    "photo": {
+     "file": "Jet bridge, Paris-Charles de Gaulle Airport, Roissy (SIAE2156).jpg",
+     "author": "Matti Blume",
+     "license": "CC BY-SA 4.0",
+     "caption": "Gates at CDG Terminal 2"
+    }
    }
   ],
   "heroPhotos": [
    {
-    "file": "Tuileries_Garden_seen_from_the_Grande_Roue_de_Paris.jpg",
-    "author": "Unknown (released to public domain by its author)",
-    "license": "Public domain",
-    "caption": "Tuileries from the big wheel"
+    "file": "Galerie Lafayette Haussmann Dome.jpg",
+    "author": "See Commons",
+    "license": "CC BY-SA",
+    "caption": "Galeries Lafayette Christmas dome"
+   },
+   {
+    "file": "Marché de Noël de Colmar 001.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Colmar Christmas market"
+   },
+   {
+    "file": "Cathédrale de Strasbourg de nuit.JPG",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Strasbourg Cathedral at night"
    }
   ],
   "sources": [
@@ -298,6 +386,10 @@
    {
     "label": "TPG: ETIAS pushed to 2027 (FT report)",
     "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   },
+   {
+    "label": "EU delegation to the US: ETIAS status",
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en"
    }
   ],
   "unverified": [
@@ -366,52 +458,106 @@
     "title": "Arrive Lisbon",
     "plan": "Land LIS, check in Chiado, stroll Rua Augusta to Praça do Comércio tree.",
     "eat": "Bifana sandwich at O Trevo",
-    "photo": null
+    "photo": {
+     "file": "Lisbon main square (36622604910).jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Praça do Comércio, Lisbon"
+    }
    },
    {
     "day": 2,
     "title": "Alfama + castle",
     "plan": "Tram 28, São Jorge Castle views, Alfama lanes, evening fado.",
     "eat": "Fado dinner at Clube de Fado",
-    "photo": null
+    "photo": {
+     "file": "Tram 28 Lisbon.jpg",
+     "author": "Romazur",
+     "license": "CC BY-SA 3.0",
+     "caption": "Tram 28 in Alfama"
+    }
    },
    {
     "day": 3,
     "title": "Belém",
     "plan": "Jerónimos Monastery, Belém Tower, MAAT riverside; Wonderland Lisboa at night.",
     "eat": "Pastéis de Belém, warm with cinnamon",
-    "photo": null
+    "photo": {
+     "file": "Torre de Belém Lisboa Richard Bartz.jpg",
+     "author": "Richard Bartz",
+     "license": "CC BY-SA",
+     "caption": "Belém Tower on the Tagus"
+    }
    },
    {
     "day": 4,
     "title": "Sintra day trip",
     "plan": "Train to Sintra; Pena Palace and Quinta da Regaleira.",
     "eat": "Travesseiros at Piriquita",
-    "photo": null
+    "photo": {
+     "file": "Sintra Portugal Palácio da Pena-01.jpg",
+     "author": "CEphoto, Uwe Aranas",
+     "license": "CC BY-SA 3.0",
+     "caption": "Pena Palace, Sintra"
+    }
    },
    {
     "day": 5,
     "title": "Train to Porto",
     "plan": "Alfa Pendular north; afternoon Ribeira and Dom Luís I bridge at sunset.",
     "eat": "Francesinha at Café Santiago",
-    "photo": null
+    "photo": {
+     "file": "Porto3flat-cc-contr-oliv1002 edit2.jpg",
+     "author": "Olegivvit (edit: Diliff)",
+     "license": "GFDL 1.2+",
+     "caption": "Ribeira and Dom Luís I bridge"
+    }
    },
    {
     "day": 6,
     "title": "Port cellars",
     "plan": "Livraria Lello, São Bento tiles, cross to Gaia for port tasting.",
     "eat": "Port tasting at Graham's Lodge",
-    "photo": null
+    "photo": {
+     "file": "Rabelos en el río Duero, Vila Nova de Gaia, Portugal, 2012-05-09, DD 14.JPG",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Port rabelo boats at Gaia"
+    }
    },
    {
     "day": 7,
     "title": "Fly home",
     "plan": "Porto to Lisbon connection, then AA LIS-PHL.",
     "eat": "Pastel de nata at Manteigaria",
-    "photo": null
+    "photo": {
+     "file": "Porto view from Vila Nova de Gaia (27078365799).jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Last look at Porto"
+    }
    }
   ],
-  "heroPhotos": [],
+  "heroPhotos": [
+   {
+    "file": "Alfama-CCBY.jpg",
+    "author": "Miguel Vieira",
+    "license": "CC BY 2.0",
+    "caption": "Alfama from Santa Luzia"
+   },
+   {
+    "file": "Jerónimos April 2009-1a.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Jerónimos Monastery, Belém"
+   },
+   {
+    "file": "Ribeira, Porto, vista noturna - DCL6796.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Porto's Ribeira at night"
+   }
+  ],
   "sources": [
    {
     "label": "AA PHL-LIS winter aircraft swaps",
@@ -440,6 +586,10 @@
    {
     "label": "TPG: ETIAS pushed to 2027 (FT report)",
     "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   },
+   {
+    "label": "EU delegation to the US: ETIAS status",
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en"
    }
   ],
   "unverified": [
@@ -509,52 +659,106 @@
     "title": "Arrive Athens",
     "plan": "Land ATH, metro to Plaka, evening stroll under the lit Acropolis.",
     "eat": "Souvlaki at Kostas, Agia Irini Square",
-    "photo": null
+    "photo": {
+     "file": "The monument of Lysicrates at night and in the background the Acropolis of Athens.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Plaka and lit Acropolis"
+    }
    },
    {
     "day": 2,
     "title": "Acropolis",
     "plan": "Early Acropolis visit, then Acropolis Museum and Areopagus Hill sunset.",
     "eat": "Dinner at Mani Mani, Koukaki",
-    "photo": null
+    "photo": {
+     "file": "Parthenon from south.jpg",
+     "author": "Thermos",
+     "license": "CC BY-SA 2.5",
+     "caption": "The Parthenon from south"
+    }
    },
    {
     "day": 3,
     "title": "Agora + Syntagma",
     "plan": "Ancient Agora, Monastiraki market, Syntagma tree, evening guard change.",
     "eat": "Loukoumades at Lukumades",
-    "photo": null
+    "photo": {
+     "file": "Hephaistos Temple.JPG",
+     "author": "Storeye",
+     "license": "Public domain",
+     "caption": "Temple of Hephaestus, Agora"
+    }
    },
    {
     "day": 4,
     "title": "Delphi day trip",
     "plan": "Tour or drive to Delphi: oracle sanctuary, museum, lunch in Arachova.",
     "eat": "Lunch in Arachova village tavern",
-    "photo": null
+    "photo": {
+     "file": "Temple of Apollo in Delphoi.jpg",
+     "author": "See Commons",
+     "license": "CC BY-SA 4.0",
+     "caption": "Temple of Apollo, Delphi"
+    }
    },
    {
     "day": 5,
     "title": "Cape Sounion",
     "plan": "Morning National Garden, afternoon coastal drive to Temple of Poseidon sunset.",
     "eat": "Seafood at a Sounion taverna",
-    "photo": null
+    "photo": {
+     "file": "Temple of Poseidon at sunset 2.jpg",
+     "author": "Oleksandr Troitskyi",
+     "license": "CC BY-SA 4.0",
+     "caption": "Sounion at sunset"
+    }
    },
    {
     "day": 6,
     "title": "Panathenaic + Lycabettus",
     "plan": "Panathenaic Stadium, Plaka shops, funicular up Lycabettus for city lights.",
     "eat": "Mezze at Klimataria, live music",
-    "photo": null
+    "photo": {
+     "file": "Panathenaic Stadium.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Marble Panathenaic Stadium"
+    }
    },
    {
     "day": 7,
     "title": "Fly home",
     "plan": "Metro to airport for Emirates EWR flight (afternoon departure).",
     "eat": "Bougatsa breakfast at Bougatsadiko",
-    "photo": null
+    "photo": {
+     "file": "Athens International Airport Eleftherios Venizelos Διεθνής Αερολιμένας Αθηνών Ελευθέριος Βενιζέλος 2019-12-01 i.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Athens International Airport"
+    }
    }
   ],
-  "heroPhotos": [],
+  "heroPhotos": [
+   {
+    "file": "Acropolis-panorama-night.jpg",
+    "author": "See Commons",
+    "license": "CC BY-SA 3.0",
+    "caption": "Acropolis lit at night"
+   },
+   {
+    "file": "Acropolis of Athens at dusk.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Acropolis at dusk from Lycabettus"
+   },
+   {
+    "file": "Erechtheum Acropolis Athens evening moon.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "caption": "Erechtheion under evening moon"
+   }
+  ],
   "sources": [
    {
     "label": "AA PHL-ATH cut to Oct 23 2026",
@@ -583,6 +787,10 @@
    {
     "label": "TPG: ETIAS pushed to 2027 (FT report)",
     "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   },
+   {
+    "label": "EU delegation to the US: ETIAS status",
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en"
    }
   ],
   "unverified": [
@@ -651,52 +859,106 @@
     "title": "Arrive Zagreb",
     "plan": "Land ZAG via Europe hub, check in, evening Zrinjevac Advent lights.",
     "eat": "Fritule doughnuts and kuhano vino",
-    "photo": null
+    "photo": {
+     "file": "Advent, Zagreb - Zrinjevac.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Advent lights on Zrinjevac"
+    }
    },
    {
     "day": 2,
     "title": "Zagreb Upper Town",
     "plan": "Funicular, St Mark's Church, Strossmayer promenade Advent, Ban Jelačić Square.",
     "eat": "Štrukli at La Štruk",
-    "photo": null
+    "photo": {
+     "file": "St Marks Church Zagreb.jpg",
+     "author": "Alexander Klink",
+     "license": "See Commons",
+     "caption": "St Mark's Church, Upper Town"
+    }
    },
    {
     "day": 3,
     "title": "Plitvice Lakes",
     "plan": "Day tour to Plitvice Lakes (winter routes; snow possible); back for markets.",
     "eat": "Lamb or trout near the park",
-    "photo": null
+    "photo": {
+     "file": "Plitvice Lakes National Park (2).jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Plitvice Lakes waterfalls"
+    }
    },
    {
     "day": 4,
     "title": "Fly to Dubrovnik",
     "plan": "Morning flight ZAG-DBV; afternoon Stradun and Old Town Christmas stalls.",
     "eat": "Black risotto at Lucín Kantun",
-    "photo": null
+    "photo": {
+     "file": "Main street-Dubrovnik-2.jpg",
+     "author": "László Szalai",
+     "license": "CC BY-SA 3.0",
+     "caption": "Stradun, Dubrovnik Old Town"
+    }
    },
    {
     "day": 5,
     "title": "City walls",
     "plan": "Walk the full walls, Fort Lovrijenac, sunset from Buža bar if open.",
     "eat": "Seafood at Proto",
-    "photo": null
+    "photo": {
+     "file": "The walls of the fortress and View of the old city. panorama.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Dubrovnik city walls"
+    }
    },
    {
     "day": 6,
     "title": "Cable car + Ston",
     "plan": "Cable car up Srđ (weather permitting); afternoon Ston walls and oysters.",
     "eat": "Ston oysters at Bakus",
-    "photo": null
+    "photo": {
+     "file": "Dubrovnik as seen from Srđ - September 2017.jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Dubrovnik from Mount Srđ"
+    }
    },
    {
     "day": 7,
     "title": "Fly home",
     "plan": "Morning DBV flight to FRA/MUC/ZAG, connect to US.",
     "eat": "Breakfast burek in Old Town",
-    "photo": null
+    "photo": {
+     "file": "Dubrovnik Airport (5790186064).jpg",
+     "author": "See Commons",
+     "license": "See Commons",
+     "caption": "Dubrovnik Airport"
+    }
    }
   ],
-  "heroPhotos": [],
+  "heroPhotos": [
+   {
+    "file": "1 dubrovnik pano - edit1.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Dubrovnik Old Town panorama"
+   },
+   {
+    "file": "Roof of St, Mark's Church, Zagreb.jpg",
+    "author": "Paula Borkovic",
+    "license": "CC BY-SA 4.0",
+    "caption": "St Mark's tiled roof"
+   },
+   {
+    "file": "Advent, Zagreb - Manduševac.jpg",
+    "author": "See Commons",
+    "license": "See Commons",
+    "caption": "Zagreb Advent at Manduševac"
+   }
+  ],
   "sources": [
    {
     "label": "tportal: Advent u Zagrebu 2026",
@@ -725,6 +987,10 @@
    {
     "label": "TPG: ETIAS pushed to 2027 (FT report)",
     "url": "https://thepointsguy.com/news/eu-etias-delayed"
+   },
+   {
+    "label": "EU delegation to the US: ETIAS status",
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en"
    }
   ],
   "unverified": [

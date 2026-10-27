@@ -65,6 +65,8 @@ header.top { padding-block: 32px 8px; }
 header.top h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
 .sub { color: var(--muted); margin: 6px 0 0; font-size: 1.05rem; }
 .sub b { color: var(--ink); font-weight: 600; }
+.vote { display: inline-flex; flex-direction: column; margin-top: 16px; background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 700; font-size: 1.05rem; padding: 10px 18px; border-radius: 12px; }
+.vote span { font-weight: 500; font-size: 0.85rem; opacity: 0.85; }
 .jump { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; font-weight: 600; }
 
 /* filters */
@@ -111,10 +113,9 @@ td.place small { display: block; color: var(--muted); font-weight: 400; }
   td { padding: 0; border: 0; }
   td.place { grid-column: 1 / -1; min-width: 0; }
   td.place small { display: none; }
-  td:nth-child(3) { display: none; }
   td:last-child { text-align: right; font-size: 0.85rem; }
   td:last-child small, td:nth-child(2) small { display: none !important; }
-  td:last-child { white-space: nowrap; }
+  table, tbody { display: block; width: 100%; }
 }
 
 /* pills */
@@ -203,6 +204,7 @@ footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
   <h1>Winter Break 2026</h1>
   <p class="sub"><b>Sat Dec 12 to Fri Dec 18</b> &middot; Mom, Dad, Emily &amp; Jennifer &middot; all prices per person</p>
   <div class="jump"><a href="#compare">Compare all</a><a href="#trips">See each trip</a><a href="#picks">Our top 5</a></div>
+  <a class="vote" href="https://docs.google.com/spreadsheets/d/1F8QpAlEDetGe6Hy7Bmza5e_OaURabKps54OasOFAgAQ/edit" target="_blank" rel="noopener">Vote for your top 5 <span>Mom, Dad, Emily and Jennifer each rank 1 to 5 in the family sheet</span></a>
 </header>
 
 <div class="filters">
@@ -221,7 +223,6 @@ footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
         <thead><tr aria-label="Sort by">
           <th scope="col" data-k="name"><button type="button">Place</button></th>
           <th scope="col" data-k="trip"><button type="button">Flights + stay</button></th>
-          <th scope="col" data-k="food"><button type="button">Food &amp; fun</button></th>
           <th scope="col" data-k="hi"><button type="button">Weather</button></th>
           <th scope="col" data-k="pass"><button type="button">Passport</button></th>
           <th scope="col" data-k="hrs"><button type="button">Flight</button></th>
@@ -239,7 +240,7 @@ footer { color: var(--muted); font-size: 0.85rem; padding-block: 24px 40px; }
 
   <section id="picks" class="wrap">
     <h2>Our top 5</h2>
-    <p class="hint">Ranked for Mom and Dad first, then cost and how easy the week feels.</p>
+    <p class="hint">Ranked for Mom and Dad first, then cost and how easy the week feels. Then <a href="https://docs.google.com/spreadsheets/d/1F8QpAlEDetGe6Hy7Bmza5e_OaURabKps54OasOFAgAQ/edit" target="_blank" rel="noopener">add your own ranking</a>.</p>
     <div class="picks" id="picklist"></div>
   </section>
 </main>
@@ -291,7 +292,6 @@ function card(d) {
       <div class="dhead"><h3>${esc(d.name)}</h3><span class="tag">${esc(d.tagline)}</span></div>
       <div class="facts">
         <div class="fact"><div class="k">Flights + stay</div><div class="v num">${money(c.trip)}</div><div class="s">${money(c.flights)} flight + ${money(c.lodging)} stay, each</div></div>
-        <div class="fact"><div class="k">Food &amp; fun</div><div class="v num">${money(c.foodFun)}</div><div class="s">per person, for the week</div></div>
         <div class="fact"><div class="k">Weather</div><div class="v num">${w.highF}&deg; / ${w.lowF}&deg;F</div><div class="s">${esc(w.daylight)} of daylight</div></div>
         <div class="fact"><div class="k">Passport</div><div class="v">${d.passport ? "Yes" : "Not needed"}</div><div class="s">Flight ${esc(d.fly)} from ${esc(d.flight.from)}</div></div>
       </div>
@@ -312,7 +312,6 @@ function card(d) {
             <table><tbody>
               <tr><td>Flights</td><td class="num">${money(c.flights)}</td><td>${tick(c.flightsVerified)}</td></tr>
               <tr><td>Stay (rental split 4 ways)</td><td class="num">${money(c.lodging)}</td><td>${tick(c.lodgingVerified)}</td></tr>
-              <tr><td>Food &amp; fun</td><td class="num">${money(c.foodFun)}</td><td><span class="unv">estimate</span></td></tr>
             </tbody></table>
             <p style="margin-top:6px">${esc(c.flightsBasis)} ${esc(c.lodgingBasis)}</p>
           </div>
@@ -333,7 +332,6 @@ function row(d) {
     <td class="place"><div class="pl">${p ? `<img src="${esc(p.src)}" data-orig="${esc(p.orig)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="ph"></span>`}
       <a href="#${esc(d.id)}">${esc(d.name)}<small>${esc(d.tagline)}</small></a></div></td>
     <td class="num"><span class="big">${money(c.trip)}</span><small style="display:block;color:var(--muted)">${money(c.flights)} + ${money(c.lodging)}</small></td>
-    <td class="num">${money(c.foodFun)}</td>
     <td><span class="pill ${d.warm ? "warm" : "cold"} num">${w.highF}&deg; / ${w.lowF}&deg;F</span></td>
     <td><span class="pill ${d.passport ? "pass" : "nopass"}">${d.passport ? "Passport" : "No passport"}</span></td>
     <td class="num">${esc(d.fly)}<small style="display:block;color:var(--muted)">${esc(d.flight.from)}</small></td>
@@ -345,7 +343,7 @@ const byId = Object.fromEntries(dests.map(d => [d.id, d]));
 const regions = [...new Set(dests.map(d => d.region))];
 const F = { region: "All", temp: "Any", nopass: false };
 const sortKeys = {
-  name: d => d.name, trip: d => d.costPP.trip, food: d => d.costPP.foodFun,
+  name: d => d.name, trip: d => d.costPP.trip,
   hi: d => d.weather.highF, pass: d => d.passport ? 1 : 0, hrs: hrs,
 };
 let sort = { k: "trip", dir: 1 };
@@ -376,7 +374,7 @@ function apply() {
     return (x > y ? 1 : x < y ? -1 : 0) * sort.dir;
   });
   const tb = $("#tbl tbody");
-  tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="6">No trips match. Clear a filter above.</td></tr>`;
+  tb.innerHTML = list.filter(show).map(row).join("") || `<tr><td colspan="5">No trips match. Clear a filter above.</td></tr>`;
   document.querySelectorAll("#tbl th").forEach(th => th.setAttribute("aria-sort", th.dataset.k === sort.k ? (sort.dir > 0 ? "ascending" : "descending") : "none"));
   document.querySelectorAll(".dest").forEach(el => { el.hidden = !show(byId[el.dataset.id]); });
   const n = dests.filter(show).length;
